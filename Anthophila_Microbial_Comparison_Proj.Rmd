@@ -1,0 +1,96 @@
+---
+title: "Anthophila_Microbial_Comparison_Proj"
+author: "Lauren `Mee"
+date: "2022-09-27"
+output: html_document
+---
+
+27th September 2022
+
+```{r}
+set.seed(1517)
+```
+
+## Libraries
+
+## Resources
+
+## Functions
+
+A function to extract just the year from the date in the Collection.Date metadata field.
+
+```{r}
+
+```
+
+
+## Experiment Notes
+
+The purpose of this project is to data mine existing publc RNAseq and other resources and use the CZID.org tool in order to elucidate potential patterns of microbial content across the sample species used therein. 
+
+Samples were chosen from SRA projects that used Hymenopteran species and also met the following criteria: 1) the tissue used was or included the abdomen, 2) nothing experimental had happened to the individual sample that would be an obvious influence upon the microbiome, i.e. no infection administered / particularly stressed individuals and 3) sociality of the sample was known. 
+
+These were then processed in batches using the script ProcessSRA_v3.sh (Scripts/Bash/). Lists of samples were arranged in batch files with one sample accession id per line. The script then would process through these lists. Each set of individual sample reads were downloaded and unpacked from the NCBI SRA using their SRA toolkit, before being uploaded to CZID.org using the CZID command line interface. CZID.org then began its own pipeline, sorting through reads that do not match the "host" species (a generic "bee" option that is actually Apis mellifera) and mapping them against other species. This can then be used to interpret the potential microbial content of the sample as reads match to viruses / bacteria / eukaryotic parasites.
+
+## Sample Metadata
+
+Before I can begin any analyses, I need to know what I'm working with.
+
+```{r}
+met <- read.table("input/SRA/SampleMetadata.tsv", sep = "\t", header = T)
+
+head(met)
+```
+
+I don't really need most of these fields. I want to reduce collection date to just years and abstracts etc aren't necessary at all
+
+```{r}
+for (i in 1:nrow(met)){
+  end <- strsplit(met$Collection.Date[i], "-")[[1]][2]
+  met$YearCollected[i] <- paste(20, end, sep = "")
+}
+
+met$Abstract <- NULL
+met$Collection.Date <- NULL
+met$Publication <- NULL
+
+names(met)[10] <- "NucleotideType"
+
+head(met)
+```
+
+Now to get some overall numbers.
+
+```{r}
+nrow(met)
+```
+
+How many, and how many of each, species ?
+
+```{r}
+length(unique(met$Species))
+summary(as.factor(met$Species))
+```
+
+Hmm. I'm probably gonna have reduce by genus / family here.
+
+```{r}
+for (i in 1:nrow(met)){
+  genus <- strsplit(met$Species[i], " ")[[1]][1]
+  met$Genus[i] <- paste(genus)
+}
+
+head(met)
+```
+```{r}
+length(unique(met$Genus))
+summary(as.factor(met$Genus))
+```
+
+I'm going to add Family to further reduce this but first ... sociality
+
+```{r}
+table(met$Sociality, met$NucleotideType)
+```
+
+
