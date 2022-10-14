@@ -121,7 +121,7 @@ SRR13769016	Bombus lucorum	Eusocial	Unknown	pooled whole bodies (212)	Transcript
 SRR13769017	Bombus lucorum	Eusocial	Unknown	pooled whole bodies (212)	Transcriptome sequencing data from a series of bumblebee species. Used for viral discovery and viral diversity analyses.	https://www.frontiersin.org/articles/10.3389/fmicb.2021.650747/full	Jan-11	Scotland	RNA	PRJNA704259
 SRR13769018	Bombus terrestris	Eusocial	Unknown	pooled whole bodies (239)	Transcriptome sequencing data from a series of bumblebee species. Used for viral discovery and viral diversity analyses.	https://www.frontiersin.org/articles/10.3389/fmicb.2021.650747/full	Jan-11	Scotland	RNA	PRJNA704259
 SRR13769019	Bombus terrestris	Eusocial	Unknown	pooled whole bodies (239)	Transcriptome sequencing data from a series of bumblebee species. Used for viral discovery and viral diversity analyses.	https://www.frontiersin.org/articles/10.3389/fmicb.2021.650747/full	Jan-11	Scotland	RNA	PRJNA704259
-SRR1380984	Apis cerana	Eusocial	Female	gut	Eastern or Asian honey bee	https://pubmed.ncbi.nlm.nih.gov/21857981/ ; https://pubmed.ncbi.nlm.nih.gov/25553907/	"2013"	South Korea	RNA	PRJNA235974
+SRR1380984	Apis cerana	Eusocial	Female	gut	Eastern or Asian honey bee	https://pubmed.ncbi.nlm.nih.gov/21857981/ ; https://pubmed.ncbi.nlm.nih.gov/25553907/	2013	South Korea	RNA	PRJNA235974
 SRR14567209	Bombus terricola	Eusocial	Unknown	abdomen	We use high-thoughput RNA sequencing to investigate the stressors experienced by the vulnerable Bombus terricola near agricultural areas. Overall design: We used RNAseq to sequence the abdomens of thirty Bombus terricola workers collected in agricultural and non-agricultural landscapes 	https://pubmed.ncbi.nlm.nih.gov/34181797/	Jun-21	Canada	RNA	PRJNA730495
 SRR14567210	Bombus terricola	Eusocial	Unknown	abdomen	We use high-thoughput RNA sequencing to investigate the stressors experienced by the vulnerable Bombus terricola near agricultural areas. Overall design: We used RNAseq to sequence the abdomens of thirty Bombus terricola workers collected in agricultural and non-agricultural landscapes 	https://pubmed.ncbi.nlm.nih.gov/34181797/	Jun-21	Canada	RNA	PRJNA730495
 SRR14567211	Bombus terricola	Eusocial	Unknown	abdomen	We use high-thoughput RNA sequencing to investigate the stressors experienced by the vulnerable Bombus terricola near agricultural areas. Overall design: We used RNAseq to sequence the abdomens of thirty Bombus terricola workers collected in agricultural and non-agricultural landscapes 	https://pubmed.ncbi.nlm.nih.gov/34181797/	Jun-21	Canada	RNA	PRJNA730495
@@ -414,6 +414,64 @@ to capture transcriptomic response of immune activation after 6 hours. We
 then identified differential expression of genes that were shared among these
 species or unique to clades or individual taxa. "	 	Jul-17	United Kingdom 	RNA	CompHym22
 BT_N_029	Bombus terrestris	Eusocial	Female	abdomen	"Insects are the most abundant and speciose class of animals and, as such,
+represent an unparalleled resource for pathogens and parasites. The insect
+immune response is a complex series of barriers, recognition proteins, sig-
+nalling cascades, cellular and humoral effectors that have evolved to prevent
+and counter infection. Much of what we currently understand about insect
+immunity comes from important work with Dipteran and Lepidopteran model
+species. The use of these model species has been largely successful but cannot
+aid understanding of taxa specific immune adaptations. The recent devel-
+opment of affordable next-generation sequencing has led to an expansion of
+transcriptomic assays of immunity in diverse insects however each employs
+distinct methods, exposures, doses, and timepoints for capturing immune
+expression. To better characterise the Hymenopteran immune response we
+challenged four species, a honeybee Apis mellifera, a bumblebee Bombus
+terrestris, a largely solitary carpenter bee Ceratina australensis, and the
+wasp Polistes lanio with a standardized dose of heat-killed Gram-positive
+bacteria, Gram-negative bacteria, or sterile injury and used RNA sequencing
+to capture transcriptomic response of immune activation after 6 hours. We
+then identified differential expression of genes that were shared among these
+species or unique to clades or individual taxa. "	 	Jul-17	United Kingdom 	RNA	CompHym22
+SRR5253659	Halictus sexcinctus	Polymorphic	Unknown	whole body	This is part of a large-scale RNAseq-based population genomic project in animals (e.g. Romiguier et al 2014 Nature 515:261).	https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0366-6	Feb-17	Switzerland	RNA	PRJNA374528
+CA_N_007	Ceratina australensis	Polymorphic	Female	abdomen	"Insects are the most abundant and speciose class of animals and, as such,
+represent an unparalleled resource for pathogens and parasites. The insect
+immune response is a complex series of barriers, recognition proteins, sig-
+nalling cascades, cellular and humoral effectors that have evolved to prevent
+and counter infection. Much of what we currently understand about insect
+immunity comes from important work with Dipteran and Lepidopteran model
+species. The use of these model species has been largely successful but cannot
+aid understanding of taxa specific immune adaptations. The recent devel-
+opment of affordable next-generation sequencing has led to an expansion of
+transcriptomic assays of immunity in diverse insects however each employs
+distinct methods, exposures, doses, and timepoints for capturing immune
+expression. To better characterise the Hymenopteran immune response we
+challenged four species, a honeybee Apis mellifera, a bumblebee Bombus
+terrestris, a largely solitary carpenter bee Ceratina australensis, and the
+wasp Polistes lanio with a standardized dose of heat-killed Gram-positive
+bacteria, Gram-negative bacteria, or sterile injury and used RNA sequencing
+to capture transcriptomic response of immune activation after 6 hours. We
+then identified differential expression of genes that were shared among these
+species or unique to clades or individual taxa. "	  	Jul-17	United Kingdom 	RNA	CompHym22
+CA_N_012	Ceratina australensis	Polymorphic	Female	abdomen	"Insects are the most abundant and speciose class of animals and, as such,
+represent an unparalleled resource for pathogens and parasites. The insect
+immune response is a complex series of barriers, recognition proteins, sig-
+nalling cascades, cellular and humoral effectors that have evolved to prevent
+and counter infection. Much of what we currently understand about insect
+immunity comes from important work with Dipteran and Lepidopteran model
+species. The use of these model species has been largely successful but cannot
+aid understanding of taxa specific immune adaptations. The recent devel-
+opment of affordable next-generation sequencing has led to an expansion of
+transcriptomic assays of immunity in diverse insects however each employs
+distinct methods, exposures, doses, and timepoints for capturing immune
+expression. To better characterise the Hymenopteran immune response we
+challenged four species, a honeybee Apis mellifera, a bumblebee Bombus
+terrestris, a largely solitary carpenter bee Ceratina australensis, and the
+wasp Polistes lanio with a standardized dose of heat-killed Gram-positive
+bacteria, Gram-negative bacteria, or sterile injury and used RNA sequencing
+to capture transcriptomic response of immune activation after 6 hours. We
+then identified differential expression of genes that were shared among these
+species or unique to clades or individual taxa. "	 	Jul-17	United Kingdom 	RNA	CompHym22
+CA_N_030	Ceratina australensis	Polymorphic	Female	abdomen	"Insects are the most abundant and speciose class of animals and, as such,
 represent an unparalleled resource for pathogens and parasites. The insect
 immune response is a complex series of barriers, recognition proteins, sig-
 nalling cascades, cellular and humoral effectors that have evolved to prevent
