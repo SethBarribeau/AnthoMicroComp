@@ -9,19 +9,24 @@ output: html_document
 
 ```{r}
 set.seed(1517)
+dir.create("output/")
 ```
 
 ## Libraries
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+```
 
 ## Resources
 
 ## Functions
 
-A function to extract just the year from the date in the Collection.Date metadata field.
 
-```{r}
 
-```
+
 
 
 ## Experiment Notes
@@ -54,7 +59,7 @@ met$Abstract <- NULL
 met$Collection.Date <- NULL
 met$Publication <- NULL
 
-names(met)[10] <- "NucleotideType"
+names(met)[7] <- "NucleotideType"
 
 head(met)
 ```
@@ -87,10 +92,378 @@ length(unique(met$Genus))
 summary(as.factor(met$Genus))
 ```
 
-I'm going to add Family to further reduce this but first ... sociality
+Adding Family and Tribe
+
+```{r}
+specs <- c("Anthophora", "Apis", "Bombus", "Ceratina", "Epeolus", 
+            "Eufriesea", "Euglossa", "Exoneura", "Habropoda", "Nomada",
+            "Tetragonisca", "Tetragonula", "Thyreus", "Xylocopa")
+fams <- rep("Apidae", length(specs))
+subfams <- c(rep("Apinae", 3), "Xylocopinae", "Nomadinae", 
+             rep("Apinae", 2), "Xylocopinae", "Apinae", "Nomadinae",
+             rep("Apinae", 3), "Xylocopinae")
+tribes <- c("Anthophorini", "Apini", "Bombini", "Ceratini", "Epeolini", 
+            "Euglossini", "Euglossini", "Allodapini", "Anthophorini", "Nomadini",
+            "Meliponini", "Meliponini", "Melectini", "Xylocopini")
+
+specs[15:18] <- c("Dufourea", "Halictus", "Lasioglossum", "Megalopta")
+fams[15:18] <- "Halictidae"
+subfams[15:18] <- c("Rophitinae", rep("Halictinae", 3))
+tribes[15:18] <- c("Rophitini", "Halictini", "Halictini", "Augochlorini")
+
+specs[19] <- c("Andrena")
+fams[19]  <- "Andrenidae"
+subfams[19] <- "Andreninae"
+tribes[19] <- "Andrenini"
+
+specs[20] <- "Colletes"
+fams[20] <- "Colletidae"
+subfams[20] <- "Colletinae"
+tribes[20] <- "Colletini"
+  
+specs[21] <- "Osmia"
+fams[21] <- "Megachilidae"
+subfams[21] <- "Megachilinae"
+tribes[21] <- "Osmiini"
+
+key <- as.data.frame(cbind(specs, fams, subfams, tribes))
+key
+```
+
+```{r}
+for (i in 1:nrow(met)){
+  met$Family[i] <- key$fams[key$specs == paste(met$Genus[i])]
+  met$SubFamily[i] <- key$subfams[key$specs == paste(met$Genus[i])]
+  met$Tribe[i] <- key$tribes[key$specs == paste(met$Genus[i])]
+}
+met
+```
+Clean up
+
+```{r}
+remove(fams, specs, subfams, tribes)
+```
+
+Sociality
+
+```{r}
+met$Soc <- met$Sociality
+met$Sociality[grep("olymorphic",met$Soc)] <- "Polymorphic"
+met$Sociality[grep("Solitary",met$Soc)] <- "Solitary"
+met$Sociality[met$Soc == "Solitary/Polymorphic?"] <- "Polymorphic"
+met$Soc <- NULL
+```
+
 
 ```{r}
 table(met$Sociality, met$NucleotideType)
 ```
+
+```{r}
+head(met)
+```
+Save
+
+```{r}
+write.table(met, "output/MetaData_Edit_Oct22.tsv",
+            sep = "\t", row.names = F, col.names = T, quote = F)
+```
+
+##Uploading the Data
+
+There's an individual taxon results file per sample (therefore 325 files, plus the duplicates) that I'll need to massage to make more amenable to my purposes. The final goal would be making a combined data table with some sort of measurement per species. It may be that for the combined tables I'll only be able to do so for one metric at a time.
+
+NB: I do not yet have a results file per entry in the metadata (the extra Caus samples) so I'll use the old met file for now.
+
+```{r}
+met <- read.table("output/MetaData_Edit_Sep22.tsv", 
+                  sep = "\t", header = T)
+```
+
+
+```{r}
+csvs <- list.files(path = "input/CZID_TaxonReports/", pattern = "*.csv")
+head(csvs, n = 20)
+```
+
+```{r}
+data.raw <- vector(mode = "list", length = length(csvs))
+
+for (i in 1:length(csvs)){
+  data.raw[[i]] <- read.csv(paste("input/CZID_TaxonReports/", csvs[i], sep = ""),
+                              header = T)
+}
+
+head(data.raw[[330]])
+```
+
+##Analysing Data
+
+Let's run through everything with this data anyway, in preparation for my "final" data, should I ever receive it
+
+What are my questions ? 
+
+- Are there any patterns among microbial composition and sociality? Mainly, is solitary microbiota more diverse than social, as would be expected due to lack of strong horizontal transfer? Or are these patterns, should they exist, more associated with phylogenetic relationships? 
+
+- Are there non-host genera in common between different bees? Is this genus- or tribe- or sociality- specific?
+
+- Are there strong correlating relationships between certain host and non-host genera?
+
+There are some possible other avenues, ie looking at plant-host associations, or sources of contamination (where have all these aquatic hits came from?) but we have a timeline here people.
+
+###Filtering data
+
+I will filter the data in order to only keep hits that are more likely (NR and NT > 1 and percent_id > 50%). 
+
+NB: sometimes things can exist that are only in NR or NT but not the other database. A taxon can contain high NT and low NR if rRNA is presnt in NT and not NR. The opposite can also be true: a divergent virus may match NR but be too divergent to hit within NT. This is a point that should be considered particularly in the case of viruses. I can be missing a quite a bit there ... in fact it may be best to have different tables for different classes of things, or at least virus versus everything else.
+
+I will then filter by species - only keeping eukaryotic hits that aren't bees/insects/whatever other strange hits there are.
+
+```{r}
+data.filt.nv <- vector(mode = "list", length = length(data.raw))
+
+for (i in 1:length(data.filt.nv)){
+  data.filt.nv[[i]] <- data.raw[[i]][,c(4,6,8,11,15,23,27)]
+  samp <- paste(strsplit(csvs[i], "_2[0-9]")[[1]][1])
+  samp <- str_remove(samp, "_[1-2]")
+  data.filt.nv[[i]]$SampleID <- paste(samp)
+  data.filt.nv[[i]]$Species <- unique(met$Species[met$Sample.ID == samp])
+  data.filt.nv[[i]]$Genus <- unique(met$Genus[met$Sample.ID == samp])
+  data.filt.nv[[i]] <- subset(data.filt.nv[[i]], nt_rpm > 1 &
+                            nt_percent_identity > 50 &
+                            nr_rpm > 1 &
+                            nr_percent_identity > 50)
+}
+
+
+head(data.filt.nv[[69]])
+```
+
+Add euk genera information for ease of removal
+
+```{r}
+filt.df <- bind_rows(data.filt.nv)
+
+for(i in 1:nrow(filt.df)){
+  gen <- strsplit(filt.df$name[i], " ")
+  filt.df$NonHostGenus[i] <- paste(gen[[1]][1])
+}
+
+#for some reason the dataframe has amassed rows of all NAs. These are causing issues and need to be removed
+filt.df <- filt.df[grepl("^NA", rownames(filt.df))==F,]
+nongens <- subset(filt.df, NonHostGenus == "non-genus-specific")
+
+#check for anomalies
+for (j in 1:nrow(nongens)){
+  rowno <- rownames(nongens[j,])
+  rowno <- as.numeric(rowno)
+  print(rowno)
+  filt.df$NonHostGenus[rowno] <- paste(strsplit(filt.df$name[rowno], " ")[[1]][5])
+}
+
+filt.df$NonHostGenus[filt.df$name == "parasitid 'Pas'"] <- "Parasitoidea"
+
+filt.df[c(340,418,4485),]
+```
+
+Load up eukaryote classifications and remove those that are unwanted
+
+```{r}
+euk <- read.csv("input/Phylo_Misc/Eukaryota_Classifcations_Oct22.csv")
+
+#make lists of unwanted eukaryota
+tmp <- unique(euk$Species[grepl("Insect|Arachnid|Plant|Annelid|Crustacean|Myriapod|Aquatic",
+                     euk$Classification)])
+tmp[215] <- "Mushroom"
+torem <- euk$Genus[euk$Species %in% tmp]
+
+#remove whitespace
+torem <- trimws(torem)
+
+filt.df <- filt.df[!filt.df$NonHostGenus %in% torem,]
+
+head(filt.df)
+```
+
+
+
+Fix virus names to not have whitespace (meaning the name of the virus will be carried forward in the next dataframe manipulation step)
+
+
+```{r}
+filt.df <- bind_rows(data.filt)
+
+one <- unique(filt.df$name[filt.df$category == "viruses"])
+one <- one[!grepl("non-genus-specific", one)]
+one <- one[!grepl("sp.", one)]
+
+two <- gsub(" ", "", one)
+
+viralkey <- as.data.frame(cbind(one, two))
+
+for (i in 1:nrow(filt.df)){
+  if(filt.df$name[i] %in% viralkey$one){
+    filt.df$name[i] <- paste(subset(viralkey, one == paste(filt.df$name[i]), select = two))
+  }
+}
+
+subset(filt.df, category == "viruses")
+```
+
+###Assessing Microbial Content: No of Species
+
+I'm just gonna look at straight up number of species each sample has and look for patterns in terms of species / socialities for all microbials, bacteria, fungi, viruses etc. 
+
+```{r}
+data.met <- met
+
+for (i in 1:nrow(data.met)){
+  data.met$AllSpecNo[i] <- nrow(subset(filt.df, SampleID == paste(data.met$Sample.ID[i])))
+}
+
+data.met
+```
+What's this look like ? 
+
+```{r}
+ggplot(data.met, aes(x = Tribe, y = AllSpecNo, fill = Tribe)) +
+  geom_boxplot() +
+  coord_flip()
+```
+```{r}
+ggplot(data.met, aes(x = Sociality, y = AllSpecNo, fill = Sociality)) +
+  geom_boxplot() 
+```
+(This is much different to what I was seeing before. Something considerable has been filtered out by the new eukaryotic list)
+
+####Assess Statistically
+
+Get the dataframe in a better shape
+
+```{r}
+for (i in 1:13){
+  data.met[,i] <- factor(data.met[,i])
+}
+data.met$Sociality <- factor(data.met$Sociality)
+summary(data.met)
+```
+
+Is my data normal ? 
+
+```{r}
+ggplot(data.met, aes(x = AllSpecNo)) +
+  geom_density(aes(colour = Sociality))
+```
+Are there similar distribution shapes ? 
+
+```{r}
+ggplot(data.met, aes(x = AllSpecNo)) +
+  geom_histogram(aes(colour = Sociality)) +
+  #geom_density(alpha=.2, aes(fill = Sociality)) +
+  facet_grid(Sociality ~., scales = "free_y")
+```
+All together
+
+```{r}
+ggplot(data.met, aes(x = AllSpecNo)) +
+  geom_histogram(aes(fill = Sociality, alpha = 0.5))
+```
+Heavily not.
+
+Check in the clever way
+
+```{r}
+model <- aov(AllSpecNo ~ Sociality, data = data.met)
+
+qqnorm(model$residuals)
+qqline(model$residuals)
+```
+Definitely not.
+
+Finally
+
+```{r}
+shapiro.test(data.met$AllSpecNo)
+```
+
+pvalue < 0.05 == non-normal distribution.
+
+What if I log them ? 
+
+```{r}
+data.met$logAllSpecNo <- log(data.met$AllSpecNo)
+
+ggplot(data.met, aes(x = logAllSpecNo)) +
+  geom_histogram(aes(fill = Sociality, alpha = 0.5))
+```
+Much better....
+
+Check in the clever way
+
+```{r}
+data.met2 <- subset(data.met, AllSpecNo > 0)
+model <- aov(logAllSpecNo ~ Sociality, data = data.met2)
+
+qqnorm(model$residuals)
+qqline(model$residuals)
+```
+That looks good enough to me.
+
+Finally
+
+```{r}
+shapiro.test(data.met2$logAllSpecNo)
+```
+
+pvalue < 0.05 == non-normal distribution. It has improved but still saying a big no. 
+NB: Also, if you have extremely large sample sizes then statistical tests like the Shapiro-Wilk test will almost always tell you that your data is non-normal. I have 322 entries ... is that large ? 
+
+I'm gonna count it as normal
+
+For an anova, we still need equal variance
+
+```{r}
+bartlett.test(logAllSpecNo ~ Sociality, data=data.met2)
+
+names(data.met2)
+```
+
+Very unequal variance. Kruskall-Wallis test it is. 
+
+```{r}
+kruskal.test(AllSpecNo ~ Sociality, data = data.met)
+```
+
+There is a significant difference, hoozah.
+
+```{r}
+data.met %>%
+  group_by(Sociality) %>%
+  summarise(Mean = mean(AllSpecNo))
+```
+
+```{r}
+data.met %>%
+  group_by(Tribe, Sociality) %>%
+  summarise(Mean = mean(AllSpecNo)) %>%
+  arrange(-Mean)
+```
+
+```{r}
+subset(data.met, AllSpecNo==0)
+```
+
+
+###Assessing Microbial Content: Diversity
+
+Method one: as percentage of sample: stacked bar chart (community composition)
+
+```{r}
+subset(met, Tribe == "Anthophorini")
+```
+
+###
+
+
 
 
