@@ -1,11 +1,11 @@
 ---
-title: "Anthophila_Microbial_Comparison_Proj"
-author: "Lauren `Mee"
-date: "2022-09-27"
+title: "AnthoMicroComp"
+author: "Lauren Mee"
+date: "2022-10-26"
 output: html_document
 ---
 
-27th September 2022
+26th October 2022
 
 ```{r}
 set.seed(1517)
@@ -19,7 +19,7 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 library(reshape)
-library("phyloseq")
+library(phyloseq)
 ```
 
 ## Resources
@@ -41,156 +41,53 @@ https://joey711.github.io/phyloseq/import-data.html
 "Breakaway" Approach to estimating richness
 https://adw96.github.io/breakaway/articles/intro-diversity-estimation.html
 
-
-## Functions
-
-
-
-
-
-
 ## Experiment Notes
 
 The purpose of this project is to data mine existing publc RNAseq and other resources and use the CZID.org tool in order to elucidate potential patterns of microbial content across the sample species used therein. 
 
 Samples were chosen from SRA projects that used Hymenopteran species and also met the following criteria: 1) the tissue used was or included the abdomen, 2) nothing experimental had happened to the individual sample that would be an obvious influence upon the microbiome, i.e. no infection administered / particularly stressed individuals and 3) sociality of the sample was known. 
 
-These were then processed in batches using the script ProcessSRA_v3.sh (Scripts/Bash/). Lists of samples were arranged in batch files with one sample accession id per line. The script then would process through these lists. Each set of individual sample reads were downloaded and unpacked from the NCBI SRA using their SRA toolkit, before being uploaded to CZID.org using the CZID command line interface. CZID.org then began its own pipeline, sorting through reads that do not match the "host" species (a generic "bee" option that is actually Apis mellifera) and mapping them against other species. This can then be used to interpret the potential microbial content of the sample as reads match to viruses / bacteria / eukaryotic parasites.
+These chosen samples were then processed as follows:
 
-## Sample Metadata
+- the phylogenetically nearest available genome was downloaded from NCBI per sample species. This was then indexed using STAR
 
-Before I can begin any analyses, I need to know what I'm working with.
+- the sample was downloaded and unpacked from the SRA using its accession ID and the SRA toolkit (specifically, prefetch and fasterqdump)
+
+- the sample was mapped against the above indexed genome using STAR. If more than 50% of reads failed to map due to being "too short" then the sample was reprocessed using slightly relaxed mapping parameters (--outFilterScoreMinOverLread 0.3 --outFilterMatchNminOverLread 0.3). Regardless of how many reads were then mapped these reprocessed samples, and those that had mapped > 50% in the first run, were uploaded to CZID.org to run through their pipeline.
+
+- once all had been completely through this pipeline, the data was downloaded locally for analysis. (input/CZID_TaxonReports/)
+
+## Uploading the Data
+
+The data exists in the input/CZID_TaxonReports/ directory. In order to properly label and process it, I also need the sample metadata.
 
 ```{r}
-met <- read.table("input/SRA/SampleMetadata.tsv", sep = "\t", header = T)
+met <- read.table("input/SRA/MetaData_Edit_Oct22.tsv", 
+                  sep = "\t", header = T)
 
 head(met)
 ```
 
-I don't really need most of these fields. I want to reduce collection date to just years and abstracts etc aren't necessary at all
+```{r}
+csvs <- list.files(path = "input/CZID_TaxonReports/", pattern = "*.csv")
+head(csvs, n = 20)
+```
 
 ```{r}
-for (i in 1:nrow(met)){
-  end <- strsplit(met$Collection.Date[i], "-")[[1]][2]
-  met$YearCollected[i] <- paste(20, end, sep = "")
+data.raw <- vector(mode = "list", length = length(csvs))
+
+for (i in 1:length(csvs)){
+  data.raw[[i]] <- read.csv(paste("input/CZID_TaxonReports/", csvs[i], sep = ""),
+                              header = T)
 }
 
-met$Abstract <- NULL
-met$Collection.Date <- NULL
-met$Publication <- NULL
-
-names(met)[7] <- "NucleotideType"
-
-head(met)
+head(data.raw[[330]])
 ```
-
-Now to get some overall numbers.
-
-```{r}
-nrow(met)
-```
-
-How many, and how many of each, species ?
-
-```{r}
-length(unique(met$Species))
-summary(as.factor(met$Species))
-```
-
-Hmm. I'm probably gonna have reduce by genus / family here.
-
-```{r}
-for (i in 1:nrow(met)){
-  genus <- strsplit(met$Species[i], " ")[[1]][1]
-  met$Genus[i] <- paste(genus)
-}
-
-head(met)
-```
-```{r}
-length(unique(met$Genus))
-summary(as.factor(met$Genus))
-```
-
-Adding Family and Tribe
-
-```{r}
-specs <- c("Anthophora", "Apis", "Bombus", "Ceratina", "Epeolus", 
-            "Eufriesea", "Euglossa", "Exoneura", "Habropoda", "Nomada",
-            "Tetragonisca", "Tetragonula", "Thyreus", "Xylocopa")
-fams <- rep("Apidae", length(specs))
-subfams <- c(rep("Apinae", 3), "Xylocopinae", "Nomadinae", 
-             rep("Apinae", 2), "Xylocopinae", "Apinae", "Nomadinae",
-             rep("Apinae", 3), "Xylocopinae")
-tribes <- c("Anthophorini", "Apini", "Bombini", "Ceratini", "Epeolini", 
-            "Euglossini", "Euglossini", "Allodapini", "Anthophorini", "Nomadini",
-            "Meliponini", "Meliponini", "Melectini", "Xylocopini")
-
-specs[15:18] <- c("Dufourea", "Halictus", "Lasioglossum", "Megalopta")
-fams[15:18] <- "Halictidae"
-subfams[15:18] <- c("Rophitinae", rep("Halictinae", 3))
-tribes[15:18] <- c("Rophitini", "Halictini", "Halictini", "Augochlorini")
-
-specs[19] <- c("Andrena")
-fams[19]  <- "Andrenidae"
-subfams[19] <- "Andreninae"
-tribes[19] <- "Andrenini"
-
-specs[20] <- "Colletes"
-fams[20] <- "Colletidae"
-subfams[20] <- "Colletinae"
-tribes[20] <- "Colletini"
-  
-specs[21] <- "Osmia"
-fams[21] <- "Megachilidae"
-subfams[21] <- "Megachilinae"
-tribes[21] <- "Osmiini"
-
-key <- as.data.frame(cbind(specs, fams, subfams, tribes))
-key
-```
-
-```{r}
-for (i in 1:nrow(met)){
-  met$Family[i] <- key$fams[key$specs == paste(met$Genus[i])]
-  met$SubFamily[i] <- key$subfams[key$specs == paste(met$Genus[i])]
-  met$Tribe[i] <- key$tribes[key$specs == paste(met$Genus[i])]
-}
-met
-```
-Clean up
-
-```{r}
-remove(fams, specs, subfams, tribes)
-```
-
-Sociality
-
-```{r}
-met$Soc <- met$Sociality
-met$Sociality[grep("olymorphic",met$Soc)] <- "Polymorphic"
-met$Sociality[grep("Solitary",met$Soc)] <- "Solitary"
-met$Sociality[met$Soc == "Solitary/Polymorphic?"] <- "Polymorphic"
-met$Soc <- NULL
-```
-
-
-```{r}
-table(met$Sociality, met$NucleotideType)
-```
-
-```{r}
-head(met)
-```
-Save
-
-```{r}
-#write.table(met, "output/MetaData_Edit_Oct22.tsv",
- #           sep = "\t", row.names = F, col.names = T, quote = F)
-```
+In order to properly filter the data, I need taxonomic information
 
 ## Making Taxonomy Files
 
+### The Tax File
 
 So I downloaded a taxonomy dump from NCBI on 18th October 2022 and I'm going to use that as my taxonomy resource. However, it is huge, too big for me to process it either in R or Sublime. So I've split into smaller tables which I will process through, removing anything I don't need, and then bringing them altogether at the end (likely in the commandline)
 
@@ -201,7 +98,6 @@ Edits that need to happen:
 2. All vertebrates can be removed
 
 3. All invertebrates can be removed. I can get mite/worm genealogy separately.
-
 
 I also need a separate file for viral taxonomy that goes all the way down to species level as they don't have easy indicators of genus (ie Black queen cell virus = Triatovirus, Deformed wing virus = Iflavirus) and there are too many to try and make these annotations manually.
 
@@ -226,7 +122,7 @@ First. Viruses.
 ```{r, eval = FALSE}
 taxfiles <- list.files(path = "input/Phylo_Misc/", pattern = "*.tsv")
 #remove the original file
-taxfiles <- taxfiles[c(-1,-2)]
+taxfiles <- taxfiles[c(-1,-2,-52)]
 taxfiles
 
 #make space to store viral entries
@@ -252,13 +148,9 @@ for (i in 1:length(taxfiles)){
 
 vir.df <- bind_rows(vir.list)
 
-#I don't want lines that have broken information. Only those that go from name all the way through to superkingdom.
-#replace blanks with NA and then remove any lines with NA
-#then remove unnecessary columns
+# remove unnecessary columns
 vir.df <- vir.df %>% 
   mutate_all(na_if, "")
-
-vir.df <- vir.df[complete.cases(vir.df),]
 
 vir.df <- vir.df[,c(2:10)]
 
@@ -309,35 +201,6 @@ tax <- tax[!duplicated(tax),]
 
 summary(as.factor(tax$SuperKingdom))
 ```
-
-## Uploading the Data
-
-There's an individual taxon results file per sample (therefore 325 files, plus the duplicates) that I'll need to massage to make more amenable to my purposes. The final goal would be making a combined data table with some sort of measurement per species. It may be that for the combined tables I'll only be able to do so for one metric at a time.
-
-NB: I do not yet have a results file per entry in the metadata (the extra Caus samples) so I'll use the old met file for now.
-
-```{r}
-met <- read.table("output/MetaData_Edit_Sep22.tsv", 
-                  sep = "\t", header = T)
-```
-
-
-```{r}
-csvs <- list.files(path = "input/CZID_TaxonReports/", pattern = "*.csv")
-head(csvs, n = 20)
-```
-
-```{r}
-data.raw <- vector(mode = "list", length = length(csvs))
-
-for (i in 1:length(csvs)){
-  data.raw[[i]] <- read.csv(paste("input/CZID_TaxonReports/", csvs[i], sep = ""),
-                              header = T)
-}
-
-head(data.raw[[330]])
-```
-
 
 ## Filtering data
 
@@ -393,7 +256,7 @@ filt.df.nv <- subset(filt.df.nv, category != "viruses")
 
 for(i in 1:nrow(filt.df.nv)){
   gen <- strsplit(filt.df.nv$name[i], " ")
-  filt.df.nv$NonHostGenus[i] <- paste(gen[[1]][1])
+  filt.df.nv$NonHostPhylo[i] <- paste(gen[[1]][1])
 }
 
 #for some reason the dataframe has amassed rows of all NAs. These are causing issues and need to be removed
@@ -403,15 +266,15 @@ filt.df.nv <- filt.df.nv[grepl("^NA", rownames(filt.df.nv))==F,]
 #the genus will instead be the Family name (these have been added manually to the euk
 #filtering file)
 for (i in 1:nrow(filt.df.nv)){
-  if (filt.df.nv$NonHostGenus[i] == "non-genus-specific"){
-    filt.df.nv$NonHostGenus[i] <- strsplit(filt.df.nv$name[i], " ")[[1]][5]
+  if (filt.df.nv$NonHostPhylo[i] == "non-genus-specific"){
+    filt.df.nv$NonHostPhylo[i] <- strsplit(filt.df.nv$name[i], " ")[[1]][5]
   }
 }
 
 #there's also this guy in there
-filt.df.nv$NonHostGenus[filt.df.nv$name == "parasitid 'Pas'"] <- "Parasitoidea"
+filt.df.nv$NonHostPhylo[filt.df.nv$name == "parasitid 'Pas'"] <- "Parasitoidea"
 
-summary(as.factor(filt.df.nv$NonHostGenus))
+summary(as.factor(filt.df.nv$NonHostPhylo))
 ```
 
 Load up eukaryote classifications and remove those that are unwanted
@@ -428,10 +291,11 @@ torem <- euk$Genus[euk$Species %in% tmp]
 #remove whitespace
 torem <- trimws(torem)
 
-filt.df.nv <- filt.df.nv[!filt.df.nv$NonHostGenus %in% torem,]
+filt.df.nv <- filt.df.nv[!filt.df.nv$NonHostPhylo %in% torem,]
 
 head(filt.df.nv)
 ```
+
 ### Viruses
 
 ```{r}
@@ -453,37 +317,47 @@ for (i in 1:length(data.filt.v)){
                             nr_percent_identity > 50)
 }
 
-head(data.filt.v[[2]])
-```
-
-```{r}
 filt.df.v <- bind_rows(data.filt.v)
 filt.df.v <- subset(filt.df.v, category == "viruses")
 
 head(filt.df.v)
 ```
-Adding NonHostGenus information will be more difficult for the viruses.
+
+Adding NonHostPhylo information will be more difficult for the viruses.
 
 ```{r}
 #read in viral taxonomy
-vir.tax <- read.table("input/Phylo_Misc/ViralTaxo_Oct22.tsv", 
+vir.df <- read.table("input/Phylo_Misc/ViralTaxo_Oct22.tsv", 
                       header = T, sep = "\t", quote = "", comment.char = "")
 
 #run through the viruses and, if possible, extract genus information from the above file
 #first, using the common name, then by species, finally by genus
-filt.df.v$NonHostGenus <- paste("")
+#any hits that have an NA return either don't have genus information (some are only
+#classified to Order level, etc) or there are multiple entries or where the the taxa
+#hit is already a genus
+filt.df.v$NonHostPhylo <- paste("")
 for (i in 1:nrow(filt.df.v)){
-  if (filt.df.v$name[i] %in% vir.tax$Common.name){
-    filt.df.v$NonHostGenus[i] <- unique(vir.tax$Genus[vir.tax$Common.name ==
-                                                        filt.df.v$name[i]])
+  if (filt.df.v$name[i] %in% vir.df$Common.name){
+    t <- unique(vir.df$Genus[vir.df$Common.name == filt.df.v$name[i]])
+    #remove any NAs
+    if (length(t) > 1){
+     t <- t[!is.na(t)] 
+    }
+    filt.df.v$NonHostPhylo[i] <- paste(t)
   }
-  if (filt.df.v$name[i] %in% vir.tax$Species){
-    filt.df.v$NonHostGenus[i] <- unique(vir.tax$Genus[vir.tax$Species ==
-                                                        filt.df.v$name[i]])
-  }
-  if (filt.df.v$name[i] %in% vir.tax$Genus){
-    filt.df.v$NonHostGenus[i] <- unique(vir.tax$Genus[vir.tax$Genus ==
-                                                        filt.df.v$name[i]])
+}
+
+#for hits that are already at the genus level
+for (i in 1:nrow(filt.df.v)){
+  if (is.na(filt.df.v$NonHostPhylo[i])){
+    if (filt.df.v$name[i] %in% vir.df$Genus){
+      #there will be "NA" in this box for some entries
+      #this will have to be removed
+      t <- unique(vir.df$Genus[vir.df$Genus == 
+                                             filt.df.v$name[i]])
+      t <- t[!is.na(t)]
+      filt.df.v$NonHostPhylo[i] <- paste(t)
+    }
   }
 }
 
@@ -492,7 +366,17 @@ for (i in 1:nrow(filt.df.v)){
 That didn't work for everything. What's left?
 
 ```{r}
-unique(filt.df.v$name[filt.df.v$NonHostGenus == ""])
+subset(vir.df, Common.name == "Deformed wing virus")
+subset(vir.df, Species == "Deformed wing virus")
+subset(vir.df, Genus == "Deformed wing virus")
+```
+```{r}
+summary(as.factor(filt.df.nv$NonHostGenus))
+```
+
+
+```{r}
+length(unique(filt.df.v$name[filt.df.v$NonHostPhylo == "NA"]))
 ```
 
 ```{r}
@@ -500,35 +384,16 @@ vir.tax[vir.tax$Species == "Varroa destructor virus 1",]
 ```
 
 
-## Making a PhyloSeq Object
-
-To start with, I need the equivalent of an OTU table. This is essentially a counts table with rownames being taxon detected by CZID and colnames being each sample, the matrix itself consisting either of reads or rPM.
-
-Because of the viruses sometimes hitting higher in NR databases than NT and because I don't want to discount these (where NR hits are high but NR are 0 or very low), I'll be making two tables: one with NR_rPM and one with NR_reads.
-
-
-```{r}
-head(filt.df)
-```
-
-```{r}
-head(data.raw[[2]])
-```
 
 
 
 
-## Analysing Data
 
-Let's run through everything with this data anyway, in preparation for my "final" data, should I ever receive it
 
-What are my questions ? 
 
-- Are there any patterns among microbial composition and sociality? Mainly, is solitary microbiota more diverse than social, as would be expected due to lack of strong horizontal transfer? Or are these patterns, should they exist, more associated with phylogenetic relationships? 
 
-- Are there non-host genera in common between different bees? Is this genus- or tribe- or sociality- specific?
 
-- Are there strong correlating relationships between certain host and non-host genera?
 
-There are some possible other avenues, ie looking at plant-host associations, or sources of contamination (where have all these aquatic hits came from?) but we have a timeline here people.
+
+
 
