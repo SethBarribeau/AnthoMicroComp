@@ -1,0 +1,338 @@
+﻿Sample Name,Collection Date,Collection Location,Nucleotide Type,Sample Type,Water Control,Host Organism,Sample Species,Project Source
+AM_N_056,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Apis mellifera,CompHym22
+AM_N_068,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Apis mellifera,CompHym22
+AM_N_072,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Apis mellifera,CompHym22
+BT_N_001,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Bombus terrestris,CompHym22
+BT_N_025,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Bombus terrestris,CompHym22
+BT_N_029,07/2019,United Kingdom,RNA,Abdomen,No,Bee,Bombus terrestris,CompHym22
+SRR1503129,04/2011,Germany,RNA,Whole Body,No,Bee,Anthophora plumipes,PRJNA252326
+SRR10034516,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR10034517,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR10034518,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR10034519,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR10034522,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR10034523,08/2020,China,RNA,Midgut,No,Bee,Apis cerana,PRJNA562784
+SRR5109820,03/2013,South Africa,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109823,07/2014,Netherlands,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109826,03/2013,South Africa,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109829,07/2014,Netherlands,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109831,03/2013,South Africa,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109832,03/2013,South Africa,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR5109833,03/2013,South Africa,RNA,Thorax and Abdomen,No,Bee,Apis mellifera,PRJNA357165
+SRR1380984,01/2013,South Korea,RNA,Gut,No,Bee,Apis cerana,PRJNA235974
+SRR18500045,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500044,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500043,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500042,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500050,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500061,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500072,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500076,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500077,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500078,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500079,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500080,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500081,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500082,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500083,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500084,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500085,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500086,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500087,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500088,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500089,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500090,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR18500091,01/2021,New Zealand,RNA,10 Pooled Whole Bodies,No,Bee,Apis mellifera,PRJNA820512
+SRR17475010,09/2020,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA793424
+SRR17475011,09/2020,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA793424
+SRR17475012,09/2020,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA793424
+SRR17475013,09/2020,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA793424
+SRR17475014,09/2020,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA793424
+SRR15496106,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR15496107,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR15496108,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR15496109,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR15496114,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR15496115,05/2021,China,RNA,abdomen,No,Bee,Apis mellifera,PRJNA754836
+SRR13404632,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA687318
+SRR13404634,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA687318
+SRR13404636,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA687318
+SRR13404641,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA687318
+SRR13189057,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR13189058,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR13189059,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR13189063,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR13189066,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR13189067,12/2020,China,RNA,gut,No,Bee,Apis mellifera,PRJNA681941
+SRR12097444,07/2021,Germany,RNA,pooled gut,No,Bee,Apis mellifera,PRJNA642095
+SRR12097445,07/2021,Germany,RNA,pooled gut,No,Bee,Apis mellifera,PRJNA642095
+SRR12097446,07/2021,Germany,RNA,pooled gut,No,Bee,Apis mellifera,PRJNA642095
+SRR12097447,07/2021,Germany,RNA,pooled gut,No,Bee,Apis mellifera,PRJNA642095
+SRR8867392,07/2019,Hawaii,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA531527 
+SRR8867393,07/2019,Hawaii,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA531527 
+SRR8867394,07/2019,Hawaii,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA531527 
+SRR8867395,07/2019,Hawaii,RNA,pooled whole bodies,No,Bee,Apis mellifera,PRJNA531527 
+SRR8754036,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754037,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754038,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754039,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754040,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754041,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754042,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754043,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8754044,10/2012,North Dakota,RNA,whole body,No,Bee,Apis mellifera,PRJNA495845
+SRR8335255,01/2017,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA510543
+SRR8335256,01/2017,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA510543
+SRR8335257,01/2017,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA510543
+SRR8335258,01/2017,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA510543
+SRR5387735,07/2015,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA380316
+SRR5387737,07/2015,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA380316
+SRR5387738,07/2015,China,RNA,whole body,No,Bee,Apis mellifera,PRJNA380316
+SRR5117442,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117443,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117444,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117445,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117446,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117447,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117448,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117449,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR5117450,01/2013,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA357523
+SRR1790685,02/2015,California,RNA,pool of abdomens and fat bodies,No,Bee,Apis mellifera,PRJNA274674
+SRR1790686,02/2015,California,RNA,pool of abdomens and fat bodies,No,Bee,Apis mellifera,PRJNA274674
+SRR1790687,02/2015,California,RNA,pool of abdomens and fat bodies,No,Bee,Apis mellifera,PRJNA274674
+SRR1790690,02/2015,California,DNA,pool of abdomens and fat bodies,No,Bee,Apis mellifera,PRJNA274674
+SRR1790691,02/2015,California,DNA,pool of abdomens and fat bodies,No,Bee,Apis mellifera,PRJNA274674
+SRR12527963,08/2016,China,RNA,whole body,No,Bee,Bombus breviceps,PRJNA659133
+SRR12527928,08/2016,China,RNA,whole body,No,Bee,Bombus confusus,PRJNA659133
+SRR12527965,08/2016,China,RNA,whole body,No,Bee,Bombus consobrinus,PRJNA659133
+SRR12527962,08/2016,China,RNA,whole body,No,Bee,Bombus difficillimus,PRJNA659133
+SRR12527929,08/2016,China,RNA,whole body,No,Bee,Bombus haemorrhoidalis,PRJNA659133
+SRR12527935,08/2016,China,RNA,whole body,No,Bee,Bombus ignitus,PRJNA659133
+SRR12527964,08/2016,China,RNA,whole body,No,Bee,Bombus opulentus,PRJNA659133
+SRR12527936,08/2016,China,RNA,whole body,No,Bee,Bombus picipes,PRJNA659133
+SRR12527934,08/2016,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA659133
+SRR12527966,08/2016,China,RNA,whole body,No,Bee,Bombus sibiricus,PRJNA659133
+SRR12527930,08/2016,China,RNA,whole body,No,Bee,Bombus soroeensis,PRJNA659133
+SRR12527932,08/2016,China,RNA,whole body,No,Bee,Bombus superbus,PRJNA659133
+SRR12527933,08/2016,China,RNA,whole body,No,Bee,Bombus turneri,PRJNA659133
+SRR12527961,08/2016,China,RNA,whole body,No,Bee,Bombus waltoni,PRJNA659133
+SRR12527931,08/2016,China,DNA,whole body,No,Bee,Bombus ignitus,PRJNA659134
+SRR12527937,08/2016,China,DNA,whole body,No,Bee,Bombus waltoni,PRJNA659135
+SRR12527938,08/2016,China,DNA,whole body,No,Bee,Bombus waltoni,PRJNA659136
+SRR12527939,08/2016,China,DNA,whole body,No,Bee,Bombus waltoni,PRJNA659137
+SRR12527940,08/2016,China,DNA,whole body,No,Bee,Bombus waltoni,PRJNA659138
+SRR12527941,01/2017,China,DNA,whole body,No,Bee,Bombus waltoni,PRJNA659139
+SRR12527942,08/2016,China,DNA,whole body,No,Bee,Bombus ignitus,PRJNA659140
+SRR12527943,08/2016,China,DNA,whole body,No,Bee,Bombus difficillimus,PRJNA659141
+SRR12527944,08/2016,China,DNA,whole body,No,Bee,Bombus difficillimus,PRJNA659142
+SRR12527945,08/2016,China,DNA,whole body,No,Bee,Bombus difficillimus,PRJNA659143
+SRR12527946,08/2016,China,DNA,whole body,No,Bee,Bombus difficillimus,PRJNA659144
+SRR12527947,08/2016,China,DNA,whole body,No,Bee,Bombus difficillimus,PRJNA659145
+SRR12527948,08/2016,China,DNA,whole body,No,Bee,Bombus breviceps,PRJNA659146
+SRR12527949,08/2016,China,DNA,whole body,No,Bee,Bombus breviceps,PRJNA659147
+SRR12527950,08/2016,China,DNA,whole body,No,Bee,Bombus breviceps,PRJNA659148
+SRR12527951,08/2016,China,DNA,whole body,No,Bee,Bombus breviceps,PRJNA659149
+SRR12527952,08/2016,China,DNA,whole body,No,Bee,Bombus breviceps,PRJNA659150
+SRR12527953,08/2016,China,DNA,whole body,No,Bee,Bombus ignitus,PRJNA659151
+SRR12527954,08/2016,China,DNA,whole body,No,Bee,Bombus skorikovi,PRJNA659152
+SRR12527955,08/2016,China,DNA,whole body,No,Bee,Bombus skorikovi,PRJNA659153
+SRR12527956,08/2016,China,DNA,whole body,No,Bee,Bombus skorikovi,PRJNA659154
+SRR12527957,08/2016,China,DNA,whole body,No,Bee,Bombus skorikovi,PRJNA659155
+SRR12527958,08/2016,China,DNA,whole body,No,Bee,Bombus skorikovi,PRJNA659156
+SRR12527959,08/2016,China,DNA,whole body,No,Bee,Bombus opulentus,PRJNA659157
+SRR12527960,08/2016,China,DNA,whole body,No,Bee,Bombus ignitus,PRJNA659158
+SRR12527967,08/2016,China,DNA,whole body,No,Bee,Bombus opulentus,PRJNA659159
+SRR12527968,08/2016,China,DNA,whole body,No,Bee,Bombus opulentus,PRJNA659160
+SRR12527969,08/2016,China,DNA,whole body,No,Bee,Bombus opulentus,PRJNA659161
+SRR12527970,08/2016,China,DNA,whole body,No,Bee,Bombus opulentus,PRJNA659162
+SRR12527971,08/2019,China,DNA,whole body,No,Bee,Bombus ignitus,PRJNA659163
+SRR12527972,08/2019,China,DNA,whole body,No,Bee,Bombus consobrinus,PRJNA659164
+SRR12527973,08/2019,China,DNA,whole body,No,Bee,Bombus consobrinus,PRJNA659165
+SRR12527974,08/2019,China,DNA,whole body,No,Bee,Bombus consobrinus,PRJNA659166
+SRR12527975,08/2019,China,DNA,whole body,No,Bee,Bombus consobrinus,PRJNA659167
+SRR12527976,08/2019,China,DNA,whole body,No,Bee,Bombus consobrinus,PRJNA659168
+SRR12527977,08/2019,China,DNA,whole body,No,Bee,Bombus sibiricus,PRJNA659169
+SRR2396633,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396634,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396640,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396641,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396644,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396653,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396654,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396655,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396656,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR2396657,10/2015,Israel,RNA,abdomen with fat bodies,No,Bee,Bombus terrestris,PRJNA295976
+SRR072891,11/2011,France,RNA,abdomen,No,Bee,Apis mellifera,PRJNA134353
+SRR072892,11/2011,France,RNA,abdomen,No,Bee,Apis mellifera,PRJNA134353
+SRR13769013,01/2011,Scotland,RNA,pooled whole bodies (293),No,Bee,Bombus,PRJNA704259
+SRR13769014,01/2011,Scotland,RNA,pooled whole bodies (182),No,Bee,Bombus pascuorum,PRJNA704259
+SRR13769015,01/2011,Scotland,RNA,pooled whole bodies (182),No,Bee,Bombus pascuorum,PRJNA704259
+SRR13769016,01/2011,Scotland,RNA,pooled whole bodies (212),No,Bee,Bombus lucorum,PRJNA704259
+SRR13769017,01/2011,Scotland,RNA,pooled whole bodies (212),No,Bee,Bombus lucorum,PRJNA704259
+SRR13769018,01/2011,Scotland,RNA,pooled whole bodies (239),No,Bee,Bombus terrestris,PRJNA704259
+SRR13769019,01/2011,Scotland,RNA,pooled whole bodies (239),No,Bee,Bombus terrestris,PRJNA704259
+SRR13442814,04/2017,Australia,RNA,whole body,No,Bee,Tetragonula carbonaria,PRJNA687066
+SRR13442815,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442817,04/2017,Australia,RNA,whole body,No,Bee,Exoneura,PRJNA687066
+SRR13442818,04/2017,Australia,RNA,whole body,No,Bee,Tetragonula carbonaria,PRJNA687066
+SRR13442819,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442822,04/2017,Australia,RNA,whole body,No,Bee,Exoneura,PRJNA687066
+SRR13442824,04/2017,Australia,RNA,whole body,No,Bee,Exoneura,PRJNA687066
+SRR13442827,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442828,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442829,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442830,04/2017,Australia,RNA,whole body,No,Bee,Tetragonula carbonaria,PRJNA687066
+SRR13442831,04/2017,Australia,RNA,whole body,No,Bee,Apis mellifera,PRJNA687066
+SRR13442813,04/2017,Australia,RNA,whole body,No,Bee,Lasioglossum,PRJNA687066
+SRR13442825,04/2017,Australia,RNA,whole body,No,Bee,Lasioglossum,PRJNA687066
+SRR6148364,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Osmia cornuta,PRJNA411946
+SRR6148365,05/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Andrena cineraria,PRJNA411946
+SRR6148366,05/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus pascuorum,PRJNA411946
+SRR6148367,05/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Andrena haemorrhoa,PRJNA411946
+SRR6148368,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus terrestris,PRJNA411946
+SRR6148369,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus pascuorum,PRJNA411946
+SRR6148370,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus terrestris,PRJNA411946
+SRR6148371,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Osmia cornuta,PRJNA411946
+SRR6148372,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus pascuorum,PRJNA411946
+SRR6148373,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Andrena fulva,PRJNA411946
+SRR6148374,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus terrestris,PRJNA411946
+SRR6148375,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Osmia cornuta,PRJNA411946
+SRR6148376,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus pascuorum,PRJNA411946
+SRR6148377,05/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Andrena haemorrhoa,PRJNA411946
+SRR6148378,04/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Bombus pascuorum,PRJNA411946
+SRR6148379,05/2015,Belgium,RNA,pool of heads and abdomen,No,Bee,Osmia bicornis,PRJNA411946
+SRR1503136,04/2011,Germany,RNA,whole body,No,Bee,Xylocopa violacea,PRJNA252333
+SRR1503133,04/2011,Germany,RNA,whole body,No,Bee,Nomada lathburiana,PRJNA252330
+SRR1503122,07/2011,Germany,RNA,whole body,No,Bee,Thyreus orbatus,PRJNA252319
+SRR1503088,07/2011,France,RNA,whole body,No,Bee,Bombus rupestris,PRJNA252285
+SRR1503066,09/2011,Italy,RNA,whole body,No,Bee,Epeolus variegatus,PRJNA252262
+SRR1503113,03/2017,Florida,RNA,whole body,No,Bee,Euglossa dilemma,PRJNA252310
+SRR14567209,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567210,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567211,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567212,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567213,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567214,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567217,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567218,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567219,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567220,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567221,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR14567222,06/2021,Canada,RNA,abdomen,No,Bee,Bombus terricola,PRJNA730495
+SRR12053406,10/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053407,11/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053408,11/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053409,01/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053410,01/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053411,02/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053412,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053413,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR12053414,02/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053415,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR12053416,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR12053417,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR12053418,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053419,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053420,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053421,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053422,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053423,03/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053424,04/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053425,03/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053426,04/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053427,05/2016,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR12053428,05/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053429,06/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053430,06/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053431,06/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053432,07/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053433,07/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053434,08/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053435,08/2016,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053436,03/2017,Mexico,RNA,abdomen,No,Bee,Euglossa viridissima,PRJNA636137
+SRR12053437,03/2017,Mexico,RNA,abdomen,No,Bee,Euglossa dilemma,PRJNA636137
+SRR2915407,12/2014,Australia,RNA,whole body,No,Bee,Ceratina australensis,PRJNA302035
+SRR2954866,12/2014,Australia,RNA,whole body,No,Bee,Ceratina australensis,PRJNA302035
+SRR12245523,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646831
+SRR12245258,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646816
+SRR12244814,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646806
+SRR12235348,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646687
+SRR12233820,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646602
+SRR12233573,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA646593
+SRR6370988,07/2019,China,RNA,whole body,No,Bee,Bombus pyrosoma,PRJNA422009
+ERR10123638,09/2020,United Kingdom,RNA,abdomen,No,Bee,Bombus pascuorum,PRJEB43529
+SRR3383868,04/2015,Belgium,RNA,head and abdomen (pooled 5 queens),No,Bee,Bombus terrestris,PRJNA318490
+SRR3383869,04/2015,Belgium,RNA,head and abdomen (pooled 5 queens),No,Bee,Bombus pascuorum,PRJNA318490
+SRR3383870,04/2015,Belgium,RNA,head and abdomen (pooled 5 females),No,Bee,Osmia cornuta,PRJNA318490
+SRR3383871,04/2015,Belgium,RNA,head and abdomen (pooled 5 females),No,Bee,Andrena vaga,PRJNA318490
+SRR11426431,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11426432,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11426433,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11440494,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11440495,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11440496,01/2014,Brazil,RNA,whole body (pool of 6),No,Bee,Tetragonisca angustula,PRJNA615177
+SRR11445089,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR11445090,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR11445091,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR11448239,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR11448240,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR11448241,01/2015,United Kingdom,RNA,whole body (pool of 3),No,Bee,Bombus terrestris,PRJNA615177
+SRR2001612,02/2011,Florida,RNA,whole body,No,Bee,Habropoda laboriosa,PRJNA279436
+SRR1943074,02/2011,Florida,DNA,whole body,No,Bee,Habropoda laboriosa,PRJNA279436
+SRR1943075,02/2011,Florida,DNA,whole body,No,Bee,Habropoda laboriosa,PRJNA279436
+SRR1943076,02/2011,Florida,DNA,whole body,No,Bee,Habropoda laboriosa,PRJNA279436
+SRR2001621,07/2011,Mexico,RNA,whole body,No,Bee,Eufriesea mexicana,PRJNA279814
+SRR1945063,07/2011,Mexico,DNA,whole body,No,Bee,Eufriesea mexicana,PRJNA279814
+SRR1945064,07/2011,Mexico,DNA,whole body,No,Bee,Eufriesea mexicana,PRJNA279814
+SRR1945065,07/2011,Mexico,DNA,whole body,No,Bee,Eufriesea mexicana,PRJNA279814
+SRR3948521,07/2013,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948528,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948531,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948533,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948536,07/2013,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948537,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948540,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948542,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948544,04/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948548,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948550,04/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948554,05/2015,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948556,04/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948560,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948562,06/2013,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948563,03/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948564,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948566,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948568,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948570,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948572,05/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948575,06/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR3948577,07/2014,Panama,RNA,whole body,No,Bee,Megalopta genalis,PRJNA331103
+SRR10765021,11/2017,China,RNA,whole body,No,Bee,Colletes gigas,PRJNA512939
+SRR2001766,07/2011,Canada,RNA,whole body,No,Bee,Dufourea Novaeangliae,PRJNA279825	
+SRR1945093,07/2011,Canada,DNA,whole body,No,Bee,Dufourea Novaeangliae,PRJNA279825
+SRR1945094,07/2011,Canada,DNA,whole body,No,Bee,Dufourea Novaeangliae,PRJNA279825
+SRR1945095,07/2011,Canada,DNA,whole body,No,Bee,Dufourea Novaeangliae,PRJNA279825
+SRR2895245,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895246,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895247,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895248,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895249,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895250,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR2895251,12/2016,Germany,RNA,whole body,No,Bee,Osmia bicornis,PRJNA285788
+SRR9676054,08/2011,Utah,RNA,whole body,No,Bee,Osmia lignaria,PRJNA553801
+SRR9676058,08/2011,Utah,RNA,whole body,No,Bee,Osmia lignaria,PRJNA553801
+SRR9676059,08/2011,Utah,RNA,whole body,No,Bee,Osmia lignaria,PRJNA553801
+SRR10520158,01/2014,Washington,RNA,whole body (pooled),No,Bee,Nomia melanderi,PRJNA494873
+SRR8335251,01/2017,China,RNA,whole body,No,Bee,Andrena camellia,PRJNA510543
+SRR8335252,01/2017,China,RNA,whole body,No,Bee,Andrena camellia,PRJNA510543
+SRR8335253,01/2017,China,RNA,whole body,No,Bee,Andrena camellia,PRJNA510543
+SRR8335254,01/2017,China,RNA,whole body,No,Bee,Andrena camellia,PRJNA510543
+SRR13404631,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Andrena,PRJNA687318
+SRR13404633,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Andrena,PRJNA687318
+SRR13404635,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Andrena,PRJNA687318
+SRR13404640,03/2018,Israel,RNA,pooled whole bodies,No,Bee,Andrena,PRJNA687318
+SRR5253659,02/2017,Switzerland,RNA,whole body,No,Bee,Halictus sexcinctus,PRJNA374528
+CA_N_007,07/2017,United Kingdom,RNA,abdomen,No,Bee,Ceratina australensis,CompHym22
+CA_N_012,07/2017,United Kingdom,RNA,abdomen,No,Bee,Ceratina australensis,CompHym22
+CA_N_030,07/2017,United Kingdom,RNA,abdomen,No,Bee,Ceratina australensis,CompHym22
