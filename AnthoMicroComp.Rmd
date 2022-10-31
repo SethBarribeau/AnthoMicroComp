@@ -296,6 +296,21 @@ filt.df.nv <- filt.df.nv[!filt.df.nv$NonHostPhylo %in% torem,]
 head(filt.df.nv)
 ```
 
+I would also like to easily be able to pull out fungi
+
+```{r}
+fungi <- euk$Genus[euk$Classification == "Fungus"]
+
+#add fungus to classifications
+filt.df.nv$category[filt.df.nv$NonHostPhylo %in% fungi] <- "fungus"
+
+#change eukaryota classification to make more sense
+filt.df.nv$category[filt.df.nv$category == "eukaryota"] <- "other_eukaryota"
+
+summary(as.factor(filt.df.nv$category))
+```
+
+
 ### Viruses
 
 ```{r}
@@ -325,20 +340,39 @@ head(filt.df.v)
 
 Adding NonHostPhylo information will be more difficult for the viruses.
 
+Genus is not wholly resolved in many of the species, nor, somehow, is Family/Order, so maybe going up to Class level would make more sense.
+
+Also, some of the names form CZID are out of date. I found the updated names of the viruses failing to get a hit using the International Committee on Taxonomy of Viruses webpage (Citation of the ICTV Database using our manuscript in Nucleic Acids Research: "Virus taxonomy: the database of the International Committee on Taxonomy of Viruses (ICTV)". Lefkowitz et al Nucleic Acids Res. 2017 Oct 13. PubMed PMID: 29040670.For the most recent taxonomy release, you can use the following Archives of Virology manuscript: Walker et al Recent changes to virus taxonomy ratified by the International Committee on Taxonomy of Viruses (2022). Arch Virol. 2022 Aug 23. doi: 10.1007/s00705-022-05516-5. Epub ahead of print. PMID: 35999326.)
+
+```{r}
+vir.up <- read.table("input/Phylo_Misc/ViralUpdate.txt",
+                     header = T, sep = "\t")
+
+#now to update the old names with the new 
+for (i in 1:nrow(filt.df.v)){
+  if(filt.df.v$name[i] %in% vir.up$Old_name){
+    filt.df.v$name[i] <- vir.up$New_name[vir.up$Old_name == filt.df.v$name[i]]
+  }
+}
+```
+
+And now to classify....
+
+For those that didn't exist in the ICTV, I added entries manually using the NCBI taxonomy service (Schoch CL, et al. NCBI Taxonomy: a comprehensive update on curation, resources and tools. Database (Oxford). 2020: baaa062. PubMed: 32761142 PMC: PMC7408187)
+
 ```{r}
 #read in viral taxonomy
 vir.df <- read.table("input/Phylo_Misc/ViralTaxo_Oct22.tsv", 
                       header = T, sep = "\t", quote = "", comment.char = "")
 
-#run through the viruses and, if possible, extract genus information from the above file
-#first, using the common name, then by species, finally by genus
-#any hits that have an NA return either don't have genus information (some are only
-#classified to Order level, etc) or there are multiple entries or where the the taxa
+#run through the viruses and, if possible, extract Class information from the above file
+#any hits that have an NA return either don't have Class information (some are only
+#classified to Class level, etc) or there are multiple entries or where the the taxa
 #hit is already a genus
 filt.df.v$NonHostPhylo <- paste("")
 for (i in 1:nrow(filt.df.v)){
   if (filt.df.v$name[i] %in% vir.df$Common.name){
-    t <- unique(vir.df$Genus[vir.df$Common.name == filt.df.v$name[i]])
+    t <- unique(vir.df$Class[vir.df$Common.name == filt.df.v$name[i]])
     #remove any NAs
     if (length(t) > 1){
      t <- t[!is.na(t)] 
@@ -347,43 +381,101 @@ for (i in 1:nrow(filt.df.v)){
   }
 }
 
-#for hits that are already at the genus level
+#control for "non-genus-specific" 
 for (i in 1:nrow(filt.df.v)){
-  if (is.na(filt.df.v$NonHostPhylo[i])){
-    if (filt.df.v$name[i] %in% vir.df$Genus){
-      #there will be "NA" in this box for some entries
-      #this will have to be removed
-      t <- unique(vir.df$Genus[vir.df$Genus == 
-                                             filt.df.v$name[i]])
-      t <- t[!is.na(t)]
-      filt.df.v$NonHostPhylo[i] <- paste(t)
-    }
+  if(grepl("non-genus-specific", filt.df.v$name[i]) == T){
+    x <- strsplit(filt.df.v$name[i], " ")[[1]][5]
+    filt.df.v$NonHostPhylo[i] <- paste(unique(vir.df$Class[vir.df$Common.name == x]))
+    
   }
 }
 
+#all that's left from here is either viruses listed in the taxa file that are only 
+#classified to the virus level or viruses that don't exist in the taxa file
+#so either way ... unclassified viruses
+filt.df.v$NonHostPhylo[filt.df.v$NonHostPhylo == "NA"] <- "Unclassified virus"
 ```
 
-That didn't work for everything. What's left?
+###Combine
+
+And now ... finally ... I can combine
 
 ```{r}
-subset(vir.df, Common.name == "Deformed wing virus")
-subset(vir.df, Species == "Deformed wing virus")
-subset(vir.df, Genus == "Deformed wing virus")
-```
-```{r}
-summary(as.factor(filt.df.nv$NonHostGenus))
+filt.df <- rbind(filt.df.nv, filt.df.v)
 ```
 
+And lastly, remove an entry that causes issues later on and is generally just very uninformative.
 
 ```{r}
-length(unique(filt.df.v$name[filt.df.v$NonHostPhylo == "NA"]))
+filt.df <- subset(filt.df, 
+                  name != "all taxa with neither family nor genus classification")
 ```
+
+
+## Making a PhyloSeq Object
+
+Specifically using: https://joey711.github.io/phyloseq/import-data.html#loading_included_data
+
+Phyloseq objects are used by the majority of packages in r that do things such as estimate species richness for microbial datasets. In essence, I need to provide a number of dataframes in certain formats to combine into a phyloseq object - mainly, a counts table and a taxonomy classifications table (with sample metadata).
+
+### Counts table
+
+There are two count tables I can produce: 1) in nr_rPM or 2) nr_counts. The former is normalised which may be an issue with the packages as the other input I'm seeing are straight up counts tables that have not been transformed in any way. The counts are the raw number of read hits and probably the most similar to the OTU tables that these methods usually use as input.
+
+Requirements: numerical matrix, rows = microbials, columns = samples.
+
+Running this brought to light a couple of duplicates per sample. When this occurred I removed the duplicates manually, keeping whichever had the largest percent identity. 
 
 ```{r}
-vir.tax[vir.tax$Species == "Varroa destructor virus 1",]
+rownames(filt.df) <- 1:nrow(filt.df)
+filt.df[filt.df$SampleID == "SRR13769017" & filt.df$name == "Candida", ]
+filt.df[19625,]
+
+filt.df <- filt.df[-9132,] # SRR12527929 had 2 Candida hits
+rownames(filt.df) <- 1:nrow(filt.df)#reset
+
+filt.df <- filt.df[-19010,] # SRR13769016 had 2 Candida hits
+rownames(filt.df) <- 1:nrow(filt.df) 
+
+filt.df <- filt.df[-19625,] # SRR13769017 had 2 Candida hits
+rownames(filt.df) <- 1:nrow(filt.df) 
+
 ```
 
 
+```{r}
+#get a list of all the microbials that have been detected across all samples
+micro <- unique(filt.df$name)
+
+#compile the samples
+samples <- unique(filt.df$SampleID)
+
+cnt <- matrix(nrow = length(micro), ncol = length(samples))
+for (i in 1:length(samples)){
+  print(samples[i])
+  x <- vector(length = length(micro))
+  for (j in 1:length(x)){
+    t <- filt.df$nr_count[filt.df$name == micro[j] &
+                        filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+    t <- 0
+    }
+    x[j] <- t
+  }
+  cnt[,i] <- x
+}
+```
+
+That took an impressively long time so gonna save before continuing
+
+```{r}
+rownames(cnt) <- micro
+colnames(cnt) <- samples
+
+dir.create("output/Counts/")
+write.table(cnt, "output/Counts/nr_Counts_raw.tsv",
+            row.names = T, col.names = T, sep = "\t", quote = F)
+```
 
 
 

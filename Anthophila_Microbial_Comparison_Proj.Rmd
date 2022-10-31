@@ -19,7 +19,7 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 library(reshape)
-library("phyloseq")
+library(phyloseq)
 ```
 
 ## Resources
