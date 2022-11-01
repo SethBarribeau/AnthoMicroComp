@@ -1,0 +1,187 @@
+Old_name	New_name
+Orbus sp. IPMB12	Zophobihabitans entericus
+Corynebacterium sp. 1959	Corynebacterium kalinowskii
+[Polyangium] brachysporum	Schlegelella brevitalea
+Flaviflexus sp. H23T48	Flaviflexus ciconiae
+Sphingosinithalassobacter sp. zrk23	Sphingosinithalassobacter tenebrarum
+Aspergillus pseudonomius	Aspergillus pseudonomiae
+Lactobacillus murinus	Ligilactobacillus murinus
+Lactobacillus hordei	Liquorilactobacillus hordei
+Saccharomycetaceae sp. 'Ashbya aceri'	[Ashbya] aceris (nom. inval.)
+Byssochlamys	Paecilomyces
+Byssochlamys spectabilis	Paecilomyces variotii
+Arthrobotrys oligospora	Orbilia oligospora
+Lactobacillus rennini	Loigolactobacillus rennini
+Lactobacillus backii	Loigolactobacillus backii
+Lactobacillus gastricus	Limosilactobacillus gastricus
+Lactobacillus mucosae	Limosilactobacillus mucosae
+Swingsia sp. F3b2	Formicincola oecophyllae
+Chryseobacterium haifense	Kaistella haifensis
+Rhizopus oryzae	Rhizopus arrhizus
+Sneathia amnii	Sneathia vaginalis
+Lactobacillus bombintestini	Apilactobacillus bombintestini
+Lactobacillus acidipiscis	Ligilactobacillus acidipiscis
+Lactobacillus paracollinoides	Secundilactobacillus paracollinoides
+Agrobacterium genomosp. 3	Agrobacterium tomkonis
+Serpentinomonas	Serpentinimonas
+Serpentinomonas raichei	Serpentinimonas raichei
+Rheinheimera sp. LHK132	Rheinheimera mangrovi
+Ruminococcaceae	Oscillospiraceae
+Gemmatirosa kalamazoonesis	Gemmatirosa kalamazoonensis
+Propionibacterium sp. oral taxon 193	Cutibacterium modestum
+Streptococcus sp. I-P16	Streptococcus ilei
+Melampsora larici-populina	Melampsora laricis-populina
+Rhodobacter sphaeroides	Cereibacter sphaeroides
+Acidovorax ebreus	[Acidovorax] ebreus
+Rhodococcus sp. PBTS 2	Rhodococcus fascians
+Corynebacterium sp. Marseille-Q3630	Corynebacterium incognita
+Ochrobactrum pseudogrignonense	Brucella pseudogrignonensis
+Pseudonocardia sp. CGMCC 4.1532	Pseudonocardia petroleophila
+Rubrobacter sp. SCSIO 52909	Rubrobacter tropicus
+Pseudopropionibacterium propionicum	Arachnia propionica
+Tannerella sp. oral taxon HOT-286	Tannerella serpentiformis
+Diaphorobacter polyhydroxybutyrativorans	Diaphorobacter nitroreducens
+Oligotropha	Afipia
+Oligotropha carboxidovorans	Afipia carboxidovorans
+Pseudomonas balearica	Stutzerimonas balearica
+Deinococcus soli Cha et al. 2016	Deinococcus soli (ex Cha et al. 2016)
+Anthracocystis flocculosa	Pseudozyma flocculosa
+Mycoplasma bovis	Mycoplasmopsis bovis
+Mycoplasma hyorhinis	Mesomycoplasma hyorhinis
+Chaetomium thermophilum	Thermochaetoides thermophila
+Natronomonas sp. C90	Natronomonas halophila
+Methylobacterium sp. 17Sr1-43	Methylobacterium radiodurans
+Lactobacillus pontis	Limosilactobacillus pontis
+Sphingomonas sp. MK52	Rhizorhabdus phycosphaerae
+Sphingomonas wittichii	Rhizorhabdus wittichii
+Sphingomonas sp. Cra20	Sphingomonas psychrotolerans
+Hydrogenophaga sp. BA0156	Hydrogenophaga crocea
+Sphingobium barthaii	Sphingobium fuliginis
+Sphingobium japonicum	Sphingobium indicum
+Muricauda sp. 501str8	Muricauda oceani
+Marinobacter hydrocarbonoclasticus	Marinobacter nauticus
+Flagellimonas maritima	Muricauda aurantiaca
+Cryomorphaceae bacterium A20-9	Croceimicrobium hydrocarbonivorans
+Novosphingobium tardaugens	Caenibius tardaugens
+Altererythrobacter atlanticus	Croceibacterium atlanticum
+Sphingobium hydrophobicum	Sphingobium xenophagum
+Crithidia sp. ATCC 30255	Angomonas deanei
+Sandaracinobacter sp. M6	Sandaracinobacteroides saxicola
+Novosphingopyxis sp. PB63	Novosphingopyxis iocasae
+Sphingomonas sp. LMO-1	Sphingomonas profundi
+Sphingomonas indica	Allosphingosinicella indica
+Heliobacterium modesticaldum	Heliomicrobium modesticaldum
+Candidatus Caldiarchaeum	Candidatus Caldarchaeum
+Candidatus Caldiarchaeum subterraneum	Candidatus Caldarchaeum subterraneum
+Proteus cibarius	Proteus terrae subsp. cibarius
+Pyropia yezoensis	Neopyropia yezoensis
+Novosphingobium sp. ABRDHK2	Novosphingobium sp. EMRT-2
+Sphingosinicella sp. UDD2	Sphingosinicella flava
+Plectranthus scutellarioides	Coleus scutellarioides
+Pyropia tenera	Neopyropia tenera
+Izhakiella sp. KSNA2	Jejubacter calystegiae
+Phialocephala scopiformis	Mollisia scopiformis
+Phialemoniopsis	Thyridium
+Phialemoniopsis curvata	Thyridium curvatum
+Marssonina brunnea	Drepanopeziza brunnea
+parasitid 'Pas'	Parasitoidea sp. parasitid 'Pas'
+Scheffersomyces coipomoensis	Scheffersomyces coipomensis
+Planctomycetes bacterium ETA_A1	Urbifossiella limnaea
+Arcobacter cryaerophilus	Aliarcobacter cryaerophilus
+Lactococcus sp. KACC 19320	Lactococcus protaetiae
+Acetobacteraceae bacterium G55GP	Entomobacter blattae
+Ochrobactrum quorumnocens	[Ochrobactrum] quorumnocens
+Blautia sp. LZLJ-3	Blautia liquoris
+Moraxellaceae bacterium HYN0046	Aquirhabdus parva
+Mycobacterium sp. DL90	Mycolicibacterium nivoides
+Brevibacterium sp. WO024	Brevibacterium atlanticum
+Mycolicibacillus koreensis	Mycobacterium koreense
+Mycolicibacterium doricum	Mycobacterium doricum
+Mycolicibacterium sp. LJ126	Mycolicibacterium baixiangningiae
+Aureimonas sp. LMG 31693	Aureimonas mangrovi
+Leucobacter sp. HDW9A	Leucobacter coleopterorum
+Microlunatus sp. KUDC0627	Microlunatus elymi
+Mycolicibacterium goodii	Mycobacterium goodii
+Lactobacillus animalis	Ligilactobacillus animalis
+Muribaculum sp. TLL-A4	Muribaculum gordoncarteri
+Komagataeibacter hansenii	Novacetimonas hansenii
+Neisseriaceae bacterium DSM 100970	Aquella oligotrophica
+Mycolicibacterium frederiksbergense	Mycobacterium frederiksbergense
+Rubrobacter sp. SCSIO 52915	Rubrobacter marinus
+Bacillus thermoamylovorans	Caldibacillus thermoamylovorans
+Hungateiclostridium	Acetivibrio
+Hungateiclostridium thermocellum	Acetivibrio thermocellus
+Oblitimonas	Thiopseudomonas
+Oblitimonas alkaliphila	Thiopseudomonas alkaliphila
+Lactobacillus malefermentans	Secundilactobacillus malefermentans
+Bacillus coagulans	Weizmannia coagulans
+Corynebacterium sp. zg-913	Corynebacterium wankanglinii
+Propionimicrobium sp. Marseille-P3275	Vaginimicrobium propionicum
+Chitinibacter sp. 2T18	Chitinibacter bivalviorum
+Trueperella sp. 19M2397	Trueperella pecoris
+Saccharopolyspora coralli	Allosaccharopolyspora coralli
+Burkholderia sp. BDU8	Burkholderia mayonis
+Dechlorosoma suillum	Azospira oryzae
+Erwinia phage phiEaP-8	Erwinia phage phiEaP8
+Vibrio phage phiVa1	Vibrio phage Va1
+Pseudomonas stutzeri	Stutzerimonas stutzeri
+Ochrobactrum anthropi	Brucella anthropi
+Ralstonia virus RP12	Ripduovirus RP12
+Propionibacterium virus PHL114L00	Pahexavirus PHL114L00
+Macaca mulatta polyomavirus 1	Betapolyomavirus macacae
+Actinomyces virus Av1	Dybvigvirus Av1
+Blueberry mosaic associated ophiovirus	Ophiovirus vaccinii
+Escherichia virus T7	Teseptimavirus T7
+Escherichia virus Rtp	Rtpvirus Rtp
+Escherichia virus ECBP5	Gajwadongvirus ECBP5
+Pseudomonas virus Alpheus	Uliginvirus alpheus
+Escherichia virus IME08	Dhakavirus ime08
+Escherichia virus Lambda	Lambdavirus lambda
+Shigella virus Sf6	Lederbergvirus Sf6
+Cronobacter virus PBES02	Certrevirus PBES02
+Escherichia virus RB43	Pseudotevenvirus RB43
+Caulobacter virus CcrSC	Bertelyvirus SC
+Erwinia virus Eho59	Feofaniavirus Eho59
+Salmonella virus SP6	Zindervirus SP6
+Citrobacter virus CFP1	Teetrevirus CFP1
+Yersinia virus YeO3-12	Teetrevirus YeO312
+Salmonella virus SG-JL2	Teetrevirus SGJL2
+Citrobacter virus SH2	Teetrevirus SH2
+Serratia virus 2050H2	Teetrevirus 2050H2
+Enterobacter virus E2	Teetrevirus E2
+Escherichia virus LL2	Teetrevirus LL2
+Enterobacter virus E3	Teetrevirus E3
+Escherichia virus T3	Teetrevirus T3
+Yersinia virus YeF10	Teetrevirus YeF10
+Dipteran anphevirus	Alasvirus muscae
+Bracovirus	Bracoviriform
+Chelonus inanitus bracovirus	Bracoviriform inaniti
+Raphanus sativus chrysovirus	Alphachrysovirus raphani
+Spiroplasma virus SpV4	Spiromicrovirus SpV4
+Hubei peropuvirus	Peropuvirus hubeiense
+Bacillus virus Shbh1	Shalavirus Shbh1
+Pseudomonas virus 15pyo	Phikmvvirus 15pyo
+Serratia virus MAM1	Miltonvirus MAM1
+Brassica campestris chrysovirus	Alphachrysovirus brassicae
+Dickeya virus AD1	Alexandravirus AD1
+Erwinia virus Alexandra	Alexandravirus alexandra
+Erwinia virus Ea214	Kolesnikvirus Ea214
+Erwinia virus Asesino	Erskinevirus asesino
+Staphylococcus virus Sextaec	Sextaecvirus sextaec
+Propionibacterium virus P1.1	Pahexavirus P11
+Bordetella virus PHB04	Phabquatrovirus PHB04
+Burkholderia virus DC1	Lessievirus DC1
+Curvibacter virus P26059B	Kalppathivirus P26059B
+Cellulophaga virus Cba41	Lightbulbvirus Cba41
+Cellulophaga virus Cba172	Lightbulbvirus Cba172
+Ralstonia virus Ap1	Ayakvirus Ap1
+Pseudomonas virus PMW	Plaisancevirus PMW
+Leptomonas shilevirus	Shilevirus leptomonadis
+Pseudomonas virus PaMx74	Pamexvirus PaMx74
+Pseudomonas virus LKA1	Stubburvirus LKA1
+Burkholderia virus Bcep22	Lessievirus bcep22
+Xylella virus Prado	Pradovirus prado
+Erwinia virus Frozen	Johnsonvirus frozen
+Ralstonia virus RSF1	Chiangmaivirus RSF1
+Propionibacterium virus Lauchelly	Pahexavirus lauchelly
+Propionibacterium virus P100D	Pahexavirus P100D
