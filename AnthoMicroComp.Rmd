@@ -310,6 +310,12 @@ filt.df.nv$category[filt.df.nv$category == "eukaryota"] <- "other_eukaryota"
 summary(as.factor(filt.df.nv$category))
 ```
 
+Now that that filtering is done, I don't need the NonHostPhylo column
+
+```{r}
+filt.df.nv$NonHostPhylo <- NULL
+```
+
 
 ### Viruses
 
@@ -338,67 +344,8 @@ filt.df.v <- subset(filt.df.v, category == "viruses")
 head(filt.df.v)
 ```
 
-Adding NonHostPhylo information will be more difficult for the viruses.
-
-Genus is not wholly resolved in many of the species, nor, somehow, is Family/Order, so maybe going up to Class level would make more sense.
-
-Also, some of the names form CZID are out of date. I found the updated names of the viruses failing to get a hit using the International Committee on Taxonomy of Viruses webpage (Citation of the ICTV Database using our manuscript in Nucleic Acids Research: "Virus taxonomy: the database of the International Committee on Taxonomy of Viruses (ICTV)". Lefkowitz et al Nucleic Acids Res. 2017 Oct 13. PubMed PMID: 29040670.For the most recent taxonomy release, you can use the following Archives of Virology manuscript: Walker et al Recent changes to virus taxonomy ratified by the International Committee on Taxonomy of Viruses (2022). Arch Virol. 2022 Aug 23. doi: 10.1007/s00705-022-05516-5. Epub ahead of print. PMID: 35999326.)
-
-```{r}
-vir.up <- read.table("input/Phylo_Misc/ViralUpdate.txt",
-                     header = T, sep = "\t")
-
-#now to update the old names with the new 
-for (i in 1:nrow(filt.df.v)){
-  if(filt.df.v$name[i] %in% vir.up$Old_name){
-    filt.df.v$name[i] <- vir.up$New_name[vir.up$Old_name == filt.df.v$name[i]]
-  }
-}
-```
-
-And now to classify....
-
-For those that didn't exist in the ICTV, I added entries manually using the NCBI taxonomy service (Schoch CL, et al. NCBI Taxonomy: a comprehensive update on curation, resources and tools. Database (Oxford). 2020: baaa062. PubMed: 32761142 PMC: PMC7408187)
-
-```{r}
-#read in viral taxonomy
-vir.df <- read.table("input/Phylo_Misc/ViralTaxo_Oct22.tsv", 
-                      header = T, sep = "\t", quote = "", comment.char = "")
-
-#run through the viruses and, if possible, extract Class information from the above file
-#any hits that have an NA return either don't have Class information (some are only
-#classified to Class level, etc) or there are multiple entries or where the the taxa
-#hit is already a genus
-filt.df.v$NonHostPhylo <- paste("")
-for (i in 1:nrow(filt.df.v)){
-  if (filt.df.v$name[i] %in% vir.df$Common.name){
-    t <- unique(vir.df$Class[vir.df$Common.name == filt.df.v$name[i]])
-    #remove any NAs
-    if (length(t) > 1){
-     t <- t[!is.na(t)] 
-    }
-    filt.df.v$NonHostPhylo[i] <- paste(t)
-  }
-}
-
-#control for "non-genus-specific" 
-for (i in 1:nrow(filt.df.v)){
-  if(grepl("non-genus-specific", filt.df.v$name[i]) == T){
-    x <- strsplit(filt.df.v$name[i], " ")[[1]][5]
-    filt.df.v$NonHostPhylo[i] <- paste(unique(vir.df$Class[vir.df$Common.name == x]))
-    
-  }
-}
-
-#all that's left from here is either viruses listed in the taxa file that are only 
-#classified to the virus level or viruses that don't exist in the taxa file
-#so either way ... unclassified viruses
-filt.df.v$NonHostPhylo[filt.df.v$NonHostPhylo == "NA"] <- "Unclassified virus"
-```
-
 ###Combine
 
-And now ... finally ... I can combine
 
 ```{r}
 filt.df <- rbind(filt.df.nv, filt.df.v)
@@ -428,10 +375,8 @@ Running this brought to light a couple of duplicates per sample. When this occur
 
 ```{r}
 rownames(filt.df) <- 1:nrow(filt.df)
-filt.df[filt.df$SampleID == "SRR13769017" & filt.df$name == "Candida", ]
-filt.df[19625,]
 
-filt.df <- filt.df[-9132,] # SRR12527929 had 2 Candida hits
+filt.df <- filt.df[-9131,] # SRR12527929 had 2 Candida hits
 rownames(filt.df) <- 1:nrow(filt.df)#reset
 
 filt.df <- filt.df[-19010,] # SRR13769016 had 2 Candida hits
@@ -439,7 +384,6 @@ rownames(filt.df) <- 1:nrow(filt.df)
 
 filt.df <- filt.df[-19625,] # SRR13769017 had 2 Candida hits
 rownames(filt.df) <- 1:nrow(filt.df) 
-
 ```
 
 
@@ -469,13 +413,161 @@ for (i in 1:length(samples)){
 That took an impressively long time so gonna save before continuing
 
 ```{r}
-rownames(cnt) <- micro
+#create IDs for microbial hit section for ease of reading
+microIDs <- paste0("MRH", 1:length(micro), sep = "")
+rownames(cnt) <- microIDs
 colnames(cnt) <- samples
 
 dir.create("output/Counts/")
 write.table(cnt, "output/Counts/nr_Counts_raw.tsv",
             row.names = T, col.names = T, sep = "\t", quote = F)
 ```
+
+And in case I need it
+
+```{r}
+cnt2 <- matrix(nrow = length(micro), ncol = length(samples))
+for (i in 1:length(samples)){
+  print(samples[i])
+  x <- vector(length = length(micro))
+  for (j in 1:length(x)){
+    t <- filt.df$nr_rpm[filt.df$name == micro[j] &
+                        filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+    t <- 0
+    }
+    x[j] <- t
+  }
+  cnt2[,i] <- x
+}
+
+rownames(cnt2) <- microIDs
+colnames(cnt2) <- samples
+
+write.table(cnt, "output/Counts/nr_rPM_raw.tsv",
+            row.names = T, col.names = T, sep = "\t", quote = F)
+```
+
+### Taxonomy
+
+The original taxonomy files I made would have worked fine if I could easily get genus information for every type of microbe, including virus, but that has not proved to be the case so I'm going to have to re-evaluate.
+
+This time, I'll re-split the original massive tax file and process these split files as I had before, but now only keeping lines that match the microbial taxa I have. I will then address the entries that do not have any entries and assess the next approach ... hopefully there will only be few examples of this!
+
+But before I can go on with this, there are some issues I need to iron out.
+
+- "non-genus-specific" entries need to be changed to whatever family or Order they have fallen into. I would prefer to keep the original term of this hit (ie non-genus-specific) and not just because without doing os I would have to go back and rerun the count tables to sum multiple hits within a family. So it may be a good idea to make a key, ie give every entry a unique identifier that maps back both to the original entry and also an entry that can be extracted from the tax file. For example, "non-genus-specific reads in family Chuviridae" would also be associated with OTU24 and Chuviridae. 
+
+- this will require making a separate key dataframe to store this information
+
+- a lot of the microbial hit "names" are outdated. I went and found the more up-to-date versions using NCBI taxonomy webpage (Using: Schoch CL, et al. NCBI Taxonomy: a comprehensive update on curation, resources and tools. Database (Oxford). 2020.)
+
+- this entry : [Candida] pseudohaemulonis			Metschnikowiaceae	Saccharomycetales	Saccharomycetes	Ascomycota	Fungi	Eukaryota : needs to be added to the taxa file at the end and it does not appear at all in the taxa file, but does exist on NCBI taxonomy webpage.
+
+```{r}
+#make the backbone of the key dataframe
+microkey <- data.frame(MicroHit=micro)
+microkey$HitID <- microIDs
+
+#populate the third column with the first, considering the majority will be identical
+microkey$TaxHit <- microkey$MicroHit
+
+#edit those that have "non-genus-specific" hits
+for (i in 1:nrow(microkey)){
+  if (grepl("non-genus-specific", microkey$TaxHit[i]) == T){
+    microkey$TaxHit[i] <- strsplit(microkey$MicroHit[i], " ")[[1]][5]
+  }
+}
+```
+
+And now to update the outdated naming terms
+
+```{r}
+tax.up <- read.table("input/Phylo_Misc/TaxoUpdate.txt",
+                     header = T, sep = "\t", quote = "")
+
+#go through the microkey and add int he new term in the taxhit field
+for (i in 1:nrow(microkey)){
+  if (microkey$MicroHit[i] %in% tax.up$Old_name){
+    microkey$TaxHit[i] <- tax.up$New_name[tax.up$Old_name == microkey$MicroHit[i]]
+  }
+}
+
+subset(microkey, MicroHit == "Lactobacillus bombintestini")
+```
+Ok. Back to taxonomy
+
+Outside of this, I re-ran SplitTax.sh like before. 
+
+```{r, eval = FALSE}
+taxfiles <- list.files(path = "input/Phylo_Misc/", pattern = "*.tsv")
+#remove the original file
+taxfiles <- taxfiles[c(-1,-2,-3,-53)]
+
+#loop through the files, editing them as I go
+for (i in 1:length(taxfiles)){
+  x <- read.table(paste("input/Phylo_Misc/", taxfiles[i], sep = ""), 
+                   comment.char = "", header = F, sep = "\t", quote = "")
+  #remove header from the first file
+  if(i == 1){
+    x <- x[-1,]
+  }
+  #only keep lines that have either the species / common name entry that matches
+  #one of the microbial taxa hits I already have
+  x2 <- x[x$V1 %in% microkey$TaxHit |
+          x$V2 %in% microkey$TaxHit ,]
+  write.table(x2, paste("input/Phylo_Misc/", taxfiles[i], sep = ""),
+              col.names = F, row.names = F, sep = "\t", quote = F)
+}
+```
+
+These have been cat'ed together back in the commandline
+
+```{r}
+#read in for finishing touches
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+                  sep = "\t", header = F, quote = "")
+#remove the taxid column
+tax <- tax[,-1]
+#add the taxonomy ranks
+names(tax) <- c("tax_name",	"species", "genus", 
+                "family", "order", "class", "phylum",	
+                "kingdom", "superkingdom")
+tail(tax)
+#add the missing taxonomy information
+tax[5379,1] <- "[Candida] pseudohaemulonis"
+tax[5379,4] <- "Metschnikowiaceae"
+tax[5379,5] <- "Saccharomycetales"
+tax[5379,6] <- "Saccharomycetes"
+tax[5379,7] <- "Ascomycota"
+tax[5379,8] <- "Fungi"
+tax[5379,9] <- "Eukaryota"
+
+tax[5380,1] <- "Ruminococcaceae"
+tax[5380,4] <- "Oscillospiraceae"
+tax[5380,5] <- "Eubacteriales"
+tax[5380,6] <- "Clostridia"
+tax[5380,7] <- "Firmicutes"
+tax[5380,9] <- "Bacteria"
+
+
+#rewrite
+write.table(tax, "input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+            col.names = T, row.names = F, sep = "\t", quote = F)
+```
+
+So the micro object is still larger than the number of rows in the tax file, so there are microhits that haven't been matched to a taxonomic entry. Let's have a look.
+
+```{r}
+missing <- microkey$TaxHit[!microkey$TaxHit %in% tax$tax_name]
+missing
+```
+
+I can live with uncultured organism being the only failed hit. It probably makes more sense to just remove this anyway.
+
+
+
+
 
 
 
