@@ -2348,8 +2348,6 @@ Vermamoeba					Echinamoebida	Tubulinea		Eukaryota
 Vermamoeba vermiformis		Vermamoeba			Echinamoebida	Tubulinea		Eukaryota
 Thecamonas			Apusomonadidae	Apusomonadida				Eukaryota
 Thecamonas trahens		Thecamonas	Apusomonadidae	Apusomonadida				Eukaryota
-Guillardia			Geminigeraceae	Pyrenomonadales	Cryptophyceae			Eukaryota
-Guillardia theta		Guillardia	Geminigeraceae	Pyrenomonadales	Cryptophyceae			Eukaryota
 Euglena			Euglenaceae	Euglenales	Euglenida	Euglenozoa		Eukaryota
 Euglena agilis		Euglena	Euglenaceae	Euglenales	Euglenida	Euglenozoa		Eukaryota
 Euglena gracilis		Euglena	Euglenaceae	Euglenales	Euglenida	Euglenozoa		Eukaryota
@@ -2947,12 +2945,22 @@ Taphrina			Taphrinaceae	Taphrinales	Taphrinomycetes	Ascomycota	Fungi	Eukaryota
 Taphrina deformans		Taphrina	Taphrinaceae	Taphrinales	Taphrinomycetes	Ascomycota	Fungi	Eukaryota
 Saitoella						Ascomycota	Fungi	Eukaryota
 Saitoella complicata		Saitoella				Ascomycota	Fungi	Eukaryota
+Agaricus			Agaricaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Agaricus bisporus		Agaricus	Agaricaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Laccaria			Hydnangiaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Laccaria bicolor		Laccaria	Hydnangiaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Morganella			Lycoperdaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Coprinopsis			Psathyrellaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Coprinopsis cinerea		Coprinopsis	Psathyrellaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Mycena			Mycenaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Mycena indigotica		Mycena	Mycenaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Armillaria			Physalacriaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Armillaria ostoyae		Armillaria	Physalacriaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Flammulina			Physalacriaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Flammulina velutipes		Flammulina	Physalacriaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
-Amanita			Amanitaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Pleurotus			Pleurotaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Pleurotus eryngii		Pleurotus	Pleurotaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
+Pleurotus ostreatus		Pleurotus	Pleurotaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Pluteus			Pluteaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Pluteus cervinus		Pluteus	Pluteaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Volvariella			Pluteaceae	Agaricales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
@@ -2967,7 +2975,6 @@ Serpula			Serpulaceae	Boletales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Serpula lacrymans		Serpula	Serpulaceae	Boletales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Paxillus			Paxillaceae	Boletales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Pisolithus			Pisolithaceae	Boletales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
-Ramaria			Gomphaceae	Gomphales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Botryobasidium			Botryobasidiaceae	Cantharellales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Ceratobasidium			Ceratobasidiaceae	Cantharellales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
 Rhizoctonia			Ceratobasidiaceae	Cantharellales	Agaricomycetes	Basidiomycota	Fungi	Eukaryota
@@ -3176,542 +3183,61 @@ Entomophthora			Entomophthoraceae	Entomophthorales	Entomophthoromycetes	Zoopagom
 Entomophthora muscae		Entomophthora	Entomophthoraceae	Entomophthorales	Entomophthoromycetes	Zoopagomycota	Fungi	Eukaryota
 Creolimax				Ichthyophonida	Ichthyosporea			Eukaryota
 Creolimax fragrantissima		Creolimax		Ichthyophonida	Ichthyosporea			Eukaryota
-Calamus			Sparidae	Spariformes	Actinopteri	Chordata	Metazoa	Eukaryota
-Mirbelia			Gobiesocidae	Blenniiformes	Actinopteri	Chordata	Metazoa	Eukaryota
-Kali			Chiasmodontidae	Scombriformes	Actinopteri	Chordata	Metazoa	Eukaryota
-Dracaena			Teiidae	Squamata	Lepidosauria	Chordata	Metazoa	Eukaryota
-Proteus			Proteidae	Caudata	Amphibia	Chordata	Metazoa	Eukaryota
-Fritillaria			Fritillariidae	Copelata	Appendicularia	Chordata	Metazoa	Eukaryota
-Micoletzkya			Diplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Micoletzkya palliati		Micoletzkya	Diplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Teratodiplogaster			Diplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Mononchoides			Neodiplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Mononchoides sp. RS5441		Mononchoides	Neodiplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Pristionchus			Neodiplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Pristionchus pacificus		Pristionchus	Neodiplogasteridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis			Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis angaria		Caenorhabditis	Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis brenneri		Caenorhabditis	Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis briggsae		Caenorhabditis	Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis elegans		Caenorhabditis	Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Caenorhabditis remanei		Caenorhabditis	Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Oscheius			Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Auanema			Rhabditidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Anisakis			Anisakidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Anisakis pegreffii		Anisakis	Anisakidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Anisakis simplex		Anisakis	Anisakidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Pseudoterranova			Anisakidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ascaris			Ascarididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ascaris suum		Ascaris	Ascarididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Toxascaris			Ascarididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Toxascaris leonina		Toxascaris	Ascarididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Toxocara			Toxocaridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Toxocara canis		Toxocara	Toxocaridae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterakis			Heterakidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Acanthocheilonema			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Acanthocheilonema viteae		Acanthocheilonema	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Brugia			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Brugia malayi		Brugia	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Brugia pahangi		Brugia	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Dirofilaria			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Dirofilaria immitis		Dirofilaria	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Dirofilaria repens		Dirofilaria	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Litomosoides			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Loa			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Loa loa		Loa	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Onchocerca			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Onchocerca volvulus		Onchocerca	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Wuchereria			Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Wuchereria bancrofti		Wuchereria	Onchocercidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Gongylonema			Gongylonematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Gongylonema pulchrum		Gongylonema	Gongylonematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Acrobeloides			Cephalobidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Acrobeloides sp. NJ		Acrobeloides	Cephalobidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Zeldia			Cephalobidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Zeldia punctata		Zeldia	Cephalobidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Halicephalobus			Panagrolaimidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Panagrellus			Panagrolaimidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Panagrellus redivivus		Panagrellus	Panagrolaimidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Steinernema			Steinernematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Steinernema feltiae		Steinernema	Steinernematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Parastrongyloides			Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Parastrongyloides trichosuri		Parastrongyloides	Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Strongyloides			Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Strongyloides papillosus		Strongyloides	Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Strongyloides ratti		Strongyloides	Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Strongyloides stercoralis		Strongyloides	Strongyloididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Aphelenchus			Aphelenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Aphelenchoides			Aphelenchoididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Aphelenchoides besseyi		Aphelenchoides	Aphelenchoididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Bursaphelenchus			Aphelenchoididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Bursaphelenchus mucronatus		Bursaphelenchus	Aphelenchoididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Bursaphelenchus xylophilus		Bursaphelenchus	Aphelenchoididae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Howardula			Allantonematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Howardula sp. SP-SPA		Howardula	Allantonematidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ditylenchus			Anguinidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ditylenchus destructor		Ditylenchus	Anguinidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Fergusobia			Neotylenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Globodera			Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Globodera rostochiensis		Globodera	Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterodera			Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterodera avenae		Heterodera	Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterodera cruciferae		Heterodera	Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterodera glycines		Heterodera	Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heterodera hordecalis		Heterodera	Heteroderidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Hoplolaimus			Hoplolaimidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne			Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne artiellia		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne enterolobii		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne fallax		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne graminicola		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne hapla		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne incognita		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Meloidogyne javanica		Meloidogyne	Meloidogynidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Pratylenchus			Pratylenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Pratylenchus penetrans		Pratylenchus	Pratylenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Radopholus			Pratylenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Radopholus similis		Radopholus	Pratylenchidae	Rhabditida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ancylostoma			Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ancylostoma caninum		Ancylostoma	Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Ancylostoma ceylanicum		Ancylostoma	Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Uncinaria			Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Uncinaria sanguinis		Uncinaria	Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Necator			Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Necator americanus		Necator	Ancylostomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Angiostrongylus			Angiostrongylidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Angiostrongylus cantonensis		Angiostrongylus	Angiostrongylidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Oesophagostomum			Chabertiidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Dictyocaulus			Dictyocaulidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Dictyocaulus viviparus		Dictyocaulus	Dictyocaulidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Haemonchus			Haemonchidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Haemonchus contortus		Haemonchus	Haemonchidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Teladorsagia			Haemonchidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Teladorsagia circumcincta		Teladorsagia	Haemonchidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Heligmosomoides			Heligmosomatidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Trichostrongylus			Trichostrongylidae	Strongylida	Chromadorea	Nematoda	Metazoa	Eukaryota
-Xiphinema			Longidoridae	Dorylaimida	Enoplea	Nematoda	Metazoa	Eukaryota
-Xiphinema index		Xiphinema	Longidoridae	Dorylaimida	Enoplea	Nematoda	Metazoa	Eukaryota
-Prionchulus			Mononchidae	Mononchida	Enoplea	Nematoda	Metazoa	Eukaryota
-Prionchulus punctatus		Prionchulus	Mononchidae	Mononchida	Enoplea	Nematoda	Metazoa	Eukaryota
-Trichinella			Trichinellidae	Trichinellida	Enoplea	Nematoda	Metazoa	Eukaryota
-Trichinella spiralis		Trichinella	Trichinellidae	Trichinellida	Enoplea	Nematoda	Metazoa	Eukaryota
-Nematoda environmental sample						Nematoda	Metazoa	Eukaryota
-Diadasiopus			Acaridae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Diadasiopus eickworti		Diadasiopus	Acaridae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Blomia			Echimyopodidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Blomia tropicalis		Blomia	Echimyopodidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Glycyphagus			Glycyphagidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Glycyphagus domesticus		Glycyphagus	Glycyphagidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Carpoglyphus			Carpoglyphidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Carpoglyphus lactis		Carpoglyphus	Carpoglyphidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Chaetodactylus			Chaetodactylidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Chaetodactylus krombeini		Chaetodactylus	Chaetodactylidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Histiostomatidae				Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Histiostomatidae sp. XFX			Histiostomatidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Trouessartia			Trouessartiidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Psoroptes			Psoroptidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Psoroptes ovis		Psoroptes	Psoroptidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Sarcoptes			Sarcoptidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Sarcoptes scabiei		Sarcoptes	Sarcoptidae	Sarcoptiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Dinothrombium			Trombidiidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Chrysomelobia			Podapolipidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Chrysomelobia labidomerae		Chrysomelobia	Podapolipidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Locustacarus			Podapolipidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Locustacarus buchneri		Locustacarus	Podapolipidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tarsonemidae				Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tarsonemidae gen. sp. AD1063			Tarsonemidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Demodex			Demodicidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Demodex brevis		Demodex	Demodicidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Demodex folliculorum		Demodex	Demodicidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Panonychus			Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Panonychus citri		Panonychus	Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tetranychus			Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tetranychus evansi		Tetranychus	Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tetranychus truncatus		Tetranychus	Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tetranychus urticae		Tetranychus	Tetranychidae	Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Trombidiformes sp. BOLD:ACI3657				Trombidiformes	Arachnida	Arthropoda	Metazoa	Eukaryota
-Argas			Argasidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Ornithodoros			Argasidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Ornithodoros parkeri		Ornithodoros	Argasidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Amblyomma			Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Amblyomma variegatum		Amblyomma	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Haemaphysalis			Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Ixodes			Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Ixodes scapularis		Ixodes	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Dermacentor			Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Dermacentor silvarum		Dermacentor	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Rhipicephalus			Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Rhipicephalus microplus		Rhipicephalus	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Rhipicephalus		Rhipicephalus	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Rhipicephalus sanguineus		Rhipicephalus	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa	Eukaryota
-Dermanyssus			Dermanyssidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Dermanyssus gallinae		Dermanyssus	Dermanyssidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Laelapidae				Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Parasitoidea sp. parasitid 'Pas'				Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Amblyseius			Phytoseiidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Amblyseius largoensis		Amblyseius	Phytoseiidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Neoseiulus			Phytoseiidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Neoseiulus cucumeris		Neoseiulus	Phytoseiidae	Mesostigmata	Arachnida	Arthropoda	Metazoa	Eukaryota
-Araneus			Araneidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Araniella			Araneidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Leptothrix			Linyphiidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Trichonephila			Nephilidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Latrodectus			Theridiidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Latrodectus hesperus		Latrodectus	Theridiidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Aphonopelma			Theraphosidae	Araneae	Arachnida	Arthropoda	Metazoa	Eukaryota
-Leiobunum			Leiobunidae	Opiliones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Centruroides			Buthidae	Scorpiones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Centruroides sculpturatus		Centruroides	Buthidae	Scorpiones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Isometrus			Buthidae	Scorpiones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Isometrus maculatus		Isometrus	Buthidae	Scorpiones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Tityus			Buthidae	Scorpiones	Arachnida	Arthropoda	Metazoa	Eukaryota
-Carcinoscorpius			Limulidae	Xiphosura	Merostomata	Arthropoda	Metazoa	Eukaryota
-Carcinoscorpius rotundicauda		Carcinoscorpius	Limulidae	Xiphosura	Merostomata	Arthropoda	Metazoa	Eukaryota
-Megafenestra			Daphniidae	Diplostraca	Branchiopoda	Arthropoda	Metazoa	Eukaryota
-Megafenestra aurita		Megafenestra	Daphniidae	Diplostraca	Branchiopoda	Arthropoda	Metazoa	Eukaryota
-Acartia			Acartiidae	Calanoida	Hexanauplia	Arthropoda	Metazoa	Eukaryota
-Acartia pacifica		Acartia	Acartiidae	Calanoida	Hexanauplia	Arthropoda	Metazoa	Eukaryota
-Pseudodiaptomus			Pseudodiaptomidae	Calanoida	Hexanauplia	Arthropoda	Metazoa	Eukaryota
-Pseudodiaptomus poplesia		Pseudodiaptomus	Pseudodiaptomidae	Calanoida	Hexanauplia	Arthropoda	Metazoa	Eukaryota
-Homarus			Nephropidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Homarus americanus		Homarus	Nephropidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Nephrops			Nephropidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Nephrops norvegicus		Nephrops	Nephropidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Cherax			Parastacidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Cherax quadricarinatus		Cherax	Parastacidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Cancer			Cancridae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Cancer borealis		Cancer	Cancridae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Metacarcinus			Cancridae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Metacarcinus magister		Metacarcinus	Cancridae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Libinia			Majidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Libinia emarginata		Libinia	Majidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Callinectes			Portunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Callinectes arcuatus		Callinectes	Portunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Callinectes sapidus		Callinectes	Portunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Actaea			Xanthidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Helice			Varunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Helice tientsinensis		Helice	Varunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Neohelice			Varunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Neohelice granulata		Neohelice	Varunidae	Decapoda	Malacostraca	Arthropoda	Metazoa	Eukaryota
-Eumesocampa			Campodeidae	Diplura		Arthropoda	Metazoa	Eukaryota
-Eumesocampa frigilis		Eumesocampa	Campodeidae	Diplura		Arthropoda	Metazoa	Eukaryota
-Carposina			Carposinidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Carposina sasakii		Carposina	Carposinidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cydia			Tortricidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cydia pomonella		Cydia	Tortricidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Dendrolimus			Lasiocampidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lonomia			Saturniidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lonomia obliqua		Lonomia	Saturniidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Antheraea			Saturniidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Viola			Hesperiidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Arctia			Erebidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Orthosia			Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apamea			Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apamea crenata		Apamea	Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Athetis			Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Athetis dissimilis		Athetis	Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Athetis lepigone		Athetis	Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Peridroma			Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Peridroma saucia		Peridroma	Noctuidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Dryas			Nymphalidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Neptis			Nymphalidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hipparchia			Nymphalidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hipparchia autonoe		Hipparchia	Nymphalidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pachliopta			Papilionidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pachliopta aristolochiae		Pachliopta	Papilionidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Chilo			Crambidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Chilo suppressalis		Chilo	Crambidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cnaphalocrocis			Crambidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cnaphalocrocis medinalis		Cnaphalocrocis	Crambidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lindera			Tineidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ectoedemia			Nepticulidae	Lepidoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hydropsyche			Hydropsychidae	Trichoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apatania			Apataniidae	Trichoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apatania sp. YW-2014		Apatania	Apataniidae	Trichoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pheropsophus			Carabidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pheropsophus sp. INB168		Pheropsophus	Carabidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Clivina			Carabidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Clivina sp. INB167		Clivina	Carabidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Chelidonium			Cerambycidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Monochamus			Cerambycidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Monochamus alternatus		Monochamus	Cerambycidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Callosobruchus			Chrysomelidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Callosobruchus maculatus		Callosobruchus	Chrysomelidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Potaninia			Chrysomelidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Longitarsus			Chrysomelidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Coleomegilla			Coccinellidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Coleomegilla maculata		Coleomegilla	Coccinellidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Stenotarsus			Endomychidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cryptolestes			Laemophloeidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Rhizophagus			Monotomidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aethina			Nitidulidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aethina tumida		Aethina	Nitidulidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Curculionidae				Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Meira			Curculionidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hypothenemus			Curculionidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ips			Curculionidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ips paraconfusus		Ips	Curculionidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Meloidae				Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Mylabris			Meloidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Mylabris calida		Mylabris	Meloidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Tenebrio			Tenebrionidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Abscondita			Lampyridae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Abscondita terminalis		Abscondita	Lampyridae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Serratia			Lampyridae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Paxillus			Passalidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pleocoma			Pleocomidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pleocoma australis		Pleocoma	Pleocomidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Oryctes			Scarabaeidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Georissus			Georissidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Georissus sp. APV-2005		Georissus	Georissidae	Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Staphylinidae				Coleoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Chrysopogon			Asilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Heteropogon			Asilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Bombylius			Bombyliidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Bombylius major		Bombylius	Bombyliidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Dohrniphora			Phoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apocephalus			Phoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apocephalus antennatus		Apocephalus	Phoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apocephalus borealis		Apocephalus	Phoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Helophilus			Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Helophilus virgatus		Helophilus	Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Eupeodes			Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Eupeodes		Eupeodes	Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Eupeodes corollae		Eupeodes	Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Xanthogramma			Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Xanthogramma citrofasciatum		Xanthogramma	Syrphidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lordiphosa			Drosophilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lordiphosa mommai		Lordiphosa	Drosophilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phortica			Drosophilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phortica		Phortica	Drosophilidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hydrellia			Ephydridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hydrellia maura		Hydrellia	Ephydridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pachycerina			Lauxaniidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pachycerina decemlineata		Pachycerina	Lauxaniidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hydrotaea			Muscidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aldrichina			Calliphoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aldrichina grahami		Aldrichina	Calliphoridae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Oreogeton			Empididae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cecidomyiidae				Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cecidomyiidae sp. BIOUG06926-D09			Cecidomyiidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Orfelia			Keroplatidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Orfelia nemoralis		Orfelia	Keroplatidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Simulium			Simuliidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Simulium		Simulium	Simuliidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Macleaya		Aedes	Culicidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ochlerotatus			Culicidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ochlerotatus		Ochlerotatus	Culicidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phlebotomus			Psychodidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phlebotomus		Phlebotomus	Psychodidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phlebotomus papatasi		Phlebotomus	Psychodidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Psathyromyia			Psychodidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Psathyromyia shannoni		Psathyromyia	Psychodidae	Diptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ctenoplectra			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lestrimelitta			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lestrimelitta niitkib		Lestrimelitta	Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Liotrigona			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Liotrigona sp. HS-2007		Liotrigona	Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Meliponula			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Scaura			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Coelioxoides			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Braunsapis			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Inquilina			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Inquilina schwarzi		Inquilina	Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Manuelia			Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Manuelia gayatina		Manuelia	Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Manuelia gayi		Manuelia	Apidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Augochlorella			Halictidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Rediviva			Melittidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Rediviva intermixta		Rediviva	Melittidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Acropyga			Formicidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Acropyga panamensis		Acropyga	Formicidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Myrmica			Formicidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Diacamma			Formicidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ancistrocerus			Vespidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Ancistrocerus parietum		Ancistrocerus	Vespidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Evaniella			Evaniidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aphelinus			Aphelinidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aphelinus abdominalis		Aphelinus	Aphelinidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Encarsia			Aphelinidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Encarsia formosa		Encarsia	Aphelinidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hockeria			Chalcididae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hockeria sp. CD023		Hockeria	Chalcididae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Hyssopus			Eulophidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cecidostiba			Pteromalidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Tylosema			Figitidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aphidius			Braconidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Aphidius gifuensis		Aphidius	Braconidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Habrobracon			Braconidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Habrobracon hebetor		Habrobracon	Braconidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Venturia			Ichneumonidae	Hymenoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Chrysopa			Chrysopidae	Neuroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Wesmaelius			Hemerobiidae	Neuroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Wesmaelius subnebulosus		Wesmaelius	Hemerobiidae	Neuroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Xenopsylla			Pulicidae	Siphonaptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Xenopsylla cheopis		Xenopsylla	Pulicidae	Siphonaptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Xenidae				Strepsiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Mahanarva			Cercopidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Mahanarva fimbriolata		Mahanarva	Cercopidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Karenia			Cicadidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apolygus			Miridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Apolygus lucorum		Apolygus	Miridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pristhesancus			Reduviidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pristhesancus plagipennis		Pristhesancus	Reduviidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Abedus			Belostomatidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Abedus herberti		Abedus	Belostomatidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Lethocerus			Belostomatidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pyrrhocoris			Pyrrhocoridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pyrrhocoris apterus		Pyrrhocoris	Pyrrhocoridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pterocomma			Aphididae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pterocomma populeum		Pterocomma	Aphididae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Rhodococcus			Coccidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Morganella			Diaspididae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cryptococcus			Eriococcidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Paracoccus			Pseudococcidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phenacoccus			Pseudococcidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Phenacoccus solenopsis		Phenacoccus	Pseudococcidae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Glycaspis			Aphalaridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Glycaspis brimblecombei		Glycaspis	Aphalaridae	Hemiptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pediculus			Pediculidae	Phthiraptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Pediculus humanus		Pediculus	Pediculidae	Phthiraptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Liposcelis			Liposcelididae	Psocoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Schultesia			Blaberidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Schultesia lampyridiformis		Schultesia	Blaberidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Shelfordella			Blattidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Shelfordella lateralis		Shelfordella	Blattidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Glyptotermes			Kalotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Glyptotermes sp. A TB-2014		Glyptotermes	Kalotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Mastotermes			Mastotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Mastotermes darwiniensis		Mastotermes	Mastotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Reticulitermes			Rhinotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Reticulitermes		Reticulitermes	Rhinotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Reticulitermes flavipes		Reticulitermes	Rhinotermitidae	Blattodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Liturgusa			Liturgusidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Liturgusa maya		Liturgusa	Liturgusidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Yersinia			Amelidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Iris			Eremiaphilidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Idolomantis			Empusidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Idolomantis diabolica		Idolomantis	Empusidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Phyllocrania			Hymenopodidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Phyllocrania paradoxa		Phyllocrania	Hymenopodidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Mantidae				Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Statilia			Mantidae	Mantodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Gryllus			Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Gryllus bimaculatus		Gryllus	Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Teleogryllus			Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Teleogryllus emma		Teleogryllus	Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Myrmecophilus			Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Myrmecophilus sp. INSjdsTAXRAAPEI-41		Myrmecophilus	Gryllidae	Orthoptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Bacillus			Bacillidae	Phasmatodea	Insecta	Arthropoda	Metazoa	Eukaryota
-Ephemera			Ephemeridae	Ephemeroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cloeon			Baetidae	Ephemeroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Cloeon dipterum		Cloeon	Baetidae	Ephemeroptera	Insecta	Arthropoda	Metazoa	Eukaryota
-Epiophlebia			Epiophlebiidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Epiophlebia superstes		Epiophlebia	Epiophlebiidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Austroargiolestes			Argiolestidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Euphaea			Euphaeidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Ceriagrion			Coenagrionidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Ceriagrion fallax		Ceriagrion	Coenagrionidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Ischnura			Coenagrionidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Lestes			Lestidae	Odonata	Insecta	Arthropoda	Metazoa	Eukaryota
-Lepisma			Lepismatidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Lepisma saccharina		Lepisma	Lepismatidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Thermobia			Lepismatidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Thermobia domestica		Thermobia	Lepismatidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Atelura			Nicoletiidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Atelura formicaria		Atelura	Nicoletiidae	Zygentoma	Insecta	Arthropoda	Metazoa	Eukaryota
-Machilis			Machilidae	Archaeognatha	Insecta	Arthropoda	Metazoa	Eukaryota
-Machilis germanica		Machilis	Machilidae	Archaeognatha	Insecta	Arthropoda	Metazoa	Eukaryota
-Spadella			Spadellidae	Phragmophora	Sagittoidea	Chaetognatha	Metazoa	Eukaryota
-Spadella cephaloptera		Spadella	Spadellidae	Phragmophora	Sagittoidea	Chaetognatha	Metazoa	Eukaryota
-Adineta			Adinetidae	Adinetida	Eurotatoria	Rotifera	Metazoa	Eukaryota
-Alitta			Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Alitta virens		Alitta	Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Hediste			Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Hediste diversicolor		Hediste	Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Hediste japonica		Hediste	Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Nereis			Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Nereis vexillosa		Nereis	Nereididae	Phyllodocida	Polychaeta	Annelida	Metazoa	Eukaryota
-Acromegalomma			Sabellidae	Sabellida	Polychaeta	Annelida	Metazoa	Eukaryota
-Acromegalomma interruptum		Acromegalomma	Sabellidae	Sabellida	Polychaeta	Annelida	Metazoa	Eukaryota
-Serpula			Serpulidae	Sabellida	Polychaeta	Annelida	Metazoa	Eukaryota
-Pectinaria			Pectinariidae	Terebellida	Polychaeta	Annelida	Metazoa	Eukaryota
-Pectinaria gouldii		Pectinaria	Pectinariidae	Terebellida	Polychaeta	Annelida	Metazoa	Eukaryota
-Arenicola			Arenicolidae		Polychaeta	Annelida	Metazoa	Eukaryota
-Arenicola marina		Arenicola	Arenicolidae		Polychaeta	Annelida	Metazoa	Eukaryota
-Flustra			Flustridae	Cheilostomatida	Gymnolaemata	Bryozoa	Metazoa	Eukaryota
-Flustra foliacea		Flustra	Flustridae	Cheilostomatida	Gymnolaemata	Bryozoa	Metazoa	Eukaryota
-Solen			Solenidae	Adapedonta	Bivalvia	Mollusca	Metazoa	Eukaryota
-Sinonovacula			Solecurtidae	Cardiida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Sinonovacula constricta		Sinonovacula	Solecurtidae	Cardiida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Dreissena			Dreissenidae	Myida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Dreissena polymorpha		Dreissena	Dreissenidae	Myida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Ruditapes			Veneridae	Venerida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Ruditapes philippinarum		Ruditapes	Veneridae	Venerida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Nodularia			Unionidae	Unionida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Mimachlamys			Pectinidae	Pectinida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Pinctada			Pteriidae	Pterioida	Bivalvia	Mollusca	Metazoa	Eukaryota
-Stellaria			Xenophoridae	Littorinimorpha	Gastropoda	Mollusca	Metazoa	Eukaryota
-Conus			Conidae	Neogastropoda	Gastropoda	Mollusca	Metazoa	Eukaryota
-Conus ermineus		Conus	Conidae	Neogastropoda	Gastropoda	Mollusca	Metazoa	Eukaryota
-Conus		Conus	Conidae	Neogastropoda	Gastropoda	Mollusca	Metazoa	Eukaryota
-Conus episcopatus		Conus	Conidae	Neogastropoda	Gastropoda	Mollusca	Metazoa	Eukaryota
-Flammulina			Charopidae	Stylommatophora	Gastropoda	Mollusca	Metazoa	Eukaryota
-Olea			Limapontiidae		Gastropoda	Mollusca	Metazoa	Eukaryota
-Haliotis			Haliotidae	Lepetellida	Gastropoda	Mollusca	Metazoa	Eukaryota
-Haliotis discus		Haliotis	Haliotidae	Lepetellida	Gastropoda	Mollusca	Metazoa	Eukaryota
-Haliotis diversicolor		Haliotis	Haliotidae	Lepetellida	Gastropoda	Mollusca	Metazoa	Eukaryota
-Lepidochitona			Tonicellidae	Chitonida	Polyplacophora	Mollusca	Metazoa	Eukaryota
-Lepidochitona cinerea		Lepidochitona	Tonicellidae	Chitonida	Polyplacophora	Mollusca	Metazoa	Eukaryota
-Lineus			Lineidae	Heteronemertea	Pilidiophora	Nemertea	Metazoa	Eukaryota
-Lineus viridis		Lineus	Lineidae	Heteronemertea	Pilidiophora	Nemertea	Metazoa	Eukaryota
-Hymenolepis			Hymenolepididae	Cyclophyllidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Hymenolepis microstoma		Hymenolepis	Hymenolepididae	Cyclophyllidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Echinococcus			Taeniidae	Cyclophyllidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Echinococcus granulosus		Echinococcus	Taeniidae	Cyclophyllidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Spirometra			Diphyllobothriidae	Diphyllobothriidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Spirometra erinaceieuropaei		Spirometra	Diphyllobothriidae	Diphyllobothriidea	Cestoda	Platyhelminthes	Metazoa	Eukaryota
-Macrostomum			Macrostomidae	Macrostomida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Macrostomum lignano		Macrostomum	Macrostomidae	Macrostomida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Dugesia			Dugesiidae	Tricladida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Dugesia japonica		Dugesia	Dugesiidae	Tricladida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Girardia			Dugesiidae	Tricladida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Girardia tigrina		Girardia	Dugesiidae	Tricladida	Rhabditophora	Platyhelminthes	Metazoa	Eukaryota
-Robinia			Hemiuridae	Azygiida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Opisthorchis			Opisthorchiidae	Opisthorchiida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Opisthorchis viverrini		Opisthorchis	Opisthorchiidae	Opisthorchiida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Paragonimus			Troglotrematidae	Plagiorchiida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Schistosoma			Schistosomatidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Schistosoma bovis		Schistosoma	Schistosomatidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Schistosoma haematobium		Schistosoma	Schistosomatidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Schistosoma japonicum		Schistosoma	Schistosomatidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Schistosoma mansoni		Schistosoma	Schistosomatidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Monascus			Fellodistomidae	Strigeidida	Trematoda	Platyhelminthes	Metazoa	Eukaryota
-Edwardsiella			Edwardsiidae	Actiniaria	Anthozoa	Cnidaria	Metazoa	Eukaryota
-Callicarpa			Plumulariidae	Leptothecata	Hydrozoa	Cnidaria	Metazoa	Eukaryota
-Coccomyxa			Coccomyxidae	Bivalvulida	Myxozoa	Cnidaria	Metazoa	Eukaryota
-Leucosolenia			Leucosoleniidae	Leucosolenida	Calcarea	Porifera	Metazoa	Eukaryota
-Sycon			Sycettidae	Leucosolenida	Calcarea	Porifera	Metazoa	Eukaryota
-Sycon ciliatum		Sycon	Sycettidae	Leucosolenida	Calcarea	Porifera	Metazoa	Eukaryota
-Metschnikowia			Metschnikowiidae	Spongillida	Demospongiae	Porifera	Metazoa	Eukaryota
-Fonticula			Fonticulaceae	Rotosphaerida				Eukaryota
-Fonticula alba		Fonticula	Fonticulaceae	Rotosphaerida				Eukaryota
-Bangia			Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Bangia atropurpurea		Bangia	Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Neoporphyra			Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Neoporphyra haitanensis		Neoporphyra	Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Neoporphyra seriata		Neoporphyra	Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Neopyropia tenera		Neopyropia	Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Neopyropia yezoensis		Neopyropia	Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Porphyra			Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Pyropia			Bangiaceae	Bangiales	Bangiophyceae	Rhodophyta		Eukaryota
-Cyanidioschyzon			Cyanidiaceae	Cyanidiales	Bangiophyceae	Rhodophyta		Eukaryota
-Cyanidioschyzon merolae		Cyanidioschyzon	Cyanidiaceae	Cyanidiales	Bangiophyceae	Rhodophyta		Eukaryota
-Galdieria			Cyanidiaceae	Cyanidiales	Bangiophyceae	Rhodophyta		Eukaryota
-Galdieria sulphuraria		Galdieria	Cyanidiaceae	Cyanidiales	Bangiophyceae	Rhodophyta		Eukaryota
-Chondrus			Gigartinaceae	Gigartinales	Florideophyceae	Rhodophyta		Eukaryota
-Chondrus crispus		Chondrus	Gigartinaceae	Gigartinales	Florideophyceae	Rhodophyta		Eukaryota
-Gracilariopsis			Gracilariaceae	Gracilariales	Florideophyceae	Rhodophyta		Eukaryota
+Plasmodium			Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium coatneyi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium gallinaceum		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium relictum		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium falciparum		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium gaboni		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium reichenowi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium sp. DRC-Itaito		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium sp. gorilla clade G2		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium sp. gorilla clade G3		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium cynomolgi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium fragile		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium gonderi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium inui		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium knowlesi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium malariae		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium ovale		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium vivax		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium berghei		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium chabaudi		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium vinckei		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Plasmodium yoelii		Plasmodium	Plasmodiidae	Haemosporida	Aconoidasida	Apicomplexa		Eukaryota
+Nephromyces				Nephromycida	Aconoidasida	Apicomplexa		Eukaryota
+Nephromyces sp. MMRI		Nephromyces		Nephromycida	Aconoidasida	Apicomplexa		Eukaryota
+Babesia			Babesiidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Babesia bigemina		Babesia	Babesiidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Babesia bovis		Babesia	Babesiidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Babesia microti		Babesia	Babesiidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Babesia sp. Xinjiang		Babesia	Babesiidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Theileria			Theileriidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Theileria annulata		Theileria	Theileriidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Theileria equi		Theileria	Theileriidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Theileria ovis		Theileria	Theileriidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Theileria parva		Theileria	Theileriidae	Piroplasmida	Aconoidasida	Apicomplexa		Eukaryota
+Cryptosporidium			Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cryptosporidium andersoni		Cryptosporidium	Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cryptosporidium hominis		Cryptosporidium	Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cryptosporidium muris		Cryptosporidium	Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cryptosporidium parvum		Cryptosporidium	Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cryptosporidium ubiquitum		Cryptosporidium	Cryptosporidiidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cyclospora			Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Cyclospora cayetanensis		Cyclospora	Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Eimeria			Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Eimeria acervulina		Eimeria	Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Eimeria maxima		Eimeria	Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Eimeria mitis		Eimeria	Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Eimeria tenella		Eimeria	Eimeriidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Besnoitia			Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Besnoitia besnoiti		Besnoitia	Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Neospora			Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Neospora caninum		Neospora	Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Toxoplasma			Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Toxoplasma gondii		Toxoplasma	Sarcocystidae	Eucoccidiorida	Conoidasida	Apicomplexa		Eukaryota
+Gregarina			Gregarinidae	Eugregarinorida	Conoidasida	Apicomplexa		Eukaryota
+Gregarina niphandrodes		Gregarina	Gregarinidae	Eugregarinorida	Conoidasida	Apicomplexa		Eukaryota
 Tetrahymena			Tetrahymenidae	Hymenostomatida	Oligohymenophorea	Ciliophora		Eukaryota
 Tetrahymena thermophila		Tetrahymena	Tetrahymenidae	Hymenostomatida	Oligohymenophorea	Ciliophora		Eukaryota
 Paramecium			Parameciidae	Peniculida	Oligohymenophorea	Ciliophora		Eukaryota
@@ -3728,18 +3254,16 @@ Symbiodinium			Symbiodiniaceae	Suessiales	Dinophyceae			Eukaryota
 Symbiodinium sp. Mf1.05b		Symbiodinium	Symbiodiniaceae	Suessiales	Dinophyceae			Eukaryota
 Reticulomyxa			Reticulomyxidae			Foraminifera		Eukaryota
 Reticulomyxa filosa		Reticulomyxa	Reticulomyxidae			Foraminifera		Eukaryota
-Larcopyle			Litheliidae	Spumellaria	Polycystinea			Eukaryota
-Larcopyle butschlii		Larcopyle	Litheliidae	Spumellaria	Polycystinea			Eukaryota
-Halamphora			Amphipleuraceae	Naviculales	Bacillariophyceae	Bacillariophyta		Eukaryota
-Phaeodactylum			Phaeodactylaceae	Naviculales	Bacillariophyceae	Bacillariophyta		Eukaryota
-Phaeodactylum tricornutum		Phaeodactylum	Phaeodactylaceae	Naviculales	Bacillariophyceae	Bacillariophyta		Eukaryota
-Thalassiosira			Thalassiosiraceae	Thalassiosirales	Coscinodiscophyceae	Bacillariophyta		Eukaryota
-Thalassiosira pseudonana		Thalassiosira	Thalassiosiraceae	Thalassiosirales	Coscinodiscophyceae	Bacillariophyta		Eukaryota
-Nannochloropsis			Monodopsidaceae	Eustigmatales	Eustigmatophyceae			Eukaryota
-Aureococcus				Pelagomonadales	Pelagophyceae			Eukaryota
-Aureococcus anophagefferens		Aureococcus		Pelagomonadales	Pelagophyceae			Eukaryota
+Blastocystis			Blastocystidae	Opalinata	Bigyra			Eukaryota
+Blastocystis hominis		Blastocystis	Blastocystidae	Opalinata	Bigyra			Eukaryota
 Albugo			Albuginaceae	Albuginales		Oomycota		Eukaryota
 Albugo laibachii		Albugo	Albuginaceae	Albuginales		Oomycota		Eukaryota
+Phytophthora			Peronosporaceae	Peronosporales		Oomycota		Eukaryota
+Phytophthora infestans		Phytophthora	Peronosporaceae	Peronosporales		Oomycota		Eukaryota
+Phytophthora parasitica		Phytophthora	Peronosporaceae	Peronosporales		Oomycota		Eukaryota
+Phytophthora sojae		Phytophthora	Peronosporaceae	Peronosporales		Oomycota		Eukaryota
+Plasmopara			Peronosporaceae	Peronosporales		Oomycota		Eukaryota
+Plasmopara halstedii		Plasmopara	Peronosporaceae	Peronosporales		Oomycota		Eukaryota
 Globisporangium			Pythiaceae	Pythiales		Oomycota		Eukaryota
 Aphanomyces			Saprolegniaceae	Saprolegniales		Oomycota		Eukaryota
 Aphanomyces astaci		Aphanomyces	Saprolegniaceae	Saprolegniales		Oomycota		Eukaryota
@@ -3748,455 +3272,6 @@ Aphanomyces invadans		Aphanomyces	Saprolegniaceae	Saprolegniales		Oomycota		Euka
 Saprolegnia			Saprolegniaceae	Saprolegniales		Oomycota		Eukaryota
 Saprolegnia diclina		Saprolegnia	Saprolegniaceae	Saprolegniales		Oomycota		Eukaryota
 Saprolegnia parasitica		Saprolegnia	Saprolegniaceae	Saprolegniales		Oomycota		Eukaryota
-Chloropicon			Chloropicaceae	Chloropicales	Chloropicophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Chloropicon primus		Chloropicon	Chloropicaceae	Chloropicales	Chloropicophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Chlamydomonas			Chlamydomonadaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Chlamydomonas reinhardtii		Chlamydomonas	Chlamydomonadaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Haematococcus			Haematococcaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Haematococcus lacustris		Haematococcus	Haematococcaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Volvox			Volvocaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Volvox carteri		Volvox	Volvocaceae	Chlamydomonadales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Monoraphidium			Selenastraceae	Sphaeropleales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Monoraphidium neglectum		Monoraphidium	Selenastraceae	Sphaeropleales	Chlorophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Auxenochlorella			Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Auxenochlorella protothecoides		Auxenochlorella	Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Auxenochlorella pyrenoidosa		Auxenochlorella	Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Chlorella			Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Chlorella variabilis		Chlorella	Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Micractinium			Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Micractinium sp. LBA 32		Micractinium	Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Parachlorella			Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Parachlorella kessleri		Parachlorella	Chlorellaceae	Chlorellales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Trebouxia			Trebouxiaceae	Trebouxiales	Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Coccomyxa					Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Coccomyxa subellipsoidea		Coccomyxa			Trebouxiophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Bathycoccus			Bathycoccaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Bathycoccus prasinos		Bathycoccus	Bathycoccaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Ostreococcus			Bathycoccaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Ostreococcus tauri		Ostreococcus	Bathycoccaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Ostreococcus sp. 'lucimarinus'		Ostreococcus	Bathycoccaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Micromonas			Mamiellaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Micromonas commoda		Micromonas	Mamiellaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Micromonas pusilla		Micromonas	Mamiellaceae	Mamiellales	Mamiellophyceae	Chlorophyta	Viridiplantae	Eukaryota
-Syntrichia			Pottiaceae	Pottiales	Bryopsida	Streptophyta	Viridiplantae	Eukaryota
-Syntrichia caninervis		Syntrichia	Pottiaceae	Pottiales	Bryopsida	Streptophyta	Viridiplantae	Eukaryota
-Ceratodon			Ditrichaceae	Pseudoditrichales	Bryopsida	Streptophyta	Viridiplantae	Eukaryota
-Ceratodon purpureus		Ceratodon	Ditrichaceae	Pseudoditrichales	Bryopsida	Streptophyta	Viridiplantae	Eukaryota
-Takakia			Takakiaceae	Takakiales	Takakiopsida	Streptophyta	Viridiplantae	Eukaryota
-Takakia lepidozioides		Takakia	Takakiaceae	Takakiales	Takakiopsida	Streptophyta	Viridiplantae	Eukaryota
-Arachniopsis			Lepidoziaceae	Jungermanniales	Jungermanniopsida	Streptophyta	Viridiplantae	Eukaryota
-Arachniopsis major		Arachniopsis	Lepidoziaceae	Jungermanniales	Jungermanniopsida	Streptophyta	Viridiplantae	Eukaryota
-Abies			Pinaceae	Pinales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Larix			Pinaceae	Pinales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Pseudotsuga			Pinaceae	Pinales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Pseudotsuga menziesii		Pseudotsuga	Pinaceae	Pinales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Cryptomeria			Cupressaceae	Cupressales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Cryptomeria japonica		Cryptomeria	Cupressaceae	Cupressales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Juniperus			Cupressaceae	Cupressales	Pinopsida	Streptophyta	Viridiplantae	Eukaryota
-Illicium			Schisandraceae	Austrobaileyales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Illicium parviflorum		Illicium	Schisandraceae	Austrobaileyales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Schisandra			Schisandraceae	Austrobaileyales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Oliveria			Apiaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Oliveria decumbens		Oliveria	Apiaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bupleurum			Apiaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bupleurum falcatum		Bupleurum	Apiaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eleutherococcus			Araliaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eleutherococcus senticosus		Eleutherococcus	Araliaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hedera			Araliaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hedera helix		Hedera	Araliaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pittosporum			Pittosporaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pittosporum kerrii		Pittosporum	Pittosporaceae	Apiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Anthemis			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Anthemis cotula		Anthemis	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hymenolepis			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Diplostephium			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Diplostephium hartwegii		Diplostephium	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calendula			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calendula officinalis		Calendula	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dugesia			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Senecio			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Senecio aethnensis		Senecio	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cirsium			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cirsium japonicum		Cirsium	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Carthamus			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Carthamus tinctorius		Carthamus	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Saussurea			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Saussurea medusa		Saussurea	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cichorium			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cichorium intybus		Cichorium	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sonchus			Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Campanula			Campanulaceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Codonopsis			Campanulaceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Codonopsis pilosula		Codonopsis	Campanulaceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lobelia			Campanulaceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lonicera			Caprifoliaceae	Dipsacales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lonicera japonica		Lonicera	Caprifoliaceae	Dipsacales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cornus			Cornaceae	Cornales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hydrangea			Hydrangeaceae	Cornales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Davidia			Nyssaceae	Cornales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Davidia involucrata		Davidia	Nyssaceae	Cornales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Nyssa			Nyssaceae	Cornales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Diospyros			Ebenaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Diospyros kaki		Diospyros	Ebenaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Monotropa			Ericaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Monotropa hypopitys		Monotropa	Ericaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Primula			Primulaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Primula vulgaris		Primula	Primulaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Gordonia			Theaceae	Ericales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Arnebia			Boraginaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Arnebia euchroma		Arnebia	Boraginaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Onosma			Boraginaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Onosma fuyunensis		Onosma	Boraginaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phacelia			Hydrophyllaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phacelia campanularia		Phacelia	Hydrophyllaceae	Boraginales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eucommia			Eucommiaceae	Garryales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eucommia ulmoides		Eucommia	Eucommiaceae	Garryales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aucuba			Garryaceae	Garryales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aucuba japonica		Aucuba	Garryaceae	Garryales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Macropharynx			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Macropharynx peltata		Macropharynx	Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Macropharynx renteriae		Macropharynx	Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Nerium			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Nerium oleander		Nerium	Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calotropis			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calotropis procera		Calotropis	Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Orthosia			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vincetoxicum			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vincetoxicum mongolicum		Vincetoxicum	Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pectinaria			Apocynaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Centaurium			Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Centaurium erythraea		Centaurium	Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Schultesia			Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Swertia			Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Swertia bimaculata		Swertia	Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Swertia mussotii		Swertia	Gentianaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Neolamarckia			Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Neolamarckia cadamba		Neolamarckia	Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Gardenia			Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Gardenia jasminoides		Gardenia	Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sipanea			Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sipanea sp. Rova et al. 1981		Sipanea	Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lasianthus			Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lasianthus sp. Kainulaninen et al. 17		Lasianthus	Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Morinda			Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Morinda citrifolia		Morinda	Rubiaceae	Gentianales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Andrographis			Acanthaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Andrographis paniculata		Andrographis	Acanthaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Avicennia			Acanthaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Avicennia marina		Avicennia	Acanthaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Handroanthus			Bignoniaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Handroanthus impetiginosus		Handroanthus	Bignoniaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Primulina			Gesneriaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dorcoceras			Gesneriaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dorcoceras hygrometricum		Dorcoceras	Gesneriaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ajuga			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ajuga reptans		Ajuga	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Callicarpa			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Callicarpa bodinieri		Callicarpa	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lamium			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lamium galeobdolon		Lamium	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Marrubium			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Marrubium vulgare		Marrubium	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phlomoides			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phlomoides rotata		Phlomoides	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Leucosceptrum			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Leucosceptrum canum		Leucosceptrum	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Glechoma			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Glechoma hederacea		Glechoma	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hyssopus			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hyssopus officinalis		Hyssopus	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Satureja			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lavandula			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lavandula angustifolia		Lavandula	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Coleus scutellarioides		Coleus	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Plectranthus			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Plectranthus barbatus		Plectranthus	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tectona			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tectona grandis		Tectona	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vitex			Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vitex agnus-castus		Vitex	Lamiaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Utricularia			Lentibulariaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Forsythia			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Forsythia x intermedia		Forsythia	Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Jasminum			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ligustrum			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ligustrum vulgare		Ligustrum	Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Olea			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Olea europaea		Olea	Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Osmanthus			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Osmanthus fragrans		Osmanthus	Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Syringa			Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Syringa vulgaris		Syringa	Oleaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Buchnera			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cistanche			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cistanche tubulosa		Cistanche	Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Castilleja			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Castilleja paramensis		Castilleja	Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pedicularis			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pedicularis ishidoyana		Pedicularis	Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Neobartsia			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Neobartsia pedicularoides		Neobartsia	Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phtheirospermum			Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phtheirospermum japonicum		Phtheirospermum	Orobanchaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Paulownia			Paulowniaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Paulownia fortunei		Paulownia	Paulowniaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Paulownia sp. ZKC-2008		Paulownia	Paulowniaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Antirrhinum			Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Antirrhinum majus		Antirrhinum	Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Penstemon			Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Penstemon linarioides		Penstemon	Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bacopa			Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bacopa monnieri		Bacopa	Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bacopa rotundifolia		Bacopa	Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Veronica			Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Veronica serpyllifolia		Veronica	Plantaginaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Buddleja			Scrophulariaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Buddleja davidii		Buddleja	Scrophulariaceae	Lamiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cuscuta			Convolvulaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Datura			Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Atropa			Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Atropa belladonna		Atropa	Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Oryctes			Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Withania			Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Withania somnifera		Withania	Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Mesembryanthemum			Aizoaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Mesembryanthemum crystallinum		Mesembryanthemum	Aizoaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sesuvium			Aizoaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sesuvium portulacastrum		Sesuvium	Aizoaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alternanthera			Amaranthaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alternanthera philoxeroides		Alternanthera	Amaranthaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Amaranthus			Amaranthaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bosea			Amaranthaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Portulaca			Portulacaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Portulaca oleracea		Portulaca	Portulacaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Stellaria			Caryophyllaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Stellaria longipes		Stellaria	Caryophyllaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dianthus			Caryophyllaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dianthus caryophyllus		Dianthus	Caryophyllaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Schiedea			Caryophyllaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Kali			Chenopodiaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Kali turgidum		Kali	Chenopodiaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Phytolacca			Phytolaccaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Fagopyrum			Polygonaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Fagopyrum esculentum		Fagopyrum	Polygonaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rheum			Polygonaceae	Caryophyllales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Euonymus			Celastraceae	Celastrales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Euonymus alatus		Euonymus	Celastraceae	Celastrales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Begonia			Begoniaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Coccinia			Cucurbitaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Coccinia grandis		Coccinia	Cucurbitaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Trichosanthes			Cucurbitaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Trichosanthes dioica		Trichosanthes	Cucurbitaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Datisca			Datiscaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Datisca glomerata		Datisca	Datiscaceae	Cucurbitales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Libidibia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Libidibia coriaria		Libidibia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vachellia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bauhinia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bauhinia binata		Bauhinia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bauhinia forficata		Bauhinia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tylosema			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tylosema fassoglense		Tylosema	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Griffonia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Griffonia simplicifolia		Griffonia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rothia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cytisus			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cytisus striatus		Cytisus	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ammopiptanthus			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ammopiptanthus mongolicus		Ammopiptanthus	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ammopiptanthus nanus		Ammopiptanthus	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eremosparton			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eremosparton songoricum		Eremosparton	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hedysarum			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Robinia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Robinia pseudoacacia		Robinia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cyamopsis			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cyamopsis tetragonoloba		Cyamopsis	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Spatholobus			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Spatholobus suberectus		Spatholobus	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pediomelum			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pediomelum tenuiflorum		Pediomelum	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Mirbelia			Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Mirbelia oxylobioides		Mirbelia	Fabaceae	Fabales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alnus			Betulaceae	Fagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Carpinus			Betulaceae	Fagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Carpinus betulus		Carpinus	Betulaceae	Fagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lithocarpus			Fagaceae	Fagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Plukenetia			Euphorbiaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vernicia			Euphorbiaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vernicia fordii		Vernicia	Euphorbiaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Euphorbia			Euphorbiaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hypericum			Hypericaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hypericum perforatum		Hypericum	Hypericaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Triadenum			Hypericaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Triadenum fraseri		Triadenum	Hypericaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Passiflora			Passifloraceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Passiflora edulis		Passiflora	Passifloraceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bruguiera			Rhizophoraceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Idesia			Salicaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Idesia polycarpa		Idesia	Salicaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Viola			Violaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Viola baoshanensis		Viola	Violaceae	Malpighiales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Parasponia			Cannabaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Elaeagnus			Elaeagnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Elaeagnus umbellata		Elaeagnus	Elaeagnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hippophae			Elaeagnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hippophae rhamnoides		Hippophae	Elaeagnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ceanothus			Rhamnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ceanothus thyrsiflorus		Ceanothus	Rhamnaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Kageneckia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rhaphiolepis			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vauquelinia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aruncus			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aruncus dioicus		Aruncus	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Gillenia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dryas			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Geum			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Geum macrophyllum		Geum	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Geum rupestre		Geum	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alchemilla			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alchemilla argyrophylla		Alchemilla	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chamaerhodos			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chamaerhodos erecta		Chamaerhodos	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Comarum			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Comarum salesovianum		Comarum	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dasiphora			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dasiphora fruticosa		Dasiphora	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Drymocallis			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Potaninia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Potaninia mongolica		Potaninia	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sibbaldia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sibbaldianthe			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sibbaldianthe bifurca		Sibbaldianthe	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-[Argentina] phanerophlebia		Potentilla	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Agrimonia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Agrimonia pilosa		Agrimonia	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bencomia			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Bencomia exstipulata		Bencomia	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Polylepis			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sanguisorba			Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sanguisorba filiformis		Sanguisorba	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sanguisorba officinalis		Sanguisorba	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sanguisorba sitchensis		Sanguisorba	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sanguisorba tenuifolia		Sanguisorba	Rosaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hemiptelea			Ulmaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hemiptelea davidii		Hemiptelea	Ulmaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ulmus			Ulmaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Boehmeria			Urticaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Boehmeria nivea		Boehmeria	Urticaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Debregeasia			Urticaceae	Rosales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Olimarabidopsis			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Olimarabidopsis pumila		Olimarabidopsis	Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eruca			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Eruca vesicaria		Eruca	Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cardamine			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rorippa			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Solms-laubachia			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lepidium			Brassicaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Moringa			Moringaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Moringa oleifera		Moringa	Moringaceae	Brassicales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Pelargonium			Geraniaceae	Geraniales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Helianthemum			Cistaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Helianthemum almeriense		Helianthemum	Cistaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Shorea			Dipterocarpaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Shorea beccariana		Shorea	Dipterocarpaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tilia			Malvaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tilia cordata		Tilia	Malvaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tilia miqueliana		Tilia	Malvaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tilia platyphyllos		Tilia	Malvaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aquilaria			Thymelaeaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Aquilaria sinensis		Aquilaria	Thymelaeaceae	Malvales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sonneratia			Lythraceae	Myrtales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Clarkia			Onagraceae	Myrtales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Clarkia xantiana		Clarkia	Onagraceae	Myrtales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Oenothera			Onagraceae	Myrtales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rhus			Anacardiaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Rhus chinensis		Rhus	Anacardiaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-(Citrus unshiu x Citrus sinensis) x Citrus reticulata		Citrus	Rutaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Blomia			Sapindaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dipteronia			Sapindaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dipteronia sinensis		Dipteronia	Sapindaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Xanthoceras			Sapindaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Xanthoceras sorbifolium		Xanthoceras	Sapindaceae	Sapindales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Santalum			Santalaceae	Santalales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Santalum album		Santalum	Santalaceae	Santalales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Sedum			Crassulaceae	Saxifragales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cynomorium			Cynomoriaceae	Saxifragales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cynomorium coccineum		Cynomorium	Cynomoriaceae	Saxifragales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ribes			Grossulariaceae	Saxifragales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ribes nigrum		Ribes	Grossulariaceae	Saxifragales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Acorus			Acoraceae	Acorales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Acorus calamus		Acorus	Acoraceae	Acorales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Zostera			Zosteraceae	Alismatales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Zostera marina		Zostera	Zosteraceae	Alismatales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lycoris			Amaryllidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Narcissus			Amaryllidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Agave			Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Agave amica		Agave	Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Agave sisalana		Agave	Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Yucca			Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dracaena			Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dracaena cambodiana		Dracaena	Asparagaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hyacinthus			Hyacinthaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Hyacinthus orientalis		Hyacinthus	Hyacinthaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Crocus			Iridaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Crocus sativus		Crocus	Iridaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Iris			Iridaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Iris lactea		Iris	Iridaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Apostasia			Orchidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cymbidium			Orchidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cymbidium ensifolium		Cymbidium	Orchidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Vanilla			Orchidaceae	Asparagales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calamus			Arecaceae	Arecales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calamus jenkinsianus		Calamus	Arecaceae	Arecales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Carex			Cyperaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lolium			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alopecurus			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Secale			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Secale cereale		Secale	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Schizachyrium			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Heteropogon			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Heteropogon triticeus		Heteropogon	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chrysopogon			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chrysopogon zizanioides		Chrysopogon	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Alloteropsis			Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Dioscorea			Dioscoreaceae	Dioscoreales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Fritillaria			Liliaceae	Liliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tulipa			Liliaceae	Liliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Tulipa gesneriana		Tulipa	Liliaceae	Liliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Stemona			Stemonaceae	Pandanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Stemona collinsiae		Stemona	Stemonaceae	Pandanales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calycanthus			Calycanthaceae	Laurales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Calycanthus floridus		Calycanthus	Calycanthaceae	Laurales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Lindera			Lauraceae	Laurales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Persea			Lauraceae	Laurales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Persea americana		Persea	Lauraceae	Laurales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cananga			Annonaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Cananga odorata		Cananga	Annonaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Annona			Annonaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Annona cherimola		Annona	Annonaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Liriodendron			Magnoliaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Liriodendron chinense		Liriodendron	Magnoliaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Liriodendron tulipifera		Liriodendron	Magnoliaceae	Magnoliales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Piper			Piperaceae	Piperales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Piper colubrinum		Piper	Piperaceae	Piperales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Piper methysticum		Piper	Piperaceae	Piperales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Leucadendron			Proteaceae	Proteales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chelidonium			Papaveraceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Chelidonium majus		Chelidonium	Papaveraceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Macleaya			Papaveraceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Actaea			Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Actaea racemosa		Actaea	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Delphinium			Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Delphinium grandiflorum		Delphinium	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Helleborus			Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Helleborus orientalis		Helleborus	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Nigella			Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Nigella sativa		Nigella	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ranunculus			Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ranunculus acris		Ranunculus	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-Ranunculus muricatus		Ranunculus	Ranunculaceae	Ranunculales	Magnoliopsida	Streptophyta	Viridiplantae	Eukaryota
-uncultured eukaryote								Eukaryota
 Muromegalovirus			Herpesviridae	Herpesvirales	Herviviricetes	Peploviricota	Heunggongvirae	Viruses
 Murid betaherpesvirus 1		Muromegalovirus	Herpesviridae	Herpesvirales	Herviviricetes	Peploviricota	Heunggongvirae	Viruses
 Lymphocryptovirus			Herpesviridae	Herpesvirales	Herviviricetes	Peploviricota	Heunggongvirae	Viruses
@@ -5376,6 +4451,5 @@ Apis mellifera filamentous virus								Viruses
 Prokaryotic dsDNA virus sp.								Viruses
 uncultured marine virus								Viruses
 uncultured virus								Viruses
-uncultured prokaryote								
-[Candida] pseudohaemulonis			Metschnikowiaceae	Saccharomycetales	Saccharomycetes	Ascomycota	Fungi	Eukaryota
+[Candida] pseudohaemulonis	NA	NA	Metschnikowiaceae	Saccharomycetales	Saccharomycetes	Ascomycota	Fungi	Eukaryota
 Ruminococcaceae	NA	NA	Oscillospiraceae	Eubacteriales	Clostridia	Firmicutes	NA	Bacteria
