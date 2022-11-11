@@ -325,9 +325,9 @@ BT_N_001	Bombus terrestris	Eusocial	Female	abdomen	United Kingdom 	RNA	CompHym22
 BT_N_025	Bombus terrestris	Eusocial	Female	abdomen	United Kingdom 	RNA	CompHym22	2017	Bombus	Apidae	Apinae	Bombini
 BT_N_029	Bombus terrestris	Eusocial	Female	abdomen	United Kingdom 	RNA	CompHym22	2017	Bombus	Apidae	Apinae	Bombini
 SRR5253659	Halictus sexcinctus	Polymorphic	Unknown	whole body	Switzerland	RNA	PRJNA374528	2017	Halictus	Halictidae	Halictinae	Halictini
-CA_N_007	Ceratina australensis	Polymorphic	Female	abdomen	United Kingdom 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
-CA_N_012	Ceratina australensis	Polymorphic	Female	abdomen	United Kingdom 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
-CA_N_030	Ceratina australensis	Polymorphic	Female	abdomen	United Kingdom 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
+CA_N_007	Ceratina australensis	Polymorphic	Female	abdomen	Australia 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
+CA_N_012	Ceratina australensis	Polymorphic	Female	abdomen	Australia 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
+CA_N_030	Ceratina australensis	Polymorphic	Female	abdomen	Australia 	RNA	CompHym22	2017	Ceratina	Apidae	Xylocopinae	Ceratini
 SRR12527960	Bombus ignitus	Eusocial	Unknown	whole body	China	DNA	PRJNA659158	2016	Bombus	Apidae	Apinae	Bombini
 SRR11445091	Bombus terrestris	Eusocial	Female	whole body (pool of 3)	United Kingdom 	RNA	PRJNA615177	2005	Bombus	Apidae	Apinae	Bombini
 SRR12527973	Bombus consobrinus	Eusocial	Unknown	whole body	China	DNA	PRJNA659165	2016	Bombus	Apidae	Apinae	Bombini

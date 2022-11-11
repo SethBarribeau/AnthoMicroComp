@@ -1,0 +1,2626 @@
+MicroHit	TaxHit	Class	PhyloHit	GenHitID
+Pseudomonas	Pseudomonas	bacteria	Pseudomonas	GRH1
+Pseudomonas nitroreducens	Pseudomonas nitroreducens	bacteria	Pseudomonas	GRH1
+Pseudomonas fluorescens	Pseudomonas fluorescens	bacteria	Pseudomonas	GRH1
+Acinetobacter	Acinetobacter	bacteria	Acinetobacter	GRH2
+Acinetobacter johnsonii	Acinetobacter johnsonii	bacteria	Acinetobacter	GRH2
+Ralstonia	Ralstonia	bacteria	Ralstonia	GRH3
+Cutibacterium	Cutibacterium	bacteria	Cutibacterium	GRH4
+Cutibacterium acnes	Cutibacterium acnes	bacteria	Cutibacterium	GRH4
+Escherichia	Escherichia	bacteria	Escherichia	GRH5
+Escherichia coli	Escherichia coli	bacteria	Escherichia	GRH5
+Meyerozyma	Meyerozyma	fungus	Meyerozyma	GRH6
+Meyerozyma guilliermondii	Meyerozyma guilliermondii	fungus	Meyerozyma	GRH6
+Gilliamella	Gilliamella	bacteria	Gilliamella	GRH7
+Gilliamella apicola	Gilliamella apicola	bacteria	Gilliamella	GRH7
+Snodgrassella	Snodgrassella	bacteria	Snodgrassella	GRH8
+Snodgrassella alvi	Snodgrassella alvi	bacteria	Snodgrassella	GRH8
+Methylobacterium	Methylobacterium	bacteria	Methylobacterium	GRH9
+Acinetobacter baumannii	Acinetobacter baumannii	bacteria	Acinetobacter	GRH2
+Acinetobacter lwoffii	Acinetobacter lwoffii	bacteria	Acinetobacter	GRH2
+Bombiscardovia	Bombiscardovia	bacteria	Bombiscardovia	GRH10
+Bombiscardovia coagulans	Bombiscardovia coagulans	bacteria	Bombiscardovia	GRH10
+uncultured bacterium	uncultured bacterium	bacteria	Unspecified Bacterial	GRH11
+non-genus-specific reads in family Pasteurellaceae	Pasteurellaceae	bacteria	non-genus-specific Pasteurellaceae	GRH12
+Plasmodium	Plasmodium	other_eukaryota	Plasmodium	GRH13
+Pseudomonas sp. SXM-1	Pseudomonas sp. SXM-1	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. NC02	Pseudomonas sp. NC02	bacteria	Pseudomonas	GRH1
+Pseudomonas putida	Pseudomonas putida	bacteria	Pseudomonas	GRH1
+Bacillus	Bacillus	bacteria	Bacillus	GRH14
+Corynebacterium	Corynebacterium	bacteria	Corynebacterium	GRH15
+Sphingomonas	Sphingomonas	bacteria	Sphingomonas	GRH16
+Methylobacterium radiotolerans	Methylobacterium radiotolerans	bacteria	Methylobacterium	GRH9
+Ralstonia insidiosa	Ralstonia insidiosa	bacteria	Ralstonia	GRH3
+Ralstonia pickettii	Ralstonia pickettii	bacteria	Ralstonia	GRH3
+Enterobacter	Enterobacter	bacteria	Enterobacter	GRH17
+Pantoea agglomerans	Pantoea agglomerans	bacteria	Pantoea	GRH18
+Agrobacterium	Agrobacterium	bacteria	Agrobacterium	GRH19
+Agrobacterium tumefaciens	Agrobacterium tumefaciens	bacteria	Agrobacterium	GRH19
+Stenotrophomonas	Stenotrophomonas	bacteria	Stenotrophomonas	GRH20
+Stenotrophomonas maltophilia	Stenotrophomonas maltophilia	bacteria	Stenotrophomonas	GRH20
+Moraxella	Moraxella	bacteria	Moraxella	GRH21
+Moraxella osloensis	Moraxella osloensis	bacteria	Moraxella	GRH21
+Brevundimonas	Brevundimonas	bacteria	Brevundimonas	GRH22
+Lactobacillus apis	Lactobacillus apis	bacteria	Lactobacillus	GRH23
+Acinetobacter guillouiae	Acinetobacter guillouiae	bacteria	Acinetobacter	GRH2
+Acinetobacter junii	Acinetobacter junii	bacteria	Acinetobacter	GRH2
+Acinetobacter pittii	Acinetobacter pittii	bacteria	Acinetobacter	GRH2
+Pseudomonas yamanorum	Pseudomonas yamanorum	bacteria	Pseudomonas	GRH1
+Pseudomonas protegens	Pseudomonas protegens	bacteria	Pseudomonas	GRH1
+Pseudomonas syringae	Pseudomonas syringae	bacteria	Pseudomonas	GRH1
+Pseudomonas aeruginosa	Pseudomonas aeruginosa	bacteria	Pseudomonas	GRH1
+Delftia	Delftia	bacteria	Delftia	GRH24
+Delftia acidovorans	Delftia acidovorans	bacteria	Delftia	GRH24
+Delftia tsuruhatensis	Delftia tsuruhatensis	bacteria	Delftia	GRH24
+Rheinheimera	Rheinheimera	bacteria	Rheinheimera	GRH25
+Staphylococcus	Staphylococcus	bacteria	Staphylococcus	GRH26
+Alternaria	Alternaria	fungus	Alternaria	GRH27
+Caulobacter	Caulobacter	bacteria	Caulobacter	GRH28
+Corynebacterium sp. 1959	Corynebacterium kalinowskii	bacteria	Corynebacterium	GRH15
+Brevundimonas sp. GW460-12-10-14-LB2	Brevundimonas sp. GW460-12-10-14-LB2	bacteria	Brevundimonas	GRH22
+Brevundimonas diminuta	Brevundimonas diminuta	bacteria	Brevundimonas	GRH22
+Massilia	Massilia	bacteria	Massilia	GRH29
+Rhizobium	Rhizobium	bacteria	Rhizobium	GRH30
+Bradyrhizobium	Bradyrhizobium	bacteria	Bradyrhizobium	GRH31
+Methylobacterium brachiatum	Methylobacterium brachiatum	bacteria	Methylobacterium	GRH9
+Methylobacterium sp. C1	Methylobacterium sp. C1	bacteria	Methylobacterium	GRH9
+Sphingomonas melonis	Sphingomonas melonis	bacteria	Sphingomonas	GRH16
+Achromobacter	Achromobacter	bacteria	Achromobacter	GRH32
+Fusarium	Fusarium	fungus	Fusarium	GRH33
+Capnocytophaga	Capnocytophaga	bacteria	Capnocytophaga	GRH34
+Enterobacter asburiae	Enterobacter asburiae	bacteria	Enterobacter	GRH17
+Enterobacter hormaechei	Enterobacter hormaechei	bacteria	Enterobacter	GRH17
+Enterobacter cloacae	Enterobacter cloacae	bacteria	Enterobacter	GRH17
+Salmonella	Salmonella	bacteria	Salmonella	GRH35
+Salmonella enterica	Salmonella enterica	bacteria	Salmonella	GRH35
+Herbaspirillum	Herbaspirillum	bacteria	Herbaspirillum	GRH36
+Herbaspirillum huttiense	Herbaspirillum huttiense	bacteria	Herbaspirillum	GRH36
+Cupriavidus metallidurans	Cupriavidus metallidurans	bacteria	Cupriavidus	GRH37
+Actinomyces	Actinomyces	bacteria	Actinomyces	GRH38
+Actinomyces naeslundii	Actinomyces naeslundii	bacteria	Actinomyces	GRH38
+Klebsiella	Klebsiella	bacteria	Klebsiella	GRH39
+Klebsiella pneumoniae	Klebsiella pneumoniae	bacteria	Klebsiella	GRH39
+Aquabacterium	Aquabacterium	bacteria	Aquabacterium	GRH40
+Micrococcus	Micrococcus	bacteria	Micrococcus	GRH41
+Micrococcus luteus	Micrococcus luteus	bacteria	Micrococcus	GRH41
+Acinetobacter sp. NEB 394	Acinetobacter sp. NEB 394	bacteria	Acinetobacter	GRH2
+Acinetobacter indicus	Acinetobacter indicus	bacteria	Acinetobacter	GRH2
+Trichosporon	Trichosporon	fungus	Trichosporon	GRH42
+Trichosporon asahii	Trichosporon asahii	fungus	Trichosporon	GRH42
+Pseudomonas stutzeri	Stutzerimonas stutzeri	bacteria	Stutzerimonas	GRH43
+Leptotrichia	Leptotrichia	bacteria	Leptotrichia	GRH44
+Aeromonas	Aeromonas	bacteria	Aeromonas	GRH45
+Asticcacaulis	Asticcacaulis	bacteria	Asticcacaulis	GRH46
+Asticcacaulis excentricus	Asticcacaulis excentricus	bacteria	Asticcacaulis	GRH46
+Comamonas	Comamonas	bacteria	Comamonas	GRH47
+Streptococcus oralis	Streptococcus oralis	bacteria	Streptococcus	GRH48
+Sphingobium	Sphingobium	bacteria	Sphingobium	GRH49
+Sphingobium yanoikuyae	Sphingobium yanoikuyae	bacteria	Sphingobium	GRH49
+Acinetobacter schindleri	Acinetobacter schindleri	bacteria	Acinetobacter	GRH2
+Veillonella	Veillonella	bacteria	Veillonella	GRH50
+Neisseria	Neisseria	bacteria	Neisseria	GRH51
+Comamonas testosteroni	Comamonas testosteroni	bacteria	Comamonas	GRH47
+Staphylococcus hominis	Staphylococcus hominis	bacteria	Staphylococcus	GRH26
+Paracoccus	Paracoccus	bacteria	Paracoccus	GRH52
+Burkholderia cenocepacia	Burkholderia cenocepacia	bacteria	Burkholderia	GRH53
+Sphingomonas sp. FARSPH	Sphingomonas sp. FARSPH	bacteria	Sphingomonas	GRH16
+Cloacibacterium	Cloacibacterium	bacteria	Cloacibacterium	GRH54
+Shewanella	Shewanella	bacteria	Shewanella	GRH55
+Shewanella putrefaciens	Shewanella putrefaciens	bacteria	Shewanella	GRH55
+Nocardioides	Nocardioides	bacteria	Nocardioides	GRH56
+Prevotella	Prevotella	bacteria	Prevotella	GRH57
+Streptococcus thermophilus	Streptococcus thermophilus	bacteria	Streptococcus	GRH48
+Streptococcus sanguinis	Streptococcus sanguinis	bacteria	Streptococcus	GRH48
+Streptococcus mitis	Streptococcus mitis	bacteria	Streptococcus	GRH48
+Malassezia	Malassezia	fungus	Malassezia	GRH58
+Malassezia restricta	Malassezia restricta	fungus	Malassezia	GRH58
+Ochrobactrum	Ochrobactrum	bacteria	Ochrobactrum	GRH59
+Ochrobactrum anthropi	Brucella anthropi	bacteria	Brucella	GRH60
+Cutibacterium granulosum	Cutibacterium granulosum	bacteria	Cutibacterium	GRH4
+Tepidimonas	Tepidimonas	bacteria	Tepidimonas	GRH61
+Flaviflexus sp. H23T48	Flaviflexus ciconiae	bacteria	Flaviflexus	GRH62
+Thermomonas	Thermomonas	bacteria	Thermomonas	GRH63
+Thermomonas hydrothermalis	Thermomonas hydrothermalis	bacteria	Thermomonas	GRH63
+Staphylococcus capitis	Staphylococcus capitis	bacteria	Staphylococcus	GRH26
+Microbacterium sp. Nx66	Microbacterium sp. Nx66	bacteria	Microbacterium	GRH64
+Cloacibacterium normanense	Cloacibacterium normanense	bacteria	Cloacibacterium	GRH54
+Methylobacterium phyllosphaerae	Methylobacterium phyllosphaerae	bacteria	Methylobacterium	GRH9
+Sphingopyxis	Sphingopyxis	bacteria	Sphingopyxis	GRH65
+Saccharomyces	Saccharomyces	fungus	Saccharomyces	GRH66
+Rhodococcus	Rhodococcus	bacteria	Rhodococcus	GRH67
+Brevundimonas vancanneytii	Brevundimonas vancanneytii	bacteria	Brevundimonas	GRH22
+Kocuria	Kocuria	bacteria	Kocuria	GRH68
+Lautropia	Lautropia	bacteria	Lautropia	GRH69
+Nostoc sp. PCC 7524	Nostoc sp. PCC 7524	bacteria	Nostoc	GRH70
+Streptococcus	Streptococcus	bacteria	Streptococcus	GRH48
+Sphingobium cloacae	Sphingobium cloacae	bacteria	Sphingobium	GRH49
+Elizabethkingia	Elizabethkingia	bacteria	Elizabethkingia	GRH71
+Mitsuaria	Mitsuaria	bacteria	Mitsuaria	GRH72
+Mitsuaria sp. 7	Mitsuaria sp. 7	bacteria	Mitsuaria	GRH72
+Methylorubrum	Methylorubrum	bacteria	Methylorubrum	GRH73
+Methylorubrum extorquens	Methylorubrum extorquens	bacteria	Methylorubrum	GRH73
+Stenotrophomonas rhizophila	Stenotrophomonas rhizophila	bacteria	Stenotrophomonas	GRH20
+Ustilago	Ustilago	fungus	Ustilago	GRH74
+Anoxybacillus	Anoxybacillus	bacteria	Anoxybacillus	GRH75
+Anoxybacillus flavithermus	Anoxybacillus flavithermus	bacteria	Anoxybacillus	GRH75
+Chryseobacterium	Chryseobacterium	bacteria	Chryseobacterium	GRH76
+Pseudomonas simiae	Pseudomonas simiae	bacteria	Pseudomonas	GRH1
+Serratia	Serratia	bacteria	Serratia	GRH77
+Acidovorax	Acidovorax	bacteria	Acidovorax	GRH78
+Aeromonas simiae	Aeromonas simiae	bacteria	Aeromonas	GRH45
+Rhodococcus ruber	Rhodococcus ruber	bacteria	Rhodococcus	GRH67
+Rhodococcus fascians	Rhodococcus fascians	bacteria	Rhodococcus	GRH67
+Paraburkholderia	Paraburkholderia	bacteria	Paraburkholderia	GRH79
+Paraburkholderia fungorum	Paraburkholderia fungorum	bacteria	Paraburkholderia	GRH79
+Staphylococcus epidermidis	Staphylococcus epidermidis	bacteria	Staphylococcus	GRH26
+Haematobacter	Haematobacter	bacteria	Haematobacter	GRH80
+Haematobacter massiliensis	Haematobacter massiliensis	bacteria	Haematobacter	GRH80
+Malassezia globosa	Malassezia globosa	fungus	Malassezia	GRH58
+Mycobacteroides	Mycobacteroides	bacteria	Mycobacteroides	GRH81
+Mycobacteroides chelonae	Mycobacteroides chelonae	bacteria	Mycobacteroides	GRH81
+Comamonas thiooxydans	Comamonas thiooxydans	bacteria	Comamonas	GRH47
+Comamonas aquatica	Comamonas aquatica	bacteria	Comamonas	GRH47
+non-genus-specific reads in family Beijerinckiaceae	Beijerinckiaceae	bacteria	non-genus-specific Beijerinckiaceae	GRH82
+Lawsonella	Lawsonella	bacteria	Lawsonella	GRH83
+Lawsonella clevelandensis	Lawsonella clevelandensis	bacteria	Lawsonella	GRH83
+Microlunatus	Microlunatus	bacteria	Microlunatus	GRH84
+Neisseria meningitidis	Neisseria meningitidis	bacteria	Neisseria	GRH51
+Lactobacillus delbrueckii	Lactobacillus delbrueckii	bacteria	Lactobacillus	GRH23
+Ralstonia solanacearum	Ralstonia solanacearum	bacteria	Ralstonia	GRH3
+Ralstonia mannitolilytica	Ralstonia mannitolilytica	bacteria	Ralstonia	GRH3
+Penicillium	Penicillium	fungus	Penicillium	GRH85
+Penicillium expansum	Penicillium expansum	fungus	Penicillium	GRH85
+Penicillium digitatum	Penicillium digitatum	fungus	Penicillium	GRH85
+Streptococcus pneumoniae	Streptococcus pneumoniae	bacteria	Streptococcus	GRH48
+Streptococcus australis	Streptococcus australis	bacteria	Streptococcus	GRH48
+Streptococcus parasanguinis	Streptococcus parasanguinis	bacteria	Streptococcus	GRH48
+Streptococcus salivarius	Streptococcus salivarius	bacteria	Streptococcus	GRH48
+Dissoconium	Dissoconium	fungus	Dissoconium	GRH86
+Dissoconium aciculare	Dissoconium aciculare	fungus	Dissoconium	GRH86
+Exophiala xenobiotica	Exophiala xenobiotica	fungus	Exophiala	GRH87
+Hymenobacter	Hymenobacter	bacteria	Hymenobacter	GRH88
+Hymenobacter sedentarius	Hymenobacter sedentarius	bacteria	Hymenobacter	GRH88
+Lancefieldella	Lancefieldella	bacteria	Lancefieldella	GRH89
+Lancefieldella parvula	Lancefieldella parvula	bacteria	Lancefieldella	GRH89
+Actinotignum	Actinotignum	bacteria	Actinotignum	GRH90
+Actinotignum schaalii	Actinotignum schaalii	bacteria	Actinotignum	GRH90
+Abiotrophia	Abiotrophia	bacteria	Abiotrophia	GRH91
+Abiotrophia defectiva	Abiotrophia defectiva	bacteria	Abiotrophia	GRH91
+Rothia	Rothia	bacteria	Rothia	GRH92
+Rothia mucilaginosa	Rothia mucilaginosa	bacteria	Rothia	GRH92
+Rothia dentocariosa	Rothia dentocariosa	bacteria	Rothia	GRH92
+Halomonas	Halomonas	bacteria	Halomonas	GRH93
+Halomonas hydrothermalis	Halomonas hydrothermalis	bacteria	Halomonas	GRH93
+Spirosoma pollinicola	Spirosoma pollinicola	bacteria	Spirosoma	GRH94
+Schaalia odontolytica	Schaalia odontolytica	bacteria	Schaalia	GRH95
+Treponema	Treponema	bacteria	Treponema	GRH96
+Treponema socranskii	Treponema socranskii	bacteria	Treponema	GRH96
+Veillonella dispar	Veillonella dispar	bacteria	Veillonella	GRH50
+Veillonella parvula	Veillonella parvula	bacteria	Veillonella	GRH50
+Phyllobacterium	Phyllobacterium	bacteria	Phyllobacterium	GRH97
+Pseudomonas monteilii	Pseudomonas monteilii	bacteria	Pseudomonas	GRH1
+Colletotrichum orchidophilum	Colletotrichum orchidophilum	fungus	Colletotrichum	GRH98
+Haemophilus parainfluenzae	Haemophilus parainfluenzae	bacteria	Haemophilus	GRH99
+Anaerococcus	Anaerococcus	bacteria	Anaerococcus	GRH100
+Corynebacterium ureicelerivorans	Corynebacterium ureicelerivorans	bacteria	Corynebacterium	GRH15
+Corynebacterium kroppenstedtii	Corynebacterium kroppenstedtii	bacteria	Corynebacterium	GRH15
+Corynebacterium jeikeium	Corynebacterium jeikeium	bacteria	Corynebacterium	GRH15
+Diaphorobacter	Diaphorobacter	bacteria	Diaphorobacter	GRH101
+Gordonia	Gordonia	bacteria	Gordonia	GRH102
+Cupriavidus	Cupriavidus	bacteria	Cupriavidus	GRH37
+Cupriavidus gilardii	Cupriavidus gilardii	bacteria	Cupriavidus	GRH37
+Cupriavidus basilensis	Cupriavidus basilensis	bacteria	Cupriavidus	GRH37
+Paracoccus yeei	Paracoccus yeei	bacteria	Paracoccus	GRH52
+Psychrobacter	Psychrobacter	bacteria	Psychrobacter	GRH103
+Marmoricola	Marmoricola	bacteria	Marmoricola	GRH104
+Marmoricola scoriae	Marmoricola scoriae	bacteria	Marmoricola	GRH104
+Lactococcus	Lactococcus	bacteria	Lactococcus	GRH105
+Lactococcus lactis	Lactococcus lactis	bacteria	Lactococcus	GRH105
+Prevotella melaninogenica	Prevotella melaninogenica	bacteria	Prevotella	GRH57
+Hydrogenophilus	Hydrogenophilus	bacteria	Hydrogenophilus	GRH106
+Hydrogenophilus thermoluteolus	Hydrogenophilus thermoluteolus	bacteria	Hydrogenophilus	GRH106
+Finegoldia	Finegoldia	bacteria	Finegoldia	GRH107
+Finegoldia magna	Finegoldia magna	bacteria	Finegoldia	GRH107
+Alcaligenes	Alcaligenes	bacteria	Alcaligenes	GRH108
+Alcaligenes faecalis	Alcaligenes faecalis	bacteria	Alcaligenes	GRH108
+Lactobacillus panisapium	Lactobacillus panisapium	bacteria	Lactobacillus	GRH23
+Aspergillus	Aspergillus	fungus	Aspergillus	GRH109
+Aspergillus flavus	Aspergillus flavus	fungus	Aspergillus	GRH109
+Aspergillus steynii	Aspergillus steynii	fungus	Aspergillus	GRH109
+Aspergillus niger	Aspergillus niger	fungus	Aspergillus	GRH109
+Aspergillus tubingensis	Aspergillus tubingensis	fungus	Aspergillus	GRH109
+Aspergillus oryzae	Aspergillus oryzae	fungus	Aspergillus	GRH109
+Aspergillus costaricensis	Aspergillus costaricensis	fungus	Aspergillus	GRH109
+Aspergillus neoniger	Aspergillus neoniger	fungus	Aspergillus	GRH109
+Aspergillus luchuensis	Aspergillus luchuensis	fungus	Aspergillus	GRH109
+Aspergillus eucalypticola	Aspergillus eucalypticola	fungus	Aspergillus	GRH109
+Aspergillus vadensis	Aspergillus vadensis	fungus	Aspergillus	GRH109
+Aspergillus piperis	Aspergillus piperis	fungus	Aspergillus	GRH109
+Aspergillus welwitschiae	Aspergillus welwitschiae	fungus	Aspergillus	GRH109
+Aspergillus nomiae	Aspergillus nomiae	fungus	Aspergillus	GRH109
+Aspergillus alliaceus	Aspergillus alliaceus	fungus	Aspergillus	GRH109
+Aspergillus caelatus	Aspergillus caelatus	fungus	Aspergillus	GRH109
+Aspergillus pseudotamarii	Aspergillus pseudotamarii	fungus	Aspergillus	GRH109
+Aspergillus bombycis	Aspergillus bombycis	fungus	Aspergillus	GRH109
+Aspergillus fresenii	Aspergillus fresenii	fungus	Aspergillus	GRH109
+Debaryomyces fabryi	Debaryomyces fabryi	fungus	Debaryomyces	GRH110
+Asaia	Asaia	bacteria	Asaia	GRH111
+Bombilactobacillus	Bombilactobacillus	bacteria	Bombilactobacillus	GRH112
+Bombilactobacillus mellis	Bombilactobacillus mellis	bacteria	Bombilactobacillus	GRH112
+Parasaccharibacter	Parasaccharibacter	bacteria	Parasaccharibacter	GRH113
+Parasaccharibacter apium	Parasaccharibacter apium	bacteria	Parasaccharibacter	GRH113
+Bombella	Bombella	bacteria	Bombella	GRH114
+Swaminathania	Swaminathania	bacteria	Swaminathania	GRH115
+Swaminathania salitolerans	Swaminathania salitolerans	bacteria	Swaminathania	GRH115
+Kodamaea	Kodamaea	fungus	Kodamaea	GRH116
+Kodamaea ohmeri	Kodamaea ohmeri	fungus	Kodamaea	GRH116
+Serratia grimesii	Serratia grimesii	bacteria	Serratia	GRH77
+Serratia proteamaculans	Serratia proteamaculans	bacteria	Serratia	GRH77
+Serratia liquefaciens	Serratia liquefaciens	bacteria	Serratia	GRH77
+Trichoderma	Trichoderma	fungus	Trichoderma	GRH117
+Pantoea	Pantoea	bacteria	Pantoea	GRH18
+Eremothecium	Eremothecium	fungus	Eremothecium	GRH118
+Acinetobacter bereziniae	Acinetobacter bereziniae	bacteria	Acinetobacter	GRH2
+Vibrio	Vibrio	bacteria	Vibrio	GRH119
+Vibrio alginolyticus	Vibrio alginolyticus	bacteria	Vibrio	GRH119
+Vibrio parahaemolyticus	Vibrio parahaemolyticus	bacteria	Vibrio	GRH119
+Saccharomyces cerevisiae	Saccharomyces cerevisiae	fungus	Saccharomyces	GRH66
+Klebsiella michiganensis	Klebsiella michiganensis	bacteria	Klebsiella	GRH39
+Klebsiella quasipneumoniae	Klebsiella quasipneumoniae	bacteria	Klebsiella	GRH39
+Dermacoccus	Dermacoccus	bacteria	Dermacoccus	GRH120
+Dermacoccus nishinomiyaensis	Dermacoccus nishinomiyaensis	bacteria	Dermacoccus	GRH120
+Sphingobacterium	Sphingobacterium	bacteria	Sphingobacterium	GRH121
+Enterobacter kobei	Enterobacter kobei	bacteria	Enterobacter	GRH17
+Citrobacter	Citrobacter	bacteria	Citrobacter	GRH122
+Citrobacter freundii	Citrobacter freundii	bacteria	Citrobacter	GRH122
+Citrobacter portucalensis	Citrobacter portucalensis	bacteria	Citrobacter	GRH122
+Aureobasidium	Aureobasidium	fungus	Aureobasidium	GRH123
+uncultured Lactobacillus sp.	uncultured Lactobacillus sp.	bacteria	Lactobacillus	GRH23
+Bifidobacterium sp. Hma3N	Bifidobacterium sp. Hma3N	bacteria	Bifidobacterium	GRH124
+Aspergillus pseudonomius	Aspergillus pseudonomiae	fungus	Aspergillus	GRH109
+Penicillium citrinum	Penicillium citrinum	fungus	Penicillium	GRH85
+Bombella sp. ESL0368	Bombella sp. ESL0368	bacteria	Bombella	GRH114
+Bombella intestini	Bombella intestini	bacteria	Bombella	GRH114
+Lactiplantibacillus	Lactiplantibacillus	bacteria	Lactiplantibacillus	GRH125
+Lactiplantibacillus plantarum	Lactiplantibacillus plantarum	bacteria	Lactiplantibacillus	GRH125
+Streptococcus anginosus	Streptococcus anginosus	bacteria	Streptococcus	GRH48
+Nosema	Nosema	fungus	Nosema	GRH126
+Nosema ceranae	Nosema ceranae	fungus	Nosema	GRH126
+Arthrobotrys oligospora	Orbilia oligospora	fungus	Orbilia	GRH127
+Klebsiella grimontii	Klebsiella grimontii	bacteria	Klebsiella	GRH39
+Pseudomonas synxantha	Pseudomonas synxantha	bacteria	Pseudomonas	GRH1
+Apibacter	Apibacter	bacteria	Apibacter	GRH128
+Apibacter sp. B2966	Apibacter sp. B2966	bacteria	Apibacter	GRH128
+Apibacter sp. B3706	Apibacter sp. B3706	bacteria	Apibacter	GRH128
+Apibacter sp. wkB309	Apibacter sp. wkB309	bacteria	Apibacter	GRH128
+Frischella	Frischella	bacteria	Frischella	GRH129
+Yersinia pestis	Yersinia pestis	bacteria	Yersinia	GRH130
+Amaricoccus	Amaricoccus	bacteria	Amaricoccus	GRH131
+Exiguobacterium	Exiguobacterium	bacteria	Exiguobacterium	GRH132
+Shigella	Shigella	bacteria	Shigella	GRH133
+Shigella flexneri	Shigella flexneri	bacteria	Shigella	GRH133
+Pseudomonas poae	Pseudomonas poae	bacteria	Pseudomonas	GRH1
+Mycolicibacterium	Mycolicibacterium	bacteria	Mycolicibacterium	GRH134
+Bacillus subtilis	Bacillus subtilis	bacteria	Bacillus	GRH14
+Tatumella	Tatumella	bacteria	Tatumella	GRH135
+Tatumella sp. TA1	Tatumella sp. TA1	bacteria	Tatumella	GRH135
+Flavobacterium	Flavobacterium	bacteria	Flavobacterium	GRH136
+Bifidobacterium	Bifidobacterium	bacteria	Bifidobacterium	GRH124
+Kaistella	Kaistella	bacteria	Kaistella	GRH137
+Chryseobacterium haifense	Kaistella haifensis	bacteria	Kaistella	GRH137
+Wolbachia endosymbiont of Drosophila melanogaster	Wolbachia endosymbiont of Drosophila melanogaster	bacteria	Wolbachia	GRH138
+Wolbachia sp. wRi	Wolbachia sp. wRi	bacteria	Wolbachia	GRH138
+Rhizopus microsporus	Rhizopus microsporus	fungus	Rhizopus	GRH139
+Mortierella	Mortierella	fungus	Mortierella	GRH140
+Linnemannia	Linnemannia	fungus	Linnemannia	GRH141
+Linnemannia elongata	Linnemannia elongata	fungus	Linnemannia	GRH141
+Podila verticillata	Podila verticillata	fungus	Podila	GRH142
+Bipolaris	Bipolaris	fungus	Bipolaris	GRH143
+Bipolaris oryzae	Bipolaris oryzae	fungus	Bipolaris	GRH143
+Bipolaris sorokiniana	Bipolaris sorokiniana	fungus	Bipolaris	GRH143
+Alternaria alternata	Alternaria alternata	fungus	Alternaria	GRH27
+Clavispora	Clavispora	fungus	Clavispora	GRH144
+Fusarium oxysporum	Fusarium oxysporum	fungus	Fusarium	GRH33
+Microbacterium	Microbacterium	bacteria	Microbacterium	GRH64
+Aeromonas caviae	Aeromonas caviae	bacteria	Aeromonas	GRH45
+Bifidobacterium commune	Bifidobacterium commune	bacteria	Bifidobacterium	GRH124
+Plasmodium falciparum	Plasmodium falciparum	other_eukaryota	Plasmodium	GRH13
+Polyporus	Polyporus	fungus	Polyporus	GRH145
+Dictyostelium	Dictyostelium	other_eukaryota	Dictyostelium	GRH146
+Dictyostelium discoideum	Dictyostelium discoideum	other_eukaryota	Dictyostelium	GRH146
+Leishmania	Leishmania	other_eukaryota	Leishmania	GRH147
+Leishmania donovani	Leishmania donovani	other_eukaryota	Leishmania	GRH147
+Photorhabdus	Photorhabdus	bacteria	Photorhabdus	GRH148
+Kwoniella	Kwoniella	fungus	Kwoniella	GRH149
+Cryptococcus neoformans	Cryptococcus neoformans	fungus	Cryptococcus	GRH150
+Aureobasidium namibiae	Aureobasidium namibiae	fungus	Aureobasidium	GRH123
+Klebsiella oxytoca	Klebsiella oxytoca	bacteria	Klebsiella	GRH39
+Pseudomonas oryzihabitans	Pseudomonas oryzihabitans	bacteria	Pseudomonas	GRH1
+Burkholderia	Burkholderia	bacteria	Burkholderia	GRH53
+Periconia	Periconia	fungus	Periconia	GRH151
+Candida albicans	Candida albicans	fungus	Candida	GRH152
+Talaromyces rugulosus	Talaromyces rugulosus	fungus	Talaromyces	GRH153
+Talaromyces marneffei	Talaromyces marneffei	fungus	Talaromyces	GRH153
+Synchytrium	Synchytrium	fungus	Synchytrium	GRH154
+Synchytrium microbalum	Synchytrium microbalum	fungus	Synchytrium	GRH154
+Aaosphaeria	Aaosphaeria	fungus	Aaosphaeria	GRH155
+Aaosphaeria arxii	Aaosphaeria arxii	fungus	Aaosphaeria	GRH155
+Batrachochytrium	Batrachochytrium	fungus	Batrachochytrium	GRH156
+Batrachochytrium dendrobatidis	Batrachochytrium dendrobatidis	fungus	Batrachochytrium	GRH156
+Bifidobacterium bifidum	Bifidobacterium bifidum	bacteria	Bifidobacterium	GRH124
+Blumeria	Blumeria	fungus	Blumeria	GRH157
+Blumeria graminis	Blumeria graminis	fungus	Blumeria	GRH157
+Lindgomyces	Lindgomyces	fungus	Lindgomyces	GRH158
+Lindgomyces ingoldianus	Lindgomyces ingoldianus	fungus	Lindgomyces	GRH158
+Empedobacter	Empedobacter	bacteria	Empedobacter	GRH159
+Pyrenophora teres	Pyrenophora teres	fungus	Pyrenophora	GRH160
+Enterococcus	Enterococcus	bacteria	Enterococcus	GRH161
+Staphylococcus haemolyticus	Staphylococcus haemolyticus	bacteria	Staphylococcus	GRH26
+Rasamsonia	Rasamsonia	fungus	Rasamsonia	GRH162
+Proteus	Proteus	bacteria	Proteus	GRH163
+Proteus mirabilis	Proteus mirabilis	bacteria	Proteus	GRH163
+Sneathia	Sneathia	bacteria	Sneathia	GRH164
+Sneathia amnii	Sneathia vaginalis	bacteria	Sneathia	GRH164
+Exophiala	Exophiala	fungus	Exophiala	GRH87
+Colletotrichum	Colletotrichum	fungus	Colletotrichum	GRH98
+Epilithonimonas	Epilithonimonas	bacteria	Epilithonimonas	GRH165
+Epilithonimonas vandammei	Epilithonimonas vandammei	bacteria	Epilithonimonas	GRH165
+Sphingomonas paucimobilis	Sphingomonas paucimobilis	bacteria	Sphingomonas	GRH16
+Verticillium	Verticillium	fungus	Verticillium	GRH166
+Pseudomonas oleovorans	Pseudomonas oleovorans	bacteria	Pseudomonas	GRH1
+Porphyromonas	Porphyromonas	bacteria	Porphyromonas	GRH167
+Corynebacterium tuberculostearicum	Corynebacterium tuberculostearicum	bacteria	Corynebacterium	GRH15
+Burkholderia pseudomallei	Burkholderia pseudomallei	bacteria	Burkholderia	GRH53
+Neurospora	Neurospora	fungus	Neurospora	GRH168
+Erwinia	Erwinia	bacteria	Erwinia	GRH169
+Brevibacterium	Brevibacterium	bacteria	Brevibacterium	GRH170
+Providencia	Providencia	bacteria	Providencia	GRH171
+Peptoniphilus	Peptoniphilus	bacteria	Peptoniphilus	GRH172
+Gardnerella	Gardnerella	bacteria	Gardnerella	GRH173
+Gardnerella vaginalis	Gardnerella vaginalis	bacteria	Gardnerella	GRH173
+Metschnikowia bicuspidata	Metschnikowia bicuspidata	fungus	Metschnikowia	GRH174
+Staphylococcus aureus	Staphylococcus aureus	bacteria	Staphylococcus	GRH26
+Alloprevotella	Alloprevotella	bacteria	Alloprevotella	GRH175
+Aureobasidium pullulans	Aureobasidium pullulans	fungus	Aureobasidium	GRH123
+Kluyveromyces	Kluyveromyces	fungus	Kluyveromyces	GRH176
+Kluyveromyces lactis	Kluyveromyces lactis	fungus	Kluyveromyces	GRH176
+Pseudocercospora	Pseudocercospora	fungus	Pseudocercospora	GRH177
+Listeria	Listeria	bacteria	Listeria	GRH178
+Acinetobacter ursingii	Acinetobacter ursingii	bacteria	Acinetobacter	GRH2
+Propionibacterium	Propionibacterium	bacteria	Propionibacterium	GRH179
+Acetilactobacillus	Acetilactobacillus	bacteria	Acetilactobacillus	GRH180
+Acetilactobacillus jinshanensis	Acetilactobacillus jinshanensis	bacteria	Acetilactobacillus	GRH180
+Metschnikowia	Metschnikowia	fungus	Metschnikowia	GRH174
+Metschnikowia aff. pulcherrima	Metschnikowia aff. pulcherrima	fungus	Metschnikowia	GRH174
+Candida	Candida	fungus	Candida	GRH152
+Wickerhamiella	Wickerhamiella	fungus	Wickerhamiella	GRH181
+Xanthomonas citri	Xanthomonas citri	bacteria	Xanthomonas	GRH182
+Rhizoctonia	Rhizoctonia	fungus	Rhizoctonia	GRH183
+Lactobacillus crispatus	Lactobacillus crispatus	bacteria	Lactobacillus	GRH23
+Serpula	Serpula	fungus	Serpula	GRH184
+Cercospora	Cercospora	fungus	Cercospora	GRH185
+Haemophilus	Haemophilus	bacteria	Haemophilus	GRH99
+Klebsiella variicola	Klebsiella variicola	bacteria	Klebsiella	GRH39
+Alcanivorax	Alcanivorax	bacteria	Alcanivorax	GRH186
+Actinomyces oris	Actinomyces oris	bacteria	Actinomyces	GRH38
+Lactobacillus acetotolerans	Lactobacillus acetotolerans	bacteria	Lactobacillus	GRH23
+Lactobacillus acidipiscis	Ligilactobacillus acidipiscis	bacteria	Ligilactobacillus	GRH187
+Schlegelella	Schlegelella	bacteria	Schlegelella	GRH188
+Schlegelella thermodepolymerans	Schlegelella thermodepolymerans	bacteria	Schlegelella	GRH188
+Liquorilactobacillus	Liquorilactobacillus	bacteria	Liquorilactobacillus	GRH189
+Pyricularia	Pyricularia	fungus	Pyricularia	GRH190
+Pediococcus acidilactici	Pediococcus acidilactici	bacteria	Pediococcus	GRH191
+Gaeumannomyces	Gaeumannomyces	fungus	Gaeumannomyces	GRH192
+Bradyrhizobium elkanii	Bradyrhizobium elkanii	bacteria	Bradyrhizobium	GRH31
+Leifsonia	Leifsonia	bacteria	Leifsonia	GRH193
+Gemella	Gemella	bacteria	Gemella	GRH194
+Streptococcus cristatus	Streptococcus cristatus	bacteria	Streptococcus	GRH48
+Streptococcus gordonii	Streptococcus gordonii	bacteria	Streptococcus	GRH48
+Streptococcus pyogenes	Streptococcus pyogenes	bacteria	Streptococcus	GRH48
+Aspergillus glaucus	Aspergillus glaucus	fungus	Aspergillus	GRH109
+Aspergillus terreus	Aspergillus terreus	fungus	Aspergillus	GRH109
+Rhodococcus erythropolis	Rhodococcus erythropolis	bacteria	Rhodococcus	GRH67
+Agrobacterium genomosp. 3	Agrobacterium tomkonis	bacteria	Agrobacterium	GRH19
+Agrobacterium sp. T29	Agrobacterium sp. T29	bacteria	Agrobacterium	GRH19
+Agrobacterium larrymoorei	Agrobacterium larrymoorei	bacteria	Agrobacterium	GRH19
+Staphylococcus saccharolyticus	Staphylococcus saccharolyticus	bacteria	Staphylococcus	GRH26
+Staphylococcus pasteuri	Staphylococcus pasteuri	bacteria	Staphylococcus	GRH26
+Staphylococcus warneri	Staphylococcus warneri	bacteria	Staphylococcus	GRH26
+Staphylococcus cohnii	Staphylococcus cohnii	bacteria	Staphylococcus	GRH26
+Wallemia	Wallemia	fungus	Wallemia	GRH195
+Serpentinomonas	Serpentinimonas	bacteria	Serpentinimonas	GRH196
+Serpentinomonas raichei	Serpentinimonas raichei	bacteria	Serpentinimonas	GRH196
+Bombilactobacillus bombi	Bombilactobacillus bombi	bacteria	Bombilactobacillus	GRH112
+Hathewaya	Hathewaya	bacteria	Hathewaya	GRH197
+Hathewaya histolytica	Hathewaya histolytica	bacteria	Hathewaya	GRH197
+Cutibacterium avidum	Cutibacterium avidum	bacteria	Cutibacterium	GRH4
+Zymoseptoria	Zymoseptoria	fungus	Zymoseptoria	GRH198
+Zymoseptoria tritici	Zymoseptoria tritici	fungus	Zymoseptoria	GRH198
+Rheinheimera sp. D18	Rheinheimera sp. D18	bacteria	Rheinheimera	GRH25
+Wickerhamomyces	Wickerhamomyces	fungus	Wickerhamomyces	GRH199
+Wickerhamomyces anomalus	Wickerhamomyces anomalus	fungus	Wickerhamomyces	GRH199
+Lactobacillus jensenii	Lactobacillus jensenii	bacteria	Lactobacillus	GRH23
+Lactobacillus gasseri	Lactobacillus gasseri	bacteria	Lactobacillus	GRH23
+Dietzia	Dietzia	bacteria	Dietzia	GRH200
+Dietzia psychralcaliphila	Dietzia psychralcaliphila	bacteria	Dietzia	GRH200
+Dietzia sp. DQ12-45-1b	Dietzia sp. DQ12-45-1b	bacteria	Dietzia	GRH200
+Rhizobium oryzihabitans	Rhizobium oryzihabitans	bacteria	Rhizobium	GRH30
+Rhizobium pusense	Rhizobium pusense	bacteria	Rhizobium	GRH30
+Rhizobium leguminosarum	Rhizobium leguminosarum	bacteria	Rhizobium	GRH30
+Paracoccus sanguinis	Paracoccus sanguinis	bacteria	Paracoccus	GRH52
+Paracoccus mutanolyticus	Paracoccus mutanolyticus	bacteria	Paracoccus	GRH52
+Paracoccus denitrificans	Paracoccus denitrificans	bacteria	Paracoccus	GRH52
+Empedobacter falsenii	Empedobacter falsenii	bacteria	Empedobacter	GRH159
+Novosphingobium	Novosphingobium	bacteria	Novosphingobium	GRH201
+Kocuria rhizophila	Kocuria rhizophila	bacteria	Kocuria	GRH68
+Kocuria palustris	Kocuria palustris	bacteria	Kocuria	GRH68
+Kocuria indica	Kocuria indica	bacteria	Kocuria	GRH68
+Zygosaccharomyces	Zygosaccharomyces	fungus	Zygosaccharomyces	GRH202
+Zygosaccharomyces rouxii	Zygosaccharomyces rouxii	fungus	Zygosaccharomyces	GRH202
+Corynebacterium segmentosum	Corynebacterium segmentosum	bacteria	Corynebacterium	GRH15
+Corynebacterium kefirresidentii	Corynebacterium kefirresidentii	bacteria	Corynebacterium	GRH15
+Corynebacterium glucuronolyticum	Corynebacterium glucuronolyticum	bacteria	Corynebacterium	GRH15
+Corynebacterium matruchotii	Corynebacterium matruchotii	bacteria	Corynebacterium	GRH15
+Corynebacterium striatum	Corynebacterium striatum	bacteria	Corynebacterium	GRH15
+Corynebacterium singulare	Corynebacterium singulare	bacteria	Corynebacterium	GRH15
+Corynebacterium aurimucosum	Corynebacterium aurimucosum	bacteria	Corynebacterium	GRH15
+Brevibacterium sp. CS2	Brevibacterium sp. CS2	bacteria	Brevibacterium	GRH170
+Brevibacterium aurantiacum	Brevibacterium aurantiacum	bacteria	Brevibacterium	GRH170
+Leptotrichia wadei	Leptotrichia wadei	bacteria	Leptotrichia	GRH44
+Algoriphagus	Algoriphagus	bacteria	Algoriphagus	GRH203
+Actinomyces sp. oral taxon 414	Actinomyces sp. oral taxon 414	bacteria	Actinomyces	GRH38
+Pseudoalteromonas nigrifaciens	Pseudoalteromonas nigrifaciens	bacteria	Pseudoalteromonas	GRH204
+Fusobacterium	Fusobacterium	bacteria	Fusobacterium	GRH205
+Fusobacterium nucleatum	Fusobacterium nucleatum	bacteria	Fusobacterium	GRH205
+Janibacter	Janibacter	bacteria	Janibacter	GRH206
+Janibacter indicus	Janibacter indicus	bacteria	Janibacter	GRH206
+Pseudomonas sihuiensis	Pseudomonas sihuiensis	bacteria	Pseudomonas	GRH1
+Pseudomonas mendocina	Pseudomonas mendocina	bacteria	Pseudomonas	GRH1
+Pseudomonas alcaliphila	Pseudomonas alcaliphila	bacteria	Pseudomonas	GRH1
+Pseudomonas sediminis	Pseudomonas sediminis	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. LPH1	Pseudomonas sp. LPH1	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. MSPm1	Pseudomonas sp. MSPm1	bacteria	Pseudomonas	GRH1
+Pseudomonas psychrotolerans	Pseudomonas psychrotolerans	bacteria	Pseudomonas	GRH1
+Pseudomonas alcaligenes	Pseudomonas alcaligenes	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. phDV1	Pseudomonas sp. phDV1	bacteria	Pseudomonas	GRH1
+Pseudomonas lundensis	Pseudomonas lundensis	bacteria	Pseudomonas	GRH1
+Pseudomonas fragi	Pseudomonas fragi	bacteria	Pseudomonas	GRH1
+Exophiala oligosperma	Exophiala oligosperma	fungus	Exophiala	GRH87
+Selenomonas	Selenomonas	bacteria	Selenomonas	GRH207
+Bradyrhizobium sp. CCBAU 53421	Bradyrhizobium sp. CCBAU 53421	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium genosp. L	Bradyrhizobium genosp. L	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium symbiodeficiens	Bradyrhizobium symbiodeficiens	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium lablabi	Bradyrhizobium lablabi	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium japonicum	Bradyrhizobium japonicum	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium sp. SK17	Bradyrhizobium sp. SK17	bacteria	Bradyrhizobium	GRH31
+Cellvibrio	Cellvibrio	bacteria	Cellvibrio	GRH208
+Helicobacter	Helicobacter	bacteria	Helicobacter	GRH209
+Helicobacter canis	Helicobacter canis	bacteria	Helicobacter	GRH209
+Rothia aeria	Rothia aeria	bacteria	Rothia	GRH92
+Gemella haemolysans	Gemella haemolysans	bacteria	Gemella	GRH194
+Gemella morbillorum	Gemella morbillorum	bacteria	Gemella	GRH194
+Yarrowia	Yarrowia	fungus	Yarrowia	GRH210
+Yarrowia lipolytica	Yarrowia lipolytica	fungus	Yarrowia	GRH210
+Aeromonas hydrophila	Aeromonas hydrophila	bacteria	Aeromonas	GRH45
+Acinetobacter seifertii	Acinetobacter seifertii	bacteria	Acinetobacter	GRH2
+Acinetobacter larvae	Acinetobacter larvae	bacteria	Acinetobacter	GRH2
+Acinetobacter parvus	Acinetobacter parvus	bacteria	Acinetobacter	GRH2
+Acinetobacter radioresistens	Acinetobacter radioresistens	bacteria	Acinetobacter	GRH2
+Acinetobacter haemolyticus	Acinetobacter haemolyticus	bacteria	Acinetobacter	GRH2
+Capnocytophaga sputigena	Capnocytophaga sputigena	bacteria	Capnocytophaga	GRH34
+Methylorubrum populi	Methylorubrum populi	bacteria	Methylorubrum	GRH73
+Nesterenkonia	Nesterenkonia	bacteria	Nesterenkonia	GRH211
+Schaalia	Schaalia	bacteria	Schaalia	GRH95
+Pseudescherichia	Pseudescherichia	bacteria	Pseudescherichia	GRH212
+Pseudescherichia vulneris	Pseudescherichia vulneris	bacteria	Pseudescherichia	GRH212
+Gordonia polyisoprenivorans	Gordonia polyisoprenivorans	bacteria	Gordonia	GRH102
+Gordonia rubripertincta	Gordonia rubripertincta	bacteria	Gordonia	GRH102
+Gordonia bronchialis	Gordonia bronchialis	bacteria	Gordonia	GRH102
+Achromobacter xylosoxidans	Achromobacter xylosoxidans	bacteria	Achromobacter	GRH32
+Achromobacter sp. AONIH1	Achromobacter sp. AONIH1	bacteria	Achromobacter	GRH32
+Leuconostoc	Leuconostoc	bacteria	Leuconostoc	GRH213
+Leuconostoc carnosum	Leuconostoc carnosum	bacteria	Leuconostoc	GRH213
+Neisseria elongata	Neisseria elongata	bacteria	Neisseria	GRH51
+Neisseria mucosa	Neisseria mucosa	bacteria	Neisseria	GRH51
+Blastococcus	Blastococcus	bacteria	Blastococcus	GRH214
+Roseomonas	Roseomonas	bacteria	Roseomonas	GRH215
+Roseomonas mucosa	Roseomonas mucosa	bacteria	Roseomonas	GRH215
+Roseomonas gilardii	Roseomonas gilardii	bacteria	Roseomonas	GRH215
+Sphingomonas leidyi	Sphingomonas leidyi	bacteria	Sphingomonas	GRH16
+Sphingomonas sp.	Sphingomonas sp.	bacteria	Sphingomonas	GRH16
+Phreatobacter	Phreatobacter	bacteria	Phreatobacter	GRH216
+Phreatobacter stygius	Phreatobacter stygius	bacteria	Phreatobacter	GRH216
+Serinicoccus	Serinicoccus	bacteria	Serinicoccus	GRH217
+Mycobacterium paragordonae	Mycobacterium paragordonae	bacteria	Mycobacterium	GRH218
+Penicillium rubens	Penicillium rubens	fungus	Penicillium	GRH85
+Citricoccus	Citricoccus	bacteria	Citricoccus	GRH219
+Microbacterium sp. Se63.02b	Microbacterium sp. Se63.02b	bacteria	Microbacterium	GRH64
+Microbacterium hominis	Microbacterium hominis	bacteria	Microbacterium	GRH64
+Microbacterium testaceum	Microbacterium testaceum	bacteria	Microbacterium	GRH64
+Brevundimonas vesicularis	Brevundimonas vesicularis	bacteria	Brevundimonas	GRH22
+Microlunatus sagamiharensis	Microlunatus sagamiharensis	bacteria	Microlunatus	GRH84
+Methylobacterium sp. AMS5	Methylobacterium sp. AMS5	bacteria	Methylobacterium	GRH9
+Methylobacterium sp. DM1	Methylobacterium sp. DM1	bacteria	Methylobacterium	GRH9
+Mycolicibacterium madagascariense	Mycolicibacterium madagascariense	bacteria	Mycolicibacterium	GRH134
+Pectobacterium	Pectobacterium	bacteria	Pectobacterium	GRH220
+Ornithinimicrobium	Ornithinimicrobium	bacteria	Ornithinimicrobium	GRH221
+Sinorhizobium	Sinorhizobium	bacteria	Sinorhizobium	GRH222
+Sinorhizobium meliloti	Sinorhizobium meliloti	bacteria	Sinorhizobium	GRH222
+Mesorhizobium	Mesorhizobium	bacteria	Mesorhizobium	GRH223
+Mesorhizobium loti	Mesorhizobium loti	bacteria	Mesorhizobium	GRH223
+Leclercia	Leclercia	bacteria	Leclercia	GRH224
+Leclercia adecarboxylata	Leclercia adecarboxylata	bacteria	Leclercia	GRH224
+Shinella	Shinella	bacteria	Shinella	GRH225
+Hydrogenophaga	Hydrogenophaga	bacteria	Hydrogenophaga	GRH226
+Thermus	Thermus	bacteria	Thermus	GRH227
+Thermus scotoductus	Thermus scotoductus	bacteria	Thermus	GRH227
+Cellulomonas	Cellulomonas	bacteria	Cellulomonas	GRH228
+Raoultella	Raoultella	bacteria	Raoultella	GRH229
+Raoultella ornithinolytica	Raoultella ornithinolytica	bacteria	Raoultella	GRH229
+Ensifer	Ensifer	bacteria	Ensifer	GRH230
+Ensifer adhaerens	Ensifer adhaerens	bacteria	Ensifer	GRH230
+Aminobacter	Aminobacter	bacteria	Aminobacter	GRH231
+Xanthomonas campestris	Xanthomonas campestris	bacteria	Xanthomonas	GRH182
+Mixta calida	Mixta calida	bacteria	Mixta	GRH232
+Limnohabitans	Limnohabitans	bacteria	Limnohabitans	GRH233
+Variovorax	Variovorax	bacteria	Variovorax	GRH234
+Variovorax paradoxus	Variovorax paradoxus	bacteria	Variovorax	GRH234
+Pseudoxanthomonas	Pseudoxanthomonas	bacteria	Pseudoxanthomonas	GRH235
+Pseudoxanthomonas mexicana	Pseudoxanthomonas mexicana	bacteria	Pseudoxanthomonas	GRH235
+Pseudoxanthomonas suwonensis	Pseudoxanthomonas suwonensis	bacteria	Pseudoxanthomonas	GRH235
+Spirosoma	Spirosoma	bacteria	Spirosoma	GRH94
+Scytonema	Scytonema	bacteria	Scytonema	GRH236
+Scytonema sp. HK-05	Scytonema sp. HK-05	bacteria	Scytonema	GRH236
+Luteimonas	Luteimonas	bacteria	Luteimonas	GRH237
+Saccharopolyspora	Saccharopolyspora	bacteria	Saccharopolyspora	GRH238
+Tardiphaga	Tardiphaga	bacteria	Tardiphaga	GRH239
+Devosia	Devosia	bacteria	Devosia	GRH240
+Bordetella	Bordetella	bacteria	Bordetella	GRH241
+Bordetella pertussis	Bordetella pertussis	bacteria	Bordetella	GRH241
+Aerococcus	Aerococcus	bacteria	Aerococcus	GRH242
+Neorhizobium	Neorhizobium	bacteria	Neorhizobium	GRH243
+Stenotrophomonas acidaminiphila	Stenotrophomonas acidaminiphila	bacteria	Stenotrophomonas	GRH20
+Lactococcus raffinolactis	Lactococcus raffinolactis	bacteria	Lactococcus	GRH105
+Kytococcus	Kytococcus	bacteria	Kytococcus	GRH244
+Gluconobacter	Gluconobacter	bacteria	Gluconobacter	GRH245
+Xanthobacter	Xanthobacter	bacteria	Xanthobacter	GRH246
+Xanthobacter autotrophicus	Xanthobacter autotrophicus	bacteria	Xanthobacter	GRH246
+Streptococcus agalactiae	Streptococcus agalactiae	bacteria	Streptococcus	GRH48
+Wallemia mellicola	Wallemia mellicola	fungus	Wallemia	GRH195
+Wallemia ichthyophaga	Wallemia ichthyophaga	fungus	Wallemia	GRH195
+Micrococcus sp. V7	Micrococcus sp. V7	bacteria	Micrococcus	GRH41
+Micrococcus sp. A7	Micrococcus sp. A7	bacteria	Micrococcus	GRH41
+Micrococcus sp. 28	Micrococcus sp. 28	bacteria	Micrococcus	GRH41
+Aspergillus ruber	Aspergillus ruber	fungus	Aspergillus	GRH109
+Aspergillus versicolor	Aspergillus versicolor	fungus	Aspergillus	GRH109
+Aspergillus nidulans	Aspergillus nidulans	fungus	Aspergillus	GRH109
+Agrobacterium vitis	Agrobacterium vitis	bacteria	Agrobacterium	GRH19
+Agrobacterium fabrum	Agrobacterium fabrum	bacteria	Agrobacterium	GRH19
+Staphylococcus nepalensis	Staphylococcus nepalensis	bacteria	Staphylococcus	GRH26
+Staphylococcus auricularis	Staphylococcus auricularis	bacteria	Staphylococcus	GRH26
+Neisseria gonorrhoeae	Neisseria gonorrhoeae	bacteria	Neisseria	GRH51
+Neisseria sicca	Neisseria sicca	bacteria	Neisseria	GRH51
+Trichophyton	Trichophyton	fungus	Trichophyton	GRH247
+Trichophyton rubrum	Trichophyton rubrum	fungus	Trichophyton	GRH247
+[Ruminococcus] gnavus	[Ruminococcus] gnavus	bacteria	Mediterraneibacter	GRH248
+Haemophilus haemolyticus	Haemophilus haemolyticus	bacteria	Haemophilus	GRH99
+Corynebacterium durum	Corynebacterium durum	bacteria	Corynebacterium	GRH15
+Corynebacterium kutscheri	Corynebacterium kutscheri	bacteria	Corynebacterium	GRH15
+Kocuria sp. BT304	Kocuria sp. BT304	bacteria	Kocuria	GRH68
+Millerozyma	Millerozyma	fungus	Millerozyma	GRH249
+Millerozyma farinosa	Millerozyma farinosa	fungus	Millerozyma	GRH249
+Rheinheimera sp. LHK132	Rheinheimera mangrovi	bacteria	Rheinheimera	GRH25
+Fannyhessea	Fannyhessea	bacteria	Fannyhessea	GRH250
+Fannyhessea vaginae	Fannyhessea vaginae	bacteria	Fannyhessea	GRH250
+Hafnia	Hafnia	bacteria	Hafnia	GRH251
+Hafnia alvei	Hafnia alvei	bacteria	Hafnia	GRH251
+Mogibacterium	Mogibacterium	bacteria	Mogibacterium	GRH252
+Candida orthopsilosis	Candida orthopsilosis	fungus	Candida	GRH152
+Candida parapsilosis	Candida parapsilosis	fungus	Candida	GRH152
+Hyphopichia	Hyphopichia	fungus	Hyphopichia	GRH253
+Hyphopichia burtonii	Hyphopichia burtonii	fungus	Hyphopichia	GRH253
+Granulicatella	Granulicatella	bacteria	Granulicatella	GRH254
+Ramularia	Ramularia	fungus	Ramularia	GRH255
+Leptotrichia hofstadii	Leptotrichia hofstadii	bacteria	Leptotrichia	GRH44
+Actinomyces sp. oral taxon 171	Actinomyces sp. oral taxon 171	bacteria	Actinomyces	GRH38
+Janibacter sp. YB324	Janibacter sp. YB324	bacteria	Janibacter	GRH206
+Janibacter terrae	Janibacter terrae	bacteria	Janibacter	GRH206
+Rothia terrae	Rothia terrae	bacteria	Rothia	GRH92
+Campylobacter showae	Campylobacter showae	bacteria	Campylobacter	GRH256
+Bradyrhizobium betae	Bradyrhizobium betae	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium icense	Bradyrhizobium icense	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium erythrophlei	Bradyrhizobium erythrophlei	bacteria	Bradyrhizobium	GRH31
+Gordonia terrae	Gordonia terrae	bacteria	Gordonia	GRH102
+Cardiobacterium	Cardiobacterium	bacteria	Cardiobacterium	GRH257
+Cardiobacterium hominis	Cardiobacterium hominis	bacteria	Cardiobacterium	GRH257
+Byssochlamys	Paecilomyces	fungus	Paecilomyces	GRH258
+Byssochlamys spectabilis	Paecilomyces variotii	fungus	Paecilomyces	GRH258
+Aeromonas veronii	Aeromonas veronii	bacteria	Aeromonas	GRH45
+Methylobacterium aquaticum	Methylobacterium aquaticum	bacteria	Methylobacterium	GRH9
+Blautia	Blautia	bacteria	Blautia	GRH259
+Frondihabitans	Frondihabitans	bacteria	Frondihabitans	GRH260
+Mycobacterium	Mycobacterium	bacteria	Mycobacterium	GRH218
+Rhodobacter	Rhodobacter	bacteria	Rhodobacter	GRH261
+Kytococcus sedentarius	Kytococcus sedentarius	bacteria	Kytococcus	GRH244
+Pseudonocardia	Pseudonocardia	bacteria	Pseudonocardia	GRH262
+Mycolicibacterium gilvum	Mycolicibacterium gilvum	bacteria	Mycolicibacterium	GRH134
+Dyadobacter	Dyadobacter	bacteria	Dyadobacter	GRH263
+Deinococcus	Deinococcus	bacteria	Deinococcus	GRH264
+Erythrobacter	Erythrobacter	bacteria	Erythrobacter	GRH265
+Rhodopseudomonas	Rhodopseudomonas	bacteria	Rhodopseudomonas	GRH266
+Rhodopseudomonas palustris	Rhodopseudomonas palustris	bacteria	Rhodopseudomonas	GRH266
+Comamonas terrigena	Comamonas terrigena	bacteria	Comamonas	GRH47
+Janthinobacterium	Janthinobacterium	bacteria	Janthinobacterium	GRH267
+Brachybacterium	Brachybacterium	bacteria	Brachybacterium	GRH268
+Pseudoxanthomonas spadix	Pseudoxanthomonas spadix	bacteria	Pseudoxanthomonas	GRH235
+Nocardioides euryhalodurans	Nocardioides euryhalodurans	bacteria	Nocardioides	GRH56
+Azotobacter	Azotobacter	bacteria	Azotobacter	GRH269
+Agrococcus	Agrococcus	bacteria	Agrococcus	GRH270
+Streptococcus sp. A12	Streptococcus sp. A12	bacteria	Streptococcus	GRH48
+Streptococcus pseudopneumoniae	Streptococcus pseudopneumoniae	bacteria	Streptococcus	GRH48
+Micrococcus sp. KBS0714	Micrococcus sp. KBS0714	bacteria	Micrococcus	GRH41
+bacterium	bacterium	bacteria	Unspecified Bacterial	GRH11
+Agrobacterium sp. 33MFTa1.1	Agrobacterium sp. 33MFTa1.1	bacteria	Agrobacterium	GRH19
+Brucella intermedia	Brucella intermedia	bacteria	Brucella	GRH60
+Botrytis	Botrytis	fungus	Botrytis	GRH271
+Moraxella catarrhalis	Moraxella catarrhalis	bacteria	Moraxella	GRH21
+Dietzia sp. CQ4	Dietzia sp. CQ4	bacteria	Dietzia	GRH200
+Staphylococcus equorum	Staphylococcus equorum	bacteria	Staphylococcus	GRH26
+Staphylococcus saprophyticus	Staphylococcus saprophyticus	bacteria	Staphylococcus	GRH26
+Enhydrobacter	Enhydrobacter	bacteria	Enhydrobacter	GRH272
+Propionibacterium sp. oral taxon 193	Cutibacterium modestum	bacteria	Cutibacterium	GRH4
+Acinetobacter oleivorans	Acinetobacter oleivorans	bacteria	Acinetobacter	GRH2
+Acinetobacter sp. NEB149	Acinetobacter sp. NEB149	bacteria	Acinetobacter	GRH2
+Parvimonas	Parvimonas	bacteria	Parvimonas	GRH273
+Parvimonas micra	Parvimonas micra	bacteria	Parvimonas	GRH273
+Haemophilus pittmaniae	Haemophilus pittmaniae	bacteria	Haemophilus	GRH99
+Corynebacterium sanguinis	Corynebacterium sanguinis	bacteria	Corynebacterium	GRH15
+Corynebacterium minutissimum	Corynebacterium minutissimum	bacteria	Corynebacterium	GRH15
+Corynebacterium casei	Corynebacterium casei	bacteria	Corynebacterium	GRH15
+Corynebacterium xerosis	Corynebacterium xerosis	bacteria	Corynebacterium	GRH15
+Clostridium perfringens	Clostridium perfringens	bacteria	Clostridium	GRH274
+Suhomyces	Suhomyces	fungus	Suhomyces	GRH275
+Suhomyces tanzawaensis	Suhomyces tanzawaensis	fungus	Suhomyces	GRH275
+Malassezia sympodialis	Malassezia sympodialis	fungus	Malassezia	GRH58
+Rothia kristinae	Rothia kristinae	bacteria	Rothia	GRH92
+Brevibacterium casei	Brevibacterium casei	bacteria	Brevibacterium	GRH170
+Brevibacterium luteolum	Brevibacterium luteolum	bacteria	Brevibacterium	GRH170
+Fusobacterium pseudoperiodonticum	Fusobacterium pseudoperiodonticum	bacteria	Fusobacterium	GRH205
+Mucilaginibacter	Mucilaginibacter	bacteria	Mucilaginibacter	GRH276
+Bradyrhizobium sp. CCBAU 21365	Bradyrhizobium sp. CCBAU 21365	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium vignae	Bradyrhizobium vignae	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium sp.	Bradyrhizobium sp.	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium cosmicum	Bradyrhizobium cosmicum	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium diazoefficiens	Bradyrhizobium diazoefficiens	bacteria	Bradyrhizobium	GRH31
+Lautropia mirabilis	Lautropia mirabilis	bacteria	Lautropia	GRH69
+Pseudoalteromonas	Pseudoalteromonas	bacteria	Pseudoalteromonas	GRH204
+Paraphaeosphaeria	Paraphaeosphaeria	fungus	Paraphaeosphaeria	GRH277
+Bacillus cereus	Bacillus cereus	bacteria	Bacillus	GRH14
+Paenarthrobacter	Paenarthrobacter	bacteria	Paenarthrobacter	GRH278
+Nocardioides anomalus	Nocardioides anomalus	bacteria	Nocardioides	GRH56
+Rathayibacter	Rathayibacter	bacteria	Rathayibacter	GRH279
+Megasphaera	Megasphaera	bacteria	Megasphaera	GRH280
+Bacteroides	Bacteroides	bacteria	Bacteroides	GRH281
+Bacteroides ovatus	Bacteroides ovatus	bacteria	Bacteroides	GRH281
+Pedobacter	Pedobacter	bacteria	Pedobacter	GRH282
+Delftia lacustris	Delftia lacustris	bacteria	Delftia	GRH24
+Curtobacterium	Curtobacterium	bacteria	Curtobacterium	GRH283
+Serratia marcescens	Serratia marcescens	bacteria	Serratia	GRH77
+Microbacterium sediminis	Microbacterium sediminis	bacteria	Microbacterium	GRH64
+Microbacterium oxydans	Microbacterium oxydans	bacteria	Microbacterium	GRH64
+Microbacterium aurum	Microbacterium aurum	bacteria	Microbacterium	GRH64
+Xanthomonas oryzae	Xanthomonas oryzae	bacteria	Xanthomonas	GRH182
+Novosphingobium resinovorum	Novosphingobium resinovorum	bacteria	Novosphingobium	GRH201
+Tessaracoccus	Tessaracoccus	bacteria	Tessaracoccus	GRH284
+Mycolicibacterium vaccae	Mycolicibacterium vaccae	bacteria	Mycolicibacterium	GRH134
+Enterococcus cecorum	Enterococcus cecorum	bacteria	Enterococcus	GRH161
+Brachybacterium faecium	Brachybacterium faecium	bacteria	Brachybacterium	GRH268
+Aureimonas	Aureimonas	bacteria	Aureimonas	GRH285
+Aureimonas altamirensis	Aureimonas altamirensis	bacteria	Aureimonas	GRH285
+Weissella	Weissella	bacteria	Weissella	GRH286
+Mycobacterium gordonae	Mycobacterium gordonae	bacteria	Mycobacterium	GRH218
+Sphingosinicella	Sphingosinicella	bacteria	Sphingosinicella	GRH287
+Phenylobacterium	Phenylobacterium	bacteria	Phenylobacterium	GRH288
+Friedmanniella	Friedmanniella	bacteria	Friedmanniella	GRH289
+Nitrosomonas sp. Is79A3	Nitrosomonas sp. Is79A3	bacteria	Nitrosomonas	GRH290
+Chelatococcus	Chelatococcus	bacteria	Chelatococcus	GRH291
+Tardiphaga robiniae	Tardiphaga robiniae	bacteria	Tardiphaga	GRH239
+Streptococcus sp. I-P16	Streptococcus ilei	bacteria	Streptococcus	GRH48
+Agrobacterium rhizogenes	Agrobacterium rhizogenes	bacteria	Agrobacterium	GRH19
+Rhodococcus rhodochrous	Rhodococcus rhodochrous	bacteria	Rhodococcus	GRH67
+Rhodococcus qingshengii	Rhodococcus qingshengii	bacteria	Rhodococcus	GRH67
+Aeromonas salmonicida	Aeromonas salmonicida	bacteria	Aeromonas	GRH45
+Lactobacillus johnsonii	Lactobacillus johnsonii	bacteria	Lactobacillus	GRH23
+Chroococcidiopsis	Chroococcidiopsis	bacteria	Chroococcidiopsis	GRH292
+Corynebacterium bovis	Corynebacterium bovis	bacteria	Corynebacterium	GRH15
+Corynebacterium amycolatum	Corynebacterium amycolatum	bacteria	Corynebacterium	GRH15
+Corynebacterium riegelii	Corynebacterium riegelii	bacteria	Corynebacterium	GRH15
+Corynebacterium pseudotuberculosis	Corynebacterium pseudotuberculosis	bacteria	Corynebacterium	GRH15
+Acinetobacter sp. FDAARGOS_724	Acinetobacter sp. FDAARGOS_724	bacteria	Acinetobacter	GRH2
+Acinetobacter sp. WCHA55	Acinetobacter sp. WCHA55	bacteria	Acinetobacter	GRH2
+Janibacter melonis	Janibacter melonis	bacteria	Janibacter	GRH206
+Janibacter limosus	Janibacter limosus	bacteria	Janibacter	GRH206
+Paracoccus sp. AK26	Paracoccus sp. AK26	bacteria	Paracoccus	GRH52
+Paracoccus marinus	Paracoccus marinus	bacteria	Paracoccus	GRH52
+Paracoccus pantotrophus	Paracoccus pantotrophus	bacteria	Paracoccus	GRH52
+Paracoccus aminovorans	Paracoccus aminovorans	bacteria	Paracoccus	GRH52
+Paracoccus sp. Arc7-R13	Paracoccus sp. Arc7-R13	bacteria	Paracoccus	GRH52
+Puccinia	Puccinia	fungus	Puccinia	GRH293
+Veillonella nakazawae	Veillonella nakazawae	bacteria	Veillonella	GRH50
+Veillonella rodentium	Veillonella rodentium	bacteria	Veillonella	GRH50
+Veillonella atypica	Veillonella atypica	bacteria	Veillonella	GRH50
+Xanthomonas	Xanthomonas	bacteria	Xanthomonas	GRH182
+Gemella sanguinis	Gemella sanguinis	bacteria	Gemella	GRH194
+Kingella	Kingella	bacteria	Kingella	GRH294
+[Candida] intermedia	[Candida] intermedia	fungus	non-genus-specific Metschnikowiaceae	GRH295
+Clavispora lusitaniae	Clavispora lusitaniae	fungus	Clavispora	GRH144
+Faecalibacterium	Faecalibacterium	bacteria	Faecalibacterium	GRH296
+Faecalibacterium prausnitzii	Faecalibacterium prausnitzii	bacteria	Faecalibacterium	GRH296
+Pseudomonas viridiflava	Pseudomonas viridiflava	bacteria	Pseudomonas	GRH1
+Pseudomonas entomophila	Pseudomonas entomophila	bacteria	Pseudomonas	GRH1
+Pseudomonas chlororaphis	Pseudomonas chlororaphis	bacteria	Pseudomonas	GRH1
+Pseudomonas fulva	Pseudomonas fulva	bacteria	Pseudomonas	GRH1
+Didymella	Didymella	fungus	Didymella	GRH297
+Gordonia sp. JH63	Gordonia sp. JH63	bacteria	Gordonia	GRH102
+Actinomyces viscosus	Actinomyces viscosus	bacteria	Actinomyces	GRH38
+Brochothrix	Brochothrix	bacteria	Brochothrix	GRH298
+Brochothrix thermosphacta	Brochothrix thermosphacta	bacteria	Brochothrix	GRH298
+Prevotella oris	Prevotella oris	bacteria	Prevotella	GRH57
+Prevotella intermedia	Prevotella intermedia	bacteria	Prevotella	GRH57
+Carnobacterium maltaromaticum	Carnobacterium maltaromaticum	bacteria	Carnobacterium	GRH299
+Leuconostoc citreum	Leuconostoc citreum	bacteria	Leuconostoc	GRH213
+Anaerococcus prevotii	Anaerococcus prevotii	bacteria	Anaerococcus	GRH100
+Talaromyces	Talaromyces	fungus	Talaromyces	GRH153
+Bradyrhizobium sp. CCBAU 51753	Bradyrhizobium sp. CCBAU 51753	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium sp. ORS 285	Bradyrhizobium sp. ORS 285	bacteria	Bradyrhizobium	GRH31
+Peptoniphilus harei	Peptoniphilus harei	bacteria	Peptoniphilus	GRH172
+Delftia sp. HK171	Delftia sp. HK171	bacteria	Delftia	GRH24
+Bacillus thuringiensis	Bacillus thuringiensis	bacteria	Bacillus	GRH14
+Enterococcus casseliflavus	Enterococcus casseliflavus	bacteria	Enterococcus	GRH161
+Phyllobacterium myrsinacearum	Phyllobacterium myrsinacearum	bacteria	Phyllobacterium	GRH97
+Lachnoanaerobaculum	Lachnoanaerobaculum	bacteria	Lachnoanaerobaculum	GRH300
+Cordyceps	Cordyceps	fungus	Cordyceps	GRH301
+Cordyceps fumosorosea	Cordyceps fumosorosea	fungus	Cordyceps	GRH301
+Bacteroides cellulosilyticus	Bacteroides cellulosilyticus	bacteria	Bacteroides	GRH281
+Sphingomonas sp. NIC1	Sphingomonas sp. NIC1	bacteria	Sphingomonas	GRH16
+Chryseobacterium manosquense	Chryseobacterium manosquense	bacteria	Chryseobacterium	GRH76
+Chryseobacterium shandongense	Chryseobacterium shandongense	bacteria	Chryseobacterium	GRH76
+Chryseobacterium indologenes	Chryseobacterium indologenes	bacteria	Chryseobacterium	GRH76
+Diaphorobacter sp. JS3050	Diaphorobacter sp. JS3050	bacteria	Diaphorobacter	GRH101
+Rhodobacter sphaeroides	Cereibacter sphaeroides	bacteria	Cereibacter	GRH302
+Pannonibacter	Pannonibacter	bacteria	Pannonibacter	GRH303
+Pannonibacter phragmitetus	Pannonibacter phragmitetus	bacteria	Pannonibacter	GRH303
+Neomicrococcus	Neomicrococcus	bacteria	Neomicrococcus	GRH304
+Neomicrococcus aestuarii	Neomicrococcus aestuarii	bacteria	Neomicrococcus	GRH304
+Aggregatibacter	Aggregatibacter	bacteria	Aggregatibacter	GRH305
+Aggregatibacter aphrophilus	Aggregatibacter aphrophilus	bacteria	Aggregatibacter	GRH305
+Brevundimonas mediterranea	Brevundimonas mediterranea	bacteria	Brevundimonas	GRH22
+Brevundimonas sp. Bb-A	Brevundimonas sp. Bb-A	bacteria	Brevundimonas	GRH22
+Brevundimonas sp.	Brevundimonas sp.	bacteria	Brevundimonas	GRH22
+Niveispirillum	Niveispirillum	bacteria	Niveispirillum	GRH306
+Microbacterium sp. Y-01	Microbacterium sp. Y-01	bacteria	Microbacterium	GRH64
+Pseudoxanthomonas kaohsiungensis	Pseudoxanthomonas kaohsiungensis	bacteria	Pseudoxanthomonas	GRH235
+Phycicoccus	Phycicoccus	bacteria	Phycicoccus	GRH307
+Mycolicibacterium tokaiense	Mycolicibacterium tokaiense	bacteria	Mycolicibacterium	GRH134
+Lysobacter	Lysobacter	bacteria	Lysobacter	GRH308
+Lysobacter oculi	Lysobacter oculi	bacteria	Lysobacter	GRH308
+Acidovorax ebreus	[Acidovorax] ebreus	bacteria	Diaphorobacter	GRH101
+Acidovorax carolinensis	Acidovorax carolinensis	bacteria	Acidovorax	GRH78
+Acidovorax sp. JS42	Acidovorax sp. JS42	bacteria	Acidovorax	GRH78
+Sanguibacter	Sanguibacter	bacteria	Sanguibacter	GRH309
+Pigmentiphaga	Pigmentiphaga	bacteria	Pigmentiphaga	GRH310
+Mycobacteroides immunogenum	Mycobacteroides immunogenum	bacteria	Mycobacteroides	GRH81
+Klebsiella aerogenes	Klebsiella aerogenes	bacteria	Klebsiella	GRH39
+Rahnella	Rahnella	bacteria	Rahnella	GRH311
+Enterobacter ludwigii	Enterobacter ludwigii	bacteria	Enterobacter	GRH17
+Cupriavidus pauculus	Cupriavidus pauculus	bacteria	Cupriavidus	GRH37
+Methyloversatilis	Methyloversatilis	bacteria	Methyloversatilis	GRH312
+Methyloversatilis sp. RAC08	Methyloversatilis sp. RAC08	bacteria	Methyloversatilis	GRH312
+Azotobacter chroococcum	Azotobacter chroococcum	bacteria	Azotobacter	GRH269
+Blastococcus saxobsidens	Blastococcus saxobsidens	bacteria	Blastococcus	GRH214
+Luteimonas sp. YGD11-2	Luteimonas sp. YGD11-2	bacteria	Luteimonas	GRH237
+Debaryomyces	Debaryomyces	fungus	Debaryomyces	GRH110
+Debaryomyces hansenii	Debaryomyces hansenii	fungus	Debaryomyces	GRH110
+Tsukamurella	Tsukamurella	bacteria	Tsukamurella	GRH313
+Tsukamurella tyrosinosolvens	Tsukamurella tyrosinosolvens	bacteria	Tsukamurella	GRH313
+Bordetella parapertussis	Bordetella parapertussis	bacteria	Bordetella	GRH241
+Alicycliphilus	Alicycliphilus	bacteria	Alicycliphilus	GRH314
+Rubrivivax	Rubrivivax	bacteria	Rubrivivax	GRH315
+Streptococcus intermedius	Streptococcus intermedius	bacteria	Streptococcus	GRH48
+Micrococcus sp. MG-2010-D12	Micrococcus sp. MG-2010-D12	bacteria	Micrococcus	GRH41
+Rhodococcus sp. PBTS 2	Rhodococcus fascians	bacteria	Rhodococcus	GRH67
+Rhodococcus sp. AQ5-07	Rhodococcus sp. AQ5-07	bacteria	Rhodococcus	GRH67
+Rhizobium sp. S41	Rhizobium sp. S41	bacteria	Rhizobium	GRH30
+Kocuria varians	Kocuria varians	bacteria	Kocuria	GRH68
+Corynebacterium sp. Marseille-Q3630	Corynebacterium incognita	bacteria	Corynebacterium	GRH15
+Corynebacterium resistens	Corynebacterium resistens	bacteria	Corynebacterium	GRH15
+Corynebacterium urealyticum	Corynebacterium urealyticum	bacteria	Corynebacterium	GRH15
+Corynebacterium testudinoris	Corynebacterium testudinoris	bacteria	Corynebacterium	GRH15
+Azospirillum brasilense	Azospirillum brasilense	bacteria	Azospirillum	GRH316
+Xanthomonas arboricola	Xanthomonas arboricola	bacteria	Xanthomonas	GRH182
+Kingella oralis	Kingella oralis	bacteria	Kingella	GRH294
+Granulicatella adiacens	Granulicatella adiacens	bacteria	Granulicatella	GRH254
+Trematosphaeria	Trematosphaeria	fungus	Trematosphaeria	GRH317
+Trematosphaeria pertusa	Trematosphaeria pertusa	fungus	Trematosphaeria	GRH317
+Mycobacterium avium	Mycobacterium avium	bacteria	Mycobacterium	GRH218
+Skermanella	Skermanella	bacteria	Skermanella	GRH318
+Prevotella denticola	Prevotella denticola	bacteria	Prevotella	GRH57
+Anaerococcus vaginalis	Anaerococcus vaginalis	bacteria	Anaerococcus	GRH100
+Ligilactobacillus	Ligilactobacillus	bacteria	Ligilactobacillus	GRH187
+Pseudomonas sp.	Pseudomonas sp.	bacteria	Pseudomonas	GRH1
+Pseudomonas veronii	Pseudomonas veronii	bacteria	Pseudomonas	GRH1
+Actinomyces gerencseriae	Actinomyces gerencseriae	bacteria	Actinomyces	GRH38
+Leptotrichia hongkongensis	Leptotrichia hongkongensis	bacteria	Leptotrichia	GRH44
+Duganella	Duganella	bacteria	Duganella	GRH319
+Neisseria subflava	Neisseria subflava	bacteria	Neisseria	GRH51
+Bifidobacterium adolescentis	Bifidobacterium adolescentis	bacteria	Bifidobacterium	GRH124
+Bifidobacterium thermophilum	Bifidobacterium thermophilum	bacteria	Bifidobacterium	GRH124
+Epicoccum	Epicoccum	fungus	Epicoccum	GRH320
+Carnobacterium	Carnobacterium	bacteria	Carnobacterium	GRH299
+Aeromonas media	Aeromonas media	bacteria	Aeromonas	GRH45
+Sphingomonas taxi	Sphingomonas taxi	bacteria	Sphingomonas	GRH16
+Sphingomonas koreensis	Sphingomonas koreensis	bacteria	Sphingomonas	GRH16
+Ochrobactrum pseudogrignonense	Brucella pseudogrignonensis	bacteria	Brucella	GRH60
+Cyberlindnera	Cyberlindnera	fungus	Cyberlindnera	GRH321
+Cyberlindnera jadinii	Cyberlindnera jadinii	fungus	Cyberlindnera	GRH321
+Mesorhizobium terrae	Mesorhizobium terrae	bacteria	Mesorhizobium	GRH223
+Olsenella	Olsenella	bacteria	Olsenella	GRH322
+Olsenella uli	Olsenella uli	bacteria	Olsenella	GRH322
+Thermus brockianus	Thermus brockianus	bacteria	Thermus	GRH227
+Thermus thermophilus	Thermus thermophilus	bacteria	Thermus	GRH227
+Thermus parvatiensis	Thermus parvatiensis	bacteria	Thermus	GRH227
+Mobiluncus	Mobiluncus	bacteria	Mobiluncus	GRH323
+Afipia	Afipia	bacteria	Afipia	GRH324
+Pichia	Pichia	fungus	Pichia	GRH325
+Phreatobacter sp. NMCR1094	Phreatobacter sp. NMCR1094	bacteria	Phreatobacter	GRH216
+Methylorubrum zatmanii	Methylorubrum zatmanii	bacteria	Methylorubrum	GRH73
+Arachnia	Arachnia	bacteria	Arachnia	GRH326
+Pseudopropionibacterium propionicum	Arachnia propionica	bacteria	Arachnia	GRH326
+Microlunatus phosphovorus	Microlunatus phosphovorus	bacteria	Microlunatus	GRH84
+Microbacterium paraoxydans	Microbacterium paraoxydans	bacteria	Microbacterium	GRH64
+Tannerella	Tannerella	bacteria	Tannerella	GRH327
+Tannerella sp. oral taxon HOT-286	Tannerella serpentiformis	bacteria	Tannerella	GRH327
+Dickeya	Dickeya	bacteria	Dickeya	GRH328
+Nocardioides daphniae	Nocardioides daphniae	bacteria	Nocardioides	GRH56
+Bacillus anthracis	Bacillus anthracis	bacteria	Bacillus	GRH14
+non-genus-specific reads in family Lachnospiraceae	Lachnospiraceae	bacteria	non-genus-specific Lachnospiraceae	GRH329
+Diaphorobacter polyhydroxybutyrativorans	Diaphorobacter nitroreducens	bacteria	Diaphorobacter	GRH101
+Tabrizicola	Tabrizicola	bacteria	Tabrizicola	GRH330
+Tabrizicola piscis	Tabrizicola piscis	bacteria	Tabrizicola	GRH330
+Actinobacillus	Actinobacillus	bacteria	Actinobacillus	GRH331
+Methylobacterium bullatum	Methylobacterium bullatum	bacteria	Methylobacterium	GRH9
+Methylobacterium mesophilicum	Methylobacterium mesophilicum	bacteria	Methylobacterium	GRH9
+Dolosigranulum	Dolosigranulum	bacteria	Dolosigranulum	GRH332
+Dolosigranulum pigrum	Dolosigranulum pigrum	bacteria	Dolosigranulum	GRH332
+Polymorphum	Polymorphum	bacteria	Polymorphum	GRH333
+Polymorphum gilvum	Polymorphum gilvum	bacteria	Polymorphum	GRH333
+Altererythrobacter	Altererythrobacter	bacteria	Altererythrobacter	GRH334
+Caulobacter vibrioides	Caulobacter vibrioides	bacteria	Caulobacter	GRH28
+Clavibacter	Clavibacter	bacteria	Clavibacter	GRH335
+Clavibacter michiganensis	Clavibacter michiganensis	bacteria	Clavibacter	GRH335
+Chryseobacterium gleum	Chryseobacterium gleum	bacteria	Chryseobacterium	GRH76
+Aminobacter aminovorans	Aminobacter aminovorans	bacteria	Aminobacter	GRH231
+Sphingobacterium hotanense	Sphingobacterium hotanense	bacteria	Sphingobacterium	GRH121
+Brevundimonas sp. 'scallop'	Brevundimonas sp. 'scallop'	bacteria	Brevundimonas	GRH22
+Geodermatophilus	Geodermatophilus	bacteria	Geodermatophilus	GRH336
+Pseudorhodoplanes	Pseudorhodoplanes	bacteria	Pseudorhodoplanes	GRH337
+Pseudorhodoplanes sinuspersici	Pseudorhodoplanes sinuspersici	bacteria	Pseudorhodoplanes	GRH337
+Alicycliphilus denitrificans	Alicycliphilus denitrificans	bacteria	Alicycliphilus	GRH314
+Actinomyces dentalis	Actinomyces dentalis	bacteria	Actinomyces	GRH38
+Actinomyces sp. oral taxon 448	Actinomyces sp. oral taxon 448	bacteria	Actinomyces	GRH38
+Staphylococcus caprae	Staphylococcus caprae	bacteria	Staphylococcus	GRH26
+Prevotella nigrescens	Prevotella nigrescens	bacteria	Prevotella	GRH57
+Campylobacter	Campylobacter	bacteria	Campylobacter	GRH256
+Campylobacter gracilis	Campylobacter gracilis	bacteria	Campylobacter	GRH256
+Pseudoalteromonas translucida	Pseudoalteromonas translucida	bacteria	Pseudoalteromonas	GRH204
+Neisseria bacilliformis	Neisseria bacilliformis	bacteria	Neisseria	GRH51
+Pantoea ananatis	Pantoea ananatis	bacteria	Pantoea	GRH18
+Pantoea vagans	Pantoea vagans	bacteria	Pantoea	GRH18
+Rhizobium sp.	Rhizobium sp.	bacteria	Rhizobium	GRH30
+Pseudomonas luteola	Pseudomonas luteola	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. LTJR-52	Pseudomonas sp. LTJR-52	bacteria	Pseudomonas	GRH1
+[Haemophilus] ducreyi	[Haemophilus] ducreyi	bacteria	Haemophilus	GRH99
+Corynebacterium lactis	Corynebacterium lactis	bacteria	Corynebacterium	GRH15
+Mogibacterium pumilum	Mogibacterium pumilum	bacteria	Mogibacterium	GRH252
+Kocuria rosea	Kocuria rosea	bacteria	Kocuria	GRH68
+Paracoccus sp.	Paracoccus sp.	bacteria	Paracoccus	GRH52
+Paracoccus marcusii	Paracoccus marcusii	bacteria	Paracoccus	GRH52
+Paracoccus zhejiangensis	Paracoccus zhejiangensis	bacteria	Paracoccus	GRH52
+Capnocytophaga ochracea	Capnocytophaga ochracea	bacteria	Capnocytophaga	GRH34
+Capnocytophaga leadbetteri	Capnocytophaga leadbetteri	bacteria	Capnocytophaga	GRH34
+Didymella exigua	Didymella exigua	fungus	Didymella	GRH297
+Buchnera	Buchnera	bacteria	Buchnera	GRH338
+Buchnera aphidicola	Buchnera aphidicola	bacteria	Buchnera	GRH338
+Malassezia vespertilionis	Malassezia vespertilionis	fungus	Malassezia	GRH58
+non-genus-specific reads in family Burkholderiaceae	Burkholderiaceae	bacteria	non-genus-specific Burkholderiaceae	GRH339
+Burkholderiaceae bacterium	Burkholderiaceae bacterium	bacteria	non-genus-specific Burkholderiaceae	GRH339
+Erwinia gerundensis	Erwinia gerundensis	bacteria	Erwinia	GRH169
+Bradyrhizobium canariense	Bradyrhizobium canariense	bacteria	Bradyrhizobium	GRH31
+Mesorhizobium sp.	Mesorhizobium sp.	bacteria	Mesorhizobium	GRH223
+Actinobacillus pleuropneumoniae	Actinobacillus pleuropneumoniae	bacteria	Actinobacillus	GRH331
+Dialister	Dialister	bacteria	Dialister	GRH340
+Filifactor	Filifactor	bacteria	Filifactor	GRH341
+Filifactor alocis	Filifactor alocis	bacteria	Filifactor	GRH341
+Afipia sp. GAS231	Afipia sp. GAS231	bacteria	Afipia	GRH324
+Leucobacter	Leucobacter	bacteria	Leucobacter	GRH342
+Paraburkholderia tropica	Paraburkholderia tropica	bacteria	Paraburkholderia	GRH79
+Citrobacter sp. RHBSTW-00976	Citrobacter sp. RHBSTW-00976	bacteria	Citrobacter	GRH122
+Aeromicrobium	Aeromicrobium	bacteria	Aeromicrobium	GRH343
+Brevundimonas naejangsanensis	Brevundimonas naejangsanensis	bacteria	Brevundimonas	GRH22
+Bosea	Bosea	bacteria	Bosea	GRH344
+Bosea vaviloviae	Bosea vaviloviae	bacteria	Bosea	GRH344
+Friedmanniella luteola	Friedmanniella luteola	bacteria	Friedmanniella	GRH289
+Ottowia	Ottowia	bacteria	Ottowia	GRH345
+Oligotropha	Afipia	bacteria	Afipia	GRH324
+Oligotropha carboxidovorans	Afipia carboxidovorans	bacteria	Afipia	GRH324
+Burkholderia multivorans	Burkholderia multivorans	bacteria	Burkholderia	GRH53
+Cupriavidus sp. ISTL7	Cupriavidus sp. ISTL7	bacteria	Cupriavidus	GRH37
+Streptomyces	Streptomyces	bacteria	Streptomyces	GRH346
+Pseudomonas balearica	Stutzerimonas balearica	bacteria	Stutzerimonas	GRH43
+Acidovorax avenae	Acidovorax avenae	bacteria	Acidovorax	GRH78
+Cupriavidus taiwanensis	Cupriavidus taiwanensis	bacteria	Cupriavidus	GRH37
+Asaia bogorensis	Asaia bogorensis	bacteria	Asaia	GRH111
+Brucella	Brucella	bacteria	Brucella	GRH60
+Acidovorax sp. 1608163	Acidovorax sp. 1608163	bacteria	Acidovorax	GRH78
+Geobacillus	Geobacillus	bacteria	Geobacillus	GRH347
+Geobacillus stearothermophilus	Geobacillus stearothermophilus	bacteria	Geobacillus	GRH347
+Acidovorax sp. JMULE5	Acidovorax sp. JMULE5	bacteria	Acidovorax	GRH78
+[Polyangium] brachysporum	Schlegelella brevitalea	bacteria	Schlegelella	GRH188
+Trypanosoma	Trypanosoma	other_eukaryota	Trypanosoma	GRH348
+Burkholderia contaminans	Burkholderia contaminans	bacteria	Burkholderia	GRH53
+Paenibacillus	Paenibacillus	bacteria	Paenibacillus	GRH349
+Acinetobacter sp. MYb10	Acinetobacter sp. MYb10	bacteria	Acinetobacter	GRH2
+Acinetobacter dispersus	Acinetobacter dispersus	bacteria	Acinetobacter	GRH2
+Acinetobacter wuhouensis	Acinetobacter wuhouensis	bacteria	Acinetobacter	GRH2
+Acinetobacter sp.	Acinetobacter sp.	bacteria	Acinetobacter	GRH2
+Acinetobacter calcoaceticus	Acinetobacter calcoaceticus	bacteria	Acinetobacter	GRH2
+Paenibacillus xylanexedens	Paenibacillus xylanexedens	bacteria	Paenibacillus	GRH349
+Paenibacillus sp. JNUCC-31	Paenibacillus sp. JNUCC-31	bacteria	Paenibacillus	GRH349
+Paenibacillus pabuli	Paenibacillus pabuli	bacteria	Paenibacillus	GRH349
+Azospirillum humicireducens	Azospirillum humicireducens	bacteria	Azospirillum	GRH316
+Pseudomonas syringae group genomosp. 3	Pseudomonas syringae group genomosp. 3	bacteria	Pseudomonas	GRH1
+Anaerolinea	Anaerolinea	bacteria	Anaerolinea	GRH350
+Anaerolinea thermophila	Anaerolinea thermophila	bacteria	Anaerolinea	GRH350
+Swingsia	Swingsia	bacteria	Swingsia	GRH351
+Bacillus mobilis	Bacillus mobilis	bacteria	Bacillus	GRH14
+Acetobacter	Acetobacter	bacteria	Acetobacter	GRH352
+Acetobacter orientalis	Acetobacter orientalis	bacteria	Acetobacter	GRH352
+Bacteroides uniformis	Bacteroides uniformis	bacteria	Bacteroides	GRH281
+Alistipes	Alistipes	bacteria	Alistipes	GRH353
+Collinsella	Collinsella	bacteria	Collinsella	GRH354
+Collinsella aerofaciens	Collinsella aerofaciens	bacteria	Collinsella	GRH354
+Shigella sonnei	Shigella sonnei	bacteria	Shigella	GRH133
+Meiothermus	Meiothermus	bacteria	Meiothermus	GRH355
+Meiothermus silvanus	Meiothermus silvanus	bacteria	Meiothermus	GRH355
+Azospirillum	Azospirillum	bacteria	Azospirillum	GRH316
+Botrytis fragariae	Botrytis fragariae	fungus	Botrytis	GRH271
+Botrytis cinerea	Botrytis cinerea	fungus	Botrytis	GRH271
+Cladosporium	Cladosporium	fungus	Cladosporium	GRH356
+Cladosporium herbarum	Cladosporium herbarum	fungus	Cladosporium	GRH356
+Cladosporium cladosporioides	Cladosporium cladosporioides	fungus	Cladosporium	GRH356
+Sclerotinia	Sclerotinia	fungus	Sclerotinia	GRH357
+Sclerotinia sclerotiorum	Sclerotinia sclerotiorum	fungus	Sclerotinia	GRH357
+Pseudomonas sp. ADAK13	Pseudomonas sp. ADAK13	bacteria	Pseudomonas	GRH1
+Pseudomonas multiresinivorans	Pseudomonas multiresinivorans	bacteria	Pseudomonas	GRH1
+Cedecea	Cedecea	bacteria	Cedecea	GRH358
+Cedecea neteri	Cedecea neteri	bacteria	Cedecea	GRH358
+Bradyrhizobium sp. BTAi1	Bradyrhizobium sp. BTAi1	bacteria	Bradyrhizobium	GRH31
+Methylobacterium oryzae	Methylobacterium oryzae	bacteria	Methylobacterium	GRH9
+Arthrobacter	Arthrobacter	bacteria	Arthrobacter	GRH359
+Shigella dysenteriae	Shigella dysenteriae	bacteria	Shigella	GRH133
+Shigella boydii	Shigella boydii	bacteria	Shigella	GRH133
+Penicillium arizonense	Penicillium arizonense	fungus	Penicillium	GRH85
+Pseudogymnoascus	Pseudogymnoascus	fungus	Pseudogymnoascus	GRH360
+Pseudomonas trivialis	Pseudomonas trivialis	bacteria	Pseudomonas	GRH1
+Pseudomonas azotoformans	Pseudomonas azotoformans	bacteria	Pseudomonas	GRH1
+Lactobacillus	Lactobacillus	bacteria	Lactobacillus	GRH23
+Lactobacillus iners	Lactobacillus iners	bacteria	Lactobacillus	GRH23
+Staphylococcus succinus	Staphylococcus succinus	bacteria	Staphylococcus	GRH26
+Bradyrhizobium amphicarpaeae	Bradyrhizobium amphicarpaeae	bacteria	Bradyrhizobium	GRH31
+Bradyrhizobium sp. CCGE-LA001	Bradyrhizobium sp. CCGE-LA001	bacteria	Bradyrhizobium	GRH31
+Deinococcus soli Cha et al. 2016	Deinococcus soli (ex Cha et al. 2016)	bacteria	Deinococcus	GRH264
+Alternaria arborescens	Alternaria arborescens	fungus	Alternaria	GRH27
+Bipolaris victoriae	Bipolaris victoriae	fungus	Bipolaris	GRH143
+Bipolaris zeicola	Bipolaris zeicola	fungus	Bipolaris	GRH143
+Theileria	Theileria	other_eukaryota	Theileria	GRH361
+Theileria ovis	Theileria ovis	other_eukaryota	Theileria	GRH361
+Serratia fonticola	Serratia fonticola	bacteria	Serratia	GRH77
+Streptomyces zhaozhouensis	Streptomyces zhaozhouensis	bacteria	Streptomyces	GRH346
+Moesziomyces	Moesziomyces	fungus	Moesziomyces	GRH362
+Macroventuria	Macroventuria	fungus	Macroventuria	GRH363
+Macroventuria anomochaeta	Macroventuria anomochaeta	fungus	Macroventuria	GRH363
+Entomortierella chlamydospora	Entomortierella chlamydospora	fungus	Entomortierella	GRH364
+Scheffersomyces	Scheffersomyces	fungus	Scheffersomyces	GRH365
+Scheffersomyces stipitis	Scheffersomyces stipitis	fungus	Scheffersomyces	GRH365
+Deinococcus wulumuqiensis	Deinococcus wulumuqiensis	bacteria	Deinococcus	GRH264
+[Candida] haemuloni	[Candida] haemuloni	fungus	Candida/Metschnikowiaceae	GRH366
+Diplodia	Diplodia	fungus	Diplodia	GRH367
+Diplodia corticola	Diplodia corticola	fungus	Diplodia	GRH367
+Parastagonospora	Parastagonospora	fungus	Parastagonospora	GRH368
+Parastagonospora nodorum	Parastagonospora nodorum	fungus	Parastagonospora	GRH368
+Kazachstania	Kazachstania	fungus	Kazachstania	GRH369
+Streptomyces malaysiensis	Streptomyces malaysiensis	bacteria	Streptomyces	GRH346
+Burkholderia vietnamiensis	Burkholderia vietnamiensis	bacteria	Burkholderia	GRH53
+Cellvibrio japonicus	Cellvibrio japonicus	bacteria	Cellvibrio	GRH208
+Corynebacterium vitaeruminis	Corynebacterium vitaeruminis	bacteria	Corynebacterium	GRH15
+Corynebacterium variabile	Corynebacterium variabile	bacteria	Corynebacterium	GRH15
+Rubrobacter	Rubrobacter	bacteria	Rubrobacter	GRH370
+Rubrobacter xylanophilus	Rubrobacter xylanophilus	bacteria	Rubrobacter	GRH370
+Mycoplasmopsis	Mycoplasmopsis	bacteria	Mycoplasmopsis	GRH371
+Mycoplasma bovis	Mycoplasmopsis bovis	bacteria	Mycoplasmopsis	GRH371
+Mycoplasma	Mycoplasma	bacteria	Mycoplasma	GRH372
+Mycoplasma hyorhinis	Mesomycoplasma hyorhinis	bacteria	Mesomycoplasma	GRH373
+Buttiauxella	Buttiauxella	bacteria	Buttiauxella	GRH374
+Buttiauxella agrestis	Buttiauxella agrestis	bacteria	Buttiauxella	GRH374
+Starmerella	Starmerella	fungus	Starmerella	GRH375
+non-genus-specific reads in family Enterobacteriaceae	Enterobacteriaceae	bacteria	non-genus-specific Enterobacteriaceae	GRH376
+Enterobacteriaceae bacterium ENNIH1	Enterobacteriaceae bacterium ENNIH1	bacteria	non-genus-specific Enterobacteriaceae	GRH376
+Limnobacter	Limnobacter	bacteria	Limnobacter	GRH377
+Enterococcus faecalis	Enterococcus faecalis	bacteria	Enterococcus	GRH161
+Amycolatopsis	Amycolatopsis	bacteria	Amycolatopsis	GRH378
+Bdellovibrio	Bdellovibrio	bacteria	Bdellovibrio	GRH379
+Bdellovibrio bacteriovorus	Bdellovibrio bacteriovorus	bacteria	Bdellovibrio	GRH379
+Pseudomonas psychrophila	Pseudomonas psychrophila	bacteria	Pseudomonas	GRH1
+Pseudomonas antarctica	Pseudomonas antarctica	bacteria	Pseudomonas	GRH1
+Enterobacter roggenkampii	Enterobacter roggenkampii	bacteria	Enterobacter	GRH17
+Microbacterium sp. PM5	Microbacterium sp. PM5	bacteria	Microbacterium	GRH64
+Sphingobacterium sp. CZ-2	Sphingobacterium sp. CZ-2	bacteria	Sphingobacterium	GRH121
+Phytobacter	Phytobacter	bacteria	Phytobacter	GRH380
+Phytobacter ursingii	Phytobacter ursingii	bacteria	Phytobacter	GRH380
+Dietzia timorensis	Dietzia timorensis	bacteria	Dietzia	GRH200
+Zygosaccharomyces bailii	Zygosaccharomyces bailii	fungus	Zygosaccharomyces	GRH202
+Saccharomyces pastorianus	Saccharomyces pastorianus	fungus	Saccharomyces	GRH66
+Saccharomyces kudriavzevii	Saccharomyces kudriavzevii	fungus	Saccharomyces	GRH66
+Starmerella apicola	Starmerella apicola	fungus	Starmerella	GRH375
+Plasmodium berghei	Plasmodium berghei	other_eukaryota	Plasmodium	GRH13
+Aeromonas dhakensis	Aeromonas dhakensis	bacteria	Aeromonas	GRH45
+Burkholderia lata	Burkholderia lata	bacteria	Burkholderia	GRH53
+Pyrenophora tritici-repentis	Pyrenophora tritici-repentis	fungus	Pyrenophora	GRH160
+Dothidotthia	Dothidotthia	fungus	Dothidotthia	GRH381
+Dothidotthia symphoricarpi	Dothidotthia symphoricarpi	fungus	Dothidotthia	GRH381
+Stemphylium	Stemphylium	fungus	Stemphylium	GRH382
+Pseudogymnoascus destructans	Pseudogymnoascus destructans	fungus	Pseudogymnoascus	GRH360
+Kluyvera	Kluyvera	bacteria	Kluyvera	GRH383
+Mycoplasma wenyonii	Mycoplasma wenyonii	bacteria	Mycoplasma	GRH372
+Croceicoccus	Croceicoccus	bacteria	Croceicoccus	GRH384
+Yersinia frederiksenii	Yersinia frederiksenii	bacteria	Yersinia	GRH130
+Pseudomonas sp. IB20	Pseudomonas sp. IB20	bacteria	Pseudomonas	GRH1
+Pseudomonas orientalis	Pseudomonas orientalis	bacteria	Pseudomonas	GRH1
+Sordaria	Sordaria	fungus	Sordaria	GRH385
+Sordaria macrospora	Sordaria macrospora	fungus	Sordaria	GRH385
+Acidovorax sp. KKS102	Acidovorax sp. KKS102	bacteria	Acidovorax	GRH78
+Diaphorobacter sp. JS3051	Diaphorobacter sp. JS3051	bacteria	Diaphorobacter	GRH101
+Methylococcus	Methylococcus	bacteria	Methylococcus	GRH386
+Methylococcus capsulatus	Methylococcus capsulatus	bacteria	Methylococcus	GRH386
+Deinococcus geothermalis	Deinococcus geothermalis	bacteria	Deinococcus	GRH264
+Sphingopyxis sp. 113P3	Sphingopyxis sp. 113P3	bacteria	Sphingopyxis	GRH65
+Hyphomicrobium	Hyphomicrobium	bacteria	Hyphomicrobium	GRH387
+Claviceps	Claviceps	fungus	Claviceps	GRH388
+Claviceps purpurea	Claviceps purpurea	fungus	Claviceps	GRH388
+Microcystis	Microcystis	bacteria	Microcystis	GRH389
+Microcystis aeruginosa	Microcystis aeruginosa	bacteria	Microcystis	GRH389
+Zasmidium	Zasmidium	fungus	Zasmidium	GRH390
+Zasmidium cellare	Zasmidium cellare	fungus	Zasmidium	GRH390
+Escherichia fergusonii	Escherichia fergusonii	bacteria	Escherichia	GRH5
+Burkholderia sp. RPE67	Burkholderia sp. RPE67	bacteria	Burkholderia	GRH53
+Metschnikowia reukaufii	Metschnikowia reukaufii	fungus	Metschnikowia	GRH174
+Methylobacterium sp. 17Sr1-43	Methylobacterium radiodurans	bacteria	Methylobacterium	GRH9
+Methylobacterium terrae	Methylobacterium terrae	bacteria	Methylobacterium	GRH9
+Methylobacterium currus	Methylobacterium currus	bacteria	Methylobacterium	GRH9
+Methylobacterium sp. WL1	Methylobacterium sp. WL1	bacteria	Methylobacterium	GRH9
+Methylobacterium sp. 4-46	Methylobacterium sp. 4-46	bacteria	Methylobacterium	GRH9
+Methylobacterium sp. XJLW	Methylobacterium sp. XJLW	bacteria	Methylobacterium	GRH9
+Sparassis	Sparassis	fungus	Sparassis	GRH391
+Sparassis crispa	Sparassis crispa	fungus	Sparassis	GRH391
+Pseudomonas lurida	Pseudomonas lurida	bacteria	Pseudomonas	GRH1
+Pseudomonas rhodesiae	Pseudomonas rhodesiae	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. TKP	Pseudomonas sp. TKP	bacteria	Pseudomonas	GRH1
+Pseudomonas brassicacearum	Pseudomonas brassicacearum	bacteria	Pseudomonas	GRH1
+Curvibacter gracilis	Curvibacter gracilis	bacteria	Curvibacter	GRH392
+Anabaena	Anabaena	bacteria	Anabaena	GRH393
+Anabaena sp. YBS01	Anabaena sp. YBS01	bacteria	Anabaena	GRH393
+Methylophilus sp. TWE2	Methylophilus sp. TWE2	bacteria	Methylophilus	GRH394
+Sydowia	Sydowia	fungus	Sydowia	GRH395
+Sydowia polyspora	Sydowia polyspora	fungus	Sydowia	GRH395
+Wolbachia	Wolbachia	bacteria	Wolbachia	GRH138
+Leifsonia shinshuensis	Leifsonia shinshuensis	bacteria	Leifsonia	GRH193
+Achromobacter spanius	Achromobacter spanius	bacteria	Achromobacter	GRH32
+Achromobacter deleyi	Achromobacter deleyi	bacteria	Achromobacter	GRH32
+Achromobacter ruhlandii	Achromobacter ruhlandii	bacteria	Achromobacter	GRH32
+Enterococcus faecium	Enterococcus faecium	bacteria	Enterococcus	GRH161
+Sphingomonas ursincola	Sphingomonas ursincola	bacteria	Sphingomonas	GRH16
+Sphingomonas sp. MK52	Rhizorhabdus phycosphaerae	bacteria	Rhizorhabdus	GRH396
+Sphingomonas sanxanigenens	Sphingomonas sanxanigenens	bacteria	Sphingomonas	GRH16
+Croceicoccus sp. YJ47	Croceicoccus sp. YJ47	bacteria	Croceicoccus	GRH384
+Croceicoccus naphthovorans	Croceicoccus naphthovorans	bacteria	Croceicoccus	GRH384
+Croceicoccus marinus	Croceicoccus marinus	bacteria	Croceicoccus	GRH384
+Exophiala spinifera	Exophiala spinifera	fungus	Exophiala	GRH87
+Phytophthora	Phytophthora	other_eukaryota	Phytophthora	GRH397
+Selenomonas sputigena	Selenomonas sputigena	bacteria	Selenomonas	GRH207
+Rothia amarae	Rothia amarae	bacteria	Rothia	GRH92
+Aquabacterium olei	Aquabacterium olei	bacteria	Aquabacterium	GRH40
+Porphyrobacter	Porphyrobacter	bacteria	Porphyrobacter	GRH398
+Porphyrobacter sp. CACIAM 03H1	Porphyrobacter sp. CACIAM 03H1	bacteria	Porphyrobacter	GRH398
+Porphyrobacter sp. YT40	Porphyrobacter sp. YT40	bacteria	Porphyrobacter	GRH398
+Porphyrobacter sp. HT-58-2	Porphyrobacter sp. HT-58-2	bacteria	Porphyrobacter	GRH398
+Porphyrobacter sp. LM 6	Porphyrobacter sp. LM 6	bacteria	Porphyrobacter	GRH398
+Dechloromonas	Dechloromonas	bacteria	Dechloromonas	GRH399
+Novosphingobium pentaromativorans	Novosphingobium pentaromativorans	bacteria	Novosphingobium	GRH201
+Novosphingobium aromaticivorans	Novosphingobium aromaticivorans	bacteria	Novosphingobium	GRH201
+Novosphingobium sp. THN1	Novosphingobium sp. THN1	bacteria	Novosphingobium	GRH201
+Aurantiacibacter	Aurantiacibacter	bacteria	Aurantiacibacter	GRH400
+Qipengyuania	Qipengyuania	bacteria	Qipengyuania	GRH401
+Qipengyuania flava	Qipengyuania flava	bacteria	Qipengyuania	GRH401
+Sphingopyxis sp. FD7	Sphingopyxis sp. FD7	bacteria	Sphingopyxis	GRH65
+Sphingopyxis fribergensis	Sphingopyxis fribergensis	bacteria	Sphingopyxis	GRH65
+Sphingopyxis granuli	Sphingopyxis granuli	bacteria	Sphingopyxis	GRH65
+Sphingobium sp. RSMS	Sphingobium sp. RSMS	bacteria	Sphingobium	GRH49
+Sphingobium sp. TKS	Sphingobium sp. TKS	bacteria	Sphingobium	GRH49
+Sphingobium japonicum	Sphingobium indicum	bacteria	Sphingobium	GRH49
+Sphingobium fuliginis	Sphingobium fuliginis	bacteria	Sphingobium	GRH49
+Sphingobium sp. YG1	Sphingobium sp. YG1	bacteria	Sphingobium	GRH49
+Caulobacter sp. FWC26	Caulobacter sp. FWC26	bacteria	Caulobacter	GRH28
+Methylobacillus	Methylobacillus	bacteria	Methylobacillus	GRH402
+Actinomadura	Actinomadura	bacteria	Actinomadura	GRH403
+Corynebacterium imitans	Corynebacterium imitans	bacteria	Corynebacterium	GRH15
+Mycolicibacterium mucogenicum	Mycolicibacterium mucogenicum	bacteria	Mycolicibacterium	GRH134
+Methylibium	Methylibium	bacteria	Methylibium	GRH404
+Elizabethkingia bruuniana	Elizabethkingia bruuniana	bacteria	Elizabethkingia	GRH71
+Elizabethkingia anophelis	Elizabethkingia anophelis	bacteria	Elizabethkingia	GRH71
+Roseomonas sp. FDAARGOS_362	Roseomonas sp. FDAARGOS_362	bacteria	Roseomonas	GRH215
+Granulibacter	Granulibacter	bacteria	Granulibacter	GRH405
+Granulibacter bethesdensis	Granulibacter bethesdensis	bacteria	Granulibacter	GRH405
+Geodermatophilus obscurus	Geodermatophilus obscurus	bacteria	Geodermatophilus	GRH336
+Rhizorhabdus	Rhizorhabdus	bacteria	Rhizorhabdus	GRH396
+Roseateles	Roseateles	bacteria	Roseateles	GRH406
+Sorangium	Sorangium	bacteria	Sorangium	GRH407
+Sorangium cellulosum	Sorangium cellulosum	bacteria	Sorangium	GRH407
+Wickerhamiella domercqiae	Wickerhamiella domercqiae	fungus	Wickerhamiella	GRH181
+Mameliella	Mameliella	bacteria	Mameliella	GRH408
+Mameliella alba	Mameliella alba	bacteria	Mameliella	GRH408
+Zygosaccharomyces parabailii	Zygosaccharomyces parabailii	fungus	Zygosaccharomyces	GRH202
+Starmerella sp. CLIB 1634	Starmerella sp. CLIB 1634	fungus	Starmerella	GRH375
+Maricaulis maris	Maricaulis maris	bacteria	Maricaulis	GRH409
+Undibacterium	Undibacterium	bacteria	Undibacterium	GRH410
+Undibacterium squillarum	Undibacterium squillarum	bacteria	Undibacterium	GRH410
+Alcanivorax xenomutans	Alcanivorax xenomutans	bacteria	Alcanivorax	GRH186
+Muricauda ruestringensis	Muricauda ruestringensis	bacteria	Muricauda	GRH411
+Candidatus Phaeomarinobacter	Candidatus Phaeomarinobacter	bacteria	non-genus-specific Parvibaculaceae	GRH412
+Candidatus Phaeomarinobacter ectocarpi	Candidatus Phaeomarinobacter ectocarpi	bacteria	Candidatus Phaeomarinobacter	GRH413
+Marinobacter hydrocarbonoclasticus	Marinobacter nauticus	bacteria	Marinobacter	GRH414
+Marinobacter sp. LQ44	Marinobacter sp. LQ44	bacteria	Marinobacter	GRH414
+Erythrobacter sp. THAF29	Erythrobacter sp. THAF29	bacteria	Erythrobacter	GRH265
+Erythrobacter mangrovi	Erythrobacter mangrovi	bacteria	Erythrobacter	GRH265
+Symbiodinium sp. Mf1.05b	Symbiodinium sp. Mf1.05b	other_eukaryota	Symbiodinium	GRH415
+Limnobacter sp. SAORIC-580	Limnobacter sp. SAORIC-580	bacteria	Limnobacter	GRH377
+Methylobacterium durans	Methylobacterium durans	bacteria	Methylobacterium	GRH9
+Blastomonas	Blastomonas	bacteria	Blastomonas	GRH416
+Blastomonas fulva	Blastomonas fulva	bacteria	Blastomonas	GRH416
+Lactobacillus bombicola	Lactobacillus bombicola	bacteria	Lactobacillus	GRH23
+Burkholderia cepacia	Burkholderia cepacia	bacteria	Burkholderia	GRH53
+Natronomonas	Natronomonas	archaea	Natronomonas	GRH417
+Natronomonas sp. C90	Natronomonas halophila	archaea	Natronomonas	GRH417
+Nordella	Nordella	bacteria	Nordella	GRH418
+Nordella sp. HKS 07	Nordella sp. HKS 07	bacteria	Nordella	GRH418
+Arenibacter algicola	Arenibacter algicola	bacteria	Arenibacter	GRH419
+Raoultella planticola	Raoultella planticola	bacteria	Raoultella	GRH229
+Aurantiacibacter atlanticus	Aurantiacibacter atlanticus	bacteria	Aurantiacibacter	GRH400
+Candidatus Fonsibacter	Candidatus Fonsibacter	bacteria	non-genus-specific Pelagibacterales	GRH420
+Candidatus Fonsibacter ubiquis	Candidatus Fonsibacter ubiquis	bacteria	Candidatus Fonsibacter	GRH421
+Roseovarius sp. THAF9	Roseovarius sp. THAF9	bacteria	Roseovarius	GRH422
+Antarctobacter	Antarctobacter	bacteria	Antarctobacter	GRH423
+Antarctobacter heliothermus	Antarctobacter heliothermus	bacteria	Antarctobacter	GRH423
+Candidatus Methylopumilus	Candidatus Methylopumilus	bacteria	non-genus-specific Methylophilaceae	GRH424
+Candidatus Methylopumilus rimovensis	Candidatus Methylopumilus rimovensis	bacteria	Candidatus Methylopumilus	GRH425
+Mycolicibacterium aubagnense	Mycolicibacterium aubagnense	bacteria	Mycolicibacterium	GRH134
+Methylophilus	Methylophilus	bacteria	Methylophilus	GRH394
+Pseudomonas sp. S35	Pseudomonas sp. S35	bacteria	Pseudomonas	GRH1
+Pseudomonas tolaasii	Pseudomonas tolaasii	bacteria	Pseudomonas	GRH1
+Sphingomonas sp. A4	Sphingomonas sp. A4	bacteria	Sphingomonas	GRH16
+Sphingomonas wittichii	Rhizorhabdus wittichii	bacteria	Rhizorhabdus	GRH396
+Sulfitobacter	Sulfitobacter	bacteria	Sulfitobacter	GRH426
+Sinorhizobium sp. RAC02	Sinorhizobium sp. RAC02	bacteria	Sinorhizobium	GRH222
+Salegentibacter	Salegentibacter	bacteria	Salegentibacter	GRH427
+Bosea sp. RAC05	Bosea sp. RAC05	bacteria	Bosea	GRH344
+Celeribacter	Celeribacter	bacteria	Celeribacter	GRH428
+Salipiger	Salipiger	bacteria	Salipiger	GRH429
+Synechococcus	Synechococcus	bacteria	Synechococcus	GRH430
+Synechococcus elongatus	Synechococcus elongatus	bacteria	Synechococcus	GRH430
+Microbacterium sp. 10M-3C3	Microbacterium sp. 10M-3C3	bacteria	Microbacterium	GRH64
+Microbacterium sp. ABRD_28	Microbacterium sp. ABRD_28	bacteria	Microbacterium	GRH64
+Agrobacterium sp. RAC06	Agrobacterium sp. RAC06	bacteria	Agrobacterium	GRH19
+Kocuria turfanensis	Kocuria turfanensis	bacteria	Kocuria	GRH68
+Sphingobium hydrophobicum	Sphingobium xenophagum	bacteria	Sphingobium	GRH49
+Sphingobium baderi	Sphingobium baderi	bacteria	Sphingobium	GRH49
+Sphingobium amiense	Sphingobium amiense	bacteria	Sphingobium	GRH49
+Herbaspirillum seropedicae	Herbaspirillum seropedicae	bacteria	Herbaspirillum	GRH36
+Herbaspirillum rubrisubalbicans	Herbaspirillum rubrisubalbicans	bacteria	Herbaspirillum	GRH36
+non-genus-specific reads in family Rhodocyclaceae	Rhodocyclaceae	bacteria	non-genus-specific Rhodocyclaceae	GRH431
+Sphingopyxis macrogoltabida	Sphingopyxis macrogoltabida	bacteria	Sphingopyxis	GRH65
+Sphingopyxis alaskensis	Sphingopyxis alaskensis	bacteria	Sphingopyxis	GRH65
+Citromicrobium	Citromicrobium	bacteria	Citromicrobium	GRH432
+Comamonas kerstersii	Comamonas kerstersii	bacteria	Comamonas	GRH47
+Mycobacteroides abscessus	Mycobacteroides abscessus	bacteria	Mycobacteroides	GRH81
+Parageobacillus	Parageobacillus	bacteria	Parageobacillus	GRH433
+Parageobacillus thermoglucosidasius	Parageobacillus thermoglucosidasius	bacteria	Parageobacillus	GRH433
+Undibacterium sp. YM2	Undibacterium sp. YM2	bacteria	Undibacterium	GRH410
+Leishmania panamensis	Leishmania panamensis	other_eukaryota	Leishmania	GRH147
+Burkholderia stabilis	Burkholderia stabilis	bacteria	Burkholderia	GRH53
+Crithidia	Crithidia	other_eukaryota	Crithidia	GRH434
+Crithidia fasciculata	Crithidia fasciculata	other_eukaryota	Crithidia	GRH434
+Crithidia acanthocephali	Crithidia acanthocephali	other_eukaryota	Crithidia	GRH434
+Crithidia brevicula	Crithidia brevicula	other_eukaryota	Crithidia	GRH434
+Methylobacterium sp. 17Sr1-1	Methylobacterium sp. 17Sr1-1	bacteria	Methylobacterium	GRH9
+Methylobacterium hispanicum	Methylobacterium hispanicum	bacteria	Methylobacterium	GRH9
+Erythrobacter neustonensis	Erythrobacter neustonensis	bacteria	Erythrobacter	GRH265
+Pseudomonas extremorientalis	Pseudomonas extremorientalis	bacteria	Pseudomonas	GRH1
+Pseudomonas cedrina	Pseudomonas cedrina	bacteria	Pseudomonas	GRH1
+Pseudomonas sp. VLB120	Pseudomonas sp. VLB120	bacteria	Pseudomonas	GRH1
+Zelonia	Zelonia	other_eukaryota	Zelonia	GRH435
+Curvibacter	Curvibacter	bacteria	Curvibacter	GRH392
+Caballeronia	Caballeronia	bacteria	Caballeronia	GRH436
+Halobellus	Halobellus	archaea	Halobellus	GRH437
+Sphingomonas sp. LMO-1	Sphingomonas profundi	bacteria	Sphingomonas	GRH16
+Sphingomonas sp. HMP9	Sphingomonas sp. HMP9	bacteria	Sphingomonas	GRH16
+Aquincola	Aquincola	bacteria	Aquincola	GRH438
+Aquincola tertiaricarbonis	Aquincola tertiaricarbonis	bacteria	Aquincola	GRH438
+Brucella vulpis	Brucella vulpis	bacteria	Brucella	GRH60
+Acanthamoeba	Acanthamoeba	other_eukaryota	Acanthamoeba	GRH439
+Acanthamoeba castellanii	Acanthamoeba castellanii	other_eukaryota	Acanthamoeba	GRH439
+Thiomonas	Thiomonas	bacteria	Thiomonas	GRH440
+Thiomonas sp. CB2	Thiomonas sp. CB2	bacteria	Thiomonas	GRH440
+Mesorhizobium sp. DCY119	Mesorhizobium sp. DCY119	bacteria	Mesorhizobium	GRH223
+Sphingobium sp. SCG-1	Sphingobium sp. SCG-1	bacteria	Sphingobium	GRH49
+Sphingobium chlorophenolicum	Sphingobium chlorophenolicum	bacteria	Sphingobium	GRH49
+Mycolicibacterium phocaicum	Mycolicibacterium phocaicum	bacteria	Mycolicibacterium	GRH134
+Sphingosinicella microcystinivorans	Sphingosinicella microcystinivorans	bacteria	Sphingosinicella	GRH287
+Aerococcus urinaeequi	Aerococcus urinaeequi	bacteria	Aerococcus	GRH242
+Cupriavidus nantongensis	Cupriavidus nantongensis	bacteria	Cupriavidus	GRH37
+Sphingorhabdus	Sphingorhabdus	bacteria	Sphingorhabdus	GRH441
+Myxococcus	Myxococcus	bacteria	Myxococcus	GRH442
+Myxococcus xanthus	Myxococcus xanthus	bacteria	Myxococcus	GRH442
+Enterobacter cloacae complex sp. FDA-CDC-AR_0132	Enterobacter cloacae complex sp. FDA-CDC-AR_0132	bacteria	Enterobacter	GRH17
+Cedecea lapagei	Cedecea lapagei	bacteria	Cedecea	GRH358
+Marinobacter	Marinobacter	bacteria	Marinobacter	GRH414
+Marinobacter salarius	Marinobacter salarius	bacteria	Marinobacter	GRH414
+Burkholderia gladioli	Burkholderia gladioli	bacteria	Burkholderia	GRH53
+Thermus oshimai	Thermus oshimai	bacteria	Thermus	GRH227
+Beauveria	Beauveria	fungus	Beauveria	GRH443
+Beauveria bassiana	Beauveria bassiana	fungus	Beauveria	GRH443
+Stenotrophomonas sp. NA06056	Stenotrophomonas sp. NA06056	bacteria	Stenotrophomonas	GRH20
+Bifidobacterium asteroides	Bifidobacterium asteroides	bacteria	Bifidobacterium	GRH124
+Pasteurella	Pasteurella	bacteria	Pasteurella	GRH444
+Pasteurella multocida	Pasteurella multocida	bacteria	Pasteurella	GRH444
+Arsenophonus	Arsenophonus	bacteria	Arsenophonus	GRH445
+Lactobacillus amylolyticus	Lactobacillus amylolyticus	bacteria	Lactobacillus	GRH23
+Haemophilus influenzae	Haemophilus influenzae	bacteria	Haemophilus	GRH99
+Haemophilus parahaemolyticus	Haemophilus parahaemolyticus	bacteria	Haemophilus	GRH99
+Leptotrichia trevisanii	Leptotrichia trevisanii	bacteria	Leptotrichia	GRH44
+Fusarium pseudograminearum	Fusarium pseudograminearum	fungus	Fusarium	GRH33
+Flammulina	Flammulina	fungus	Flammulina	GRH446
+Flammulina velutipes	Flammulina velutipes	fungus	Flammulina	GRH446
+Neisseria cinerea	Neisseria cinerea	bacteria	Neisseria	GRH51
+Pseudomonas mandelii	Pseudomonas mandelii	bacteria	Pseudomonas	GRH1
+Pseudomonas extremaustralis	Pseudomonas extremaustralis	bacteria	Pseudomonas	GRH1
+Campylobacter concisus	Campylobacter concisus	bacteria	Campylobacter	GRH256
+Aggregatibacter segnis	Aggregatibacter segnis	bacteria	Aggregatibacter	GRH305
+Novosphingobium sp. PP1Y	Novosphingobium sp. PP1Y	bacteria	Novosphingobium	GRH201
+Novosphingobium sp. ABRDHK2	Novosphingobium sp. EMRT-2	bacteria	Novosphingobium	GRH201
+Eikenella	Eikenella	bacteria	Eikenella	GRH447
+Sphingosinicella sp. UDD2	Sphingosinicella flava	bacteria	Sphingosinicella	GRH287
+Mesorhizobium sp. Pch-S	Mesorhizobium sp. Pch-S	bacteria	Mesorhizobium	GRH223
+Rahnella aquatilis	Rahnella aquatilis	bacteria	Rahnella	GRH311
+Rubrivivax gelatinosus	Rubrivivax gelatinosus	bacteria	Rubrivivax	GRH315
+Zygosaccharomyces sapae	Zygosaccharomyces sapae	fungus	Zygosaccharomyces	GRH202
+Enterococcus gallinarum	Enterococcus gallinarum	bacteria	Enterococcus	GRH161
+Enterococcus sp. FDAARGOS_375	Enterococcus sp. FDAARGOS_375	bacteria	Enterococcus	GRH161
+Aspergillus brunneoviolaceus	Aspergillus brunneoviolaceus	fungus	Aspergillus	GRH109
+Aspergillus novofumigatus	Aspergillus novofumigatus	fungus	Aspergillus	GRH109
+Aspergillus penicillioides	Aspergillus penicillioides	fungus	Aspergillus	GRH109
+Starmerella magnoliae	Starmerella magnoliae	fungus	Starmerella	GRH375
+Lachancea thermotolerans	Lachancea thermotolerans	fungus	Lachancea	GRH448
+Neohortaea	Neohortaea	fungus	Neohortaea	GRH449
+Neohortaea acidophila	Neohortaea acidophila	fungus	Neohortaea	GRH449
+Thermococcus	Thermococcus	archaea	Thermococcus	GRH450
+Thermococcus onnurineus	Thermococcus onnurineus	archaea	Thermococcus	GRH450
+Ogataea polymorpha	Ogataea polymorpha	fungus	Ogataea	GRH451
+Phytophthora infestans	Phytophthora infestans	other_eukaryota	Phytophthora	GRH397
+Serratia plymuthica	Serratia plymuthica	bacteria	Serratia	GRH77
+Fonsecaea	Fonsecaea	fungus	Fonsecaea	GRH452
+Pyricularia pennisetigena	Pyricularia pennisetigena	fungus	Pyricularia	GRH190
+Pyricularia oryzae	Pyricularia oryzae	fungus	Pyricularia	GRH190
+Rheinheimera sp. F8	Rheinheimera sp. F8	bacteria	Rheinheimera	GRH25
+Tsuneonella	Tsuneonella	bacteria	Tsuneonella	GRH453
+Tsuneonella mangrovi	Tsuneonella mangrovi	bacteria	Tsuneonella	GRH453
+Rhizophagus	Rhizophagus	fungus	Rhizophagus	GRH454
+Rhizophagus irregularis	Rhizophagus irregularis	fungus	Rhizophagus	GRH454
+Acinetobacter towneri	Acinetobacter towneri	bacteria	Acinetobacter	GRH2
+Pseudomonas libanensis	Pseudomonas libanensis	bacteria	Pseudomonas	GRH1
+Corynebacterium sp. NML98-0116	Corynebacterium sp. NML98-0116	bacteria	Corynebacterium	GRH15
+Nocardia	Nocardia	bacteria	Nocardia	GRH455
+Hylemonella	Hylemonella	bacteria	Hylemonella	GRH456
+Hylemonella gracilis	Hylemonella gracilis	bacteria	Hylemonella	GRH456
+Fusarium graminearum	Fusarium graminearum	fungus	Fusarium	GRH33
+Fusarium culmorum	Fusarium culmorum	fungus	Fusarium	GRH33
+Fusarium venenatum	Fusarium venenatum	fungus	Fusarium	GRH33
+Fusarium coffeatum	Fusarium coffeatum	fungus	Fusarium	GRH33
+Wolinella	Wolinella	bacteria	Wolinella	GRH457
+Wolinella succinogenes	Wolinella succinogenes	bacteria	Wolinella	GRH457
+Pseudomonas sp. BJP69	Pseudomonas sp. BJP69	bacteria	Pseudomonas	GRH1
+Pseudomonas resinovorans	Pseudomonas resinovorans	bacteria	Pseudomonas	GRH1
+Ramularia collo-cygni	Ramularia collo-cygni	fungus	Ramularia	GRH255
+Raoultella terrigena	Raoultella terrigena	bacteria	Raoultella	GRH229
+Aspergillus fumigatus	Aspergillus fumigatus	fungus	Aspergillus	GRH109
+Chryseobacterium bernardetii	Chryseobacterium bernardetii	bacteria	Chryseobacterium	GRH76
+Paracoccus liaowanqingii	Paracoccus liaowanqingii	bacteria	Paracoccus	GRH52
+Aquabacterium sp. PL1F5	Aquabacterium sp. PL1F5	bacteria	Aquabacterium	GRH40
+Aureobasidium subglaciale	Aureobasidium subglaciale	fungus	Aureobasidium	GRH123
+Armillaria	Armillaria	fungus	Armillaria	GRH458
+Armillaria ostoyae	Armillaria ostoyae	fungus	Armillaria	GRH458
+[Candida] auris	[Candida] auris	fungus	Candida/Metschnikowiaceae	GRH366
+Saccharomycopsis	Saccharomycopsis	fungus	Saccharomycopsis	GRH459
+Saccharomycopsis fodiens	Saccharomycopsis fodiens	fungus	Saccharomycopsis	GRH459
+Phialocephala	Phialocephala	fungus	Phialocephala	GRH460
+Agaricus	Agaricus	fungus	Agaricus	GRH461
+Agaricus bisporus	Agaricus bisporus	fungus	Agaricus	GRH461
+Bipolaris maydis	Bipolaris maydis	fungus	Bipolaris	GRH143
+Exserohilum	Exserohilum	fungus	Exserohilum	GRH462
+Exserohilum turcicum	Exserohilum turcicum	fungus	Exserohilum	GRH462
+Rhizopus	Rhizopus	fungus	Rhizopus	GRH139
+Rahnella sp. ERMR1:05	Rahnella sp. ERMR1:05	bacteria	Rahnella	GRH311
+Plasmopara	Plasmopara	other_eukaryota	Plasmopara	GRH463
+Plasmopara halstedii	Plasmopara halstedii	other_eukaryota	Plasmopara	GRH463
+Erwinia billingiae	Erwinia billingiae	bacteria	Erwinia	GRH169
+Levilactobacillus	Levilactobacillus	bacteria	Levilactobacillus	GRH464
+Aspergillus pseudoglaucus	Aspergillus pseudoglaucus	fungus	Aspergillus	GRH109
+Arsenophonus endosymbiont of Aphis craccivora	Arsenophonus endosymbiont of Aphis craccivora	bacteria	Arsenophonus	GRH445
+Apilactobacillus	Apilactobacillus	bacteria	Apilactobacillus	GRH465
+Apilactobacillus kunkeei	Apilactobacillus kunkeei	bacteria	Apilactobacillus	GRH465
+Zygosaccharomyces bisporus	Zygosaccharomyces bisporus	fungus	Zygosaccharomyces	GRH202
+Bifidobacterium actinocoloniiforme	Bifidobacterium actinocoloniiforme	bacteria	Bifidobacterium	GRH124
+Erwinia sp. QL-Z3	Erwinia sp. QL-Z3	bacteria	Erwinia	GRH169
+Serratia rubidaea	Serratia rubidaea	bacteria	Serratia	GRH77
+Yersinia	Yersinia	bacteria	Yersinia	GRH130
+Cronobacter	Cronobacter	bacteria	Cronobacter	GRH466
+Cronobacter sakazakii	Cronobacter sakazakii	bacteria	Cronobacter	GRH466
+Erwinia persicina	Erwinia persicina	bacteria	Erwinia	GRH169
+Rouxiella badensis	Rouxiella badensis	bacteria	Rouxiella	GRH467
+Enterobacteriaceae bacterium Kacie_13	Enterobacteriaceae bacterium Kacie_13	bacteria	non-genus-specific Enterobacteriaceae	GRH376
+Pseudomonas graminis	Pseudomonas graminis	bacteria	Pseudomonas	GRH1
+Candidatus Snodgrassella sp. TA1_30860	Candidatus Snodgrassella sp. TA1_30860	bacteria	Snodgrassella	GRH8
+Frischella perrara	Frischella perrara	bacteria	Frischella	GRH129
+Lactobacillus helsingborgensis	Lactobacillus helsingborgensis	bacteria	Lactobacillus	GRH23
+Lactobacillus kullabergensis	Lactobacillus kullabergensis	bacteria	Lactobacillus	GRH23
+Lactobacillus sp. wkB8	Lactobacillus sp. wkB8	bacteria	Lactobacillus	GRH23
+Commensalibacter	Commensalibacter	bacteria	Commensalibacter	GRH468
+Commensalibacter sp. AMU001	Commensalibacter sp. AMU001	bacteria	Commensalibacter	GRH468
+Commensalibacter sp. ESL0284	Commensalibacter sp. ESL0284	bacteria	Commensalibacter	GRH468
+Orbus	Orbus	bacteria	Orbus	GRH469
+Bartonella	Bartonella	bacteria	Bartonella	GRH470
+Bartonella apis	Bartonella apis	bacteria	Bartonella	GRH470
+Sodalis	Sodalis	bacteria	Sodalis	GRH471
+Sodalis praecaptivus	Sodalis praecaptivus	bacteria	Sodalis	GRH471
+Candidatus Sodalis pierantonius	Candidatus Sodalis pierantonius	bacteria	Sodalis	GRH471
+Wolbachia pipientis	Wolbachia pipientis	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Diaphorina citri	Wolbachia endosymbiont of Diaphorina citri	bacteria	Wolbachia	GRH138
+Leuconostoc pseudomesenteroides	Leuconostoc pseudomesenteroides	bacteria	Leuconostoc	GRH213
+Plautia stali symbiont	Plautia stali symbiont	bacteria	non-genus-specific Enterobacteriaceae	GRH376
+Spiroplasma	Spiroplasma	bacteria	Spiroplasma	GRH472
+Spiroplasma apis	Spiroplasma apis	bacteria	Spiroplasma	GRH472
+Spiroplasma melliferum	Spiroplasma melliferum	bacteria	Spiroplasma	GRH472
+Spiroplasma citri	Spiroplasma citri	bacteria	Spiroplasma	GRH472
+Leishmania mexicana	Leishmania mexicana	other_eukaryota	Leishmania	GRH147
+Leishmania infantum	Leishmania infantum	other_eukaryota	Leishmania	GRH147
+Crithidia mellificae	Crithidia mellificae	other_eukaryota	Crithidia	GRH434
+Lotmaria	Lotmaria	other_eukaryota	Lotmaria	GRH473
+Lotmaria passim	Lotmaria passim	other_eukaryota	Lotmaria	GRH473
+Angomonas	Angomonas	other_eukaryota	Angomonas	GRH474
+Angomonas deanei	Angomonas deanei	other_eukaryota	Angomonas	GRH474
+Spiroplasma phoeniceum	Spiroplasma phoeniceum	bacteria	Spiroplasma	GRH472
+Spiroplasma kunkelii	Spiroplasma kunkelii	bacteria	Spiroplasma	GRH472
+Spiroplasma clarkii	Spiroplasma clarkii	bacteria	Spiroplasma	GRH472
+Providencia rettgeri	Providencia rettgeri	bacteria	Providencia	GRH171
+Carnimonas	Carnimonas	bacteria	Carnimonas	GRH475
+Carnimonas nigrificans	Carnimonas nigrificans	bacteria	Carnimonas	GRH475
+Morganella	Morganella	bacteria	Morganella	GRH476
+Morganella morganii	Morganella morganii	bacteria	Morganella	GRH476
+Wolbachia endosymbiont of Drosophila simulans	Wolbachia endosymbiont of Drosophila simulans	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Drosophila incompta	Wolbachia endosymbiont of Drosophila incompta	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Xylosandrus germanus	Wolbachia endosymbiont of Xylosandrus germanus	bacteria	Wolbachia	GRH138
+Leishmania braziliensis	Leishmania braziliensis	other_eukaryota	Leishmania	GRH147
+Providencia stuartii	Providencia stuartii	bacteria	Providencia	GRH171
+Wolbachia endosymbiont of Culex quinquefasciatus	Wolbachia endosymbiont of Culex quinquefasciatus	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Ctenocephalides felis wCfeJ	Wolbachia endosymbiont of Ctenocephalides felis wCfeJ	bacteria	Wolbachia	GRH138
+Latilactobacillus	Latilactobacillus	bacteria	Latilactobacillus	GRH477
+Latilactobacillus curvatus	Latilactobacillus curvatus	bacteria	Latilactobacillus	GRH477
+Latilactobacillus sakei	Latilactobacillus sakei	bacteria	Latilactobacillus	GRH477
+Polaromonas	Polaromonas	bacteria	Polaromonas	GRH478
+Rosenbergiella	Rosenbergiella	bacteria	Rosenbergiella	GRH479
+Rosenbergiella nectarea	Rosenbergiella nectarea	bacteria	Rosenbergiella	GRH479
+Leuconostoc mesenteroides	Leuconostoc mesenteroides	bacteria	Leuconostoc	GRH213
+Aerococcus viridans	Aerococcus viridans	bacteria	Aerococcus	GRH242
+Pseudoclavibacter	Pseudoclavibacter	bacteria	Pseudoclavibacter	GRH480
+Leptomonas cf. pyrrhocoris	Leptomonas cf. pyrrhocoris	other_eukaryota	Leptomonas	GRH481
+Wolbachia endosymbiont of Carposina sasakii	Wolbachia endosymbiont of Carposina sasakii	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Drosophila ananassae	Wolbachia endosymbiont of Drosophila ananassae	bacteria	Wolbachia	GRH138
+Weissella hellenica	Weissella hellenica	bacteria	Weissella	GRH286
+Weissella paramesenteroides	Weissella paramesenteroides	bacteria	Weissella	GRH286
+Bifidobacterium indicum	Bifidobacterium indicum	bacteria	Bifidobacterium	GRH124
+Bifidobacterium coryneforme	Bifidobacterium coryneforme	bacteria	Bifidobacterium	GRH124
+Aspergillus mulundensis	Aspergillus mulundensis	fungus	Aspergillus	GRH109
+Paracoccidioides brasiliensis	Paracoccidioides brasiliensis	fungus	Paracoccidioides	GRH482
+Alteromonas	Alteromonas	bacteria	Alteromonas	GRH483
+Alteromonas macleodii	Alteromonas macleodii	bacteria	Alteromonas	GRH483
+Baudoinia	Baudoinia	fungus	Baudoinia	GRH484
+Baudoinia panamericana	Baudoinia panamericana	fungus	Baudoinia	GRH484
+Corynebacterium efficiens	Corynebacterium efficiens	bacteria	Corynebacterium	GRH15
+Leuconostoc suionicum	Leuconostoc suionicum	bacteria	Leuconostoc	GRH213
+Lonsdalea	Lonsdalea	bacteria	Lonsdalea	GRH485
+Lonsdalea britannica	Lonsdalea britannica	bacteria	Lonsdalea	GRH485
+Lonsdalea populi	Lonsdalea populi	bacteria	Lonsdalea	GRH485
+Lonsdalea quercina	Lonsdalea quercina	bacteria	Lonsdalea	GRH485
+Pectobacterium parmentieri	Pectobacterium parmentieri	bacteria	Pectobacterium	GRH220
+Pectobacterium versatile	Pectobacterium versatile	bacteria	Pectobacterium	GRH220
+Pectobacterium carotovorum	Pectobacterium carotovorum	bacteria	Pectobacterium	GRH220
+Weissella thailandensis	Weissella thailandensis	bacteria	Weissella	GRH286
+Dickeya fangzhongdai	Dickeya fangzhongdai	bacteria	Dickeya	GRH328
+Dickeya chrysanthemi	Dickeya chrysanthemi	bacteria	Dickeya	GRH328
+Brenneria goodwinii	Brenneria goodwinii	bacteria	Brenneria	GRH486
+Gibbsiella	Gibbsiella	bacteria	Gibbsiella	GRH487
+Gibbsiella quercinecans	Gibbsiella quercinecans	bacteria	Gibbsiella	GRH487
+Yersinia enterocolitica	Yersinia enterocolitica	bacteria	Yersinia	GRH130
+Erwinia amylovora	Erwinia amylovora	bacteria	Erwinia	GRH169
+Gluconobacter oxydans	Gluconobacter oxydans	bacteria	Gluconobacter	GRH245
+Tilletiopsis	Tilletiopsis	fungus	Tilletiopsis	GRH488
+Tilletiopsis washingtonensis	Tilletiopsis washingtonensis	fungus	Tilletiopsis	GRH488
+Legionella	Legionella	bacteria	Legionella	GRH489
+Sodalis glossinidius	Sodalis glossinidius	bacteria	Sodalis	GRH471
+Puccinia striiformis	Puccinia striiformis	fungus	Puccinia	GRH293
+Saprochaete	Saprochaete	fungus	Saprochaete	GRH490
+Saprochaete ingens	Saprochaete ingens	fungus	Saprochaete	GRH490
+Chryseobacterium taihuense	Chryseobacterium taihuense	bacteria	Chryseobacterium	GRH76
+Herbaspirillum frisingense	Herbaspirillum frisingense	bacteria	Herbaspirillum	GRH36
+Nosema apis	Nosema apis	fungus	Nosema	GRH126
+Crithidia thermophila	Crithidia thermophila	other_eukaryota	Crithidia	GRH434
+Rhodotorula	Rhodotorula	fungus	Rhodotorula	GRH491
+Cladosporium sp.	Cladosporium sp.	fungus	Cladosporium	GRH356
+Paraphaeosphaeria sporulosa	Paraphaeosphaeria sporulosa	fungus	Paraphaeosphaeria	GRH277
+Mucor	Mucor	fungus	Mucor	GRH492
+Pyrenophora	Pyrenophora	fungus	Pyrenophora	GRH160
+Glarea	Glarea	fungus	Glarea	GRH493
+Glarea lozoyensis	Glarea lozoyensis	fungus	Glarea	GRH493
+Pseudocercospora fijiensis	Pseudocercospora fijiensis	fungus	Pseudocercospora	GRH177
+Rhodotorula graminis	Rhodotorula graminis	fungus	Rhodotorula	GRH491
+Nosema bombi	Nosema bombi	fungus	Nosema	GRH126
+Gammaproteobacteria bacterium ESL0073	Gammaproteobacteria bacterium ESL0073	bacteria	non-genus-specific Gammaproteobacteria	GRH494
+Metschnikowia gruessii	Metschnikowia gruessii	fungus	Metschnikowia	GRH174
+Cryptococcus gattii VGI	Cryptococcus gattii VGI	fungus	Cryptococcus	GRH150
+Fructobacillus	Fructobacillus	bacteria	Fructobacillus	GRH495
+Fusarium fujikuroi	Fusarium fujikuroi	fungus	Fusarium	GRH33
+Pseudomonas sp. KU43P	Pseudomonas sp. KU43P	bacteria	Pseudomonas	GRH1
+Pseudomonas mosselii	Pseudomonas mosselii	bacteria	Pseudomonas	GRH1
+Debaryomyces maramus	Debaryomyces maramus	fungus	Debaryomyces	GRH110
+Verticillium dahliae	Verticillium dahliae	fungus	Verticillium	GRH166
+Aspergillus thermomutatus	Aspergillus thermomutatus	fungus	Aspergillus	GRH109
+Aspergillus fischeri	Aspergillus fischeri	fungus	Aspergillus	GRH109
+Aspergillus tanneri	Aspergillus tanneri	fungus	Aspergillus	GRH109
+Aspergillus clavatus	Aspergillus clavatus	fungus	Aspergillus	GRH109
+Limosilactobacillus	Limosilactobacillus	bacteria	Limosilactobacillus	GRH496
+[Candida] pseudohaemulonis	[Candida] pseudohaemulonis	fungus	non-genus-specific Metschnikowiaceae	GRH295
+[Candida] duobushaemulonis	[Candida] duobushaemulonis	fungus	non-genus-specific Metschnikowiaceae	GRH295
+Botrytis fabae	Botrytis fabae	fungus	Botrytis	GRH271
+Phocaeicola dorei	Phocaeicola dorei	bacteria	Phocaeicola	GRH497
+Pneumocystis jirovecii	Pneumocystis jirovecii	fungus	Pneumocystis	GRH498
+Wolbachia endosymbiont of Cimex lectularius	Wolbachia endosymbiont of Cimex lectularius	bacteria	Wolbachia	GRH138
+Komagataella phaffii	Komagataella phaffii	fungus	Komagataella	GRH499
+Phycomyces	Phycomyces	fungus	Phycomyces	GRH500
+Phycomyces blakesleeanus	Phycomyces blakesleeanus	fungus	Phycomyces	GRH500
+Cedecea sp. FDAARGOS_727	Cedecea sp. FDAARGOS_727	bacteria	Cedecea	GRH358
+Euglena	Euglena	other_eukaryota	Euglena	GRH501
+Euglena gracilis	Euglena gracilis	other_eukaryota	Euglena	GRH501
+Endocarpon	Endocarpon	fungus	Endocarpon	GRH502
+Endocarpon pusillum	Endocarpon pusillum	fungus	Endocarpon	GRH502
+Lachnospira	Lachnospira	bacteria	Lachnospira	GRH503
+Lachnospira eligens	Lachnospira eligens	bacteria	Lachnospira	GRH503
+Purpureocillium	Purpureocillium	fungus	Purpureocillium	GRH504
+Purpureocillium lilacinum	Purpureocillium lilacinum	fungus	Purpureocillium	GRH504
+Cordyceps militaris	Cordyceps militaris	fungus	Cordyceps	GRH301
+Lachnellula	Lachnellula	fungus	Lachnellula	GRH505
+Sporobolomyces	Sporobolomyces	fungus	Sporobolomyces	GRH506
+Sporobolomyces roseus	Sporobolomyces roseus	fungus	Sporobolomyces	GRH506
+Coprococcus	Coprococcus	bacteria	Coprococcus	GRH507
+Sodiomyces	Sodiomyces	fungus	Sodiomyces	GRH508
+Sodiomyces alkalinus	Sodiomyces alkalinus	fungus	Sodiomyces	GRH508
+Paratrypanosoma	Paratrypanosoma	other_eukaryota	Paratrypanosoma	GRH509
+Paratrypanosoma confusum	Paratrypanosoma confusum	other_eukaryota	Paratrypanosoma	GRH509
+Bacteroides thetaiotaomicron	Bacteroides thetaiotaomicron	bacteria	Bacteroides	GRH281
+Bacteroides fragilis	Bacteroides fragilis	bacteria	Bacteroides	GRH281
+Bacteroides xylanisolvens	Bacteroides xylanisolvens	bacteria	Bacteroides	GRH281
+Bacteroides intestinalis	Bacteroides intestinalis	bacteria	Bacteroides	GRH281
+[Eubacterium] rectale	[Eubacterium] rectale	bacteria	non-genus-specific Lachnospiraceae	GRH329
+Lachnospiraceae bacterium	Lachnospiraceae bacterium	bacteria	non-genus-specific Lachnospiraceae	GRH329
+Phascolarctobacterium	Phascolarctobacterium	bacteria	Phascolarctobacterium	GRH510
+Phascolarctobacterium faecium	Phascolarctobacterium faecium	bacteria	Phascolarctobacterium	GRH510
+Ophiocordyceps	Ophiocordyceps	fungus	Ophiocordyceps	GRH511
+Roseburia intestinalis	Roseburia intestinalis	bacteria	Roseburia	GRH512
+Alistipes onderdonkii	Alistipes onderdonkii	bacteria	Alistipes	GRH353
+Neurospora tetrasperma	Neurospora tetrasperma	fungus	Neurospora	GRH168
+Ruminococcus	Ruminococcus	bacteria	Ruminococcus	GRH513
+Ruminococcus bicirculans	Ruminococcus bicirculans	bacteria	Ruminococcus	GRH513
+Parabacteroides	Parabacteroides	bacteria	Parabacteroides	GRH514
+Parabacteroides distasonis	Parabacteroides distasonis	bacteria	Parabacteroides	GRH514
+Clostridioides	Clostridioides	bacteria	Clostridioides	GRH515
+Clostridioides difficile	Clostridioides difficile	bacteria	Clostridioides	GRH515
+Enterobacter sp. 638	Enterobacter sp. 638	bacteria	Enterobacter	GRH17
+Gilliamella bombicola	Gilliamella bombicola	bacteria	Gilliamella	GRH7
+Pseudomonas plecoglossicida	Pseudomonas plecoglossicida	bacteria	Pseudomonas	GRH1
+Filobasidium	Filobasidium	fungus	Filobasidium	GRH516
+Bifidobacterium longum	Bifidobacterium longum	bacteria	Bifidobacterium	GRH124
+Bifidobacterium bombi	Bifidobacterium bombi	bacteria	Bifidobacterium	GRH124
+Rhodoluna	Rhodoluna	bacteria	Rhodoluna	GRH517
+Erwinia tasmaniensis	Erwinia tasmaniensis	bacteria	Erwinia	GRH169
+Cladophialophora immunda	Cladophialophora immunda	fungus	Cladophialophora	GRH518
+Polynucleobacter	Polynucleobacter	bacteria	Polynucleobacter	GRH519
+Capronia	Capronia	fungus	Capronia	GRH520
+Capronia coronata	Capronia coronata	fungus	Capronia	GRH520
+Meira	Meira	fungus	Meira	GRH521
+Meira miltonrushii	Meira miltonrushii	fungus	Meira	GRH521
+Arsenophonus endosymbiont of Bemisia tabaci	Arsenophonus endosymbiont of Bemisia tabaci	bacteria	Arsenophonus	GRH445
+Lentilactobacillus	Lentilactobacillus	bacteria	Lentilactobacillus	GRH522
+Apibacter raozihei	Apibacter raozihei	bacteria	Apibacter	GRH128
+Aureobasidium melanogenum	Aureobasidium melanogenum	fungus	Aureobasidium	GRH123
+Cryptococcus amylolentus	Cryptococcus amylolentus	fungus	Cryptococcus	GRH150
+Trichoderma harzianum	Trichoderma harzianum	fungus	Trichoderma	GRH117
+Entomomonas	Entomomonas	bacteria	Entomomonas	GRH523
+Entomomonas moraniae	Entomomonas moraniae	bacteria	Entomomonas	GRH523
+Phocaeicola	Phocaeicola	bacteria	Phocaeicola	GRH497
+Phocaeicola vulgatus	Phocaeicola vulgatus	bacteria	Phocaeicola	GRH497
+Hafnia paralvei	Hafnia paralvei	bacteria	Hafnia	GRH251
+Puccinia graminis	Puccinia graminis	fungus	Puccinia	GRH293
+Dichomitus	Dichomitus	fungus	Dichomitus	GRH524
+Dichomitus squalens	Dichomitus squalens	fungus	Dichomitus	GRH524
+Paracoccidioides	Paracoccidioides	fungus	Paracoccidioides	GRH482
+Alistipes communis	Alistipes communis	bacteria	Alistipes	GRH353
+Glaesserella	Glaesserella	bacteria	Glaesserella	GRH525
+Glaesserella parasuis	Glaesserella parasuis	bacteria	Glaesserella	GRH525
+Cohnella	Cohnella	bacteria	Cohnella	GRH526
+Kluyvera intermedia	Kluyvera intermedia	bacteria	Kluyvera	GRH383
+[Eubacterium] siraeum	[Eubacterium] siraeum	bacteria	non-genus-specific Oscillospiraceae	GRH527
+Mediterraneibacter	Mediterraneibacter	bacteria	Mediterraneibacter	GRH248
+Prevotella copri	Prevotella copri	bacteria	Prevotella	GRH57
+Priestia	Priestia	bacteria	Priestia	GRH528
+Priestia megaterium	Priestia megaterium	bacteria	Priestia	GRH528
+Flavobacterium columnare	Flavobacterium columnare	bacteria	Flavobacterium	GRH136
+Eikenella corrodens	Eikenella corrodens	bacteria	Eikenella	GRH447
+Akkermansia	Akkermansia	bacteria	Akkermansia	GRH529
+Akkermansia muciniphila	Akkermansia muciniphila	bacteria	Akkermansia	GRH529
+Metschnikowia rancensis	Metschnikowia rancensis	fungus	Metschnikowia	GRH174
+Pleurotus ostreatus	Pleurotus ostreatus	fungus	Pleurotus	GRH530
+Cladosporium sphaerospermum	Cladosporium sphaerospermum	fungus	Cladosporium	GRH356
+Fructobacillus tropaeoli	Fructobacillus tropaeoli	bacteria	Fructobacillus	GRH495
+Bacillus velezensis	Bacillus velezensis	bacteria	Bacillus	GRH14
+Pseudomonas sp. R5-89-07	Pseudomonas sp. R5-89-07	bacteria	Pseudomonas	GRH1
+Pseudomonas koreensis	Pseudomonas koreensis	bacteria	Pseudomonas	GRH1
+Carnobacterium divergens	Carnobacterium divergens	bacteria	Carnobacterium	GRH299
+Edwardsiella	Edwardsiella	bacteria	Edwardsiella	GRH531
+Polynucleobacter asymbioticus	Polynucleobacter asymbioticus	bacteria	Polynucleobacter	GRH519
+Pochonia	Pochonia	fungus	Pochonia	GRH532
+Pochonia chlamydosporia	Pochonia chlamydosporia	fungus	Pochonia	GRH532
+Arsenophonus nasoniae	Arsenophonus nasoniae	bacteria	Arsenophonus	GRH445
+Euglena agilis	Euglena agilis	other_eukaryota	Euglena	GRH501
+Metschnikowia australis	Metschnikowia australis	fungus	Metschnikowia	GRH174
+Apibacter adventoris	Apibacter adventoris	bacteria	Apibacter	GRH128
+Aspergillus felis	Aspergillus felis	fungus	Aspergillus	GRH109
+Aspergillus sclerotioniger	Aspergillus sclerotioniger	fungus	Aspergillus	GRH109
+Serratia ureilytica	Serratia ureilytica	bacteria	Serratia	GRH77
+Serratia symbiotica	Serratia symbiotica	bacteria	Serratia	GRH77
+Colletotrichum higginsianum	Colletotrichum higginsianum	fungus	Colletotrichum	GRH98
+Secundilactobacillus	Secundilactobacillus	bacteria	Secundilactobacillus	GRH533
+Orbus sp. IPMB12	Zophobihabitans entericus	bacteria	Zophobihabitans	GRH534
+Bacteroides caccae	Bacteroides caccae	bacteria	Bacteroides	GRH281
+Pseudogymnoascus verrucosus	Pseudogymnoascus verrucosus	fungus	Pseudogymnoascus	GRH360
+Coccidioides posadasii	Coccidioides posadasii	fungus	Coccidioides	GRH535
+Letharia columbiana	Letharia columbiana	fungus	Letharia	GRH536
+Paraprevotella	Paraprevotella	bacteria	Paraprevotella	GRH537
+Roseburia	Roseburia	bacteria	Roseburia	GRH512
+Roseburia inulinivorans	Roseburia inulinivorans	bacteria	Roseburia	GRH512
+Candidatus Arsenophonus triatominarum	Candidatus Arsenophonus triatominarum	bacteria	Arsenophonus	GRH445
+Lactobacillus bombintestini	Apilactobacillus bombintestini	bacteria	Apilactobacillus	GRH465
+Strigomonas oncopelti	Strigomonas oncopelti	other_eukaryota	Strigomonas	GRH538
+Saccharibacter	Saccharibacter	bacteria	Saccharibacter	GRH539
+Saccharibacter floricola	Saccharibacter floricola	bacteria	Saccharibacter	GRH539
+Chaetomium globosum	Chaetomium globosum	fungus	Chaetomium	GRH540
+Westerdykella	Westerdykella	fungus	Westerdykella	GRH541
+Westerdykella ornata	Westerdykella ornata	fungus	Westerdykella	GRH541
+Leptosphaeria	Leptosphaeria	fungus	Leptosphaeria	GRH542
+Leptosphaeria maculans	Leptosphaeria maculans	fungus	Leptosphaeria	GRH542
+Legionella pneumophila	Legionella pneumophila	bacteria	Legionella	GRH489
+Halobacteriovorax	Halobacteriovorax	bacteria	Halobacteriovorax	GRH543
+Acinetobacter boissieri	Acinetobacter boissieri	bacteria	Acinetobacter	GRH2
+Paucibacter	Paucibacter	bacteria	Paucibacter	GRH544
+Paucibacter sp. KCTC 42545	Paucibacter sp. KCTC 42545	bacteria	Paucibacter	GRH544
+Lichtheimia	Lichtheimia	fungus	Lichtheimia	GRH545
+Leptomonas	Leptomonas	other_eukaryota	Leptomonas	GRH481
+Leptomonas pyrrhocoris	Leptomonas pyrrhocoris	other_eukaryota	Leptomonas	GRH481
+Clostridium tetani	Clostridium tetani	bacteria	Clostridium	GRH274
+Leptomonas podlipaevi	Leptomonas podlipaevi	other_eukaryota	Leptomonas	GRH481
+Leishmania major	Leishmania major	other_eukaryota	Leishmania	GRH147
+Apibacter mensalis	Apibacter mensalis	bacteria	Apibacter	GRH128
+Listeria monocytogenes	Listeria monocytogenes	bacteria	Listeria	GRH178
+Trypanosoma grayi	Trypanosoma grayi	other_eukaryota	Trypanosoma	GRH348
+Lodderomyces	Lodderomyces	fungus	Lodderomyces	GRH546
+Lodderomyces elongisporus	Lodderomyces elongisporus	fungus	Lodderomyces	GRH546
+Streptomyces parvulus	Streptomyces parvulus	bacteria	Streptomyces	GRH346
+Corynebacterium simulans	Corynebacterium simulans	bacteria	Corynebacterium	GRH15
+Corynebacterium glaucum	Corynebacterium glaucum	bacteria	Corynebacterium	GRH15
+Kluyveromyces marxianus	Kluyveromyces marxianus	fungus	Kluyveromyces	GRH176
+Dermabacter	Dermabacter	bacteria	Dermabacter	GRH547
+Lichtheimia ramosa	Lichtheimia ramosa	fungus	Lichtheimia	GRH545
+Paracoccus contaminans	Paracoccus contaminans	bacteria	Paracoccus	GRH52
+Leishmania amazonensis	Leishmania amazonensis	other_eukaryota	Leishmania	GRH147
+Leishmania enriettii	Leishmania enriettii	other_eukaryota	Leishmania	GRH147
+Herpetomonas	Herpetomonas	other_eukaryota	Herpetomonas	GRH548
+Pandoraea	Pandoraea	bacteria	Pandoraea	GRH549
+Corynebacterium diphtheriae	Corynebacterium diphtheriae	bacteria	Corynebacterium	GRH15
+Oerskovia	Oerskovia	bacteria	Oerskovia	GRH550
+Streptomyces albidoflavus	Streptomyces albidoflavus	bacteria	Streptomyces	GRH346
+Sphingopyxis sp. OPL5	Sphingopyxis sp. OPL5	bacteria	Sphingopyxis	GRH65
+Sphingopyxis sp. EG6	Sphingopyxis sp. EG6	bacteria	Sphingopyxis	GRH65
+Sphingopyxis terrae	Sphingopyxis terrae	bacteria	Sphingopyxis	GRH65
+Sphingopyxis sp. MG	Sphingopyxis sp. MG	bacteria	Sphingopyxis	GRH65
+Sphingopyxis sp. QXT-31	Sphingopyxis sp. QXT-31	bacteria	Sphingopyxis	GRH65
+Sphingopyxis sp. PAMC25046	Sphingopyxis sp. PAMC25046	bacteria	Sphingopyxis	GRH65
+Lacibacter	Lacibacter	bacteria	Lacibacter	GRH551
+Leptospira	Leptospira	bacteria	Leptospira	GRH552
+Filimonas	Filimonas	bacteria	Filimonas	GRH553
+Arcobacter	Arcobacter	bacteria	Arcobacter	GRH554
+Arcobacter cryaerophilus	Aliarcobacter cryaerophilus	bacteria	Aliarcobacter	GRH555
+Sphingomonas sp. IC081	Sphingomonas sp. IC081	bacteria	Sphingomonas	GRH16
+Lactococcus sp. KACC 19320	Lactococcus protaetiae	bacteria	Lactococcus	GRH105
+Sphaerotilus	Sphaerotilus	bacteria	Sphaerotilus	GRH556
+Strigomonas	Strigomonas	other_eukaryota	Strigomonas	GRH538
+Pleurotus	Pleurotus	fungus	Pleurotus	GRH530
+Cryptosporidium	Cryptosporidium	other_eukaryota	Cryptosporidium	GRH557
+Crithidia bombi	Crithidia bombi	other_eukaryota	Crithidia	GRH434
+Herpetomonas muscarum	Herpetomonas muscarum	other_eukaryota	Herpetomonas	GRH548
+Chromobacterium	Chromobacterium	bacteria	Chromobacterium	GRH558
+Cercospora beticola	Cercospora beticola	fungus	Cercospora	GRH185
+Pseudomonas sp. XWY-1	Pseudomonas sp. XWY-1	bacteria	Pseudomonas	GRH1
+Pseudomonas parafulva	Pseudomonas parafulva	bacteria	Pseudomonas	GRH1
+Moniliella	Moniliella	fungus	Moniliella	GRH559
+Moniliella nigrescens	Moniliella nigrescens	fungus	Moniliella	GRH559
+Moniliella megachiliensis	Moniliella megachiliensis	fungus	Moniliella	GRH559
+Chryseobacterium cucumeris	Chryseobacterium cucumeris	bacteria	Chryseobacterium	GRH76
+Arthrobacter sp. 24S4-2	Arthrobacter sp. 24S4-2	bacteria	Arthrobacter	GRH359
+Chryseobacterium sp. JV274	Chryseobacterium sp. JV274	bacteria	Chryseobacterium	GRH76
+Lactobacillus mucosae	Limosilactobacillus mucosae	bacteria	Limosilactobacillus	GRH496
+Pseudarthrobacter	Pseudarthrobacter	bacteria	Pseudarthrobacter	GRH560
+Chryseobacterium aureum	Chryseobacterium aureum	bacteria	Chryseobacterium	GRH76
+Chryseobacterium joostei	Chryseobacterium joostei	bacteria	Chryseobacterium	GRH76
+Chryseobacterium sp. G0186	Chryseobacterium sp. G0186	bacteria	Chryseobacterium	GRH76
+Chryseobacterium sp. G0162	Chryseobacterium sp. G0162	bacteria	Chryseobacterium	GRH76
+Chryseobacterium arthrosphaerae	Chryseobacterium arthrosphaerae	bacteria	Chryseobacterium	GRH76
+Chryseobacterium sp. StRB126	Chryseobacterium sp. StRB126	bacteria	Chryseobacterium	GRH76
+Chryseobacterium nakagawai	Chryseobacterium nakagawai	bacteria	Chryseobacterium	GRH76
+Chryseobacterium gallinarum	Chryseobacterium gallinarum	bacteria	Chryseobacterium	GRH76
+Chryseobacterium lactis	Chryseobacterium lactis	bacteria	Chryseobacterium	GRH76
+Pseudomonas sp. URMO17WK12:I11	Pseudomonas sp. URMO17WK12:I11	bacteria	Pseudomonas	GRH1
+Rhodoluna lacicola	Rhodoluna lacicola	bacteria	Rhodoluna	GRH517
+beta proteobacterium CB	beta proteobacterium CB	bacteria	non-genus-specific Betaproteobacteria	GRH561
+Polynucleobacter duraquae	Polynucleobacter duraquae	bacteria	Polynucleobacter	GRH519
+Polynucleobacter necessarius	Polynucleobacter necessarius	bacteria	Polynucleobacter	GRH519
+Paenibacillus mucilaginosus	Paenibacillus mucilaginosus	bacteria	Paenibacillus	GRH349
+Alcaligenes aquatilis	Alcaligenes aquatilis	bacteria	Alcaligenes	GRH108
+Lactobacillus melliventris	Lactobacillus melliventris	bacteria	Lactobacillus	GRH23
+Pseudomonas versuta	Pseudomonas versuta	bacteria	Pseudomonas	GRH1
+Pseudomonas taetrolens	Pseudomonas taetrolens	bacteria	Pseudomonas	GRH1
+Lactobacillus kimbladii	Lactobacillus kimbladii	bacteria	Lactobacillus	GRH23
+Serratia nematodiphila	Serratia nematodiphila	bacteria	Serratia	GRH77
+Diaphorobacter aerolatus	Diaphorobacter aerolatus	bacteria	Diaphorobacter	GRH101
+Citrobacter youngae	Citrobacter youngae	bacteria	Citrobacter	GRH122
+Agromyces	Agromyces	bacteria	Agromyces	GRH562
+Ochrobactrum quorumnocens	[Ochrobactrum] quorumnocens	bacteria	Brucella	GRH60
+Kerstersia	Kerstersia	bacteria	Kerstersia	GRH563
+Kerstersia gyiorum	Kerstersia gyiorum	bacteria	Kerstersia	GRH563
+Blautia sp. LZLJ-3	Blautia liquoris	bacteria	Blautia	GRH259
+Trypanosoma cruzi	Trypanosoma cruzi	other_eukaryota	Trypanosoma	GRH348
+Crithidia sp. ATCC 30255	Angomonas deanei	other_eukaryota	Angomonas	GRH474
+Bacillus licheniformis	Bacillus licheniformis	bacteria	Bacillus	GRH14
+Chroococcidiopsis thermalis	Chroococcidiopsis thermalis	bacteria	Chroococcidiopsis	GRH292
+Enterococcus pallens	Enterococcus pallens	bacteria	Enterococcus	GRH161
+Trypanosoma rangeli	Trypanosoma rangeli	other_eukaryota	Trypanosoma	GRH348
+Aspergillus aculeatus	Aspergillus aculeatus	fungus	Aspergillus	GRH109
+Talaromyces atroroseus	Talaromyces atroroseus	fungus	Talaromyces	GRH153
+Zygosaccharomyces mellis	Zygosaccharomyces mellis	fungus	Zygosaccharomyces	GRH202
+Jonesia	Jonesia	bacteria	Jonesia	GRH564
+Jonesia denitrificans	Jonesia denitrificans	bacteria	Jonesia	GRH564
+Cobetia	Cobetia	bacteria	Cobetia	GRH565
+Cobetia marina	Cobetia marina	bacteria	Cobetia	GRH565
+Rickettsia felis	Rickettsia felis	bacteria	Rickettsia	GRH566
+Rickettsia endosymbiont of Ixodes pacificus	Rickettsia endosymbiont of Ixodes pacificus	bacteria	Rickettsia	GRH566
+Acinetobacter sp. WCHAc010034	Acinetobacter sp. WCHAc010034	bacteria	Acinetobacter	GRH2
+Rickettsia	Rickettsia	bacteria	Rickettsia	GRH566
+Acinetobacter lactucae	Acinetobacter lactucae	bacteria	Acinetobacter	GRH2
+Acinetobacter lanii	Acinetobacter lanii	bacteria	Acinetobacter	GRH2
+Acinetobacter shaoyimingii	Acinetobacter shaoyimingii	bacteria	Acinetobacter	GRH2
+Acinetobacter equi	Acinetobacter equi	bacteria	Acinetobacter	GRH2
+Acinetobacter sp. TGL-Y2	Acinetobacter sp. TGL-Y2	bacteria	Acinetobacter	GRH2
+Acinetobacter soli	Acinetobacter soli	bacteria	Acinetobacter	GRH2
+Acinetobacter baylyi	Acinetobacter baylyi	bacteria	Acinetobacter	GRH2
+Acinetobacter cumulans	Acinetobacter cumulans	bacteria	Acinetobacter	GRH2
+Acinetobacter sp. TTH0-4	Acinetobacter sp. TTH0-4	bacteria	Acinetobacter	GRH2
+Mycobacterium sp. DL90	Mycolicibacterium nivoides	bacteria	Mycolicibacterium	GRH134
+Mycobacterium noviomagense	Mycobacterium noviomagense	bacteria	Mycobacterium	GRH218
+Actinomadura verrucosospora	Actinomadura verrucosospora	bacteria	Actinomadura	GRH403
+Nocardia nova	Nocardia nova	bacteria	Nocardia	GRH455
+Streptomyces atratus	Streptomyces atratus	bacteria	Streptomyces	GRH346
+Brevibacterium linens	Brevibacterium linens	bacteria	Brevibacterium	GRH170
+Sphingomonas sp. AAP5	Sphingomonas sp. AAP5	bacteria	Sphingomonas	GRH16
+Kosakonia	Kosakonia	bacteria	Kosakonia	GRH567
+Kosakonia cowanii	Kosakonia cowanii	bacteria	Kosakonia	GRH567
+Mycolicibacterium doricum	Mycobacterium doricum	bacteria	Mycolicibacterium	GRH134
+Mycolicibacterium insubricum	Mycolicibacterium insubricum	bacteria	Mycolicibacterium	GRH134
+Mycolicibacterium litorale	Mycolicibacterium litorale	bacteria	Mycolicibacterium	GRH134
+Mycolicibacterium hassiacum	Mycolicibacterium hassiacum	bacteria	Mycolicibacterium	GRH134
+Mycolicibacterium rhodesiae	Mycolicibacterium rhodesiae	bacteria	Mycolicibacterium	GRH134
+Luteibacter pinisoli	Luteibacter pinisoli	bacteria	Luteibacter	GRH568
+Aureimonas sp. LMG 31693	Aureimonas mangrovi	bacteria	Aureimonas	GRH285
+Microlunatus soli	Microlunatus soli	bacteria	Microlunatus	GRH84
+Enterobacter cancerogenus	Enterobacter cancerogenus	bacteria	Enterobacter	GRH17
+Thermomonospora	Thermomonospora	bacteria	Thermomonospora	GRH569
+Stenotrophomonas sp. SAU14A_NAIMI4_5	Stenotrophomonas sp. SAU14A_NAIMI4_5	bacteria	Stenotrophomonas	GRH20
+Stenotrophomonas sp. ZAC14D2_NAIMI4_7	Stenotrophomonas sp. ZAC14D2_NAIMI4_7	bacteria	Stenotrophomonas	GRH20
+Stenotrophomonas sp. ZAC14A_NAIMI4_1	Stenotrophomonas sp. ZAC14A_NAIMI4_1	bacteria	Stenotrophomonas	GRH20
+Cellulosimicrobium	Cellulosimicrobium	bacteria	Cellulosimicrobium	GRH570
+Dyella	Dyella	bacteria	Dyella	GRH571
+Mycolicibacterium neoaurum	Mycolicibacterium neoaurum	bacteria	Mycolicibacterium	GRH134
+Mycobacterium sp. DL440	Mycobacterium sp. DL440	bacteria	Mycobacterium	GRH218
+Mycobacterium kansasii	Mycobacterium kansasii	bacteria	Mycobacterium	GRH218
+Advenella	Advenella	bacteria	Advenella	GRH572
+Paenibacillus hunanensis	Paenibacillus hunanensis	bacteria	Paenibacillus	GRH349
+Lysinibacillus sphaericus	Lysinibacillus sphaericus	bacteria	Lysinibacillus	GRH573
+Scedosporium	Scedosporium	fungus	Scedosporium	GRH574
+Cytobacillus	Cytobacillus	bacteria	Cytobacillus	GRH575
+Enterobacter bugandensis	Enterobacter bugandensis	bacteria	Enterobacter	GRH17
+Candidatus Wolbachia massiliensis	Candidatus Wolbachia massiliensis	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Drosophila mauritiana	Wolbachia endosymbiont of Drosophila mauritiana	bacteria	Wolbachia	GRH138
+Lactobacillus animalis	Ligilactobacillus animalis	bacteria	Ligilactobacillus	GRH187
+Lactobacillus murinus	Ligilactobacillus murinus	bacteria	Ligilactobacillus	GRH187
+Methylocystis rosea	Methylocystis rosea	bacteria	Methylocystis	GRH576
+Muribaculum sp. TLL-A4	Muribaculum gordoncarteri	bacteria	Muribaculum	GRH577
+Muribaculum intestinale	Muribaculum intestinale	bacteria	Muribaculum	GRH577
+Duncaniella dubosii	Duncaniella dubosii	bacteria	Duncaniella	GRH578
+Limosilactobacillus reuteri	Limosilactobacillus reuteri	bacteria	Limosilactobacillus	GRH496
+uncultured bacterium BAC10G6	uncultured bacterium BAC10G6	bacteria	non-genus-specific Enterobacteriaceae	GRH376
+Jaminaea angkorensis	Jaminaea angkorensis	fungus	Jaminaea	GRH579
+Acutalibacter	Acutalibacter	bacteria	Acutalibacter	GRH580
+Acutalibacter muris	Acutalibacter muris	bacteria	Acutalibacter	GRH580
+Trichormus variabilis	Trichormus variabilis	bacteria	Trichormus	GRH581
+Bacteroides caecimuris	Bacteroides caecimuris	bacteria	Bacteroides	GRH281
+Lactobacillus helveticus	Lactobacillus helveticus	bacteria	Lactobacillus	GRH23
+Sphaerospermopsis	Sphaerospermopsis	bacteria	Sphaerospermopsis	GRH582
+Sphaerospermopsis kisseleviana	Sphaerospermopsis kisseleviana	bacteria	Sphaerospermopsis	GRH582
+Alistipes shahii	Alistipes shahii	bacteria	Alistipes	GRH353
+Flavonifractor plautii	Flavonifractor plautii	bacteria	Flavonifractor	GRH583
+Oscillibacter	Oscillibacter	bacteria	Oscillibacter	GRH584
+Enterocloster clostridioformis	Enterocloster clostridioformis	bacteria	Enterocloster	GRH585
+Dolichospermum	Dolichospermum	bacteria	Dolichospermum	GRH586
+Lentilactobacillus curieae	Lentilactobacillus curieae	bacteria	Lentilactobacillus	GRH522
+Erysipelatoclostridium	Erysipelatoclostridium	bacteria	Erysipelatoclostridium	GRH587
+[Clostridium] innocuum	[Clostridium] innocuum	bacteria	Erysipelatoclostridium	GRH587
+Ewingella	Ewingella	bacteria	Ewingella	GRH588
+Ewingella americana	Ewingella americana	bacteria	Ewingella	GRH588
+Odoribacter splanchnicus	Odoribacter splanchnicus	bacteria	Odoribacter	GRH589
+Dysosmobacter	Dysosmobacter	bacteria	Dysosmobacter	GRH590
+Exiguobacterium acetylicum	Exiguobacterium acetylicum	bacteria	Exiguobacterium	GRH132
+Exiguobacterium antarcticum	Exiguobacterium antarcticum	bacteria	Exiguobacterium	GRH132
+Exiguobacterium sibiricum	Exiguobacterium sibiricum	bacteria	Exiguobacterium	GRH132
+Kineococcus radiotolerans	Kineococcus radiotolerans	bacteria	Kineococcus	GRH591
+Pantoea dispersa	Pantoea dispersa	bacteria	Pantoea	GRH18
+Sphingomonas sp. LK11	Sphingomonas sp. LK11	bacteria	Sphingomonas	GRH16
+Mycetocola	Mycetocola	bacteria	Mycetocola	GRH592
+Streptococcus suis	Streptococcus suis	bacteria	Streptococcus	GRH48
+Sphingorhabdus lacus	Sphingorhabdus lacus	bacteria	Sphingorhabdus	GRH441
+Ornithinimicrobium pratense	Ornithinimicrobium pratense	bacteria	Ornithinimicrobium	GRH221
+Hymenobacter sp. APR13	Hymenobacter sp. APR13	bacteria	Hymenobacter	GRH88
+Staphylococcus lugdunensis	Staphylococcus lugdunensis	bacteria	Staphylococcus	GRH26
+Methylosinus	Methylosinus	bacteria	Methylosinus	GRH593
+Hydrogenophaga pseudoflava	Hydrogenophaga pseudoflava	bacteria	Hydrogenophaga	GRH226
+Actinoplanes	Actinoplanes	bacteria	Actinoplanes	GRH594
+Ramlibacter	Ramlibacter	bacteria	Ramlibacter	GRH595
+Kocuria flava	Kocuria flava	bacteria	Kocuria	GRH68
+Nodularia	Nodularia	bacteria	Nodularia	GRH596
+Nodularia spumigena	Nodularia spumigena	bacteria	Nodularia	GRH596
+Gemmobacter	Gemmobacter	bacteria	Gemmobacter	GRH597
+Rhodoplanes	Rhodoplanes	bacteria	Rhodoplanes	GRH598
+Rhodoplanes sp. Z2-YC6860	Rhodoplanes sp. Z2-YC6860	bacteria	Rhodoplanes	GRH598
+Wolbachia endosymbiont of Chrysomya megacephala	Wolbachia endosymbiont of Chrysomya megacephala	bacteria	Wolbachia	GRH138
+Acetobacter thailandicus	Acetobacter thailandicus	bacteria	Acetobacter	GRH352
+Acetobacter pasteurianus	Acetobacter pasteurianus	bacteria	Acetobacter	GRH352
+Acetobacter pomorum	Acetobacter pomorum	bacteria	Acetobacter	GRH352
+Acetobacter persici	Acetobacter persici	bacteria	Acetobacter	GRH352
+Acetobacter senegalensis	Acetobacter senegalensis	bacteria	Acetobacter	GRH352
+Calothrix	Calothrix	bacteria	Calothrix	GRH599
+Komagataeibacter	Komagataeibacter	bacteria	Komagataeibacter	GRH600
+Komagataeibacter hansenii	Novacetimonas hansenii	bacteria	Novacetimonas	GRH601
+Komagataeibacter xylinus	Komagataeibacter xylinus	bacteria	Komagataeibacter	GRH600
+Komagataeibacter rhaeticus	Komagataeibacter rhaeticus	bacteria	Komagataeibacter	GRH600
+Komagataeibacter europaeus	Komagataeibacter europaeus	bacteria	Komagataeibacter	GRH600
+Komagataeibacter saccharivorans	Komagataeibacter saccharivorans	bacteria	Komagataeibacter	GRH600
+Crinalium	Crinalium	bacteria	Crinalium	GRH602
+Crinalium epipsammum	Crinalium epipsammum	bacteria	Crinalium	GRH602
+Burkholderia ambifaria	Burkholderia ambifaria	bacteria	Burkholderia	GRH53
+Gluconacetobacter	Gluconacetobacter	bacteria	Gluconacetobacter	GRH603
+Gluconacetobacter diazotrophicus	Gluconacetobacter diazotrophicus	bacteria	Gluconacetobacter	GRH603
+Kozakia	Kozakia	bacteria	Kozakia	GRH604
+Kozakia baliensis	Kozakia baliensis	bacteria	Kozakia	GRH604
+Wolbachia endosymbiont of Bemisia tabaci	Wolbachia endosymbiont of Bemisia tabaci	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Ceratosolen solmsi	Wolbachia endosymbiont of Ceratosolen solmsi	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Cadra cautella	Wolbachia endosymbiont of Cadra cautella	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Asobara tabida	Wolbachia endosymbiont of Asobara tabida	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Spalangia cameroni	Wolbachia endosymbiont of Spalangia cameroni	bacteria	Wolbachia	GRH138
+Wolbachia endosymbiont of Glossina fuscipes fuscipes	Wolbachia endosymbiont of Glossina fuscipes fuscipes	bacteria	Wolbachia	GRH138
+Duncaniella	Duncaniella	bacteria	Duncaniella	GRH578
+Bacillus amyloliquefaciens	Bacillus amyloliquefaciens	bacteria	Bacillus	GRH14
+Lasiodiplodia	Lasiodiplodia	fungus	Lasiodiplodia	GRH605
+Lasiodiplodia theobromae	Lasiodiplodia theobromae	fungus	Lasiodiplodia	GRH605
+Rhodoferax	Rhodoferax	bacteria	Rhodoferax	GRH606
+Rhodoferax sediminis	Rhodoferax sediminis	bacteria	Rhodoferax	GRH606
+Actinobacteria bacterium IMCC25003	Actinobacteria bacterium IMCC25003	bacteria	non-genus-specific Actinobacteria	GRH607
+Alcanivorax dieselolei	Alcanivorax dieselolei	bacteria	Alcanivorax	GRH186
+Creolimax	Creolimax	other_eukaryota	Creolimax	GRH608
+Creolimax fragrantissima	Creolimax fragrantissima	other_eukaryota	Creolimax	GRH608
+Macrococcus	Macrococcus	bacteria	Macrococcus	GRH609
+Daldinia	Daldinia	fungus	Daldinia	GRH610
+Polynucleobacter difficilis	Polynucleobacter difficilis	bacteria	Polynucleobacter	GRH519
+Polynucleobacter paneuropaeus	Polynucleobacter paneuropaeus	bacteria	Polynucleobacter	GRH519
+Candidatus Planktophila	Candidatus Planktophila	bacteria	non-genus-specific Candidatus Nanopelagicaceae	GRH611
+Candidatus Planktophila dulcis	Candidatus Planktophila dulcis	bacteria	Candidatus Planktophila	GRH612
+Candidatus Planktophila sulfonica	Candidatus Planktophila sulfonica	bacteria	Candidatus Planktophila	GRH612
+Rhodoferax saidenbachensis	Rhodoferax saidenbachensis	bacteria	Rhodoferax	GRH606
+Nitrospira	Nitrospira	bacteria	Nitrospira	GRH613
+Phreatobacter cathodiphilus	Phreatobacter cathodiphilus	bacteria	Phreatobacter	GRH216
+Simplicispira	Simplicispira	bacteria	Simplicispira	GRH614
+Undibacterium parvum	Undibacterium parvum	bacteria	Undibacterium	GRH410
+Pseudomonas asiatica	Pseudomonas asiatica	bacteria	Pseudomonas	GRH1
+Pseudomonas citronellolis	Pseudomonas citronellolis	bacteria	Pseudomonas	GRH1
+Pseudomonas soli	Pseudomonas soli	bacteria	Pseudomonas	GRH1
+Aplosporella	Aplosporella	fungus	Aplosporella	GRH615
+Aplosporella prunicola	Aplosporella prunicola	fungus	Aplosporella	GRH615
+Flavobacterium sp. M31R6	Flavobacterium sp. M31R6	bacteria	Flavobacterium	GRH136
+Flavobacterium branchiophilum	Flavobacterium branchiophilum	bacteria	Flavobacterium	GRH136
+Flavobacterium nackdongense	Flavobacterium nackdongense	bacteria	Flavobacterium	GRH136
+Flavobacterium sangjuense	Flavobacterium sangjuense	bacteria	Flavobacterium	GRH136
+Flavobacterium johnsoniae	Flavobacterium johnsoniae	bacteria	Flavobacterium	GRH136
+Stemphylium lycopersici	Stemphylium lycopersici	fungus	Stemphylium	GRH382
+Sphaerulina	Sphaerulina	fungus	Sphaerulina	GRH616
+Sphaerulina musiva	Sphaerulina musiva	fungus	Sphaerulina	GRH616
+Oscillatoria	Oscillatoria	bacteria	Oscillatoria	GRH617
+Oscillatoria acuminata	Oscillatoria acuminata	bacteria	Oscillatoria	GRH617
+Acidovorax sp. RAC01	Acidovorax sp. RAC01	bacteria	Acidovorax	GRH78
+Acidovorax citrulli	Acidovorax citrulli	bacteria	Acidovorax	GRH78
+Limnohabitans sp. 63ED37-2	Limnohabitans sp. 63ED37-2	bacteria	Limnohabitans	GRH233
+Limnohabitans sp. 103DPR2	Limnohabitans sp. 103DPR2	bacteria	Limnohabitans	GRH233
+Sphingomonas sp. CL5.1	Sphingomonas sp. CL5.1	bacteria	Sphingomonas	GRH16
+Opitutus sp. GAS368	Opitutus sp. GAS368	bacteria	Opitutus	GRH618
+Cryptococcus	Cryptococcus	fungus	Cryptococcus	GRH150
+Caulobacter henricii	Caulobacter henricii	bacteria	Caulobacter	GRH28
+Leptothrix	Leptothrix	bacteria	Leptothrix	GRH619
+Inhella	Inhella	bacteria	Inhella	GRH620
+Fusarium proliferatum	Fusarium proliferatum	fungus	Fusarium	GRH33
+Pantoea sp. CCBC3-3-1	Pantoea sp. CCBC3-3-1	bacteria	Pantoea	GRH18
+Arachidicoccus	Arachidicoccus	bacteria	Arachidicoccus	GRH621
+Rhizobacter	Rhizobacter	bacteria	Rhizobacter	GRH622
+Mycolicibacterium chubuense	Mycolicibacterium chubuense	bacteria	Mycolicibacterium	GRH134
+Deinococcus gobiensis	Deinococcus gobiensis	bacteria	Deinococcus	GRH264
+Kinneretia	Kinneretia	bacteria	Kinneretia	GRH623
+Kinneretia sp. DAIF2	Kinneretia sp. DAIF2	bacteria	Kinneretia	GRH623
+Roseateles depolymerans	Roseateles depolymerans	bacteria	Roseateles	GRH406
+Fibrella	Fibrella	bacteria	Fibrella	GRH624
+Fibrella aestuarina	Fibrella aestuarina	bacteria	Fibrella	GRH624
+Leifsonia xyli	Leifsonia xyli	bacteria	Leifsonia	GRH193
+Rhodocyclaceae bacterium	Rhodocyclaceae bacterium	bacteria	non-genus-specific Rhodocyclaceae	GRH431
+Methylibium sp. Pch-M	Methylibium sp. Pch-M	bacteria	Methylibium	GRH404
+Azoarcus	Azoarcus	bacteria	Azoarcus	GRH625
+Zygosaccharomyces siamensis	Zygosaccharomyces siamensis	fungus	Zygosaccharomyces	GRH202
+Torulaspora	Torulaspora	fungus	Torulaspora	GRH626
+Torulaspora delbrueckii	Torulaspora delbrueckii	fungus	Torulaspora	GRH626
+Torulaspora sp. CBS 2947	Torulaspora sp. CBS 2947	fungus	Torulaspora	GRH626
+Nakaseomyces	Nakaseomyces	fungus	Nakaseomyces	GRH627
+[Candida] glabrata	[Candida] glabrata	fungus	Nakaseomyces	GRH627
+Vanderwaltozyma	Vanderwaltozyma	fungus	Vanderwaltozyma	GRH628
+Vanderwaltozyma polyspora	Vanderwaltozyma polyspora	fungus	Vanderwaltozyma	GRH628
+Naumovozyma castellii	Naumovozyma castellii	fungus	Naumovozyma	GRH629
+Brettanomyces	Brettanomyces	fungus	Brettanomyces	GRH630
+Brettanomyces bruxellensis	Brettanomyces bruxellensis	fungus	Brettanomyces	GRH630
+Tetrapisispora blattae	Tetrapisispora blattae	fungus	Tetrapisispora	GRH631
+Trichophyton benhamiae	Trichophyton benhamiae	fungus	Trichophyton	GRH247
+Eremothecium cymbalariae	Eremothecium cymbalariae	fungus	Eremothecium	GRH118
+Eremothecium sinecaudum	Eremothecium sinecaudum	fungus	Eremothecium	GRH118
+Phytophthora sojae	Phytophthora sojae	other_eukaryota	Phytophthora	GRH397
+Pichia membranifaciens	Pichia membranifaciens	fungus	Pichia	GRH325
+Limosilactobacillus fermentum	Limosilactobacillus fermentum	bacteria	Limosilactobacillus	GRH496
+Bradyrhizobium guangzhouense	Bradyrhizobium guangzhouense	bacteria	Bradyrhizobium	GRH31
+Mycolicibacterium frederiksbergense	Mycobacterium frederiksbergense	bacteria	Mycobacterium	GRH218
+Erysiphe	Erysiphe	fungus	Erysiphe	GRH632
+Bacillus smithii	Bacillus smithii	bacteria	Bacillus	GRH14
+Sphingomonas insulae	Sphingomonas insulae	bacteria	Sphingomonas	GRH16
+Caulobacter segnis	Caulobacter segnis	bacteria	Caulobacter	GRH28
+Streptococcus equinus	Streptococcus equinus	bacteria	Streptococcus	GRH48
+Herbaspirillum hiltneri	Herbaspirillum hiltneri	bacteria	Herbaspirillum	GRH36
+non-genus-specific reads in family Halieaceae	Halieaceae	bacteria	non-genus-specific Halieaceae	GRH633
+marine gamma proteobacterium HTCC2246	marine gamma proteobacterium HTCC2246	bacteria	non-genus-specific Halieaceae	GRH633
+Pseudacidovorax	Pseudacidovorax	bacteria	Pseudacidovorax	GRH634
+Pseudacidovorax intermedius	Pseudacidovorax intermedius	bacteria	Pseudacidovorax	GRH634
+Inhella inkyongensis	Inhella inkyongensis	bacteria	Inhella	GRH620
+Leptothrix cholodnii	Leptothrix cholodnii	bacteria	Leptothrix	GRH619
+Janthinobacterium agaricidamnosum	Janthinobacterium agaricidamnosum	bacteria	Janthinobacterium	GRH267
+Komagataella	Komagataella	fungus	Komagataella	GRH499
+Brachybacterium ginsengisoli	Brachybacterium ginsengisoli	bacteria	Brachybacterium	GRH268
+Lentzea	Lentzea	bacteria	Lentzea	GRH635
+Saccharothrix	Saccharothrix	bacteria	Saccharothrix	GRH636
+Gilliamella bombi	Gilliamella bombi	bacteria	Gilliamella	GRH7
+Rubrobacter sp. SCSIO 52915	Rubrobacter marinus	bacteria	Rubrobacter	GRH370
+Caldicellulosiruptor	Caldicellulosiruptor	bacteria	Caldicellulosiruptor	GRH637
+Capnocytophaga cynodegmi	Capnocytophaga cynodegmi	bacteria	Capnocytophaga	GRH34
+Rhodotorula mucilaginosa	Rhodotorula mucilaginosa	fungus	Rhodotorula	GRH491
+Thermoanaerobacterium	Thermoanaerobacterium	bacteria	Thermoanaerobacterium	GRH638
+Sulfurihydrogenibium	Sulfurihydrogenibium	bacteria	Sulfurihydrogenibium	GRH639
+Sulfurihydrogenibium azorense	Sulfurihydrogenibium azorense	bacteria	Sulfurihydrogenibium	GRH639
+Aspergillus heteromorphus	Aspergillus heteromorphus	fungus	Aspergillus	GRH109
+Bacillus thermoamylovorans	Caldibacillus thermoamylovorans	bacteria	Caldibacillus	GRH640
+Hungateiclostridium	Acetivibrio	bacteria	Acetivibrio	GRH641
+Hungateiclostridium thermocellum	Acetivibrio thermocellus	bacteria	Acetivibrio	GRH641
+Pasteurellaceae bacterium BHMR2	Pasteurellaceae bacterium BHMR2	bacteria	non-genus-specific Pasteurellaceae	GRH12
+Clostridium	Clostridium	bacteria	Clostridium	GRH274
+Mycobacterium tuberculosis	Mycobacterium tuberculosis	bacteria	Mycobacterium	GRH218
+Sutterella	Sutterella	bacteria	Sutterella	GRH642
+Lacticaseibacillus	Lacticaseibacillus	bacteria	Lacticaseibacillus	GRH643
+Pedobacter sp. G11	Pedobacter sp. G11	bacteria	Pedobacter	GRH282
+Pantoea eucalypti	Pantoea eucalypti	bacteria	Pantoea	GRH18
+Starmerella bombicola	Starmerella bombicola	fungus	Starmerella	GRH375
+Cupriavidus necator	Cupriavidus necator	bacteria	Cupriavidus	GRH37
+Spathaspora	Spathaspora	fungus	Spathaspora	GRH644
+Spathaspora passalidarum	Spathaspora passalidarum	fungus	Spathaspora	GRH644
+Rhizopus stolonifer	Rhizopus stolonifer	fungus	Rhizopus	GRH139
+Capnocytophaga gingivalis	Capnocytophaga gingivalis	bacteria	Capnocytophaga	GRH34
+Acidipropionibacterium	Acidipropionibacterium	bacteria	Acidipropionibacterium	GRH645
+Acidipropionibacterium acidipropionici	Acidipropionibacterium acidipropionici	bacteria	Acidipropionibacterium	GRH645
+Puccinia coronata	Puccinia coronata	fungus	Puccinia	GRH293
+Micromonospora	Micromonospora	bacteria	Micromonospora	GRH646
+Mycobacterium sp. YC-RL4	Mycobacterium sp. YC-RL4	bacteria	Mycobacterium	GRH218
+Moesziomyces antarcticus	Moesziomyces antarcticus	fungus	Moesziomyces	GRH362
+Romboutsia	Romboutsia	bacteria	Romboutsia	GRH647
+Wolbachia endosymbiont of Paratrechina longicornis	Wolbachia endosymbiont of Paratrechina longicornis	bacteria	Wolbachia	GRH138
+Pluralibacter	Pluralibacter	bacteria	Pluralibacter	GRH648
+Pluralibacter gergoviae	Pluralibacter gergoviae	bacteria	Pluralibacter	GRH648
+Neisseria animaloris	Neisseria animaloris	bacteria	Neisseria	GRH51
+Lactobacillus amylovorus	Lactobacillus amylovorus	bacteria	Lactobacillus	GRH23
+Bombilactobacillus mellifer	Bombilactobacillus mellifer	bacteria	Bombilactobacillus	GRH112
+Candidatus Snodgrassella sp. T4_34144	Candidatus Snodgrassella sp. T4_34144	bacteria	Snodgrassella	GRH8
+uncultured Gammaproteobacteria bacterium	uncultured Gammaproteobacteria bacterium	bacteria	non-genus-specific Gammaproteobacteria	GRH494
+Photobacterium	Photobacterium	bacteria	Photobacterium	GRH649
+Photobacterium damselae	Photobacterium damselae	bacteria	Photobacterium	GRH649
+Candidatus Snodgrassella sp. TA7_36335	Candidatus Snodgrassella sp. TA7_36335	bacteria	Snodgrassella	GRH8
+Cronobacter condimenti	Cronobacter condimenti	bacteria	Cronobacter	GRH466
+Atlantibacter	Atlantibacter	bacteria	Atlantibacter	GRH650
+Atlantibacter hermannii	Atlantibacter hermannii	bacteria	Atlantibacter	GRH650
+uncultured bacterium T3_18_29584	uncultured bacterium T3_18_29584	bacteria	Unspecified Bacterial	GRH11
+Kosakonia radicincitans	Kosakonia radicincitans	bacteria	Kosakonia	GRH567
+Kosakonia sacchari	Kosakonia sacchari	bacteria	Kosakonia	GRH567
+Yersinia pseudotuberculosis	Yersinia pseudotuberculosis	bacteria	Yersinia	GRH130
+Pragia	Pragia	bacteria	Pragia	GRH651
+Pragia fontium	Pragia fontium	bacteria	Pragia	GRH651
+Candidatus Snodgrassella sp. T3_2_35043	Candidatus Snodgrassella sp. T3_2_35043	bacteria	Snodgrassella	GRH8
+Rodentibacter	Rodentibacter	bacteria	Rodentibacter	GRH652
+Pleurotus eryngii	Pleurotus eryngii	fungus	Pleurotus	GRH530
+Apilactobacillus apinorum	Apilactobacillus apinorum	bacteria	Apilactobacillus	GRH465
+Spiroplasma floricola	Spiroplasma floricola	bacteria	Spiroplasma	GRH472
+Levilactobacillus brevis	Levilactobacillus brevis	bacteria	Levilactobacillus	GRH464
+Fructilactobacillus	Fructilactobacillus	bacteria	Fructilactobacillus	GRH653
+Fructilactobacillus fructivorans	Fructilactobacillus fructivorans	bacteria	Fructilactobacillus	GRH653
+Tremella	Tremella	fungus	Tremella	GRH654
+Tremella mesenterica	Tremella mesenterica	fungus	Tremella	GRH654
+Pediococcus	Pediococcus	bacteria	Pediococcus	GRH191
+Ascosphaera	Ascosphaera	fungus	Ascosphaera	GRH655
+Ascosphaera apis	Ascosphaera apis	fungus	Ascosphaera	GRH655
+Gemmata	Gemmata	bacteria	Gemmata	GRH656
+Nocardiopsis	Nocardiopsis	bacteria	Nocardiopsis	GRH657
+Wolbachia endosymbiont of Culex pipiens	Wolbachia endosymbiont of Culex pipiens	bacteria	Wolbachia	GRH138
+Liberibacter	Liberibacter	bacteria	Liberibacter	GRH658
+Aphanomyces	Aphanomyces	fungus	Aphanomyces	GRH659
+Monilinia	Monilinia	fungus	Monilinia	GRH660
+Monilinia laxa	Monilinia laxa	fungus	Monilinia	GRH660
+Hepatospora	Hepatospora	fungus	Hepatospora	GRH661
+Hepatospora eriocheir	Hepatospora eriocheir	fungus	Hepatospora	GRH661
+Monosiga	Monosiga	other_eukaryota	Monosiga	GRH662
+Monosiga brevicollis	Monosiga brevicollis	other_eukaryota	Monosiga	GRH662
+Serratia quinivorans	Serratia quinivorans	bacteria	Serratia	GRH77
+Citrobacter koseri	Citrobacter koseri	bacteria	Citrobacter	GRH122
+Nitrobacter	Nitrobacter	bacteria	Nitrobacter	GRH663
+Bacillus coagulans	Weizmannia coagulans	bacteria	Weizmannia	GRH664
+Thermoanaerobacterium thermosaccharolyticum	Thermoanaerobacterium thermosaccharolyticum	bacteria	Thermoanaerobacterium	GRH638
+Leishmania sp.	Leishmania sp.	other_eukaryota	Leishmania	GRH147
+Strigomonas culicis	Strigomonas culicis	other_eukaryota	Strigomonas	GRH538
+Cyphellophora	Cyphellophora	fungus	Cyphellophora	GRH665
+Cyphellophora europaea	Cyphellophora europaea	fungus	Cyphellophora	GRH665
+Propioniciclava	Propioniciclava	bacteria	Propioniciclava	GRH666
+Bifidobacterium animalis	Bifidobacterium animalis	bacteria	Bifidobacterium	GRH124
+Chromobacterium violaceum	Chromobacterium violaceum	bacteria	Chromobacterium	GRH558
+Gemmata sp. SH-PL17	Gemmata sp. SH-PL17	bacteria	Gemmata	GRH656
+Methylophilus methylotrophus	Methylophilus methylotrophus	bacteria	Methylophilus	GRH394
+[Clostridium] scindens	[Clostridium] scindens	bacteria	Lachnoclostridium	GRH667
+Frigoriglobus	Frigoriglobus	bacteria	Frigoriglobus	GRH668
+Frigoriglobus tundricola	Frigoriglobus tundricola	bacteria	Frigoriglobus	GRH668
+Acinetobacter nosocomialis	Acinetobacter nosocomialis	bacteria	Acinetobacter	GRH2
+Brachybacterium sp. SGAir0954	Brachybacterium sp. SGAir0954	bacteria	Brachybacterium	GRH268
+Trametes	Trametes	fungus	Trametes	GRH669
+Trametes versicolor	Trametes versicolor	fungus	Trametes	GRH669
+Tumebacillus	Tumebacillus	bacteria	Tumebacillus	GRH670
+Zelonia costaricensis	Zelonia costaricensis	other_eukaryota	Zelonia	GRH435
+Zelonia cf. costaricensis	Zelonia cf. costaricensis	other_eukaryota	Zelonia	GRH435
+Bonordeniella	Bonordeniella	fungus	Bonordeniella	GRH671
+Coniosporium apollinis	Coniosporium apollinis	fungus	Coniosporium	GRH672
+Mammaliicoccus	Mammaliicoccus	bacteria	Mammaliicoccus	GRH673
+Mammaliicoccus sciuri	Mammaliicoccus sciuri	bacteria	Mammaliicoccus	GRH673
+Eimeria	Eimeria	other_eukaryota	Eimeria	GRH674
+Flaviflexus	Flaviflexus	bacteria	Flaviflexus	GRH62
+Vibrio coralliilyticus	Vibrio coralliilyticus	bacteria	Vibrio	GRH119
+Chryseobacterium sp.	Chryseobacterium sp.	bacteria	Chryseobacterium	GRH76
+Hymenobacter sp. PAMC 26554	Hymenobacter sp. PAMC 26554	bacteria	Hymenobacter	GRH88
+Leptomonas sp. Cfm	Leptomonas sp. Cfm	other_eukaryota	Leptomonas	GRH481
+Metschnikowia pulcherrima	Metschnikowia pulcherrima	fungus	Metschnikowia	GRH174
+Streptomyces clavuligerus	Streptomyces clavuligerus	bacteria	Streptomyces	GRH346
+Phialophora	Phialophora	fungus	Phialophora	GRH675
+Phialophora attinorum	Phialophora attinorum	fungus	Phialophora	GRH675
+Anaerobacillus	Anaerobacillus	bacteria	Anaerobacillus	GRH676
+Polaribacter	Polaribacter	bacteria	Polaribacter	GRH677
+Shewanella baltica	Shewanella baltica	bacteria	Shewanella	GRH55
+Alicyclobacillus	Alicyclobacillus	bacteria	Alicyclobacillus	GRH678
+Alicyclobacillus acidocaldarius	Alicyclobacillus acidocaldarius	bacteria	Alicyclobacillus	GRH678
+Arcticibacter	Arcticibacter	bacteria	Arcticibacter	GRH679
+Arcticibacter pallidicorallinus	Arcticibacter pallidicorallinus	bacteria	Arcticibacter	GRH679
+Novosphingobium ginsenosidimutans	Novosphingobium ginsenosidimutans	bacteria	Novosphingobium	GRH201
+Tubulinosema	Tubulinosema	fungus	Tubulinosema	GRH680
+Leishmania tropica	Leishmania tropica	other_eukaryota	Leishmania	GRH147
+Pseudomicrostroma	Pseudomicrostroma	fungus	Pseudomicrostroma	GRH681
+Pseudomicrostroma glucosiphilum	Pseudomicrostroma glucosiphilum	fungus	Pseudomicrostroma	GRH681
+Methylophilus medardicus	Methylophilus medardicus	bacteria	Methylophilus	GRH394
+Volvariella	Volvariella	fungus	Volvariella	GRH682
+Volvariella volvacea	Volvariella volvacea	fungus	Volvariella	GRH682
+Tricholoma	Tricholoma	fungus	Tricholoma	GRH683
+Leucosporidium	Leucosporidium	fungus	Leucosporidium	GRH684
+Clostridium botulinum	Clostridium botulinum	bacteria	Clostridium	GRH274
+Gluconobacter cerinus	Gluconobacter cerinus	bacteria	Gluconobacter	GRH245
+Bradyrhizobium sp. CCBAU 51765	Bradyrhizobium sp. CCBAU 51765	bacteria	Bradyrhizobium	GRH31
+Streptococcus equi	Streptococcus equi	bacteria	Streptococcus	GRH48
+Fusarium verticillioides	Fusarium verticillioides	fungus	Fusarium	GRH33
+Fusarium odoratissimum	Fusarium odoratissimum	fungus	Fusarium	GRH33
+Fusarium subglutinans	Fusarium subglutinans	fungus	Fusarium	GRH33
+Fusarium tjaetaba	Fusarium tjaetaba	fungus	Fusarium	GRH33
+Staphylococcus arlettae	Staphylococcus arlettae	bacteria	Staphylococcus	GRH26
+Staphylococcus pettenkoferi	Staphylococcus pettenkoferi	bacteria	Staphylococcus	GRH26
+Varibaculum	Varibaculum	bacteria	Varibaculum	GRH685
+Varibaculum vaginae	Varibaculum vaginae	bacteria	Varibaculum	GRH685
+Corynebacterium sp. zg-913	Corynebacterium wankanglinii	bacteria	Corynebacterium	GRH15
+Corynebacterium callunae	Corynebacterium callunae	bacteria	Corynebacterium	GRH15
+Corynebacterium mycetoides	Corynebacterium mycetoides	bacteria	Corynebacterium	GRH15
+Corynebacterium glutamicum	Corynebacterium glutamicum	bacteria	Corynebacterium	GRH15
+Prevotella timonensis	Prevotella timonensis	bacteria	Prevotella	GRH57
+Peptoniphilus grossensis	Peptoniphilus grossensis	bacteria	Peptoniphilus	GRH172
+Porphyromonas asaccharolytica	Porphyromonas asaccharolytica	bacteria	Porphyromonas	GRH167
+Porphyromonas gingivalis	Porphyromonas gingivalis	bacteria	Porphyromonas	GRH167
+non-genus-specific reads in family Peptostreptococcaceae	Peptostreptococcaceae	bacteria	non-genus-specific Peptostreptococcaceae	GRH686
+Peptostreptococcaceae bacterium oral taxon 929	Peptostreptococcaceae bacterium oral taxon 929	bacteria	non-genus-specific Peptostreptococcaceae	GRH686
+Campylobacter ureolyticus	Campylobacter ureolyticus	bacteria	Campylobacter	GRH256
+Chitinibacter	Chitinibacter	bacteria	Chitinibacter	GRH687
+Chitinibacter sp. 2T18	Chitinibacter bivalviorum	bacteria	Chitinibacter	GRH687
+Dermabacter jinjuensis	Dermabacter jinjuensis	bacteria	Dermabacter	GRH547
+Dermabacter vaginalis	Dermabacter vaginalis	bacteria	Dermabacter	GRH547
+Dialister micraerophilus	Dialister micraerophilus	bacteria	Dialister	GRH340
+Myroides	Myroides	bacteria	Myroides	GRH688
+Candidatus Nitrosocosmicus oleophilus	Candidatus Nitrosocosmicus oleophilus	archaea	Candidatus Nitrosocosmicus	GRH689
+Bradyrhizobium sp. 6(2017)	Bradyrhizobium sp. 6(2017)	bacteria	Bradyrhizobium	GRH31
+Tessaracoccus flavus	Tessaracoccus flavus	bacteria	Tessaracoccus	GRH284
+Aeromonas sp. ASNIH5	Aeromonas sp. ASNIH5	bacteria	Aeromonas	GRH45
+Deinococcus sp. NW-56	Deinococcus sp. NW-56	bacteria	Deinococcus	GRH264
+Plantibacter	Plantibacter	bacteria	Plantibacter	GRH690
+Thermomonas brevis	Thermomonas brevis	bacteria	Thermomonas	GRH63
+Saccharopolyspora coralli	Allosaccharopolyspora coralli	bacteria	Allosaccharopolyspora	GRH691
+Azospira	Azospira	bacteria	Azospira	GRH692
+Melaminivora	Melaminivora	bacteria	Melaminivora	GRH693
+Spirosoma sp. CJU-R4	Spirosoma sp. CJU-R4	bacteria	Spirosoma	GRH94
+Mycolicibacterium iranicum	Mycolicibacterium iranicum	bacteria	Mycolicibacterium	GRH134
+Roseobacter	Roseobacter	bacteria	Roseobacter	GRH694
+Roseobacter denitrificans	Roseobacter denitrificans	bacteria	Roseobacter	GRH694
+Melampsora	Melampsora	fungus	Melampsora	GRH695
+Melampsora larici-populina	Melampsora laricis-populina	fungus	Melampsora	GRH695
+Leptomonas seymouri	Leptomonas seymouri	other_eukaryota	Leptomonas	GRH481
+Iflavirus	Iflavirus	viruses	Iflaviridae	GRH696
+Deformed wing virus	Deformed wing virus	viruses	Iflaviridae	GRH696
+Varroa destructor virus 1	Varroa destructor virus 1	viruses	Iflaviridae	GRH696
+VDV-1/DWV recombinant 4	VDV-1/DWV recombinant 4	viruses	Iflaviridae	GRH696
+Betapartitivirus	Betapartitivirus	viruses	Partitiviridae	GRH697
+White clover cryptic virus 2	White clover cryptic virus 2	viruses	Partitiviridae	GRH697
+Iflavirus sp.	Iflavirus sp.	viruses	Iflaviridae	GRH696
+non-genus-specific reads in family Parvoviridae	Parvoviridae	viruses	Parvoviridae	GRH698
+Bombus cryptarum densovirus	Bombus cryptarum densovirus	viruses	Parvoviridae	GRH698
+Slow bee paralysis virus	Slow bee paralysis virus	viruses	Iflaviridae	GRH696
+Carlavirus	Carlavirus	viruses	Betaflexiviridae	GRH699
+Gaillardia latent virus	Gaillardia latent virus	viruses	Betaflexiviridae	GRH699
+Potyvirus	Potyvirus	viruses	Potyviridae	GRH700
+Turnip mosaic virus	Turnip mosaic virus	viruses	Potyviridae	GRH700
+Abidjanvirus	Abidjanvirus	viruses	Mesyanzhinovviridae	GRH701
+Pseudomonas virus Ab18	Pseudomonas virus Ab18	viruses	Mesyanzhinovviridae	GRH701
+Tobamovirus	Tobamovirus	viruses	Virgaviridae	GRH702
+Tomato mosaic virus	Tomato mosaic virus	viruses	Virgaviridae	GRH702
+non-genus-specific reads in family Myoviridae	Myoviridae	viruses	Myoviridae	GRH703
+Klebsiella phage Marfa	Klebsiella phage Marfa	viruses	non-family-specific Caudoviricetes	GRH704
+Klebsiella phage vB_KpnM_Potts1	Klebsiella phage vB_KpnM_Potts1	viruses	non-family-specific Caudoviricetes	GRH704
+Klebsiella phage EI	Klebsiella phage EI	viruses	non-family-specific Caudoviricetes	GRH704
+Klebsiella phage vB_Kpn_F48	Klebsiella phage vB_Kpn_F48	viruses	non-family-specific Caudoviricetes	GRH704
+Triatovirus	Triatovirus	viruses	Dicistroviridae	GRH705
+Black queen cell virus	Black queen cell virus	viruses	Dicistroviridae	GRH705
+Klebsiella phage AmPh_EK29	Klebsiella phage AmPh_EK29	viruses	non-family-specific Caudoviricetes	GRH704
+Tombusvirus	Tombusvirus	viruses	Tombusviridae	GRH706
+Forsythia suspensa tombusvirus	Forsythia suspensa tombusvirus	viruses	Tombusviridae	GRH706
+Nephila clavipes virus 1	Nephila clavipes virus 1	viruses	non-family-specific Picornavirales	GRH707
+Gammaretrovirus	Gammaretrovirus	viruses	Retroviridae	GRH708
+Murine leukemia virus	Murine leukemia virus	viruses	Retroviridae	GRH708
+Bombus-associated virus Den2	Bombus-associated virus Den2	viruses	Parvoviridae	GRH698
+Betapolyomavirus	Betapolyomavirus	viruses	Polyomaviridae	GRH709
+Macaca mulatta polyomavirus 1	Betapolyomavirus macacae	viruses	Polyomaviridae	GRH709
+Siphovirus contig89	Siphovirus contig89	viruses	Siphoviridae	GRH710
+Brevundimonas phage vB_BsubS-Delta	Brevundimonas phage vB_BsubS-Delta	viruses	Siphoviridae	GRH710
+Bacteriophage sp.	Bacteriophage sp.	viruses	Unspecified Viral	GRH711
+Gibbon ape leukemia virus	Gibbon ape leukemia virus	viruses	Retroviridae	GRH708
+Cucumber green mottle mosaic virus	Cucumber green mottle mosaic virus	viruses	Virgaviridae	GRH702
+Plasmopara viticola lesion associated orfanplasmovirus 4	Plasmopara viticola lesion associated orfanplasmovirus 4	viruses	Unspecified Viral	GRH711
+Narnavirus	Narnavirus	viruses	Narnaviridae	GRH712
+Plasmopara viticola lesion associated narnavirus 14	Plasmopara viticola lesion associated narnavirus 14	viruses	Narnaviridae	GRH712
+Myoviridae sp.	Myoviridae sp.	viruses	Myoviridae	GRH703
+Pahexavirus	Pahexavirus	viruses	non-family-specific Caudoviricetes	GRH704
+Mastadenovirus	Mastadenovirus	viruses	Adenoviridae	GRH713
+Human mastadenovirus C	Human mastadenovirus C	viruses	Adenoviridae	GRH713
+Potexvirus	Potexvirus	viruses	Alphaflexiviridae	GRH714
+Pepino mosaic virus	Pepino mosaic virus	viruses	Alphaflexiviridae	GRH714
+Lychnis mottle virus	Lychnis mottle virus	viruses	Secoviridae	GRH715
+Cassava common mosaic virus	Cassava common mosaic virus	viruses	Alphaflexiviridae	GRH714
+non-genus-specific reads in family Drexlerviridae	Drexlerviridae	viruses	Drexlerviridae	GRH716
+Escherichia phage IMM-001	Escherichia phage IMM-001	viruses	Drexlerviridae	GRH716
+Foveavirus	Foveavirus	viruses	Betaflexiviridae	GRH699
+Grapevine rupestris stem pitting-associated virus	Grapevine rupestris stem pitting-associated virus	viruses	Betaflexiviridae	GRH699
+Rtpvirus	Rtpvirus	viruses	Drexlerviridae	GRH716
+Kayvirus	Kayvirus	viruses	Herelleviridae	GRH717
+Atractylodes mild mottle virus	Atractylodes mild mottle virus	viruses	Caulimoviridae	GRH718
+Teseptimavirus	Teseptimavirus	viruses	Autographiviridae	GRH719
+Hubei partiti-like virus 34	Hubei partiti-like virus 34	viruses	Unclassified Viral	GRH720
+Escherichia virus T7	Teseptimavirus T7	viruses	Autographiviridae	GRH719
+Alphapartitivirus	Alphapartitivirus	viruses	Partitiviridae	GRH697
+White clover cryptic virus 1	White clover cryptic virus 1	viruses	Partitiviridae	GRH697
+Deltaflexivirus	Deltaflexivirus	viruses	Deltaflexiviridae	GRH721
+Escherichia virus Rtp	Rtpvirus Rtp	viruses	Drexlerviridae	GRH716
+Zucchini yellow mosaic virus	Zucchini yellow mosaic virus	viruses	Potyviridae	GRH700
+Nepovirus	Nepovirus	viruses	Secoviridae	GRH715
+Anemone nepovirus A	Anemone nepovirus A	viruses	Secoviridae	GRH715
+Ilarvirus	Ilarvirus	viruses	Bromoviridae	GRH722
+Tomato necrotic spot virus	Tomato necrotic spot virus	viruses	Bromoviridae	GRH722
+Alphainfluenzavirus	Alphainfluenzavirus	viruses	Orthomyxoviridae	GRH723
+Influenza A virus	Influenza A virus	viruses	Orthomyxoviridae	GRH723
+Plasmopara viticola lesion associated ourmia-like virus 88	Plasmopara viticola lesion associated ourmia-like virus 88	viruses	Botourmiaviridae	GRH724
+Intracisternal A-particles	Intracisternal A-particles	viruses	Retroviridae	GRH708
+Mouse Intracisternal A-particle	Mouse Intracisternal A-particle	viruses	Retroviridae	GRH708
+non-genus-specific reads in family Dicistroviridae	Dicistroviridae	viruses	Dicistroviridae	GRH705
+Dicistroviridae sp.	Dicistroviridae sp.	viruses	Dicistroviridae	GRH705
+Mayfield virus 1	Mayfield virus 1	viruses	Unclassified Viral	GRH720
+Bumble bee Mayfield virus 1-like	Bumble bee Mayfield virus 1-like	viruses	non-family-specific Picornavirales	GRH707
+Mayfield virus 2	Mayfield virus 2	viruses	Unclassified Viral	GRH720
+Cheravirus	Cheravirus	viruses	Secoviridae	GRH715
+Apple latent spherical virus	Apple latent spherical virus	viruses	Secoviridae	GRH715
+Cnidium vein yellowing virus 1	Cnidium vein yellowing virus 1	viruses	non-family-specific Picornavirales	GRH707
+Enterobacter phage vB_EclM_CIP9	Enterobacter phage vB_EclM_CIP9	viruses	Straboviridae	GRH725
+non-genus-specific reads in family Rhabdoviridae	Rhabdoviridae	viruses	Rhabdoviridae	GRH726
+Agrotis ipsilon virus	Agrotis ipsilon virus	viruses	Rhabdoviridae	GRH726
+non-genus-specific reads in family Siphoviridae	Siphoviridae	viruses	Siphoviridae	GRH710
+Enterobacteria phage phi80	Enterobacteria phage phi80	viruses	non-family-specific Caudoviricetes	GRH704
+Lambdavirus	Lambdavirus	viruses	non-family-specific Caudoviricetes	GRH704
+Escherichia virus Lambda	Lambdavirus lambda	viruses	non-family-specific Caudoviricetes	GRH704
+Lederbergvirus	Lederbergvirus	viruses	non-family-specific Caudoviricetes	GRH704
+Enterobacteria phage IME10	Enterobacteria phage IME10	viruses	non-family-specific Caudoviricetes	GRH704
+Murine leukemia-related retroviruses	Murine leukemia-related retroviruses	viruses	Retroviridae	GRH708
+Squirrel monkey retrovirus	Squirrel monkey retrovirus	viruses	Retroviridae	GRH708
+Orthorubulavirus	Orthorubulavirus	viruses	Paramyxoviridae	GRH727
+Mammalian orthorubulavirus 5	Mammalian orthorubulavirus 5	viruses	Paramyxoviridae	GRH727
+Shigella virus Sf6	Lederbergvirus Sf6	viruses	non-family-specific Caudoviricetes	GRH704
+Escherichia virus DE3	Escherichia virus DE3	viruses	non-family-specific Caudoviricetes	GRH704
+Agrotis ipsilon Nora virus	Agrotis ipsilon Nora virus	viruses	Unclassified Viral	GRH720
+Helicoverpa armigera Nora virus	Helicoverpa armigera Nora virus	viruses	non-family-specific Picornavirales	GRH707
+non-genus-specific reads in family Ackermannviridae	Ackermannviridae	viruses	Ackermannviridae	GRH728
+Dickeya phage phiDP23.1	Dickeya phage phiDP23.1	viruses	Ackermannviridae	GRH728
+Lentivirus	Lentivirus	viruses	Retroviridae	GRH708
+Human immunodeficiency virus 1	Human immunodeficiency virus 1	viruses	Retroviridae	GRH708
+Muromegalovirus	Muromegalovirus	viruses	Herpesviridae	GRH729
+Murid betaherpesvirus 1	Murid betaherpesvirus 1	viruses	Herpesviridae	GRH729
+Enterobacteria phage mEp237	Enterobacteria phage mEp237	viruses	non-family-specific Caudoviricetes	GRH704
+Klebsiella phage vB_Kpn_Chronis	Klebsiella phage vB_Kpn_Chronis	viruses	Siphoviridae	GRH710
+Chlorovirus	Chlorovirus	viruses	Phycodnaviridae	GRH730
+Acanthocystis turfacea Chlorella virus TN603.4.2	Acanthocystis turfacea Chlorella virus TN603.4.2	viruses	Phycodnaviridae	GRH730
+Klebsiella phage vB_Kpn_P545	Klebsiella phage vB_Kpn_P545	viruses	non-family-specific Caudoviricetes	GRH704
+RD114 retrovirus	RD114 retrovirus	viruses	Retroviridae	GRH708
+Alphavirus	Alphavirus	viruses	Togaviridae	GRH731
+Plasmopara viticola lesion associated alpha-like virus 1	Plasmopara viticola lesion associated alpha-like virus 1	viruses	Togaviridae	GRH731
+non-genus-specific reads in family Secoviridae	Secoviridae	viruses	Secoviridae	GRH715
+Strawberry latent ringspot virus	Strawberry latent ringspot virus	viruses	Secoviridae	GRH715
+Fusarium graminearum mycotymovirus 1	Fusarium graminearum mycotymovirus 1	viruses	non-family-specific Tymovirales	GRH732
+Pseudomonas phage PS-1	Pseudomonas phage PS-1	viruses	Siphoviridae	GRH710
+Cycas necrotic stunt virus	Cycas necrotic stunt virus	viruses	Secoviridae	GRH715
+Heliothis virescens ascovirus 3i	Heliothis virescens ascovirus 3i	viruses	Ascoviridae	GRH733
+Trichoplusia ni ascovirus 2a	Trichoplusia ni ascovirus 2a	viruses	Ascoviridae	GRH733
+Alphabaculovirus	Alphabaculovirus	viruses	Baculoviridae	GRH734
+Helicoverpa armigera nucleopolyhedrovirus	Helicoverpa armigera nucleopolyhedrovirus	viruses	Baculoviridae	GRH734
+Apis mellifera filamentous virus	Apis mellifera filamentous virus	viruses	Unclassified Viral	GRH720
+Siphoviridae sp.	Siphoviridae sp.	viruses	Siphoviridae	GRH710
+Sinaivirus	Sinaivirus	viruses	Sinhaliviridae	GRH735
+Lake Sinai virus	Lake Sinai virus	viruses	Sinhaliviridae	GRH735
+Sinapis alba cryptic virus 1	Sinapis alba cryptic virus 1	viruses	Partitiviridae	GRH697
+Zindervirus	Zindervirus	viruses	Autographiviridae	GRH719
+Salmonella virus SP6	Zindervirus SP6	viruses	Autographiviridae	GRH719
+Ourmiavirus	Ourmiavirus	viruses	Botourmiaviridae	GRH724
+Plasmopara viticola lesion associated ourmia-like virus 72	Plasmopara viticola lesion associated ourmia-like virus 72	viruses	Botourmiaviridae	GRH724
+Lake Sinai Virus NE	Lake Sinai Virus NE	viruses	Sinhaliviridae	GRH735
+Lake Sinai virus 1	Lake Sinai virus 1	viruses	Sinhaliviridae	GRH735
+Lake Sinai virus 3	Lake Sinai virus 3	viruses	Sinhaliviridae	GRH735
+Lake Sinai virus strain Navarra	Lake Sinai virus strain Navarra	viruses	Sinhaliviridae	GRH735
+Teetrevirus	Teetrevirus	viruses	Autographiviridae	GRH719
+Citrobacter virus CFP1	Teetrevirus CFP1	viruses	Autographiviridae	GRH719
+Klebsiella phage NL_ZS_3	Klebsiella phage NL_ZS_3	viruses	Autographiviridae	GRH719
+Yersinia virus YeO3-12	Teetrevirus YeO312	viruses	Autographiviridae	GRH719
+Salmonella virus SG-JL2	Teetrevirus SGJL2	viruses	Autographiviridae	GRH719
+Klebsiella phage vB_KpnP_Emp27	Klebsiella phage vB_KpnP_Emp27	viruses	Autographiviridae	GRH719
+Citrobacter virus SH2	Teetrevirus SH2	viruses	Autographiviridae	GRH719
+Serratia virus 2050H2	Teetrevirus 2050H2	viruses	Autographiviridae	GRH719
+Enterobacter virus E2	Teetrevirus E2	viruses	Autographiviridae	GRH719
+Escherichia virus LL2	Teetrevirus LL2	viruses	Autographiviridae	GRH719
+Klebsiella phage Patroon	Klebsiella phage Patroon	viruses	Autographiviridae	GRH719
+Enterobacter virus E3	Teetrevirus E3	viruses	Autographiviridae	GRH719
+Serratia phage SALSA	Serratia phage SALSA	viruses	Autographiviridae	GRH719
+Escherichia virus T3	Teetrevirus T3	viruses	Autographiviridae	GRH719
+Yersinia virus YeF10	Teetrevirus YeF10	viruses	Autographiviridae	GRH719
+Sacbrood virus	Sacbrood virus	viruses	Iflaviridae	GRH696
+Polerovirus	Polerovirus	viruses	Solemoviridae	GRH736
+Turnip yellows virus	Turnip yellows virus	viruses	Solemoviridae	GRH736
+Beet western yellows virus	Beet western yellows virus	viruses	Solemoviridae	GRH736
+Lake Sinai virus 2	Lake Sinai virus 2	viruses	Sinhaliviridae	GRH735
+Lake Sinai Virus TO	Lake Sinai Virus TO	viruses	Sinhaliviridae	GRH735
+Lake Sinai Virus SA1	Lake Sinai Virus SA1	viruses	Sinhaliviridae	GRH735
+Lake Sinai Virus SA2	Lake Sinai Virus SA2	viruses	Sinhaliviridae	GRH735
+Asparagus virus 2	Asparagus virus 2	viruses	Bromoviridae	GRH722
+Citrus variegation virus	Citrus variegation virus	viruses	Bromoviridae	GRH722
+Arabidopsis latent virus-1	Arabidopsis latent virus-1	viruses	Secoviridae	GRH715
+Anulavirus	Anulavirus	viruses	Bromoviridae	GRH722
+Pelargonium zonate spot virus	Pelargonium zonate spot virus	viruses	Bromoviridae	GRH722
+Elm mottle virus	Elm mottle virus	viruses	Bromoviridae	GRH722
+Autographa californica multiple nucleopolyhedrovirus	Autographa californica multiple nucleopolyhedrovirus	viruses	Baculoviridae	GRH734
+Capillovirus	Capillovirus	viruses	Betaflexiviridae	GRH699
+Apple stem grooving virus	Apple stem grooving virus	viruses	Betaflexiviridae	GRH699
+Cherry virus A	Cherry virus A	viruses	Betaflexiviridae	GRH699
+Spiromicrovirus	Spiromicrovirus	viruses	Microviridae	GRH737
+Spiroplasma virus SpV4	Spiromicrovirus SpV4	viruses	Microviridae	GRH737
+Fabavirus	Fabavirus	viruses	Secoviridae	GRH715
+Cherry virus F	Cherry virus F	viruses	Secoviridae	GRH715
+Prunus virus F	Prunus virus F	viruses	Secoviridae	GRH715
+Aparavirus	Aparavirus	viruses	Dicistroviridae	GRH705
+Israeli acute paralysis virus	Israeli acute paralysis virus	viruses	Dicistroviridae	GRH705
+Mus musculus mobilized endogenous polytropic provirus	Mus musculus mobilized endogenous polytropic provirus	viruses	Retroviridae	GRH708
+Spleen focus-forming virus	Spleen focus-forming virus	viruses	Retroviridae	GRH708
+Orthohepadnavirus	Orthohepadnavirus	viruses	Hepadnaviridae	GRH738
+Solanum nigrum ilarvirus 1	Solanum nigrum ilarvirus 1	viruses	Bromoviridae	GRH722
+Prunus necrotic ringspot virus	Prunus necrotic ringspot virus	viruses	Bromoviridae	GRH722
+Bat iflavirus	Bat iflavirus	viruses	Iflaviridae	GRH696
+Acute bee paralysis virus	Acute bee paralysis virus	viruses	Dicistroviridae	GRH705
+Castleton Burn virus	Castleton Burn virus	viruses	Unclassified Viral	GRH720
+Allermuir Hill virus 3	Allermuir Hill virus 3	viruses	Unclassified Viral	GRH720
+Loch Morlich virus	Loch Morlich virus	viruses	Unclassified Viral	GRH720
+Mill Lade virus	Mill Lade virus	viruses	Unclassified Viral	GRH720
+Cnoc Mor virus	Cnoc Mor virus	viruses	Unclassified Viral	GRH720
+River Liunaeg virus	River Liunaeg virus	viruses	Unclassified Viral	GRH720
+Allermuir Hill virus 1	Allermuir Hill virus 1	viruses	Unclassified Viral	GRH720
+Bombus-associated virus Bun2	Bombus-associated virus Bun2	viruses	non-family-specific Bunyavirales	GRH739
+Bombus-associated virus Bun1	Bombus-associated virus Bun1	viruses	non-family-specific Bunyavirales	GRH739
+Sheriffmuir virus	Sheriffmuir virus	viruses	Unclassified Viral	GRH720
+Clamshell Cave virus	Clamshell Cave virus	viruses	Unclassified Viral	GRH720
+Bombus-associated virus Den1	Bombus-associated virus Den1	viruses	Parvoviridae	GRH698
+Bombus-associated virus Vir3	Bombus-associated virus Vir3	viruses	Virgaviridae	GRH702
+Bombus-associated virus Vir4	Bombus-associated virus Vir4	viruses	Virgaviridae	GRH702
+Arabis mosaic virus	Arabis mosaic virus	viruses	Secoviridae	GRH715
+Beet ringspot virus	Beet ringspot virus	viruses	Secoviridae	GRH715
+Bombus-associated virus Nep1	Bombus-associated virus Nep1	viruses	Secoviridae	GRH715
+Tomato black ring virus	Tomato black ring virus	viruses	Secoviridae	GRH715
+non-genus-specific reads in family Peribunyaviridae	Peribunyaviridae	viruses	Peribunyaviridae	GRH740
+Duke bunyavirus	Duke bunyavirus	viruses	Peribunyaviridae	GRH740
+Vespa velutina associated partiti-like virus 2	Vespa velutina associated partiti-like virus 2	viruses	Partitiviridae	GRH697
+non-genus-specific reads in family Phasmaviridae	Phasmaviridae	viruses	Phasmaviridae	GRH741
+Hymenopteran phasma-related virus OKIAV233	Hymenopteran phasma-related virus OKIAV233	viruses	Phasmaviridae	GRH741
+non-genus-specific reads in family Nodaviridae	Nodaviridae	viruses	Nodaviridae	GRH742
+Bombus-associated virus Nod1	Bombus-associated virus Nod1	viruses	Nodaviridae	GRH742
+Allermuir Hill virus 2	Allermuir Hill virus 2	viruses	Unclassified Viral	GRH720
+Bombus-associated virus Pic2	Bombus-associated virus Pic2	viruses	non-family-specific Picornavirales	GRH707
+Elf Loch virus	Elf Loch virus	viruses	Unclassified Viral	GRH720
+Tomato black ring virus satellite RNA	Tomato black ring virus satellite RNA	viruses	Unclassified Viral	GRH720
+Crimson clover cryptic virus 2	Crimson clover cryptic virus 2	viruses	Partitiviridae	GRH697
+Red clover cryptic virus 2	Red clover cryptic virus 2	viruses	Partitiviridae	GRH697
+Red clover nepovirus A	Red clover nepovirus A	viruses	Secoviridae	GRH715
+Raspberry ringspot virus	Raspberry ringspot virus	viruses	Secoviridae	GRH715
+Bombus-associated virus Nep2	Bombus-associated virus Nep2	viruses	Secoviridae	GRH715
+White clover mosaic virus	White clover mosaic virus	viruses	Alphaflexiviridae	GRH714
+Phlebovirus	Phlebovirus	viruses	Phenuiviridae	GRH743
+Bombus-associated virus Phle1	Bombus-associated virus Phle1	viruses	Phenuiviridae	GRH743
+Comovirus	Comovirus	viruses	Secoviridae	GRH715
+Broad bean true mosaic virus	Broad bean true mosaic virus	viruses	Secoviridae	GRH715
+non-genus-specific reads in family Virgaviridae	Virgaviridae	viruses	Virgaviridae	GRH702
+non-genus-specific reads in family Orthomyxoviridae	Orthomyxoviridae	viruses	Orthomyxoviridae	GRH723
+Bombus-associated virus Orth1	Bombus-associated virus Orth1	viruses	Orthomyxoviridae	GRH723
+Trichovirus	Trichovirus	viruses	Betaflexiviridae	GRH699
+Apple chlorotic leaf spot virus	Apple chlorotic leaf spot virus	viruses	Betaflexiviridae	GRH699
+Phikmvvirus	Phikmvvirus	viruses	Autographiviridae	GRH719
+Pseudomonas virus 15pyo	Phikmvvirus 15pyo	viruses	Autographiviridae	GRH719
+non-genus-specific reads in family Podoviridae	Podoviridae	viruses	Podoviridae	GRH744
+Formica cinerea virus 1	Formica cinerea virus 1	viruses	Unclassified Viral	GRH720
+Boghill Burn virus	Boghill Burn virus	viruses	Unclassified Viral	GRH720
+Vespa velutina associated acypi-like virus	Vespa velutina associated acypi-like virus	viruses	Unclassified Viral	GRH720
+Grapevine fanleaf virus satellite RNA	Grapevine fanleaf virus satellite RNA	viruses	Unclassified Viral	GRH720
+Arabis mosaic virus large satellite RNA	Arabis mosaic virus large satellite RNA	viruses	Unclassified Viral	GRH720
+Hubei picorna-like virus	Hubei picorna-like virus	viruses	non-family-specific Picornavirales	GRH707
+Hubei picorna-like virus 39	Hubei picorna-like virus 39	viruses	Unclassified Viral	GRH720
+Vespa velutina Moku virus	Vespa velutina Moku virus	viruses	Iflaviridae	GRH696
+Artichoke Italian latent virus	Artichoke Italian latent virus	viruses	Secoviridae	GRH715
+Bombus-associated virus Vir1	Bombus-associated virus Vir1	viruses	Virgaviridae	GRH702
+Bombus-associated virus Vir2	Bombus-associated virus Vir2	viruses	Virgaviridae	GRH702
+Breadfruit capillovirus 1	Breadfruit capillovirus 1	viruses	Betaflexiviridae	GRH699
+Tymovirus	Tymovirus	viruses	Tymoviridae	GRH745
+Watercress white vein virus	Watercress white vein virus	viruses	Tymoviridae	GRH745
+Sobemovirus	Sobemovirus	viruses	Solemoviridae	GRH736
+Turnip rosette virus	Turnip rosette virus	viruses	Solemoviridae	GRH736
+Acanthocystis turfacea Chlorella virus Br0604L	Acanthocystis turfacea Chlorella virus Br0604L	viruses	Phycodnaviridae	GRH730
+Agassiz Rock virus	Agassiz Rock virus	viruses	Unclassified Viral	GRH720
+Picornavirales sp.	Picornavirales sp.	viruses	non-family-specific Picornavirales	GRH707
+Cherry leaf roll virus	Cherry leaf roll virus	viruses	Secoviridae	GRH715
+Grapevine fanleaf virus	Grapevine fanleaf virus	viruses	Secoviridae	GRH715
+Gorebridge virus	Gorebridge virus	viruses	Unclassified Viral	GRH720
+Victoria bee virus 1	Victoria bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+Cripavirus	Cripavirus	viruses	Dicistroviridae	GRH705
+Aphid lethal paralysis virus	Aphid lethal paralysis virus	viruses	Dicistroviridae	GRH705
+Acanthocystis turfacea Chlorella virus NE-JV-2	Acanthocystis turfacea Chlorella virus NE-JV-2	viruses	Phycodnaviridae	GRH730
+Bombus-associated virus Pic1	Bombus-associated virus Pic1	viruses	non-family-specific Picornavirales	GRH707
+Hubei picorna-like virus 51	Hubei picorna-like virus 51	viruses	Unclassified Viral	GRH720
+Victoria bee virus 2	Victoria bee virus 2	viruses	non-family-specific Picornavirales	GRH707
+Hubei picorna-like virus 15	Hubei picorna-like virus 15	viruses	Unclassified Viral	GRH720
+non-genus-specific reads in family Reoviridae	Reoviridae	viruses	Reoviridae	GRH746
+Bombus-associated virus Reo1	Bombus-associated virus Reo1	viruses	Reoviridae	GRH746
+Flavivirus	Flavivirus	viruses	Flaviviridae	GRH747
+Dengue virus	Dengue virus	viruses	Flaviviridae	GRH747
+Hymenopteran phasma-related virus OKIAV234	Hymenopteran phasma-related virus OKIAV234	viruses	Phasmaviridae	GRH741
+Skunavirus	Skunavirus	viruses	non-family-specific Caudoviricetes	GRH704
+Hubei picorna-like virus 57	Hubei picorna-like virus 57	viruses	Unclassified Viral	GRH720
+Grapevine virus S	Grapevine virus S	viruses	Bromoviridae	GRH722
+Medicago sativa alphapartitivirus 1	Medicago sativa alphapartitivirus 1	viruses	Partitiviridae	GRH697
+Moineauvirus	Moineauvirus	viruses	non-family-specific Caudoviricetes	GRH704
+non-genus-specific reads in family Chuviridae	Chuviridae	viruses	Chuviridae	GRH748
+Hymenopteran chu-related virus OKIAV124	Hymenopteran chu-related virus OKIAV124	viruses	Chuviridae	GRH748
+Varroa orthomyxovirus-1	Varroa orthomyxovirus-1	viruses	Orthomyxoviridae	GRH723
+Tobacco ringspot virus	Tobacco ringspot virus	viruses	Secoviridae	GRH715
+Kashmir bee virus	Kashmir bee virus	viruses	Dicistroviridae	GRH705
+Ipomovirus	Ipomovirus	viruses	Potyviridae	GRH700
+Cassava brown streak virus	Cassava brown streak virus	viruses	Potyviridae	GRH700
+non-genus-specific reads in family Iflaviridae	Iflaviridae	viruses	Iflaviridae	GRH696
+Varroa destructor virus 2	Varroa destructor virus 2	viruses	Iflaviridae	GRH696
+Hobart nepovirus 2	Hobart nepovirus 2	viruses	Secoviridae	GRH715
+Apis rhabdovirus 1	Apis rhabdovirus 1	viruses	Rhabdoviridae	GRH726
+Serratia phage 2050H1	Serratia phage 2050H1	viruses	Ackermannviridae	GRH728
+Serratia virus MAM1	Miltonvirus MAM1	viruses	Ackermannviridae	GRH728
+non-genus-specific reads in family Betaflexiviridae	Betaflexiviridae	viruses	Betaflexiviridae	GRH699
+Camellia ringspot associated virus 3	Camellia ringspot associated virus 3	viruses	Betaflexiviridae	GRH699
+Camellia japonica associated betaflexivirus 1	Camellia japonica associated betaflexivirus 1	viruses	Betaflexiviridae	GRH699
+Camellia japonica associated betaflexivirus 3	Camellia japonica associated betaflexivirus 3	viruses	Betaflexiviridae	GRH699
+Camellia ringspot associated virus 2	Camellia ringspot associated virus 2	viruses	Betaflexiviridae	GRH699
+Camellia japonica associated betaflexivirus 2	Camellia japonica associated betaflexivirus 2	viruses	Betaflexiviridae	GRH699
+Apis rhabdovirus 2	Apis rhabdovirus 2	viruses	Rhabdoviridae	GRH726
+Camellia ringspot associated virus 1	Camellia ringspot associated virus 1	viruses	Betaflexiviridae	GRH699
+Betacoronavirus	Betacoronavirus	viruses	Coronaviridae	GRH749
+Severe acute respiratory syndrome-related coronavirus	Severe acute respiratory syndrome-related coronavirus	viruses	Coronaviridae	GRH749
+Alphachrysovirus	Alphachrysovirus	viruses	Chrysoviridae	GRH750
+Brassica campestris chrysovirus	Alphachrysovirus brassicae	viruses	Chrysoviridae	GRH750
+Ageratum latent virus	Ageratum latent virus	viruses	Bromoviridae	GRH722
+Lymphocryptovirus	Lymphocryptovirus	viruses	Herpesviridae	GRH729
+Human gammaherpesvirus 4	Human gammaherpesvirus 4	viruses	Herpesviridae	GRH729
+Alexandravirus	Alexandravirus	viruses	non-family-specific Caudoviricetes	GRH704
+Dickeya virus AD1	Alexandravirus AD1	viruses	non-family-specific Caudoviricetes	GRH704
+Kolesnikvirus	Kolesnikvirus	viruses	non-family-specific Caudoviricetes	GRH704
+Erwinia virus Ea214	Kolesnikvirus Ea214	viruses	non-family-specific Caudoviricetes	GRH704
+Certrevirus	Certrevirus	viruses	non-family-specific Caudoviricetes	GRH704
+Sextaecvirus	Sextaecvirus	viruses	non-family-specific Caudoviricetes	GRH704
+Staphylococcus virus Sextaec	Sextaecvirus sextaec	viruses	non-family-specific Caudoviricetes	GRH704
+Cutibacterium phage P108C	Cutibacterium phage P108C	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium virus P1.1	Pahexavirus P11	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium phage PAC1	Propionibacterium phage PAC1	viruses	non-family-specific Caudoviricetes	GRH704
+Bracovirus	Bracoviriform	viruses	Polydnaviriformidae	GRH751
+Wolbachia phage WO	Wolbachia phage WO	viruses	Myoviridae	GRH703
+Wolbachia endosymbiont wVitB of Nasonia vitripennis phage WOVitB	Wolbachia endosymbiont wVitB of Nasonia vitripennis phage WOVitB	viruses	Myoviridae	GRH703
+Citrus sudden death-associated virus	Citrus sudden death-associated virus	viruses	Tymoviridae	GRH745
+EBPR podovirus 3	EBPR podovirus 3	viruses	Podoviridae	GRH744
+Flavobacterium phage vB_FspS_hattifnatt9-1	Flavobacterium phage vB_FspS_hattifnatt9-1	viruses	non-family-specific Caudoviricetes	GRH704
+Flavobacterium phage vB_FspS_hemulen6-1	Flavobacterium phage vB_FspS_hemulen6-1	viruses	non-family-specific Caudoviricetes	GRH704
+Aparavirus sp.	Aparavirus sp.	viruses	Dicistroviridae	GRH705
+Solenopsis invicta virus 5	Solenopsis invicta virus 5	viruses	non-family-specific Picornavirales	GRH707
+Burkholderiales phage 68_11	Burkholderiales phage 68_11	viruses	Siphoviridae	GRH710
+Turnip yellow mosaic virus	Turnip yellow mosaic virus	viruses	Tymoviridae	GRH745
+Grapevine associated ilarvirus	Grapevine associated ilarvirus	viruses	Bromoviridae	GRH722
+Surrounding legume associated ilarvirus	Surrounding legume associated ilarvirus	viruses	Bromoviridae	GRH722
+Tobacco streak virus	Tobacco streak virus	viruses	Bromoviridae	GRH722
+Parietaria mottle virus	Parietaria mottle virus	viruses	Bromoviridae	GRH722
+Hordeivirus	Hordeivirus	viruses	Virgaviridae	GRH702
+Lychnis ringspot virus	Lychnis ringspot virus	viruses	Virgaviridae	GRH702
+Alfamovirus	Alfamovirus	viruses	Bromoviridae	GRH722
+Alfalfa mosaic virus	Alfalfa mosaic virus	viruses	Bromoviridae	GRH722
+Medicago sativa alphapartitivirus 2	Medicago sativa alphapartitivirus 2	viruses	Partitiviridae	GRH697
+Strawberry necrotic shock virus	Strawberry necrotic shock virus	viruses	Bromoviridae	GRH722
+Raphanus latent virus	Raphanus latent virus	viruses	Bromoviridae	GRH722
+Blackberry chlorotic ringspot virus	Blackberry chlorotic ringspot virus	viruses	Bromoviridae	GRH722
+Cape gooseberry ilarvirus 1	Cape gooseberry ilarvirus 1	viruses	Bromoviridae	GRH722
+Hymenopteran chu-related virus OKIAV122	Hymenopteran chu-related virus OKIAV122	viruses	Chuviridae	GRH748
+Orthopoxvirus	Orthopoxvirus	viruses	Poxviridae	GRH752
+Himetobi P virus	Himetobi P virus	viruses	Dicistroviridae	GRH705
+Cowpox virus	Cowpox virus	viruses	Poxviridae	GRH752
+Betaentomopoxvirus	Betaentomopoxvirus	viruses	Poxviridae	GRH752
+Amsacta moorei entomopoxvirus	Amsacta moorei entomopoxvirus	viruses	Poxviridae	GRH752
+Prune dwarf virus	Prune dwarf virus	viruses	Bromoviridae	GRH722
+non-genus-specific reads in family Mimiviridae	Mimiviridae	viruses	Mimiviridae	GRH753
+Terrestrivirus sp.	Terrestrivirus sp.	viruses	Mimiviridae	GRH753
+Orthophasmavirus	Orthophasmavirus	viruses	Phasmaviridae	GRH741
+Ganda orthophasmavirus	Ganda orthophasmavirus	viruses	Phasmaviridae	GRH741
+Hymenopteran phasma-related virus OKIAV232	Hymenopteran phasma-related virus OKIAV232	viruses	Phasmaviridae	GRH741
+Scaldis River bee virus	Scaldis River bee virus	viruses	Aliusviridae	GRH754
+Tobacco mosaic virus	Tobacco mosaic virus	viruses	Virgaviridae	GRH702
+Apis bunyavirus 2	Apis bunyavirus 2	viruses	Peribunyaviridae	GRH740
+Apis bunyavirus 1	Apis bunyavirus 1	viruses	Peribunyaviridae	GRH740
+non-genus-specific reads in family Flaviviridae	Flaviviridae	viruses	Flaviviridae	GRH747
+Apis flavivirus	Apis flavivirus	viruses	Flaviviridae	GRH747
+Apis Nora virus	Apis Nora virus	viruses	Unclassified Viral	GRH720
+Bloomfield virus	Bloomfield virus	viruses	Unclassified Viral	GRH720
+Bundaberg bee virus 6	Bundaberg bee virus 6	viruses	non-family-specific Picornavirales	GRH707
+Apis dicistrovirus	Apis dicistrovirus	viruses	Dicistroviridae	GRH705
+Idaeovirus	Idaeovirus	viruses	Mayoviridae	GRH755
+Raspberry bushy dwarf virus	Raspberry bushy dwarf virus	viruses	Mayoviridae	GRH755
+Lake Sinai virus 7	Lake Sinai virus 7	viruses	Sinhaliviridae	GRH735
+Radish mosaic virus	Radish mosaic virus	viruses	Secoviridae	GRH715
+Triatovirus sp.	Triatovirus sp.	viruses	Dicistroviridae	GRH705
+PNG bee virus 8	PNG bee virus 8	viruses	Dicistroviridae	GRH705
+Culex dicistrovirus 2	Culex dicistrovirus 2	viruses	Dicistroviridae	GRH705
+Leibnitzia anandria dicistrovirus	Leibnitzia anandria dicistrovirus	viruses	Dicistroviridae	GRH705
+Raphanus sativus cryptic virus 4	Raphanus sativus cryptic virus 4	viruses	Partitiviridae	GRH697
+Bundaberg bee virus 1	Bundaberg bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+Bundaberg bee virus 4	Bundaberg bee virus 4	viruses	non-family-specific Picornavirales	GRH707
+Bundaberg bee virus 7	Bundaberg bee virus 7	viruses	non-family-specific Picornavirales	GRH707
+Bundaberg bee virus 8	Bundaberg bee virus 8	viruses	non-family-specific Picornavirales	GRH707
+Bundaberg bee virus 3	Bundaberg bee virus 3	viruses	non-family-specific Picornavirales	GRH707
+Bundaberg bee virus 2	Bundaberg bee virus 2	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 1	Darwin bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+SI bee virus 2	SI bee virus 2	viruses	Iflaviridae	GRH696
+Rhopalosiphum padi virus	Rhopalosiphum padi virus	viruses	Dicistroviridae	GRH705
+Youcai mosaic virus	Youcai mosaic virus	viruses	Virgaviridae	GRH702
+Pepper mild mottle virus	Pepper mild mottle virus	viruses	Virgaviridae	GRH702
+Ribgrass mosaic virus	Ribgrass mosaic virus	viruses	Virgaviridae	GRH702
+Squash mosaic virus	Squash mosaic virus	viruses	Secoviridae	GRH715
+Solanum nodiflorum mottle virus	Solanum nodiflorum mottle virus	viruses	Solemoviridae	GRH736
+Persea americana chrysovirus	Persea americana chrysovirus	viruses	Chrysoviridae	GRH750
+Papaya ringspot virus	Papaya ringspot virus	viruses	Potyviridae	GRH700
+Citrivirus	Citrivirus	viruses	Betaflexiviridae	GRH699
+Citrus leaf blotch virus	Citrus leaf blotch virus	viruses	Betaflexiviridae	GRH699
+non-genus-specific reads in family Caliciviridae	Caliciviridae	viruses	Caliciviridae	GRH756
+PNG bee virus 1	PNG bee virus 1	viruses	Caliciviridae	GRH756
+Goose dicistrovirus	Goose dicistrovirus	viruses	Dicistroviridae	GRH705
+Wuhan insect virus 33	Wuhan insect virus 33	viruses	Unclassified Viral	GRH720
+Renmark bee virus 1	Renmark bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+Empeyrat virus	Empeyrat virus	viruses	Dicistroviridae	GRH705
+Aphis glycines virus 3	Aphis glycines virus 3	viruses	Dicistroviridae	GRH705
+Tomato ringspot virus	Tomato ringspot virus	viruses	Secoviridae	GRH715
+Perth betaflexivirus 1	Perth betaflexivirus 1	viruses	Betaflexiviridae	GRH699
+Perth bee virus 2	Perth bee virus 2	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 8	Perth bee virus 8	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 5	Perth bee virus 5	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 7	Perth bee virus 7	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 9	Perth bee virus 9	viruses	non-family-specific Picornavirales	GRH707
+Kelp fly virus	Kelp fly virus	viruses	Unclassified Viral	GRH720
+Robinvale bee virus 1	Robinvale bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+Robinvale bee virus 8	Robinvale bee virus 8	viruses	non-family-specific Picornavirales	GRH707
+Robinvale bee virus 7	Robinvale bee virus 7	viruses	non-family-specific Picornavirales	GRH707
+Robinvale bee virus 4	Robinvale bee virus 4	viruses	non-family-specific Picornavirales	GRH707
+Robinvale bee virus 3	Robinvale bee virus 3	viruses	non-family-specific Picornavirales	GRH707
+Renmark bee virus 2	Renmark bee virus 2	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 5	Darwin bee virus 5	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 6	Darwin bee virus 6	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 2	Darwin bee virus 2	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 3	Darwin bee virus 3	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 8	Darwin bee virus 8	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 7	Darwin bee virus 7	viruses	non-family-specific Picornavirales	GRH707
+Darwin bee virus 4	Darwin bee virus 4	viruses	non-family-specific Picornavirales	GRH707
+Thika virus	Thika virus	viruses	Unclassified Viral	GRH720
+Soybean-associated bicistronic virus	Soybean-associated bicistronic virus	viruses	non-family-specific Picornavirales	GRH707
+Watermelon crinkle leaf-associated virus 1	Watermelon crinkle leaf-associated virus 1	viruses	Phenuiviridae	GRH743
+Watermelon crinkle leaf-associated virus 2	Watermelon crinkle leaf-associated virus 2	viruses	Phenuiviridae	GRH743
+Tetranychus urticae-associated picorna-like virus 2	Tetranychus urticae-associated picorna-like virus 2	viruses	non-family-specific Picornavirales	GRH707
+Beihai picorna-like virus 45	Beihai picorna-like virus 45	viruses	Unclassified Viral	GRH720
+PNG bee virus 2	PNG bee virus 2	viruses	Dicistroviridae	GRH705
+Darwin betaflexivirus 1	Darwin betaflexivirus 1	viruses	Betaflexiviridae	GRH699
+Cricket paralysis virus	Cricket paralysis virus	viruses	Dicistroviridae	GRH705
+Solenopsis invicta virus 6	Solenopsis invicta virus 6	viruses	Dicistroviridae	GRH705
+Bactrocera dorsalis cripavirus	Bactrocera dorsalis cripavirus	viruses	Dicistroviridae	GRH705
+Nilaparvata lugens C virus	Nilaparvata lugens C virus	viruses	Dicistroviridae	GRH705
+Aphis gossypii virus	Aphis gossypii virus	viruses	Dicistroviridae	GRH705
+Spodoptera exigua iflavirus 2	Spodoptera exigua iflavirus 2	viruses	Iflaviridae	GRH696
+Waikavirus	Waikavirus	viruses	Secoviridae	GRH715
+Insect-associated waikavirus 1	Insect-associated waikavirus 1	viruses	Secoviridae	GRH715
+non-genus-specific reads in family Amalgaviridae	Amalgaviridae	viruses	Amalgaviridae	GRH757
+Cucumis melo amalgavirus 1	Cucumis melo amalgavirus 1	viruses	Amalgaviridae	GRH757
+Robinvale plant virus 1	Robinvale plant virus 1	viruses	Unclassified Viral	GRH720
+Robinvale bee virus 9	Robinvale bee virus 9	viruses	non-family-specific Picornavirales	GRH707
+Hobart nepovirus 1	Hobart nepovirus 1	viruses	Secoviridae	GRH715
+Sacri virus	Sacri virus	viruses	Dicistroviridae	GRH705
+Plantago betapartitivirus	Plantago betapartitivirus	viruses	Partitiviridae	GRH697
+Vicia cryptic virus 1	Vicia cryptic virus 1	viruses	Partitiviridae	GRH697
+Actinidia virus X	Actinidia virus X	viruses	Alphaflexiviridae	GRH714
+Hobart betaflexivirus 1	Hobart betaflexivirus 1	viruses	Betaflexiviridae	GRH699
+Vicia cryptic virus	Vicia cryptic virus	viruses	Partitiviridae	GRH697
+Hobart bee virus 1	Hobart bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+La Jolla virus	La Jolla virus	viruses	Iflaviridae	GRH696
+Perth bee virus 1	Perth bee virus 1	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 3	Perth bee virus 3	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 4	Perth bee virus 4	viruses	non-family-specific Picornavirales	GRH707
+Perth bee virus 6	Perth bee virus 6	viruses	non-family-specific Picornavirales	GRH707
+Linepithema humile virus 1	Linepithema humile virus 1	viruses	Unclassified Viral	GRH720
+Lake Sinai virus 6	Lake Sinai virus 6	viruses	Sinhaliviridae	GRH735
+Renmark bee virus 3	Renmark bee virus 3	viruses	non-family-specific Picornavirales	GRH707
+Renmark bee virus 4	Renmark bee virus 4	viruses	non-family-specific Picornavirales	GRH707
+Renmark bee virus 5	Renmark bee virus 5	viruses	non-family-specific Picornavirales	GRH707
+Robinvale bee virus 5	Robinvale bee virus 5	viruses	non-family-specific Picornavirales	GRH707
+non-genus-specific reads in family Marnaviridae	Marnaviridae	viruses	Marnaviridae	GRH758
+Marnaviridae sp.	Marnaviridae sp.	viruses	Marnaviridae	GRH758
+Cucumovirus	Cucumovirus	viruses	Bromoviridae	GRH722
+Cucumber mosaic virus	Cucumber mosaic virus	viruses	Bromoviridae	GRH722
+Turnip yellows virus associated RNA	Turnip yellows virus associated RNA	viruses	Solemoviridae	GRH736
+Brassica yellows virus	Brassica yellows virus	viruses	Solemoviridae	GRH736
+Betacarmovirus	Betacarmovirus	viruses	Tombusviridae	GRH706
+Turnip crinkle virus	Turnip crinkle virus	viruses	Tombusviridae	GRH706
+Sanxia tombus-like virus 8	Sanxia tombus-like virus 8	viruses	Unclassified Viral	GRH720
+uncultured Caudovirales phage	uncultured Caudovirales phage	viruses	non-family-specific Caudoviricetes	GRH704
+Maculavirus	Maculavirus	viruses	Tymoviridae	GRH745
+Bee Macula-Like virus 2	Bee Macula-Like virus 2	viruses	Tymoviridae	GRH745
+Black Hill virus	Black Hill virus	viruses	Unclassified Viral	GRH720
+Negevirus	Negevirus	viruses	Unclassified Viral	GRH720
+Andrena haemorrhoa nege-like virus	Andrena haemorrhoa nege-like virus	viruses	Unclassified Viral	GRH720
+Bee iflavirus 1	Bee iflavirus 1	viruses	Iflaviridae	GRH696
+Blackcurrant reversion virus	Blackcurrant reversion virus	viruses	Secoviridae	GRH715
+Narcissus mosaic virus	Narcissus mosaic virus	viruses	Alphaflexiviridae	GRH714
+Mume virus A	Mume virus A	viruses	Betaflexiviridae	GRH699
+Feline leukemia virus	Feline leukemia virus	viruses	Retroviridae	GRH708
+Kirsten murine sarcoma virus	Kirsten murine sarcoma virus	viruses	Retroviridae	GRH708
+Hymenopteran chu-related virus OKIAV123	Hymenopteran chu-related virus OKIAV123	viruses	Chuviridae	GRH748
+Broad bean wilt virus 2	Broad bean wilt virus 2	viruses	Secoviridae	GRH715
+Capsicum annuum fabavirus	Capsicum annuum fabavirus	viruses	Secoviridae	GRH715
+Agrostis stolonifera deltaflexivirus 1	Agrostis stolonifera deltaflexivirus 1	viruses	Deltaflexiviridae	GRH721
+Pradovirus	Pradovirus	viruses	Autographiviridae	GRH719
+Xylella virus Prado	Pradovirus prado	viruses	Autographiviridae	GRH719
+Gammapapillomavirus	Gammapapillomavirus	viruses	Papillomaviridae	GRH759
+Gammapapillomavirus 1	Gammapapillomavirus 1	viruses	Papillomaviridae	GRH759
+Pseudomonas phage PA11	Pseudomonas phage PA11	viruses	Zobellviridae	GRH760
+Pseudomonas phage O4	Pseudomonas phage O4	viruses	Zobellviridae	GRH760
+Propionibacterium phage BruceLethal	Propionibacterium phage BruceLethal	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium phage MEAK	Propionibacterium phage MEAK	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium virus Lauchelly	Pahexavirus lauchelly	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium virus PHL114L00	Pahexavirus PHL114L00	viruses	non-family-specific Caudoviricetes	GRH704
+Propionibacterium virus P100D	Pahexavirus P100D	viruses	non-family-specific Picornavirales	GRH707
+Chrysanthemum virus B	Chrysanthemum virus B	viruses	Betaflexiviridae	GRH699
+non-genus-specific reads in family Tymoviridae	Tymoviridae	viruses	Tymoviridae	GRH745
+Varroa Tymo-like virus	Varroa Tymo-like virus	viruses	Tymoviridae	GRH745
+Bee Macula-like virus	Bee Macula-like virus	viruses	Tymoviridae	GRH745
+Plasmopara viticola lesion associated picorna-like 3	Plasmopara viticola lesion associated picorna-like 3	viruses	non-family-specific Picornavirales	GRH707

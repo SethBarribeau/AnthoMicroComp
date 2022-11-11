@@ -1,0 +1,2197 @@
+---
+title: "AnthoMicroComp"
+author: "Lauren Mee"
+date: "2022-10-26"
+output: html_document
+---
+
+26th October 2022
+
+```{r}
+set.seed(1517)
+dir.create("output/")
+```
+
+## Libraries
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+library(reshape)
+library(edgeR)
+library(ggfortify)
+library(DESeq2)
+library(pheatmap)
+```
+
+## Resources
+
+Tutorial discussing different methods and approaches to assessing microbiome data from metagenomic sources:
+https://yanhui09.github.io/microbiome_analysis/1_microbiome_r.html#what-you-will-work-on
+(includes DESeq2 approaches and a good heatmap alternative that looks interesting)
+
+Microbial Community Diversity Analysis Tutorial with Phyloseq:
+http://deneflab.github.io/MicrobeMiseq/demos/mothur_2_phyloseq.html
+(may not be as useful, looks to be explicitly for amplicon data)
+
+Introduction to the Statistical Analysis of Microbiome Data in R
+https://www.nicholas-ollberding.com/post/introduction-to-the-statistical-analysis-of-microbiome-data-in-r/
+
+Tutorial for making phyloseq objects
+https://joey711.github.io/phyloseq/import-data.html
+
+"Breakaway" Approach to estimating richness
+https://adw96.github.io/breakaway/articles/intro-diversity-estimation.html
+
+Tutorial running through a microbiome analysis. Has lots of info regarding diversity measurements etc.
+https://microbiome.github.io/OMA/data-introduction.html#background
+
+Overview of alpha diversity approaches
+https://www.cd-genomics.com/microbioseq/the-use-and-types-of-alpha-diversity-metrics-in-microbial-ngs.html
+
+Vegan tutorial (diversity, NMDS): https://peat-clark.github.io/BIO381/veganTutorial.html
+
+Vegan Canonical Correlation analysis: https://rdrr.io/rforge/vegan/man/CCorA.html
+
+
+## Experiment Notes
+
+The purpose of this project is to data mine existing publc RNAseq and other resources and use the CZID.org tool in order to elucidate potential patterns of microbial content across the sample species used therein. 
+
+Samples were chosen from SRA projects that used Hymenopteran species and also met the following criteria: 1) the tissue used was or included the abdomen, 2) nothing experimental had happened to the individual sample that would be an obvious influence upon the microbiome, i.e. no infection administered / particularly stressed individuals and 3) sociality of the sample was known. 
+
+These chosen samples were then processed as follows:
+
+- the phylogenetically nearest available genome was downloaded from NCBI per sample species. This was then indexed using STAR
+
+- the sample was downloaded and unpacked from the SRA using its accession ID and the SRA toolkit (specifically, prefetch and fasterqdump)
+
+- the sample was mapped against the above indexed genome using STAR. If more than 50% of reads failed to map due to being "too short" then the sample was reprocessed using slightly relaxed mapping parameters (--outFilterScoreMinOverLread 0.3 --outFilterMatchNminOverLread 0.3). Regardless of how many reads were then mapped these reprocessed samples, and those that had mapped > 50% in the first run, were uploaded to CZID.org to run through their pipeline.
+
+- once all had been completely through this pipeline, the data was downloaded locally for analysis. (input/CZID_TaxonReports/)
+
+## Uploading the Data
+
+The data exists in the input/CZID_TaxonReports/ directory. In order to properly label and process it, I also need the sample metadata.
+
+```{r}
+met <- read.table("input/SRA/MetaData_Edit_Oct22.tsv", 
+                  sep = "\t", header = T)
+
+head(met)
+```
+
+```{r}
+csvs <- list.files(path = "input/CZID_TaxonReports/", pattern = "*.csv")
+head(csvs, n = 20)
+```
+
+```{r}
+data.raw <- vector(mode = "list", length = length(csvs))
+
+for (i in 1:length(csvs)){
+  data.raw[[i]] <- read.csv(paste("input/CZID_TaxonReports/", csvs[i], sep = ""),
+                              header = T)
+}
+
+head(data.raw[[330]])
+```
+
+In order to properly filter the data, I need taxonomic information
+
+## Making Taxonomy Files
+
+So I downloaded a taxonomy dump from NCBI on 18th October 2022 and I'm going to use that as my taxonomy resource. However, it is huge, too big for me to process it either in R or Sublime. So I've split into smaller tables which I will process through, removing anything I don't need, and then bringing them altogether at the end (likely in the commandline)
+
+Edits that need to happen:
+
+1. I only want these files to go to genus level so tax_id and species names can be removed. Similarly, any entries that don't have a genera attached can be taken away.
+
+2. All vertebrates can be removed
+
+3. All invertebrates can be removed. I can get mite/worm genealogy separately.
+
+I also need a separate file for viral taxonomy that goes all the way down to species level as they don't have easy indicators of genus (ie Black queen cell virus = Triatovirus, Deformed wing virus = Iflavirus) and there are too many to try and make these annotations manually.
+
+First I altered the .dmp file in a plain text editor so that the pipe deliminaters were replaced with tabs. I then ran this script.
+
+After this is ran, all editing chunks will be set to eval = FALSE, as the required files will no longer exist.
+
+```{bash, eval = FALSE}
+#usr/bin/bash
+
+split -l 50000 rankedlineage_181022.tsv rankedLinSplit_
+
+for f in rankedLinSplit*; do                          
+        mv "$f" "$f".tsv
+done
+```
+
+Now for the r part of the processing.
+
+First. Viruses.
+
+```{r, eval = FALSE}
+taxfiles <- list.files(path = "input/Phylo_Misc/", pattern = "*.tsv")
+#remove the original file
+taxfiles <- taxfiles[c(-1,-2,-52)]
+taxfiles
+
+#make space to store viral entries
+#no idea how many there will be, so let's guess maybe 10? Safe side.
+vir.list <- vector(mode = "list", length = 10)
+
+j <- 1
+for (i in 1:length(taxfiles)){
+  x <- read.table(paste("input/Phylo_Misc/", taxfiles[i], sep = ""), 
+                   comment.char = "", header = F, sep = "\t", quote = "")
+  #take the header off the first file
+  if(i == 1){
+    x <- x[-1,]
+  }
+  x <- subset(x, V10 == "Viruses")
+  v.check <- nrow(x)
+  if (v.check > 1){
+    print(j)
+    vir.list[[j]] <- x
+    j <- j + 1
+  }
+}
+
+vir.df <- bind_rows(vir.list)
+
+# remove unnecessary columns
+vir.df <- vir.df %>% 
+  mutate_all(na_if, "")
+
+vir.df <- vir.df[,c(2:10)]
+
+names(vir.df) <-  c("Common name", "Species", "Genus", "Family", "Order", "Class", "Phylum", "Kingdom", "SuperKingdom")
+
+write.table(vir.df, "input/Phylo_Misc/ViralTaxo_Oct22.tsv",
+            quote = F, row.names = F, col.names = T, sep = "\t")
+```
+
+And now for the rest of the taxonomy
+
+```{r, eval = FALSE}
+#define what's getting kept: microbial (bacteria/archaea/viruses/single celled)
+wantedSuper <- c("Bacteria", "Archaea")
+wantedKing <- c("Fungi", "Ciliophora", "Choanoflagellata", "Heterolobosea",
+                "Evosea", "Apicomplexa", "Oomycota", "Bigyra")
+wantedOrder <- c("Trypanosomatida", "Trombidiformes")
+wantedPhylum <- c("Nematoda")
+wantedGenus <- c("Apocephalus", "Aethina")
+
+for (i in 1:length(taxfiles)){
+  x <- read.table(paste("input/Phylo_Misc/", taxfiles[i], sep = ""), 
+                   comment.char = "", header = F, sep = "\t", quote = "")
+  if(i == 1){
+    x <- x[-1,]
+  }
+  x <- x[,c(4:10)]
+  #don't include lines that don't have a genus entry
+  x <- x[!x$V4 == "",]
+  x2 <- x[x$V10 %in% wantedSuper |
+          x$V9 %in% wantedKing |
+          x$V6 %in% wantedOrder |
+          x$V4 %in% wantedGenus |
+          x$V8 %in% wantedPhylum,]
+  write.table(x2, paste("input/Phylo_Misc/", taxfiles[i], sep = ""),
+              col.names = F, row.names = F, sep = "\t", quote = F)
+}
+```
+
+Will cat those files together in the commandline
+
+```{r}
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Oct22.tsv",
+                  header = F, sep = "\t", quote = "", comment.char = "")
+names(tax) <- c("Genus", "Family", "Order", "Class", "Phylum", "Kingdom", "SuperKingdom")
+#remove duplicates
+tax <- tax[!duplicated(tax),]
+
+summary(as.factor(tax$SuperKingdom))
+```
+
+## Filtering data
+
+I will filter the data in order to only keep hits that are more likely (NR and NT > 1 and percent_id > 50%). 
+
+NB: sometimes things can exist that are only in NR or NT but not the other database. A taxon can contain high NT and low NR if rRNA is present in NT and not NR. The opposite can also be true: a divergent virus may match NR but be too divergent to hit within NT. This is a point that should be considered particularly in the case of viruses.
+
+I will filter through twice. Once, keeping all non-viruses and applying the filter described above. The second, keeping all viruses and only applying the NR filter parameters. The two will be recombined at the end.
+
+Further steps: 
+
+- the non-virus taxa will have to be further filtered for reads not wanted, i.e. bee or hits within Hexapoda
+
+I will then filter by species - only keeping eukaryotic hits that aren't bees/insects/whatever other strange hits there are.
+
+```{r}
+head(data.raw[[2]])
+```
+
+### Non-viruses
+
+```{r}
+data.filt.nv <- vector(mode = "list", length = length(data.raw))
+
+for (i in 1:length(data.filt.nv)){
+  #only keep necessary columns
+  data.filt.nv[[i]] <- data.raw[[i]][,c(4,6,8,11,12,15,23,24,27)]
+  #get sample ID from the filename
+  samp <- paste(strsplit(csvs[i], "_2[0-9]")[[1]][1])
+  samp <- str_remove(samp, "_[1-2]")
+  #add sample ID to dataframe for ease of identification when these are combined.
+  data.filt.nv[[i]]$SampleID <- paste(samp)
+  #get species  and genus information from the metadata object
+  data.filt.nv[[i]]$Species <- unique(met$Species[met$Sample.ID == samp])
+  data.filt.nv[[i]]$Genus <- unique(met$Genus[met$Sample.ID == samp])
+  #filter the results by the parameters outlined above
+  data.filt.nv[[i]] <- subset(data.filt.nv[[i]], nt_rpm > 1 &
+                            nt_percent_identity > 90 &
+                            nr_rpm > 1 &
+                            nr_percent_identity > 90)
+}
+
+
+nrow(data.filt.nv[[69]])
+head(data.filt.nv[[69]])
+```
+
+Add euk genera information for ease of removal
+
+```{r}
+filt.df.nv <- bind_rows(data.filt.nv)
+#remove viruses
+filt.df.nv <- subset(filt.df.nv, category != "viruses")
+
+summary(as.factor(filt.df.nv$category))
+
+for(i in 1:nrow(filt.df.nv)){
+  gen <- strsplit(filt.df.nv$name[i], " ")
+  filt.df.nv$NonHostPhylo[i] <- paste(gen[[1]][1])
+}
+
+#for some reason the dataframe has amassed rows of all NAs. These are causing issues and need to be removed
+filt.df.nv <- filt.df.nv[grepl("^NA", rownames(filt.df.nv))==F,]
+
+#how to deal with the parts that don't have genera?
+#the genus will instead be the Family name (these have been added manually to the euk
+#filtering file)
+for (i in 1:nrow(filt.df.nv)){
+  if (filt.df.nv$NonHostPhylo[i] == "non-genus-specific"){
+    filt.df.nv$NonHostPhylo[i] <- strsplit(filt.df.nv$name[i], " ")[[1]][5]
+  }
+}
+
+#there's also this guy in there
+filt.df.nv$NonHostPhylo[filt.df.nv$name == "parasitid 'Pas'"] <- "Parasitoidea"
+
+summary(as.factor(filt.df.nv$NonHostPhylo))
+```
+
+Load up eukaryote classifications and remove those that are unwanted
+
+```{r}
+euk <- read.csv("input/Phylo_Misc/Eukaryota_Classifcations_Nov22.csv")
+
+#make lists of wanted eukaryota
+wantedClass <- c("Fungus", "Trypanosome", "Unicellular")
+tokeep <- euk$Genus[euk$Classification %in% wantedClass]
+
+#keep only wanted taxa
+filt.df.nv <- filt.df.nv[filt.df.nv$NonHostPhylo %in% tokeep |
+                           filt.df.nv$category == "bacteria" |
+                           filt.df.nv$category == "archaea",]
+
+head(filt.df.nv)
+```
+
+I would also like to easily be able to pull out fungi
+
+```{r}
+fungi <- euk$Genus[euk$Classification == "Fungus"]
+
+#add fungus to classifications
+filt.df.nv$category[filt.df.nv$NonHostPhylo %in% fungi] <- "fungus"
+
+#change eukaryota classification to make more sense
+filt.df.nv$category[filt.df.nv$category == "eukaryota"] <- "other_eukaryota"
+
+summary(as.factor(filt.df.nv$category))
+```
+
+Now that that filtering is done, I don't need the NonHostPhylo column
+
+```{r}
+filt.df.nv$NonHostPhylo <- NULL
+```
+
+
+### Viruses
+
+```{r}
+data.filt.v <- vector(mode = "list", length = length(data.raw))
+
+for (i in 1:length(data.filt.v)){
+  #only keep necessary columns
+  data.filt.v[[i]] <- data.raw[[i]][,c(4,6,8,11,12,15,23,24,27)]
+  #get sample ID from the filename
+  samp <- paste(strsplit(csvs[i], "_2[0-9]")[[1]][1])
+  samp <- str_remove(samp, "_[1-2]")
+  #add sample ID to dataframe for ease of identification when these are combined.
+  data.filt.v[[i]]$SampleID <- paste(samp)
+  #get species  and genus information from the metadata object
+  data.filt.v[[i]]$Species <- unique(met$Species[met$Sample.ID == samp])
+  data.filt.v[[i]]$Genus <- unique(met$Genus[met$Sample.ID == samp])
+  #filter the results by the parameters outlined above
+  data.filt.v[[i]] <- subset(data.filt.v[[i]], nr_rpm > 1 &
+                            nr_percent_identity > 90)
+}
+
+filt.df.v <- bind_rows(data.filt.v)
+filt.df.v <- subset(filt.df.v, category == "viruses")
+
+nrow(filt.df.v)
+head(filt.df.v)
+```
+
+###Combine
+
+
+```{r}
+filt.df <- rbind(filt.df.nv, filt.df.v)
+```
+
+And lastly, remove an entry that causes issues later on and is generally just very uninformative.
+
+```{r}
+filt.df <- subset(filt.df, 
+                  name != "all taxa with neither family nor genus classification")
+```
+
+## Producing Count Tables
+
+As there are a number of ways I can potentially approach this and I'm changing my mind back and forth constantly and I'm sick of being paralysed by indecision, I'm just going to produce the type of count tables I'm considering so they're at least there for when I make a final decision.
+
+There is a fundamental issue with this data (ignoring the fact that it's from all over the shop with zero control over DNA/RNA extractions, laboratory cleanliness, whether the animal was lab-reared or wild-caught, etc) wherein the counts I have - either in raw counts of read hits against a species or whatever or in reads per million - are not representative of a single unit of that species. I could have 10k reads from one individual cell in some cases - CZID.org mapped back all reads, from all over the genome. This means that larger genomes will have more reads (and look like they're more prevalent in a community), without going into the whole differing expression between stressed / dividing individuals etc. So I don't feel good with just going ahead with this approach cos it feels wrong so I have some workarounds.
+
+Another factor to consider is that mapping back to species level using these approaches are probably not super reliable. And so it's best to collapse to genera (or maybe family for the viruses). 
+
+So there's going to be a number of approaches I'm going to explore here. For each of these there will be 4 versions: everything combined, archaea/bacteria, fungi/eukaryotes and viruses. 
+
+- 1a/b: raw read counts. Once with everything, once with species collapsed to genera
+
+- 2a/b: reads per million. Once with everything, once with species collapsed to genera
+
+- 3a/b: presence / absence (incidence). Assigned to species first (a) and then collapsed by genera (b).
+
+- 4a/b: binned data ? I'm not sure about this one but I feel presence/absence is too conservative, but raw reads too speculative and that this may be a suitable middle ground. It would take some thinking as to how to define the bins. Or maybe ranked data ? ......  I may come back to this.
+
+- 5 a/b: normalised read counts from raw reads using EdgeR tmm (a) and DeSEQ2 log transformed (b)
+
+But first, I need
+
+- a key with all microbial hit species and corresponding taxonomy hit term and a unique identifier. I also need per genera for collapsed tables.
+
+- a taxonomy file that gives me as much information as possible per hits.
+
+### MicroKey 
+
+I'll re-split the original massive tax file and process these split files as I had before, but now only keeping lines that match the microbial taxa I have. I will then address the entries that do not have any entries and assess the next approach ... hopefully there will only be few examples of this!
+
+But before I can go on with this, there are some issues I need to iron out.
+
+- "non-genus-specific" entries need to be changed to whatever family or Order they have fallen into. I would prefer to keep the original term of this hit (ie non-genus-specific) and not just because without doing os I would have to go back and rerun the count tables to sum multiple hits within a family. So it may be a good idea to make a key, ie give every entry a unique identifier that maps back both to the original entry and also an entry that can be extracted from the tax file. For example, "non-genus-specific reads in family Chuviridae" would also be associated with OTU24 and Chuviridae. 
+
+- this will require making a separate key dataframe to store this information
+
+- a lot of the microbial hit "names" are outdated. I went and found the more up-to-date versions using NCBI taxonomy webpage (Using: Schoch CL, et al. NCBI Taxonomy: a comprehensive update on curation, resources and tools. Database (Oxford). 2020.)
+
+- this entry : [Candida] pseudohaemulonis			Metschnikowiaceae	Saccharomycetales	Saccharomycetes	Ascomycota	Fungi	Eukaryota : needs to be added to the taxa file at the end and it does not appear at all in the taxa file, but does exist on NCBI taxonomy webpage.
+
+```{r}
+#make the backbone of the key dataframe
+microkey <- data.frame(MicroHit=unique(filt.df$name))
+
+#populate the third column with the first, considering the majority will be identical
+microkey$TaxHit <- microkey$MicroHit
+
+#edit those that have "non-genus-specific" hits
+for (i in 1:nrow(microkey)){
+  if (grepl("non-genus-specific", microkey$TaxHit[i]) == T){
+    microkey$TaxHit[i] <- strsplit(microkey$MicroHit[i], " ")[[1]][5]
+  }
+}
+
+microkey
+```
+
+And now to update the outdated naming terms
+
+```{r}
+tax.up <- read.table("input/Phylo_Misc/TaxoUpdate.txt",
+                     header = T, sep = "\t", quote = "")
+
+#go through the microkey and add int he new term in the taxhit field
+for (i in 1:nrow(microkey)){
+  if (microkey$MicroHit[i] %in% tax.up$Old_name){
+    microkey$TaxHit[i] <- tax.up$New_name[tax.up$Old_name == microkey$MicroHit[i]]
+  }
+}
+
+subset(microkey, MicroHit == "Lactobacillus bombintestini")
+```
+There is more I need to put into this file, i.e. classifications (virus/fungi, etc), but for that I'm going to need a taxonomy file.
+
+### Taxonomy
+
+Outside of this, I re-ran SplitTax.sh like before. 
+
+```{r, eval = FALSE}
+taxfiles <- list.files(path = "input/Phylo_Misc/", pattern = "*.tsv")
+#remove the original file
+taxfiles <- taxfiles[c(-1,-2,-3)]
+
+#loop through the files, editing them as I go
+for (i in 1:length(taxfiles)){
+  x <- read.table(paste("input/Phylo_Misc/", taxfiles[i], sep = ""), 
+                   comment.char = "", header = F, sep = "\t", quote = "")
+  #remove header from the first file
+  if(i == 1){
+    x <- x[-1,]
+  }
+  #only keep lines that have either the species / common name entry that matches
+  #one of the microbial taxa hits I already have
+  x2 <- x[x$V2 %in% microkey$TaxHit ,]
+  write.table(x2, paste("input/Phylo_Misc/", taxfiles[i], sep = ""),
+              col.names = F, row.names = F, sep = "\t", quote = F)
+}
+```
+
+These have been cat'ed together back in the commandline
+
+```{r}
+#read in for finishing touches
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+                  sep = "\t", header = F, quote = "")
+#remove the taxid column
+tax <- tax[,-1]
+#add the taxonomy ranks
+names(tax) <- c("tax_name",	"species", "genus", 
+                "family", "order", "class", "phylum",	
+                "kingdom", "superkingdom")
+tail(tax)
+#add the missing taxonomy information
+tax[2645,1] <- "[Candida] pseudohaemulonis"
+tax[2645,4] <- "Metschnikowiaceae"
+tax[2645,5] <- "Saccharomycetales"
+tax[2645,6] <- "Saccharomycetes"
+tax[2645,7] <- "Ascomycota"
+tax[2645,8] <- "Fungi"
+tax[2645,9] <- "Eukaryota"
+
+#rewrite
+write.table(tax, "input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+            col.names = T, row.names = F, sep = "\t", quote = F)
+```
+
+So the micro object is still larger than the number of rows in the tax file, so there are microhits that haven't been matched to a taxonomic entry. Let's have a look.
+
+```{r}
+missing <- microkey$TaxHit[!microkey$TaxHit %in% tax$tax_name]
+missing
+```
+
+Nothing missing. Proceed.
+
+I had to go and remove Metazoans, flowering plants and cnidarian entries from the tax file in a text editor because no matter what approach I used in r I was losing half of the table. 
+
+Other manual edits:
+
+- the only Morganella hits from the CZID data are bacteria. The fungus can be removed
+
+- removed duplicate entries for "Leishmania" and "Nitrospira"
+
+```{r}
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+                  sep = "\t", header = T, quote = "")
+```
+
+
+### 1a: Raw Read Hit Counts. Uncollapsed
+
+First to consider: After updating some of the taxonomic terms there are now a number of duplicates that I'm going to have to collapse (summing the reads) into one species when making the "raw" counts tables. 
+
+```{r}
+microkey$TaxHit[duplicated(microkey$TaxHit)]
+```
+
+```{r}
+#store duplicated terms
+dups <- microkey$TaxHit[duplicated(microkey$TaxHit)]
+#store affected species
+d.spec <- microkey$MicroHit[microkey$TaxHit %in% dups]
+```
+
+I'm going to produce unique identifiers per unique tax hit
+
+```{r}
+tax.hit <- unique(microkey$TaxHit)
+#create IDs for microbial hit section for ease of reading
+hitids <- paste0("MRH", 1:length(tax.hit), sep = "")
+
+tax.key <- data.frame(TaxHit = tax.hit, HitID = hitids)
+
+#add back into microkey
+for (i in 1:nrow(microkey)){
+  microkey$HitID[i] <- paste(tax.key$HitID[tax.key$TaxHit == microkey$TaxHit[i]])
+}
+```
+
+And now to make the table
+
+```{r}
+#compile the samples
+samples <- unique(filt.df$SampleID)
+
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(tax.hit), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(tax.hit))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(microkey$MicroHit[microkey$TaxHit == tax.hit[j]])
+    t <- filt.df$nr_count[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    #check for duplicates within the sample
+    if (length(t) == 2){
+      print("Here!")
+      t <- sum(t)
+    }
+    #populate sample's vector with counts
+    x[j] <- t
+    #add sample's counts to count matrix
+  }
+  cnt[,i] <- x
+}
+
+rownames(cnt) <- hitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+```
+
+Check to see if there were any issues with duplicates. Apparently there was only two instances of multiple duplicated species being in a single sample: SRR11448241 and SRR11448240.
+
+```{r}
+duphits <- unique(microkey$HitID[microkey$TaxHit %in% dups])
+
+cnt[c(rownames(cnt)) %in% duphits,"SRR11448240"]
+```
+
+compared to
+
+```{r}
+subset(filt.df, SampleID == "SRR11448240" &
+         name %in% d.spec) 
+```
+
+For the two versions of "Rhodococcus fascians", the counts were 573 and 16, which summed together = 589. The system works.
+
+Time to subset and save
+
+Making subsets by annotating the microkey
+
+```{r}
+for (i in 1:nrow(microkey)){
+  microkey$Class[i] <- unique(filt.df$category[filt.df$name == microkey$MicroHit[i]])
+}
+```
+
+And using these to subset the counts table
+
+```{r}
+#extract the MRH ids that correspond to bacteria/archaea
+ext <- unique(microkey$HitID[microkey$Class == "bacteria" | microkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(microkey$HitID[microkey$Class == "fungus" | 
+                               microkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(microkey$HitID[microkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+```
+
+Write up
+
+```{r}
+dir.create("output/Counts/RawReads")
+path <- "output/Counts/RawReads/"
+
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "rawCounts", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+
+dir.create("output/Keys/")
+write.table(microkey, "output/Keys/MicrobialSpeciesKey.tsv",
+            sep = "\t", col.names = T, row.names = F, quote = F)
+```
+
+Next ... collapsing by genus.
+
+### 1b: Raw Read Hit Counts. Collapsed by phylogeny
+
+In order to do this, the first thing I need is a key for species and corresponding genus / family. This is where I need my tax file and also where I may have to first split the data into different classes as viruses are a mess.
+
+I will also need a new genus key to work with.
+
+#### GenusKey
+
+Start with genus for all non-viruses, and see how far we get.
+
+```{r}
+genkey <- data.frame(MicroHit = microkey$MicroHit, 
+                     TaxHit = microkey$TaxHit,
+                     Class = microkey$Class)
+
+#make a list of all taxa that aren't viruses
+nv <- unique(genkey$TaxHit[!genkey$Class == "viruses"])
+#run through and extract the genus information from the tax file and add to the key
+for (i in 1:length(nv)){
+  g <- unique(tax$genus[tax$tax_name == nv[i]])
+  genkey$PhyloHit[genkey$TaxHit == nv[i]] <- g
+}
+
+subset(genkey, PhyloHit == "")
+```
+
+I manually went through all the entries that don't have a genus entry and most of them are genera or else families. So in the vast majority of cases, I can just carry them over.
+
+There are cases that don't work that I have also taken note off and will deal with manually.
+
+```{r}
+#extract all the rownames of the cases where there is no input for PhyloHit
+genNo <- rownames(subset(genkey, PhyloHit == ""))
+
+#remove the cases that don't fit
+noGen <- c(22, 661, 935, 1056, 1187, 1207, 1212, 1387, 1406, 1494, 1539, 1540, 
+           1587, 1708, 1793, 1868, 1876, 1921, 1951, 1973, 2000, 2007, 2113)
+genNo <- genNo[!genNo %in% noGen]
+
+#go through these cases and just paste the tax name as the PhyloHit variable
+for (i in 1:length(genNo)){
+  genkey[genNo[i],4] <- genkey[genNo[i],2]
+  #print(genkey[genNo[i],1])
+}
+```
+
+That covers most of them. Let's sort the ones left over
+
+```{r}
+subset(genkey, PhyloHit == "")
+```
+I'm going to use the "non-genus-specific" nomenclature where possible. Uncultured and bacterium are just going to be "unspecific bacterial"
+
+```{r}
+genkey[c(22,661,1793,2007),4] <- paste("Unspecified Bacterial")
+genkey[935,4] <- "non-genus-specific Burkholderiaceae"
+genkey[1056,4] <- "non-genus-specific Enterobacteriaceae"
+genkey[1187,4] <- "non-genus-specific Parvibaculaceae"
+genkey[1207,4] <- "non-genus-specific Pelagibacterales"
+genkey[1212,4] <- "non-genus-specific Methylophilaceae"
+genkey[1387,4] <- "non-genus-specific Enterobacteriaceae"
+genkey[1406,4] <- "non-genus-specific Enterobacteriaceae"
+genkey[1494,4] <- "non-genus-specific Gammaproteobacteria"
+genkey[1539,4] <- "non-genus-specific Lachnospiraceae"
+genkey[1540,4] <- "non-genus-specific Lachnospiraceae"
+genkey[1587,4] <- "non-genus-specific Oscillospiraceae"
+genkey[1708,4] <- "non-genus-specific Betaproteobacteria"
+genkey[1793,4] <- "non-genus-specific Enterobacteriaceae"
+genkey[1868,4] <- "non-genus-specific Actinobacteria"
+genkey[1876,4] <- "non-genus-specific Candidatus Nanopelagicaceae"
+genkey[1921,4] <- "non-genus-specific Rhodocyclaceae"
+genkey[1951,4] <- "non-genus-specific Halieaceae"
+genkey[1973,4] <- "non-genus-specific Pasteurellaceae"
+genkey[2000,4] <- "non-genus-specific Gammaproteobacteria"
+genkey[2113,4] <- "non-genus-specific Peptostreptococcaceae"
+```
+
+Also fix a Candida/Metschnikowiaceae 
+
+```{r}
+genkey[754,4] <- "non-genus-specific Metschnikowiaceae"
+genkey[1509,4] <- "non-genus-specific Metschnikowiaceae"
+```
+
+.... the entries that have been given a NA
+
+```{r}
+genkey[is.na(genkey$PhyloHit) &
+         genkey$Class != "viruses",]
+```
+```{r}
+genkey[1508,4] <- "non-genus-specific Metschnikowiaceae"
+```
+
+And finally, the non-genus guys....
+
+```{r}
+genkey[grep("non-genus", genkey$MicroHit),]
+```
+
+```{r}
+famz <- c("Pasteurellaceae", "Beijerinckiaceae", "Lachnospiraceae", "Burkholderiaceae",
+          "Enterobacteriaceae", "Rhodocyclaceae", "Halieaceae", "Peptostreptococcaceae")
+
+for (i in 1:length(famz)){
+  genkey$PhyloHit[genkey$PhyloHit == famz[i]] <- paste("non-genus-specific", 
+                                                       famz[i], sep = " ")
+}
+```
+
+Now for the viruses
+
+```{r}
+#make a list of all viruses
+v <- unique(genkey$TaxHit[genkey$Class == "viruses"])
+#run through and extract the genus information from the tax file and add to the key
+for (i in 1:length(v)){
+  g <- unique(tax$family[tax$tax_name == v[i]])
+  genkey$PhyloHit[genkey$TaxHit == v[i]] <- g
+}
+```
+Sort the non-genus hits
+
+This time I'm only going for family level so they can be move over directly
+
+```{r}
+genkey[grep("non-genus", genkey$MicroHit),]
+```
+```{r}
+famNo <- c(2145, 2156, 2188, 2212, 2221, 2223, 2237, 2251, 2338, 2341, 2343,
+           2359, 2360, 2366, 2397, 2407, 2414, 2420, 2476, 2485, 2518, 2562, 
+           2585, 2622)
+
+for (i in 1:length(famNo)){
+  genkey[famNo[i],4] <- genkey[famNo[i],2]
+}
+```
+
+See what's missing
+
+```{r}
+subset(genkey, PhyloHit == "")
+```
+A lot of these are just viruses. I need to think of a clever way to extract them from the tax file
+
+```{r}
+unclassV <- tax$tax_name[tax$family == ""  & tax$phylum == "" &
+                           tax$order == "" & tax$superkingdom == "Viruses"]
+
+genkey$PhyloHit[genkey$TaxHit %in% unclassV] <- "Unclassified Viral"
+```
+
+Now let's see what's left
+
+```{r}
+subset(genkey, PhyloHit == "")
+```
+
+
+```{r}
+#klebsiella are all marfaviruses, which are counted in Myoviridae
+#but as I'm using the NCBI taxonomy dump I just have to put ...
+genkey[c(2157,2158,2159,2160,2163),4] <- "non-family-specific Caudoviricetes"
+genkey[2166,4] <- "non-family-specific Picornavirales"
+genkey[c(2174, 2177),4] <- "Unspecified Viral"
+genkey[c(2181,2224,2225,2226,2227,2228,2233),4] <- "non-family-specific Caudoviricetes"
+genkey[c(2215,2219,2236,2346,2385,2389,2393),4] <- "non-family-specific Picornavirales"
+genkey[c(2234,2243,2247,2402,2406,2435,2436),4] <- "non-family-specific Caudoviricetes"
+genkey[c(2253),4] <- "non-family-specific Tymovirales"
+genkey[c(2327,2328),4] <- "non-family-specific Bunyavirales"
+genkey[c(2395,2453,2500,2501,2502,2503,2504),4] <- "non-family-specific Picornavirales"
+genkey[c(2437,2438,2439,2440,2441,2443,2444),4] <- "non-family-specific Caudoviricetes"
+genkey[c(2450,2451,2594,2616,2617,2618,2442),4] <- "non-family-specific Caudoviricetes"
+genkey[c(2505,2506,2522,2527,2528,2529,2530),4] <- "non-family-specific Picornavirales"
+genkey[c(2531,2533,2534,2535,2536,2537,2538),4] <- "non-family-specific Picornavirales"
+genkey[c(2539,2540,2541,2542,2543,2544,2545),4] <- "non-family-specific Picornavirales"
+genkey[c(2547,2547,2550,2565,2573,2575,2576),4] <- "non-family-specific Picornavirales"
+genkey[c(2577,2578,2581,2582,2583,2584,2620),4] <- "non-family-specific Picornavirales"
+genkey[c(2625,2489,2372),4] <- "non-family-specific Picornavirales"
+genkey[c(2619),4] <- "non-family-specific Caudoviricetes"
+```
+
+Ok, that should have done it. Let's make genus level read hit IDentifiers
+
+```{r}
+phyloz <- unique(genkey$PhyloHit)
+genhitids <- paste0("GRH", 1:length(phyloz), sep = "")
+
+for (i in 1:length(phyloz)){
+  genkey$GenHitID[genkey$PhyloHit == phyloz[i]] <- paste(genhitids[i])
+}
+
+genkey
+```
+
+```{r}
+write.table(genkey, "output/Keys/GenusFamilySpeciesKey.tsv",
+            sep = "\t", col.names = T, row.names = F, quote = F)
+```
+
+#### The actual Table
+
+Now I should have everything needed to actually make this table
+
+Because these tables are so big, I'm going to just overwrite the cnt object as I go. Whenever I want to use a specific table, I'll read it from where it's been saved in the output.
+
+```{r}
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(phyloz), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(phyloz))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(genkey$MicroHit[genkey$PhyloHit == phyloz[j]])
+    t <- filt.df$nr_count[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    #check for duplicates within the sample
+    if (length(t) > 1){
+      t <- sum(t)
+    }
+    #populate sample's vector with counts
+    x[j] <- t
+    #add sample's counts to count matrix
+    cnt[,i] <- x
+  }
+}
+
+rownames(cnt) <- genhitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+cnt
+```
+Now to check
+
+Using GRH1 / Pseudomonas and AM_N_056
+
+```{r}
+pseudo <- genkey$MicroHit[genkey$PhyloHit == "Pseudomonas"]
+filt.df %>%
+  filter(SampleID == "AM_N_056", name %in% pseudo) %>%
+  select(nr_count) %>%
+  sum()
+```
+
+Another check: GRH8 / Snodgrasella and BT_N_001
+
+```{r}
+snod <- genkey$MicroHit[genkey$PhyloHit == "Snodgrassella"]
+filt.df %>%
+  filter(SampleID == "BT_N_001", name %in% snod) %>%
+  select(nr_count) %>%
+  sum()
+```
+
+Ok I'm happy. Split and write up.
+
+```{r}
+#extract the GRH ids that correspond to bacteria/archaea
+ext <- unique(genkey$GenHitID[genkey$Class == "bacteria" | genkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(genkey$GenHitID[genkey$Class == "fungus" | 
+                               genkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(genkey$GenHitID[genkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+
+#set path
+path <- "output/Counts/RawReads/"
+
+#make list of the count dataframes
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "rawCounts_PhyloCollapsed", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+```
+
+
+### 2a: Reads per Million. Uncollapsed.
+
+Reads per million: can just use above code and change out counts for reads per million
+
+```{r}
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(tax.hit), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(tax.hit))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(microkey$MicroHit[microkey$TaxHit == tax.hit[j]])
+    t <- filt.df$nr_rpm[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    #check for duplicates within the sample
+    if (length(t) == 2){
+      print("Here!")
+      t <- sum(t)
+    }
+    #populate sample's vector with counts
+    x[j] <- t
+  }
+  #add sample's counts to count matrix
+  cnt[,i] <- x
+}
+
+rownames(cnt) <- hitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+
+#extract the MRH ids that correspond to bacteria/archaea
+ext <- unique(microkey$HitID[microkey$Class == "bacteria" |
+                               microkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(microkey$HitID[microkey$Class == "fungus" | 
+                               microkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(microkey$HitID[microkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+
+dir.create("output/Counts/Raw_rPM")
+path <- "output/Counts/Raw_rPM/"
+
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "raw_rPM", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+```
+
+### 2b: Reads Per Million. Collapsed by phylogeny
+
+```{r}
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(phyloz), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(phyloz))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(genkey$MicroHit[genkey$PhyloHit == phyloz[j]])
+    t <- filt.df$nr_rpm[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    #check for duplicates within the sample
+    if (length(t) > 1){
+      t <- sum(t)
+    }
+    #populate sample's vector with counts
+    x[j] <- t
+    #add sample's counts to count matrix
+    cnt[,i] <- x
+  }
+}
+
+rownames(cnt) <- genhitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+
+#extract the GRH ids that correspond to bacteria/archaea
+ext <- unique(genkey$GenHitID[genkey$Class == "bacteria" | genkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(genkey$GenHitID[genkey$Class == "fungus" | 
+                               genkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(genkey$GenHitID[genkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+
+#set path
+path <- "output/Counts/Raw_rPM/"
+
+#make list of the count dataframes
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "raw_rPM_PhyloCollapsed", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+```
+
+
+### 3a: Incidence. Uncollapsed
+
+Now the process needs to be edited so that any count above a threshold = 1, and absence = 0. What should the threshold be ? Just straight up anything above zero ? Or something arbitrary ? 
+
+For now I'm going with 0, but I can always change it.
+
+```{r}
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(tax.hit), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(tax.hit))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(microkey$MicroHit[microkey$TaxHit == tax.hit[j]])
+    t <- filt.df$nr_count[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    if (length(t) == 2){
+      t <- sum(t)
+    }
+    #override counts that aren't 0 with a 1
+    if (t >= 1){
+      t <- 1
+    }
+    #populate sample's vector with counts
+    x[j] <- t
+  }
+  #add sample's incidences to count matrix
+  cnt[,i] <- x
+}
+
+  y <- unique(microkey$MicroHit[microkey$TaxHit == tax.hit[j]])
+    t <- filt.df$nr_count[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    if (length(t)==0){
+      t <- 0
+    }
+    #check for duplicates within the sample
+    if (length(t) == 2){
+      print("Here!")
+      t <- sum(t)
+    }
+    
+    #add sample's counts to count matrix
+    cnt[,i] <- x
+
+rownames(cnt) <- hitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+
+head(cnt)
+```
+Seems to have worked ...
+
+```{r}
+#extract the MRH ids that correspond to bacteria/archaea
+ext <- unique(microkey$HitID[microkey$Class == "bacteria" | 
+                               microkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(microkey$HitID[microkey$Class == "fungus" | 
+                               microkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(microkey$HitID[microkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+
+#create directory to save reads into
+dir.create("output/Counts/Incidence")
+path <- "output/Counts/Incidence/"
+
+#compile the count tables
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "Incidence", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+```
+### 3b: Incidence. Collapsed by phylogeny.
+
+Now I actually want these things summed by phylo classification.... which makes it more difficult. I.e. if there's three different Giamella species found, then the count will be 3 for Giamella.
+
+```{r}
+#prepare an empty matrix to populate
+cnt <- matrix(nrow = length(phyloz), ncol = length(samples))
+
+for (i in 1:length(samples)){
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(phyloz))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){
+    y <- unique(genkey$MicroHit[genkey$PhyloHit == phyloz[j]])
+    t <- filt.df$nr_count[filt.df$name %in% y &
+                            filt.df$SampleID == samples[i]]
+    #in instances were there was nothing to extract, mark the absence with a 0
+    if (length(t)==0){
+      t <- 0
+    #however, if there was data to extract, assess
+    } else {
+      #run through the reads extracted and replace values with the presence marker 1
+      for (k in 1:length(t)){
+        if (t[k] >= 1){
+          t[k] <- 1
+        }
+      }
+      #sum the number of presences
+      t <- sum(t)
+    }
+    #populate the count vector
+    x[j] <- t
+  }
+  #add this sample counts to the matrix
+  cnt[,i] <- x
+}  
+ 
+
+rownames(cnt) <- genhitids
+colnames(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+tail(cnt)
+```
+
+```{r}
+#extract the GRH ids that correspond to bacteria/archaea
+ext <- unique(genkey$GenHitID[genkey$Class == "bacteria" | genkey$Class == "archaea"])
+#extract these reads from the main count table
+cnt.ab <- cnt[rownames(cnt) %in% ext,]
+
+#repeat for fungi and other eukaryotes
+ext <- unique(genkey$GenHitID[genkey$Class == "fungus" | 
+                               genkey$Class == "other_eukaryota"])
+cnt.fe <- cnt[rownames(cnt) %in% ext,]  
+
+#and finally, viruses
+ext <- unique(genkey$GenHitID[genkey$Class == "viruses"])
+cnt.v <- cnt[rownames(cnt) %in% ext,]
+
+#set path
+path <- "output/Counts/Incidence/"
+
+#make list of the count dataframes
+cnt.list <- list(cnt, cnt.ab, cnt.fe, cnt.v)
+
+filez <- c("All", "Prokaryote", "Eukaryote", "Viral")
+
+for (i in 1:length(cnt.list)){
+  nombre <- paste(filez[i], "Incidence_PhyloCollapsed", "Nov22.tsv", sep = "_")
+  write.table(cnt.list[i], paste(path, nombre, sep = ""),
+              sep = "\t", row.names = T, col.names = T, quote = F)
+}
+```
+
+
+### 5a: EdgeR count tables
+
+This is going to be a little bit of a ball ache. To get to the edgeR normalised TMM table I need to make a DGELIST object first, which requires me setting this up as if it's a differential expression analysis.
+
+I'm not going to carry on with anything at species level for the microbials.
+
+#### Raw Read Counts, Collapse
+
+Check that I have appropriate metadata for the samples.
+
+##### All
+
+
+```{r}
+#load the correct count table
+cnt <- read.table("output/Counts/RawReads/All_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA entries cos I know now they are too different
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[, !names(cnt) %in% dna]
+
+#I cannot have more more entries in the met object that are in the analysis
+met2 <- met[met$Sample.ID %in% names(cnt),]
+
+#set analysis parameters (by sociality)
+group <- factor(met2$Sociality)
+design <- model.matrix(~0+group)
+colnames(design) <- levels(group)
+#Creates a DGEList object from a table of counts (rows=features, columns=samples) with group indicator for each column
+work <- DGEList(counts = cnt, group = group)
+#I would normally try to remove "low expression" rows here but it breaks all the later steps so I removed that step and skipped to 
+#calculate normalization factors to align column of a count matrix
+#each sample will have a normalisation factor to try and combat effective library size effects
+#(no idea if this is going to effect the table / make it useless)
+work2 <- calcNormFactors(work)
+#estimate common, trended and tagwise negative binomial dispersions by weight likelihood empirical Bayes
+work2 <- estimateDisp(work2, design)
+#fit a quasi-likelihood negative binomial generalised log-linear model to count data
+fit <- glmQLFit(work2, design)
+
+#extract tmm
+cnt.tmm <- fit$fitted.values
+```
+
+Out of curiosity .... are there are significant differentially abundant species ?
+
+
+```{r}
+#set contrasts
+my.contrasts <- makeContrasts(
+    EusocialvPolymorphic = Eusocial - Polymorphic,
+    EusocialvSolitary = Eusocial - Solitary, 
+    PolymorphicvSolitary = Polymorphic - Solitary,
+    levels = design
+)
+#make list ready to contain results
+edgeR.list <- vector(mode = "list", length = 3)
+
+#run for the above contrasts
+for (i in 1:length(dimnames(my.contrasts)$Contrasts)){
+    edgeR.list[[i]] <- glmQLFTest(fit, 
+                               contrast = my.contrasts[,paste(dimnames(my.contrasts)$Contrasts[i])])
+    
+}
+
+#how many differences are there between the social lifestyles?
+for (i in 1:length(edgeR.list)){
+  s <- edgeR.list[[i]]$table
+  s$FDR <- p.adjust(method = "fdr", s$PValue)
+  e <- nrow(subset(s, FDR < 0.05))
+  print(paste(dimnames(my.contrasts)$Contrasts[i], e))
+}
+```
+
+In terms of between eusocial and solitary, what's the biggest difference?
+
+```{r}
+euvsol <- rownames(topTags(edgeR.list[[2]], n = 10))
+
+genkey[genkey$GenHitID %in% euvsol,]
+```
+
+```{r}
+ext.tmm <- cnt.tmm[rownames(cnt.tmm) %in% euvsol,]
+tmp <- melt(ext.tmm)
+names(tmp) <- c("GenusHitRead", "Sample", "TMM")
+for (i in 1:nrow(tmp)){
+  tmp$MicroPhylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID == tmp$GenusHitRead[i]])
+}
+
+head(tmp)
+ext.plot <- merge(met, tmp, by.x="Sample.ID", by.y = "Sample", all.y = T)
+
+ggplot(data = ext.plot, aes(x = MicroPhylo, y = log(TMM), fill = Sociality)) +
+  geom_boxplot() +
+  coord_flip()
+  #facet_grid(~MicroPhylo) + coord_flip()
+```
+
+I mean .... not sure I see what it's getting at ...
+
+```{r}
+ggplot(data = ext.plot, mapping = aes(x = Sociality, y = MicroPhylo, 
+                                      fill = log(TMM))) +
+    geom_tile() +
+  scale_fill_gradient(low = "#fff6ff", high = "#1f001f") 
+```
+
+```{r}
+ext.plot2 <- ext.plot[!ext.plot$Sociality == "Polymorphic",]
+
+ggplot(data = ext.plot2, mapping = aes(x = Sociality, y = MicroPhylo, 
+                                      fill = log(TMM), labels = Sociality)) +
+    geom_tile() +
+  scale_fill_gradient2(low = "blue", mid = "yellow", high = "red") 
+  #facet_grid(~Sociality, scale = "free_y") +
+
+```
+
+```{r}
+core <- c("Gilliamella", "Apilactobacillus", "Snodgrassella", "Bifidobacterium")
+core.id <- unique(genkey$GenHitID[genkey$PhyloHit %in% core])
+
+core.tmm <- cnt.tmm[rownames(cnt.tmm) %in% core.id,]
+tmp <- melt(core.tmm)
+names(tmp) <- c("GenusHitRead", "Sample", "TMM")
+for (i in 1:nrow(tmp)){
+  tmp$MicroPhylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID == tmp$GenusHitRead[i]])
+}
+
+head(tmp)
+core.plot <- merge(met, tmp, by.x="Sample.ID", by.y = "Sample", all.y = T)
+
+ggplot(data = core.plot, aes(x = MicroPhylo, y = log(TMM), fill = Sociality)) +
+  geom_boxplot() +
+  coord_flip()
+  #facet_grid(~MicroPhylo) + coord_flip()
+```
+
+That's encouraging at least.
+
+Anyhoo.
+
+```{r}
+dir.create("output/Counts/EdgeR")
+write.table(cnt.tmm, "output/Counts/EdgeR/AllMicrobials_TMM.tsv",
+            sep = "\t", col.names = T, row.names = T, quote = F)
+```
+
+So the other tables appear to be too small for EdgeR to deal with so I'm just going to abandon them here.
+
+### 5b: DeSEQ2 Count tables
+
+Let's make some DeSEQ normalised tables and also see what their VST-based pcas look like whilst I'm here.
+
+As before, I'm only working now with phylo-collapsed data and only with RNA.
+
+DESEQ2 doesn't seem to let me extract its count so .... I'm going to just look at the PCAs it can make and move on.
+
+#### All
+
+
+```{r}
+#read in the raw reads, all kingdoms file
+cnt <- read.table("output/Counts/RawReads/All_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA entries cos I know now they are too different
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[, !names(cnt) %in% dna]
+
+#have met data that only has included samples
+#deseq2 likes to use "coldata" objects that have sample IDs in the same order as the 
+#column headers in the count table
+coldata <- met[met$Sample.ID %in% names(cnt),]
+rownames(coldata) <- coldata$Sample.ID
+coldata$Sample.ID <- NULL
+
+all(rownames(coldata) == names(cnt))
+```
+
+Needed for later: make tissue type more simple
+
+```{r}
+unique(coldata$Tissue)
+```
+
+```{r}
+coldata$TissueType <- coldata$Tissue
+
+coldata$TissueType[grepl("pooled whole bodies", coldata$Tissue)] <- 
+  "pooled whole bodies"
+coldata$TissueType[grepl("head and abdomen", coldata$Tissue)] <- 
+  "head and abdomen"
+coldata$TissueType[grepl("pool of", coldata$Tissue)] <- 
+  "pooled whole bodies"
+
+unique(coldata$TissueType)
+```
+
+
+```{r}
+cnt <- cnt[, rownames(coldata)]
+
+all(rownames(coldata) == names(cnt))
+```
+
+DDS won't work without there being no zeros in the "genes" and so I'm going to add a pseudocount of 1 just to force it to work, but it probably undermines the program.
+
+```{r}
+cnt[cnt == 0] <- 1
+```
+
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = cnt,
+                              colData = coldata,
+                              design = ~ Sociality)
+
+dds
+```
+
+Now to filter
+
+```{r}
+#keep only the rows where there are at least 10 counts in at least 10 samples
+keep <- rowSums(counts(dds) >= 10) >= 10
+dds <- dds[keep,]
+
+dds
+```
+
+Variance stabilising transformation
+
+```{r}
+dds <- DESeq(dds)
+#had to use this function directly (as opposed to vst) as I don't have enough rows (1000)
+vsd <- varianceStabilizingTransformation(dds, blind = T)
+
+#now to see what the pca looks like ? 
+select <- order(rowMeans(counts(dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd)[select,])
+```
+
+hmm. 
+
+```{r}
+sampleDists <- dist(t(assay(vsd)))
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$Sociality, vsd$type, sep="-")
+colnames(sampleDistMatrix) <- NULL
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+```
+
+Ok ... so there is clustering going on but ......... I can't see where
+
+```{r}
+dir.create("output/Plots/")
+pdf("output/Plots/AllSamps_DESEQ_Distance.pdf")
+  pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+dev.off()
+```
+
+```{r}
+pca.loc <- plotPCA(vsd, intgroup="Location", returnData = TRUE)
+ggplot(pca.loc, aes(x = PC1, y = PC2, color = Location)) +
+  geom_point()
+```
+
+Similar pattern to what I've seen before ...... 
+
+```{r}
+pca.soc <- plotPCA(vsd, intgroup="Sociality", returnData = TRUE)
+ggplot(pca.soc, aes(x = PC1, y = PC2, color = Sociality)) +
+  geom_point()
+```
+```{r}
+pca.sex <- plotPCA(vsd, intgroup="Sex", returnData = TRUE)
+ggplot(pca.sex, aes(x = PC1, y = PC2, color = Sex)) +
+  geom_point()
+```
+```{r}
+pca.tis <- plotPCA(vsd, intgroup="TissueType", returnData = TRUE)
+ggplot(pca.tis, aes(x = PC1, y = PC2, color = TissueType)) +
+  geom_point() +
+  scale_colour_manual(values = c("red", "black", "grey", "aquamarine", 
+                                 "plum", "green", "blue", "orange"))
+```
+
+```{r}
+pca.pro <- plotPCA(vsd, intgroup="Project.Accession", returnData = TRUE)
+
+ggplot(pca.pro, aes(x = PC1, y = PC2, color = Project.Accession, label = name)) +
+  geom_point() +
+  geom_text(data = pca.pro[pca.pro$Project.Accession == "PRJNA615177",],
+            aes(colour = "blue")) +
+  theme(legend.position = "none")
+```
+
+```{r}
+pca.pro[pca.pro$PC1 < -40,]
+```
+```{r}
+met[met$Project.Accession == "PRJNA615177",]
+```
+```{r}
+pca.spe <- plotPCA(vsd, intgroup="Genus", returnData = TRUE)
+
+ggplot(pca.spe, aes(x = PC1, y = PC2, color = Genus, label = Genus)) +
+  geom_point() +
+  geom_text() +
+  theme(legend.position = "none")
+```
+
+```{r}
+pca.spe <- plotPCA(vsd, intgroup="Genus", returnData = TRUE)
+
+ggplot(pca.spe[!pca.spe$Genus == "Apis" & !pca.spe$Genus == "Bombus", ], 
+       aes(x = PC1, y = PC2, color = Genus, label = Genus)) +
+  geom_point() +
+  geom_text() +
+  theme(legend.position = "none")
+```
+
+```{r}
+coldata$Sample.ID <- rownames(coldata)
+pca <- merge(pca.soc, coldata, by.x = "name", by.y = "Sample.ID")
+pca$group <- NULL
+names(pca)[4] <- "Sociality"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = TissueType, label = Genus, shape = Sociality)) +
+  geom_point() +
+  scale_colour_brewer(palette = "set1")
+  #geom_text() +
+  #theme(legend.position = "none")
+```
+
+
+
+
+
+#### Prokaryote
+
+
+```{r}
+#read in the raw reads, all kingdoms file
+cnt <- read.table("output/Counts/RawReads/Prokaryote_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA entries cos I know now they are too different
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[, !names(cnt) %in% dna]
+
+#have met data that only has included samples
+#deseq2 likes to use "coldata" objects that have sample IDs in the same order as the 
+#column headers in the count table
+coldata <- met[met$Sample.ID %in% names(cnt),]
+rownames(coldata) <- coldata$Sample.ID
+coldata$Sample.ID <- NULL
+
+all(rownames(coldata) == names(cnt))
+```
+
+Needed for later: make tissue type more simple
+
+```{r}
+coldata$TissueType <- coldata$Tissue
+
+coldata$TissueType[grepl("pooled whole bodies", coldata$Tissue)] <- 
+  "pooled whole bodies"
+coldata$TissueType[grepl("head and abdomen", coldata$Tissue)] <- 
+  "head and abdomen"
+coldata$TissueType[grepl("pool of", coldata$Tissue)] <- 
+  "pooled whole bodies"
+
+unique(coldata$TissueType)
+```
+
+
+```{r}
+cnt <- cnt[, rownames(coldata)]
+
+all(rownames(coldata) == names(cnt))
+```
+
+DDS won't work without there being no zeros in the "genes" and so I'm going to add a pseudocount of 1 just to force it to work, but it probably undermines the program.
+
+```{r}
+cnt[cnt == 0] <- 1
+```
+
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = cnt,
+                              colData = coldata,
+                              design = ~ Sociality)
+
+dds
+```
+
+Now to filter
+
+```{r}
+#keep only the rows where there are at least 10 counts in at least 10 samples
+keep <- rowSums(counts(dds) >= 10) >= 10
+dds <- dds[keep,]
+
+dds
+```
+
+Variance stabilising transformation
+
+```{r}
+dds <- DESeq(dds)
+#had to use this function directly (as opposed to vst) as I don't have enough rows (1000)
+vsd <- varianceStabilizingTransformation(dds, blind = T)
+
+#now to see what the pca looks like ? 
+select <- order(rowMeans(counts(dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd)[select,])
+```
+
+hmm. 
+
+```{r}
+sampleDists <- dist(t(assay(vsd)))
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$Sociality, vsd$type, sep="-")
+colnames(sampleDistMatrix) <- NULL
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+```
+
+Ok ... so there is clustering going on but ......... I can't see where
+
+```{r}
+dir.create("output/Plots/")
+pdf("output/Plots/AllSamps_DESEQ_Distance.pdf")
+  pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+dev.off()
+```
+
+```{r}
+pca.loc <- plotPCA(vsd, intgroup="Location", returnData = TRUE)
+ggplot(pca.loc, aes(x = PC1, y = PC2, color = Location)) +
+  geom_point()
+```
+
+Similar pattern to what I've seen before ...... 
+
+```{r}
+pca.soc <- plotPCA(vsd, intgroup="Sociality", returnData = TRUE)
+ggplot(pca.soc, aes(x = PC1, y = PC2, color = Sociality)) +
+  geom_point()
+```
+```{r}
+pca.sex <- plotPCA(vsd, intgroup="Sex", returnData = TRUE)
+ggplot(pca.sex, aes(x = PC1, y = PC2, color = Sex)) +
+  geom_point()
+```
+```{r}
+pca.tis <- plotPCA(vsd, intgroup="TissueType", returnData = TRUE)
+ggplot(pca.tis, aes(x = PC1, y = PC2, color = TissueType)) +
+  geom_point() +
+  scale_colour_manual(values = c("red", "black", "grey", "aquamarine", 
+                                 "plum", "green", "blue", "orange"))
+```
+
+```{r}
+pca.pro <- plotPCA(vsd, intgroup="Project.Accession", returnData = TRUE)
+
+ggplot(pca.pro, aes(x = PC1, y = PC2, color = Project.Accession, label = name)) +
+  geom_point() +
+  geom_text(data = pca.pro[pca.pro$Project.Accession == "PRJNA615177",],
+            aes(colour = "blue")) +
+  theme(legend.position = "none")
+```
+
+```{r}
+pca.pro[pca.pro$PC1 > 50,]
+```
+```{r}
+met[met$Project.Accession == "PRJNA820512",]
+```
+```{r}
+pca.spe <- plotPCA(vsd, intgroup="Genus", returnData = TRUE)
+
+ggplot(pca.spe, aes(x = PC1, y = PC2, color = Genus, label = Genus)) +
+  geom_point() +
+  geom_text() +
+  theme(legend.position = "none")
+```
+
+
+
+```{r}
+coldata$Sample.ID <- rownames(coldata)
+pca <- merge(pca.soc, coldata, by.x = "name", by.y = "Sample.ID")
+pca$group <- NULL
+names(pca)[4] <- "Sociality"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Location, label = "Outlier",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Project.Accession == "PRJNA820512",]) 
+  #theme(legend.position = "none")
+```
+
+```{r}
+pca$Location <- trimws(pca$Location)
+
+pca$Continent[pca$Location == "Australia" | pca$Location == "New Zealand"] <- "Oceania"
+pca$Continent[pca$Location == "Belgium" | pca$Location == "France" |
+                pca$Location == "Germany" | pca$Location == "Italy" |
+                pca$Location == "Scotland" |
+                pca$Location == "United Kingdom"  |
+               pca$Location == "Switzerland" |
+               pca$Location == "Netherlands"  ] <- "Europe"
+pca$Continent[pca$Location == "Brazil"  ] <- "South America"
+pca$Continent[pca$Location == "California" | pca$Location == "Canada" |
+              pca$Location == "Florida" | pca$Location == "Hawaii" |
+              pca$Location == "California" | pca$Location == "Canada" | 
+              pca$Location == "Panama" | pca$Location == "Mexico" |
+              pca$Location == "North Dakota" ] <- "North America"
+pca$Continent[pca$Location == "China" | pca$Location == "Israel" |
+              pca$Location == "South Korea" ] <- "Asia"
+pca$Continent[pca$Location == "South Africa" ] <- "Africa"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Continent, label = "Outlier",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Location == "New Zealand",]) 
+
+```
+
+New Zealand samples seem to be different to everything else ... all Apis.
+
+
+
+
+#### Eukaryote
+
+```{r}
+#read in the raw reads, all kingdoms file
+cnt <- read.table("output/Counts/RawReads/Eukaryote_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA entries cos I know now they are too different
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[, !names(cnt) %in% dna]
+
+#have met data that only has included samples
+#deseq2 likes to use "coldata" objects that have sample IDs in the same order as the 
+#column headers in the count table
+coldata <- met[met$Sample.ID %in% names(cnt),]
+rownames(coldata) <- coldata$Sample.ID
+coldata$Sample.ID <- NULL
+
+all(rownames(coldata) == names(cnt))
+```
+
+Needed for later: make tissue type more simple
+
+```{r}
+coldata$TissueType <- coldata$Tissue
+
+coldata$TissueType[grepl("pooled whole bodies", coldata$Tissue)] <- 
+  "pooled whole bodies"
+coldata$TissueType[grepl("head and abdomen", coldata$Tissue)] <- 
+  "head and abdomen"
+coldata$TissueType[grepl("pool of", coldata$Tissue)] <- 
+  "pooled whole bodies"
+
+unique(coldata$TissueType)
+```
+
+
+```{r}
+cnt <- cnt[, rownames(coldata)]
+
+all(rownames(coldata) == names(cnt))
+```
+
+DDS won't work without there being no zeros in the "genes" and so I'm going to add a pseudocount of 1 just to force it to work, but it probably undermines the program.
+
+```{r}
+cnt[cnt == 0] <- 1
+```
+
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = cnt,
+                              colData = coldata,
+                              design = ~ Sociality)
+
+dds
+```
+
+Now to filter
+
+```{r}
+#keep only the rows where there are at least 10 counts in at least 10 samples
+keep <- rowSums(counts(dds) >= 10) >= 10
+dds <- dds[keep,]
+
+dds
+```
+
+Variance stabilising transformation
+
+```{r}
+dds <- DESeq(dds)
+#had to use this function directly (as opposed to vst) as I don't have enough rows (1000)
+vsd <- varianceStabilizingTransformation(dds, blind = T)
+
+#now to see what the pca looks like ? 
+select <- order(rowMeans(counts(dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd)[select,])
+```
+
+hmm. 
+
+```{r}
+sampleDists <- dist(t(assay(vsd)))
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$Sociality, vsd$type, sep="-")
+colnames(sampleDistMatrix) <- NULL
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+```
+
+
+```{r}
+pca.loc <- plotPCA(vsd, intgroup="Location", returnData = TRUE)
+ggplot(pca.loc, aes(x = PC1, y = PC2, color = Location)) +
+  geom_point()
+```
+
+Similar pattern to what I've seen before ...... 
+
+```{r}
+pca.soc <- plotPCA(vsd, intgroup="Sociality", returnData = TRUE)
+ggplot(pca.soc, aes(x = PC1, y = PC2, color = Sociality)) +
+  geom_point()
+```
+```{r}
+pca.sex <- plotPCA(vsd, intgroup="Sex", returnData = TRUE)
+ggplot(pca.sex, aes(x = PC1, y = PC2, color = Sex)) +
+  geom_point()
+```
+```{r}
+pca.tis <- plotPCA(vsd, intgroup="TissueType", returnData = TRUE)
+ggplot(pca.tis, aes(x = PC1, y = PC2, color = TissueType)) +
+  geom_point() +
+  scale_colour_manual(values = c("red", "black", "grey", "aquamarine", 
+                                 "plum", "green", "blue", "orange"))
+```
+
+```{r}
+pca.pro <- plotPCA(vsd, intgroup="Project.Accession", returnData = TRUE)
+
+ggplot(pca.pro, aes(x = PC1, y = PC2, color = Project.Accession, label = name)) +
+  geom_point() +
+  geom_text(data = pca.pro[pca.pro$Project.Accession == "PRJNA615177",],
+            aes(colour = "blue")) +
+  theme(legend.position = "none")
+```
+
+```{r}
+pca.pro[pca.pro$PC1 > 20,]
+```
+```{r}
+met[met$Project.Accession == "PRJNA820512",]
+```
+```{r}
+pca.spe <- plotPCA(vsd, intgroup="Genus", returnData = TRUE)
+
+ggplot(pca.spe, aes(x = PC1, y = PC2, color = Genus, label = Genus)) +
+  geom_point() +
+  geom_text() +
+  theme(legend.position = "none")
+```
+
+
+
+```{r}
+coldata$Sample.ID <- rownames(coldata)
+pca <- merge(pca.soc, coldata, by.x = "name", by.y = "Sample.ID")
+pca$group <- NULL
+names(pca)[4] <- "Sociality"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Location, label = "Outlier",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Project.Accession == "PRJNA820512",]) 
+  #theme(legend.position = "none")
+```
+
+```{r}
+pca$Location <- trimws(pca$Location)
+
+pca$Continent[pca$Location == "Australia" | pca$Location == "New Zealand"] <- "Oceania"
+pca$Continent[pca$Location == "Belgium" | pca$Location == "France" |
+                pca$Location == "Germany" | pca$Location == "Italy" |
+                pca$Location == "Scotland" |
+                pca$Location == "United Kingdom"  |
+               pca$Location == "Switzerland" |
+               pca$Location == "Netherlands"  ] <- "Europe"
+pca$Continent[pca$Location == "Brazil"  ] <- "South America"
+pca$Continent[pca$Location == "California" | pca$Location == "Canada" |
+              pca$Location == "Florida" | pca$Location == "Hawaii" |
+              pca$Location == "California" | pca$Location == "Canada" | 
+              pca$Location == "Panama" | pca$Location == "Mexico" |
+              pca$Location == "North Dakota" ] <- "North America"
+pca$Continent[pca$Location == "China" | pca$Location == "Israel" |
+              pca$Location == "South Korea" ] <- "Asia"
+pca$Continent[pca$Location == "South Africa" ] <- "Africa"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Continent, label = "Outlier",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Location == "New Zealand",]) 
+
+```
+
+Only half the Apis samples in New Zealand seem weird here
+
+
+
+
+
+
+
+#### Viral
+
+```{r}
+#read in the raw reads, all kingdoms file
+cnt <- read.table("output/Counts/RawReads/Viral_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA entries cos I know now they are too different
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[, !names(cnt) %in% dna]
+
+#have met data that only has included samples
+#deseq2 likes to use "coldata" objects that have sample IDs in the same order as the 
+#column headers in the count table
+coldata <- met[met$Sample.ID %in% names(cnt),]
+rownames(coldata) <- coldata$Sample.ID
+coldata$Sample.ID <- NULL
+
+all(rownames(coldata) == names(cnt))
+```
+
+Needed for later: make tissue type more simple
+
+```{r}
+coldata$TissueType <- coldata$Tissue
+
+coldata$TissueType[grepl("pooled whole bodies", coldata$Tissue)] <- 
+  "pooled whole bodies"
+coldata$TissueType[grepl("head and abdomen", coldata$Tissue)] <- 
+  "head and abdomen"
+coldata$TissueType[grepl("pool of", coldata$Tissue)] <- 
+  "pooled whole bodies"
+
+unique(coldata$TissueType)
+```
+
+
+```{r}
+cnt <- cnt[, rownames(coldata)]
+
+all(rownames(coldata) == names(cnt))
+```
+
+DDS won't work without there being no zeros in the "genes" and so I'm going to add a pseudocount of 1 just to force it to work, but it probably undermines the program.
+
+```{r}
+cnt[cnt == 0] <- 1
+```
+
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = cnt,
+                              colData = coldata,
+                              design = ~ Sociality)
+
+dds
+```
+
+Now to filter
+
+```{r}
+#keep only the rows where there are at least 10 counts in at least 10 samples
+keep <- rowSums(counts(dds) >= 10) >= 10
+dds <- dds[keep,]
+
+dds
+```
+
+Variance stabilising transformation
+
+```{r}
+dds <- DESeq(dds)
+#had to use this function directly (as opposed to vst) as I don't have enough rows (1000)
+vsd <- varianceStabilizingTransformation(dds, blind = T)
+
+#now to see what the pca looks like ? 
+select <- order(rowMeans(counts(dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd)[select,])
+```
+
+hmm. 
+
+```{r}
+sampleDists <- dist(t(assay(vsd)))
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$Sociality, vsd$type, sep="-")
+colnames(sampleDistMatrix) <- NULL
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+```
+
+
+```{r}
+pca.loc <- plotPCA(vsd, intgroup="Location", returnData = TRUE)
+ggplot(pca.loc, aes(x = PC1, y = PC2, color = Location)) +
+  geom_point()
+```
+
+
+```{r}
+pca.soc <- plotPCA(vsd, intgroup="Sociality", returnData = TRUE)
+ggplot(pca.soc, aes(x = PC1, y = PC2, color = Sociality)) +
+  geom_point()
+```
+Similar pattern to what I've seen before ...... 
+
+```{r}
+pca.sex <- plotPCA(vsd, intgroup="Sex", returnData = TRUE)
+ggplot(pca.sex, aes(x = PC1, y = PC2, color = Sex)) +
+  geom_point()
+```
+```{r}
+pca.tis <- plotPCA(vsd, intgroup="TissueType", returnData = TRUE)
+ggplot(pca.tis, aes(x = PC1, y = PC2, color = TissueType)) +
+  geom_point() +
+  scale_colour_manual(values = c("red", "black", "grey", "aquamarine", 
+                                 "plum", "green", "blue", "orange"))
+```
+
+```{r}
+pca.pro <- plotPCA(vsd, intgroup="Project.Accession", returnData = TRUE)
+
+ggplot(pca.pro, aes(x = PC1, y = PC2, color = Project.Accession, label = name)) +
+  geom_point() +
+  geom_text(data = pca.pro[pca.pro$Project.Accession == "PRJNA615177",],
+            aes(colour = "blue")) +
+  theme(legend.position = "none")
+```
+Now the these are clustering together ?
+
+```{r}
+pca.pro[pca.pro$PC1 > 20,]
+```
+```{r}
+met[met$Project.Accession == "PRJNA820512",]
+```
+```{r}
+pca.spe <- plotPCA(vsd, intgroup="Genus", returnData = TRUE)
+
+ggplot(pca.spe, aes(x = PC1, y = PC2, color = Genus, label = Genus)) +
+  geom_point() +
+  geom_text() +
+  theme(legend.position = "none")
+```
+
+
+
+```{r}
+coldata$Sample.ID <- rownames(coldata)
+pca <- merge(pca.soc, coldata, by.x = "name", by.y = "Sample.ID")
+pca$group <- NULL
+names(pca)[4] <- "Sociality"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Location, label = "Outlier",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Project.Accession == "PRJNA820512",]) 
+  #theme(legend.position = "none")
+```
+
+```{r}
+pca$Location <- trimws(pca$Location)
+
+pca$Continent[pca$Location == "Australia" | pca$Location == "New Zealand"] <- "Oceania"
+pca$Continent[pca$Location == "Belgium" | pca$Location == "France" |
+                pca$Location == "Germany" | pca$Location == "Italy" |
+                pca$Location == "Scotland" |
+                pca$Location == "United Kingdom"  |
+               pca$Location == "Switzerland" |
+               pca$Location == "Netherlands"  ] <- "Europe"
+pca$Continent[pca$Location == "Brazil"  ] <- "South America"
+pca$Continent[pca$Location == "California" | pca$Location == "Canada" |
+              pca$Location == "Florida" | pca$Location == "Hawaii" |
+              pca$Location == "California" | pca$Location == "Canada" | 
+              pca$Location == "Panama" | pca$Location == "Mexico" |
+              pca$Location == "North Dakota" ] <- "North America"
+pca$Continent[pca$Location == "China" | pca$Location == "Israel" |
+              pca$Location == "South Korea" ] <- "Asia"
+pca$Continent[pca$Location == "South Africa" ] <- "Africa"
+
+ggplot(pca, 
+       aes(x = PC1, y = PC2, color = Continent, label = "NZ",
+           shape = Sociality)) +
+  geom_point() + 
+  geom_text(data = pca[pca$Location == "New Zealand",]) 
+
+```
+
+I wouldn't say New Zealand is particularly mental here ..... but what the hell is going on ;(
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2626 @@
+MicroHit	TaxHit	HitID	Class
+Pseudomonas	Pseudomonas	MRH1	bacteria
+Pseudomonas nitroreducens	Pseudomonas nitroreducens	MRH2	bacteria
+Pseudomonas fluorescens	Pseudomonas fluorescens	MRH3	bacteria
+Acinetobacter	Acinetobacter	MRH4	bacteria
+Acinetobacter johnsonii	Acinetobacter johnsonii	MRH5	bacteria
+Ralstonia	Ralstonia	MRH6	bacteria
+Cutibacterium	Cutibacterium	MRH7	bacteria
+Cutibacterium acnes	Cutibacterium acnes	MRH8	bacteria
+Escherichia	Escherichia	MRH9	bacteria
+Escherichia coli	Escherichia coli	MRH10	bacteria
+Meyerozyma	Meyerozyma	MRH11	fungus
+Meyerozyma guilliermondii	Meyerozyma guilliermondii	MRH12	fungus
+Gilliamella	Gilliamella	MRH13	bacteria
+Gilliamella apicola	Gilliamella apicola	MRH14	bacteria
+Snodgrassella	Snodgrassella	MRH15	bacteria
+Snodgrassella alvi	Snodgrassella alvi	MRH16	bacteria
+Methylobacterium	Methylobacterium	MRH17	bacteria
+Acinetobacter baumannii	Acinetobacter baumannii	MRH18	bacteria
+Acinetobacter lwoffii	Acinetobacter lwoffii	MRH19	bacteria
+Bombiscardovia	Bombiscardovia	MRH20	bacteria
+Bombiscardovia coagulans	Bombiscardovia coagulans	MRH21	bacteria
+uncultured bacterium	uncultured bacterium	MRH22	bacteria
+non-genus-specific reads in family Pasteurellaceae	Pasteurellaceae	MRH23	bacteria
+Plasmodium	Plasmodium	MRH24	other_eukaryota
+Pseudomonas sp. SXM-1	Pseudomonas sp. SXM-1	MRH25	bacteria
+Pseudomonas sp. NC02	Pseudomonas sp. NC02	MRH26	bacteria
+Pseudomonas putida	Pseudomonas putida	MRH27	bacteria
+Bacillus	Bacillus	MRH28	bacteria
+Corynebacterium	Corynebacterium	MRH29	bacteria
+Sphingomonas	Sphingomonas	MRH30	bacteria
+Methylobacterium radiotolerans	Methylobacterium radiotolerans	MRH31	bacteria
+Ralstonia insidiosa	Ralstonia insidiosa	MRH32	bacteria
+Ralstonia pickettii	Ralstonia pickettii	MRH33	bacteria
+Enterobacter	Enterobacter	MRH34	bacteria
+Pantoea agglomerans	Pantoea agglomerans	MRH35	bacteria
+Agrobacterium	Agrobacterium	MRH36	bacteria
+Agrobacterium tumefaciens	Agrobacterium tumefaciens	MRH37	bacteria
+Stenotrophomonas	Stenotrophomonas	MRH38	bacteria
+Stenotrophomonas maltophilia	Stenotrophomonas maltophilia	MRH39	bacteria
+Moraxella	Moraxella	MRH40	bacteria
+Moraxella osloensis	Moraxella osloensis	MRH41	bacteria
+Brevundimonas	Brevundimonas	MRH42	bacteria
+Lactobacillus apis	Lactobacillus apis	MRH43	bacteria
+Acinetobacter guillouiae	Acinetobacter guillouiae	MRH44	bacteria
+Acinetobacter junii	Acinetobacter junii	MRH45	bacteria
+Acinetobacter pittii	Acinetobacter pittii	MRH46	bacteria
+Pseudomonas yamanorum	Pseudomonas yamanorum	MRH47	bacteria
+Pseudomonas protegens	Pseudomonas protegens	MRH48	bacteria
+Pseudomonas syringae	Pseudomonas syringae	MRH49	bacteria
+Pseudomonas aeruginosa	Pseudomonas aeruginosa	MRH50	bacteria
+Delftia	Delftia	MRH51	bacteria
+Delftia acidovorans	Delftia acidovorans	MRH52	bacteria
+Delftia tsuruhatensis	Delftia tsuruhatensis	MRH53	bacteria
+Rheinheimera	Rheinheimera	MRH54	bacteria
+Staphylococcus	Staphylococcus	MRH55	bacteria
+Alternaria	Alternaria	MRH56	fungus
+Caulobacter	Caulobacter	MRH57	bacteria
+Corynebacterium sp. 1959	Corynebacterium kalinowskii	MRH58	bacteria
+Brevundimonas sp. GW460-12-10-14-LB2	Brevundimonas sp. GW460-12-10-14-LB2	MRH59	bacteria
+Brevundimonas diminuta	Brevundimonas diminuta	MRH60	bacteria
+Massilia	Massilia	MRH61	bacteria
+Rhizobium	Rhizobium	MRH62	bacteria
+Bradyrhizobium	Bradyrhizobium	MRH63	bacteria
+Methylobacterium brachiatum	Methylobacterium brachiatum	MRH64	bacteria
+Methylobacterium sp. C1	Methylobacterium sp. C1	MRH65	bacteria
+Sphingomonas melonis	Sphingomonas melonis	MRH66	bacteria
+Achromobacter	Achromobacter	MRH67	bacteria
+Fusarium	Fusarium	MRH68	fungus
+Capnocytophaga	Capnocytophaga	MRH69	bacteria
+Enterobacter asburiae	Enterobacter asburiae	MRH70	bacteria
+Enterobacter hormaechei	Enterobacter hormaechei	MRH71	bacteria
+Enterobacter cloacae	Enterobacter cloacae	MRH72	bacteria
+Salmonella	Salmonella	MRH73	bacteria
+Salmonella enterica	Salmonella enterica	MRH74	bacteria
+Herbaspirillum	Herbaspirillum	MRH75	bacteria
+Herbaspirillum huttiense	Herbaspirillum huttiense	MRH76	bacteria
+Cupriavidus metallidurans	Cupriavidus metallidurans	MRH77	bacteria
+Actinomyces	Actinomyces	MRH78	bacteria
+Actinomyces naeslundii	Actinomyces naeslundii	MRH79	bacteria
+Klebsiella	Klebsiella	MRH80	bacteria
+Klebsiella pneumoniae	Klebsiella pneumoniae	MRH81	bacteria
+Aquabacterium	Aquabacterium	MRH82	bacteria
+Micrococcus	Micrococcus	MRH83	bacteria
+Micrococcus luteus	Micrococcus luteus	MRH84	bacteria
+Acinetobacter sp. NEB 394	Acinetobacter sp. NEB 394	MRH85	bacteria
+Acinetobacter indicus	Acinetobacter indicus	MRH86	bacteria
+Trichosporon	Trichosporon	MRH87	fungus
+Trichosporon asahii	Trichosporon asahii	MRH88	fungus
+Pseudomonas stutzeri	Stutzerimonas stutzeri	MRH89	bacteria
+Leptotrichia	Leptotrichia	MRH90	bacteria
+Aeromonas	Aeromonas	MRH91	bacteria
+Asticcacaulis	Asticcacaulis	MRH92	bacteria
+Asticcacaulis excentricus	Asticcacaulis excentricus	MRH93	bacteria
+Comamonas	Comamonas	MRH94	bacteria
+Streptococcus oralis	Streptococcus oralis	MRH95	bacteria
+Sphingobium	Sphingobium	MRH96	bacteria
+Sphingobium yanoikuyae	Sphingobium yanoikuyae	MRH97	bacteria
+Acinetobacter schindleri	Acinetobacter schindleri	MRH98	bacteria
+Veillonella	Veillonella	MRH99	bacteria
+Neisseria	Neisseria	MRH100	bacteria
+Comamonas testosteroni	Comamonas testosteroni	MRH101	bacteria
+Staphylococcus hominis	Staphylococcus hominis	MRH102	bacteria
+Paracoccus	Paracoccus	MRH103	bacteria
+Burkholderia cenocepacia	Burkholderia cenocepacia	MRH104	bacteria
+Sphingomonas sp. FARSPH	Sphingomonas sp. FARSPH	MRH105	bacteria
+Cloacibacterium	Cloacibacterium	MRH106	bacteria
+Shewanella	Shewanella	MRH107	bacteria
+Shewanella putrefaciens	Shewanella putrefaciens	MRH108	bacteria
+Nocardioides	Nocardioides	MRH109	bacteria
+Prevotella	Prevotella	MRH110	bacteria
+Streptococcus thermophilus	Streptococcus thermophilus	MRH111	bacteria
+Streptococcus sanguinis	Streptococcus sanguinis	MRH112	bacteria
+Streptococcus mitis	Streptococcus mitis	MRH113	bacteria
+Malassezia	Malassezia	MRH114	fungus
+Malassezia restricta	Malassezia restricta	MRH115	fungus
+Ochrobactrum	Ochrobactrum	MRH116	bacteria
+Ochrobactrum anthropi	Brucella anthropi	MRH117	bacteria
+Cutibacterium granulosum	Cutibacterium granulosum	MRH118	bacteria
+Tepidimonas	Tepidimonas	MRH119	bacteria
+Flaviflexus sp. H23T48	Flaviflexus ciconiae	MRH120	bacteria
+Thermomonas	Thermomonas	MRH121	bacteria
+Thermomonas hydrothermalis	Thermomonas hydrothermalis	MRH122	bacteria
+Staphylococcus capitis	Staphylococcus capitis	MRH123	bacteria
+Microbacterium sp. Nx66	Microbacterium sp. Nx66	MRH124	bacteria
+Cloacibacterium normanense	Cloacibacterium normanense	MRH125	bacteria
+Methylobacterium phyllosphaerae	Methylobacterium phyllosphaerae	MRH126	bacteria
+Sphingopyxis	Sphingopyxis	MRH127	bacteria
+Saccharomyces	Saccharomyces	MRH128	fungus
+Rhodococcus	Rhodococcus	MRH129	bacteria
+Brevundimonas vancanneytii	Brevundimonas vancanneytii	MRH130	bacteria
+Kocuria	Kocuria	MRH131	bacteria
+Lautropia	Lautropia	MRH132	bacteria
+Nostoc sp. PCC 7524	Nostoc sp. PCC 7524	MRH133	bacteria
+Streptococcus	Streptococcus	MRH134	bacteria
+Sphingobium cloacae	Sphingobium cloacae	MRH135	bacteria
+Elizabethkingia	Elizabethkingia	MRH136	bacteria
+Mitsuaria	Mitsuaria	MRH137	bacteria
+Mitsuaria sp. 7	Mitsuaria sp. 7	MRH138	bacteria
+Methylorubrum	Methylorubrum	MRH139	bacteria
+Methylorubrum extorquens	Methylorubrum extorquens	MRH140	bacteria
+Stenotrophomonas rhizophila	Stenotrophomonas rhizophila	MRH141	bacteria
+Ustilago	Ustilago	MRH142	fungus
+Anoxybacillus	Anoxybacillus	MRH143	bacteria
+Anoxybacillus flavithermus	Anoxybacillus flavithermus	MRH144	bacteria
+Chryseobacterium	Chryseobacterium	MRH145	bacteria
+Pseudomonas simiae	Pseudomonas simiae	MRH146	bacteria
+Serratia	Serratia	MRH147	bacteria
+Acidovorax	Acidovorax	MRH148	bacteria
+Aeromonas simiae	Aeromonas simiae	MRH149	bacteria
+Rhodococcus ruber	Rhodococcus ruber	MRH150	bacteria
+Rhodococcus fascians	Rhodococcus fascians	MRH151	bacteria
+Paraburkholderia	Paraburkholderia	MRH152	bacteria
+Paraburkholderia fungorum	Paraburkholderia fungorum	MRH153	bacteria
+Staphylococcus epidermidis	Staphylococcus epidermidis	MRH154	bacteria
+Haematobacter	Haematobacter	MRH155	bacteria
+Haematobacter massiliensis	Haematobacter massiliensis	MRH156	bacteria
+Malassezia globosa	Malassezia globosa	MRH157	fungus
+Mycobacteroides	Mycobacteroides	MRH158	bacteria
+Mycobacteroides chelonae	Mycobacteroides chelonae	MRH159	bacteria
+Comamonas thiooxydans	Comamonas thiooxydans	MRH160	bacteria
+Comamonas aquatica	Comamonas aquatica	MRH161	bacteria
+non-genus-specific reads in family Beijerinckiaceae	Beijerinckiaceae	MRH162	bacteria
+Lawsonella	Lawsonella	MRH163	bacteria
+Lawsonella clevelandensis	Lawsonella clevelandensis	MRH164	bacteria
+Microlunatus	Microlunatus	MRH165	bacteria
+Neisseria meningitidis	Neisseria meningitidis	MRH166	bacteria
+Lactobacillus delbrueckii	Lactobacillus delbrueckii	MRH167	bacteria
+Ralstonia solanacearum	Ralstonia solanacearum	MRH168	bacteria
+Ralstonia mannitolilytica	Ralstonia mannitolilytica	MRH169	bacteria
+Penicillium	Penicillium	MRH170	fungus
+Penicillium expansum	Penicillium expansum	MRH171	fungus
+Penicillium digitatum	Penicillium digitatum	MRH172	fungus
+Streptococcus pneumoniae	Streptococcus pneumoniae	MRH173	bacteria
+Streptococcus australis	Streptococcus australis	MRH174	bacteria
+Streptococcus parasanguinis	Streptococcus parasanguinis	MRH175	bacteria
+Streptococcus salivarius	Streptococcus salivarius	MRH176	bacteria
+Dissoconium	Dissoconium	MRH177	fungus
+Dissoconium aciculare	Dissoconium aciculare	MRH178	fungus
+Exophiala xenobiotica	Exophiala xenobiotica	MRH179	fungus
+Hymenobacter	Hymenobacter	MRH180	bacteria
+Hymenobacter sedentarius	Hymenobacter sedentarius	MRH181	bacteria
+Lancefieldella	Lancefieldella	MRH182	bacteria
+Lancefieldella parvula	Lancefieldella parvula	MRH183	bacteria
+Actinotignum	Actinotignum	MRH184	bacteria
+Actinotignum schaalii	Actinotignum schaalii	MRH185	bacteria
+Abiotrophia	Abiotrophia	MRH186	bacteria
+Abiotrophia defectiva	Abiotrophia defectiva	MRH187	bacteria
+Rothia	Rothia	MRH188	bacteria
+Rothia mucilaginosa	Rothia mucilaginosa	MRH189	bacteria
+Rothia dentocariosa	Rothia dentocariosa	MRH190	bacteria
+Halomonas	Halomonas	MRH191	bacteria
+Halomonas hydrothermalis	Halomonas hydrothermalis	MRH192	bacteria
+Spirosoma pollinicola	Spirosoma pollinicola	MRH193	bacteria
+Schaalia odontolytica	Schaalia odontolytica	MRH194	bacteria
+Treponema	Treponema	MRH195	bacteria
+Treponema socranskii	Treponema socranskii	MRH196	bacteria
+Veillonella dispar	Veillonella dispar	MRH197	bacteria
+Veillonella parvula	Veillonella parvula	MRH198	bacteria
+Phyllobacterium	Phyllobacterium	MRH199	bacteria
+Pseudomonas monteilii	Pseudomonas monteilii	MRH200	bacteria
+Colletotrichum orchidophilum	Colletotrichum orchidophilum	MRH201	fungus
+Haemophilus parainfluenzae	Haemophilus parainfluenzae	MRH202	bacteria
+Anaerococcus	Anaerococcus	MRH203	bacteria
+Corynebacterium ureicelerivorans	Corynebacterium ureicelerivorans	MRH204	bacteria
+Corynebacterium kroppenstedtii	Corynebacterium kroppenstedtii	MRH205	bacteria
+Corynebacterium jeikeium	Corynebacterium jeikeium	MRH206	bacteria
+Diaphorobacter	Diaphorobacter	MRH207	bacteria
+Gordonia	Gordonia	MRH208	bacteria
+Cupriavidus	Cupriavidus	MRH209	bacteria
+Cupriavidus gilardii	Cupriavidus gilardii	MRH210	bacteria
+Cupriavidus basilensis	Cupriavidus basilensis	MRH211	bacteria
+Paracoccus yeei	Paracoccus yeei	MRH212	bacteria
+Psychrobacter	Psychrobacter	MRH213	bacteria
+Marmoricola	Marmoricola	MRH214	bacteria
+Marmoricola scoriae	Marmoricola scoriae	MRH215	bacteria
+Lactococcus	Lactococcus	MRH216	bacteria
+Lactococcus lactis	Lactococcus lactis	MRH217	bacteria
+Prevotella melaninogenica	Prevotella melaninogenica	MRH218	bacteria
+Hydrogenophilus	Hydrogenophilus	MRH219	bacteria
+Hydrogenophilus thermoluteolus	Hydrogenophilus thermoluteolus	MRH220	bacteria
+Finegoldia	Finegoldia	MRH221	bacteria
+Finegoldia magna	Finegoldia magna	MRH222	bacteria
+Alcaligenes	Alcaligenes	MRH223	bacteria
+Alcaligenes faecalis	Alcaligenes faecalis	MRH224	bacteria
+Lactobacillus panisapium	Lactobacillus panisapium	MRH225	bacteria
+Aspergillus	Aspergillus	MRH226	fungus
+Aspergillus flavus	Aspergillus flavus	MRH227	fungus
+Aspergillus steynii	Aspergillus steynii	MRH228	fungus
+Aspergillus niger	Aspergillus niger	MRH229	fungus
+Aspergillus tubingensis	Aspergillus tubingensis	MRH230	fungus
+Aspergillus oryzae	Aspergillus oryzae	MRH231	fungus
+Aspergillus costaricensis	Aspergillus costaricensis	MRH232	fungus
+Aspergillus neoniger	Aspergillus neoniger	MRH233	fungus
+Aspergillus luchuensis	Aspergillus luchuensis	MRH234	fungus
+Aspergillus eucalypticola	Aspergillus eucalypticola	MRH235	fungus
+Aspergillus vadensis	Aspergillus vadensis	MRH236	fungus
+Aspergillus piperis	Aspergillus piperis	MRH237	fungus
+Aspergillus welwitschiae	Aspergillus welwitschiae	MRH238	fungus
+Aspergillus nomiae	Aspergillus nomiae	MRH239	fungus
+Aspergillus alliaceus	Aspergillus alliaceus	MRH240	fungus
+Aspergillus caelatus	Aspergillus caelatus	MRH241	fungus
+Aspergillus pseudotamarii	Aspergillus pseudotamarii	MRH242	fungus
+Aspergillus bombycis	Aspergillus bombycis	MRH243	fungus
+Aspergillus fresenii	Aspergillus fresenii	MRH244	fungus
+Debaryomyces fabryi	Debaryomyces fabryi	MRH245	fungus
+Asaia	Asaia	MRH246	bacteria
+Bombilactobacillus	Bombilactobacillus	MRH247	bacteria
+Bombilactobacillus mellis	Bombilactobacillus mellis	MRH248	bacteria
+Parasaccharibacter	Parasaccharibacter	MRH249	bacteria
+Parasaccharibacter apium	Parasaccharibacter apium	MRH250	bacteria
+Bombella	Bombella	MRH251	bacteria
+Swaminathania	Swaminathania	MRH252	bacteria
+Swaminathania salitolerans	Swaminathania salitolerans	MRH253	bacteria
+Kodamaea	Kodamaea	MRH254	fungus
+Kodamaea ohmeri	Kodamaea ohmeri	MRH255	fungus
+Serratia grimesii	Serratia grimesii	MRH256	bacteria
+Serratia proteamaculans	Serratia proteamaculans	MRH257	bacteria
+Serratia liquefaciens	Serratia liquefaciens	MRH258	bacteria
+Trichoderma	Trichoderma	MRH259	fungus
+Pantoea	Pantoea	MRH260	bacteria
+Eremothecium	Eremothecium	MRH261	fungus
+Acinetobacter bereziniae	Acinetobacter bereziniae	MRH262	bacteria
+Vibrio	Vibrio	MRH263	bacteria
+Vibrio alginolyticus	Vibrio alginolyticus	MRH264	bacteria
+Vibrio parahaemolyticus	Vibrio parahaemolyticus	MRH265	bacteria
+Saccharomyces cerevisiae	Saccharomyces cerevisiae	MRH266	fungus
+Klebsiella michiganensis	Klebsiella michiganensis	MRH267	bacteria
+Klebsiella quasipneumoniae	Klebsiella quasipneumoniae	MRH268	bacteria
+Dermacoccus	Dermacoccus	MRH269	bacteria
+Dermacoccus nishinomiyaensis	Dermacoccus nishinomiyaensis	MRH270	bacteria
+Sphingobacterium	Sphingobacterium	MRH271	bacteria
+Enterobacter kobei	Enterobacter kobei	MRH272	bacteria
+Citrobacter	Citrobacter	MRH273	bacteria
+Citrobacter freundii	Citrobacter freundii	MRH274	bacteria
+Citrobacter portucalensis	Citrobacter portucalensis	MRH275	bacteria
+Aureobasidium	Aureobasidium	MRH276	fungus
+uncultured Lactobacillus sp.	uncultured Lactobacillus sp.	MRH277	bacteria
+Bifidobacterium sp. Hma3N	Bifidobacterium sp. Hma3N	MRH278	bacteria
+Aspergillus pseudonomius	Aspergillus pseudonomiae	MRH279	fungus
+Penicillium citrinum	Penicillium citrinum	MRH280	fungus
+Bombella sp. ESL0368	Bombella sp. ESL0368	MRH281	bacteria
+Bombella intestini	Bombella intestini	MRH282	bacteria
+Lactiplantibacillus	Lactiplantibacillus	MRH283	bacteria
+Lactiplantibacillus plantarum	Lactiplantibacillus plantarum	MRH284	bacteria
+Streptococcus anginosus	Streptococcus anginosus	MRH285	bacteria
+Nosema	Nosema	MRH286	fungus
+Nosema ceranae	Nosema ceranae	MRH287	fungus
+Arthrobotrys oligospora	Orbilia oligospora	MRH288	fungus
+Klebsiella grimontii	Klebsiella grimontii	MRH289	bacteria
+Pseudomonas synxantha	Pseudomonas synxantha	MRH290	bacteria
+Apibacter	Apibacter	MRH291	bacteria
+Apibacter sp. B2966	Apibacter sp. B2966	MRH292	bacteria
+Apibacter sp. B3706	Apibacter sp. B3706	MRH293	bacteria
+Apibacter sp. wkB309	Apibacter sp. wkB309	MRH294	bacteria
+Frischella	Frischella	MRH295	bacteria
+Yersinia pestis	Yersinia pestis	MRH296	bacteria
+Amaricoccus	Amaricoccus	MRH297	bacteria
+Exiguobacterium	Exiguobacterium	MRH298	bacteria
+Shigella	Shigella	MRH299	bacteria
+Shigella flexneri	Shigella flexneri	MRH300	bacteria
+Pseudomonas poae	Pseudomonas poae	MRH301	bacteria
+Mycolicibacterium	Mycolicibacterium	MRH302	bacteria
+Bacillus subtilis	Bacillus subtilis	MRH303	bacteria
+Tatumella	Tatumella	MRH304	bacteria
+Tatumella sp. TA1	Tatumella sp. TA1	MRH305	bacteria
+Flavobacterium	Flavobacterium	MRH306	bacteria
+Bifidobacterium	Bifidobacterium	MRH307	bacteria
+Kaistella	Kaistella	MRH308	bacteria
+Chryseobacterium haifense	Kaistella haifensis	MRH309	bacteria
+Wolbachia endosymbiont of Drosophila melanogaster	Wolbachia endosymbiont of Drosophila melanogaster	MRH310	bacteria
+Wolbachia sp. wRi	Wolbachia sp. wRi	MRH311	bacteria
+Rhizopus microsporus	Rhizopus microsporus	MRH312	fungus
+Mortierella	Mortierella	MRH313	fungus
+Linnemannia	Linnemannia	MRH314	fungus
+Linnemannia elongata	Linnemannia elongata	MRH315	fungus
+Podila verticillata	Podila verticillata	MRH316	fungus
+Bipolaris	Bipolaris	MRH317	fungus
+Bipolaris oryzae	Bipolaris oryzae	MRH318	fungus
+Bipolaris sorokiniana	Bipolaris sorokiniana	MRH319	fungus
+Alternaria alternata	Alternaria alternata	MRH320	fungus
+Clavispora	Clavispora	MRH321	fungus
+Fusarium oxysporum	Fusarium oxysporum	MRH322	fungus
+Microbacterium	Microbacterium	MRH323	bacteria
+Aeromonas caviae	Aeromonas caviae	MRH324	bacteria
+Bifidobacterium commune	Bifidobacterium commune	MRH325	bacteria
+Plasmodium falciparum	Plasmodium falciparum	MRH326	other_eukaryota
+Polyporus	Polyporus	MRH327	fungus
+Dictyostelium	Dictyostelium	MRH328	other_eukaryota
+Dictyostelium discoideum	Dictyostelium discoideum	MRH329	other_eukaryota
+Leishmania	Leishmania	MRH330	other_eukaryota
+Leishmania donovani	Leishmania donovani	MRH331	other_eukaryota
+Photorhabdus	Photorhabdus	MRH332	bacteria
+Kwoniella	Kwoniella	MRH333	fungus
+Cryptococcus neoformans	Cryptococcus neoformans	MRH334	fungus
+Aureobasidium namibiae	Aureobasidium namibiae	MRH335	fungus
+Klebsiella oxytoca	Klebsiella oxytoca	MRH336	bacteria
+Pseudomonas oryzihabitans	Pseudomonas oryzihabitans	MRH337	bacteria
+Burkholderia	Burkholderia	MRH338	bacteria
+Periconia	Periconia	MRH339	fungus
+Candida albicans	Candida albicans	MRH340	fungus
+Talaromyces rugulosus	Talaromyces rugulosus	MRH341	fungus
+Talaromyces marneffei	Talaromyces marneffei	MRH342	fungus
+Synchytrium	Synchytrium	MRH343	fungus
+Synchytrium microbalum	Synchytrium microbalum	MRH344	fungus
+Aaosphaeria	Aaosphaeria	MRH345	fungus
+Aaosphaeria arxii	Aaosphaeria arxii	MRH346	fungus
+Batrachochytrium	Batrachochytrium	MRH347	fungus
+Batrachochytrium dendrobatidis	Batrachochytrium dendrobatidis	MRH348	fungus
+Bifidobacterium bifidum	Bifidobacterium bifidum	MRH349	bacteria
+Blumeria	Blumeria	MRH350	fungus
+Blumeria graminis	Blumeria graminis	MRH351	fungus
+Lindgomyces	Lindgomyces	MRH352	fungus
+Lindgomyces ingoldianus	Lindgomyces ingoldianus	MRH353	fungus
+Empedobacter	Empedobacter	MRH354	bacteria
+Pyrenophora teres	Pyrenophora teres	MRH355	fungus
+Enterococcus	Enterococcus	MRH356	bacteria
+Staphylococcus haemolyticus	Staphylococcus haemolyticus	MRH357	bacteria
+Rasamsonia	Rasamsonia	MRH358	fungus
+Proteus	Proteus	MRH359	bacteria
+Proteus mirabilis	Proteus mirabilis	MRH360	bacteria
+Sneathia	Sneathia	MRH361	bacteria
+Sneathia amnii	Sneathia vaginalis	MRH362	bacteria
+Exophiala	Exophiala	MRH363	fungus
+Colletotrichum	Colletotrichum	MRH364	fungus
+Epilithonimonas	Epilithonimonas	MRH365	bacteria
+Epilithonimonas vandammei	Epilithonimonas vandammei	MRH366	bacteria
+Sphingomonas paucimobilis	Sphingomonas paucimobilis	MRH367	bacteria
+Verticillium	Verticillium	MRH368	fungus
+Pseudomonas oleovorans	Pseudomonas oleovorans	MRH369	bacteria
+Porphyromonas	Porphyromonas	MRH370	bacteria
+Corynebacterium tuberculostearicum	Corynebacterium tuberculostearicum	MRH371	bacteria
+Burkholderia pseudomallei	Burkholderia pseudomallei	MRH372	bacteria
+Neurospora	Neurospora	MRH373	fungus
+Erwinia	Erwinia	MRH374	bacteria
+Brevibacterium	Brevibacterium	MRH375	bacteria
+Providencia	Providencia	MRH376	bacteria
+Peptoniphilus	Peptoniphilus	MRH377	bacteria
+Gardnerella	Gardnerella	MRH378	bacteria
+Gardnerella vaginalis	Gardnerella vaginalis	MRH379	bacteria
+Metschnikowia bicuspidata	Metschnikowia bicuspidata	MRH380	fungus
+Staphylococcus aureus	Staphylococcus aureus	MRH381	bacteria
+Alloprevotella	Alloprevotella	MRH382	bacteria
+Aureobasidium pullulans	Aureobasidium pullulans	MRH383	fungus
+Kluyveromyces	Kluyveromyces	MRH384	fungus
+Kluyveromyces lactis	Kluyveromyces lactis	MRH385	fungus
+Pseudocercospora	Pseudocercospora	MRH386	fungus
+Listeria	Listeria	MRH387	bacteria
+Acinetobacter ursingii	Acinetobacter ursingii	MRH388	bacteria
+Propionibacterium	Propionibacterium	MRH389	bacteria
+Acetilactobacillus	Acetilactobacillus	MRH390	bacteria
+Acetilactobacillus jinshanensis	Acetilactobacillus jinshanensis	MRH391	bacteria
+Metschnikowia	Metschnikowia	MRH392	fungus
+Metschnikowia aff. pulcherrima	Metschnikowia aff. pulcherrima	MRH393	fungus
+Candida	Candida	MRH394	fungus
+Wickerhamiella	Wickerhamiella	MRH395	fungus
+Xanthomonas citri	Xanthomonas citri	MRH396	bacteria
+Rhizoctonia	Rhizoctonia	MRH397	fungus
+Lactobacillus crispatus	Lactobacillus crispatus	MRH398	bacteria
+Serpula	Serpula	MRH399	fungus
+Cercospora	Cercospora	MRH400	fungus
+Haemophilus	Haemophilus	MRH401	bacteria
+Klebsiella variicola	Klebsiella variicola	MRH402	bacteria
+Alcanivorax	Alcanivorax	MRH403	bacteria
+Actinomyces oris	Actinomyces oris	MRH404	bacteria
+Lactobacillus acetotolerans	Lactobacillus acetotolerans	MRH405	bacteria
+Lactobacillus acidipiscis	Ligilactobacillus acidipiscis	MRH406	bacteria
+Schlegelella	Schlegelella	MRH407	bacteria
+Schlegelella thermodepolymerans	Schlegelella thermodepolymerans	MRH408	bacteria
+Liquorilactobacillus	Liquorilactobacillus	MRH409	bacteria
+Pyricularia	Pyricularia	MRH410	fungus
+Pediococcus acidilactici	Pediococcus acidilactici	MRH411	bacteria
+Gaeumannomyces	Gaeumannomyces	MRH412	fungus
+Bradyrhizobium elkanii	Bradyrhizobium elkanii	MRH413	bacteria
+Leifsonia	Leifsonia	MRH414	bacteria
+Gemella	Gemella	MRH415	bacteria
+Streptococcus cristatus	Streptococcus cristatus	MRH416	bacteria
+Streptococcus gordonii	Streptococcus gordonii	MRH417	bacteria
+Streptococcus pyogenes	Streptococcus pyogenes	MRH418	bacteria
+Aspergillus glaucus	Aspergillus glaucus	MRH419	fungus
+Aspergillus terreus	Aspergillus terreus	MRH420	fungus
+Rhodococcus erythropolis	Rhodococcus erythropolis	MRH421	bacteria
+Agrobacterium genomosp. 3	Agrobacterium tomkonis	MRH422	bacteria
+Agrobacterium sp. T29	Agrobacterium sp. T29	MRH423	bacteria
+Agrobacterium larrymoorei	Agrobacterium larrymoorei	MRH424	bacteria
+Staphylococcus saccharolyticus	Staphylococcus saccharolyticus	MRH425	bacteria
+Staphylococcus pasteuri	Staphylococcus pasteuri	MRH426	bacteria
+Staphylococcus warneri	Staphylococcus warneri	MRH427	bacteria
+Staphylococcus cohnii	Staphylococcus cohnii	MRH428	bacteria
+Wallemia	Wallemia	MRH429	fungus
+Serpentinomonas	Serpentinimonas	MRH430	bacteria
+Serpentinomonas raichei	Serpentinimonas raichei	MRH431	bacteria
+Bombilactobacillus bombi	Bombilactobacillus bombi	MRH432	bacteria
+Hathewaya	Hathewaya	MRH433	bacteria
+Hathewaya histolytica	Hathewaya histolytica	MRH434	bacteria
+Cutibacterium avidum	Cutibacterium avidum	MRH435	bacteria
+Zymoseptoria	Zymoseptoria	MRH436	fungus
+Zymoseptoria tritici	Zymoseptoria tritici	MRH437	fungus
+Rheinheimera sp. D18	Rheinheimera sp. D18	MRH438	bacteria
+Wickerhamomyces	Wickerhamomyces	MRH439	fungus
+Wickerhamomyces anomalus	Wickerhamomyces anomalus	MRH440	fungus
+Lactobacillus jensenii	Lactobacillus jensenii	MRH441	bacteria
+Lactobacillus gasseri	Lactobacillus gasseri	MRH442	bacteria
+Dietzia	Dietzia	MRH443	bacteria
+Dietzia psychralcaliphila	Dietzia psychralcaliphila	MRH444	bacteria
+Dietzia sp. DQ12-45-1b	Dietzia sp. DQ12-45-1b	MRH445	bacteria
+Rhizobium oryzihabitans	Rhizobium oryzihabitans	MRH446	bacteria
+Rhizobium pusense	Rhizobium pusense	MRH447	bacteria
+Rhizobium leguminosarum	Rhizobium leguminosarum	MRH448	bacteria
+Paracoccus sanguinis	Paracoccus sanguinis	MRH449	bacteria
+Paracoccus mutanolyticus	Paracoccus mutanolyticus	MRH450	bacteria
+Paracoccus denitrificans	Paracoccus denitrificans	MRH451	bacteria
+Empedobacter falsenii	Empedobacter falsenii	MRH452	bacteria
+Novosphingobium	Novosphingobium	MRH453	bacteria
+Kocuria rhizophila	Kocuria rhizophila	MRH454	bacteria
+Kocuria palustris	Kocuria palustris	MRH455	bacteria
+Kocuria indica	Kocuria indica	MRH456	bacteria
+Zygosaccharomyces	Zygosaccharomyces	MRH457	fungus
+Zygosaccharomyces rouxii	Zygosaccharomyces rouxii	MRH458	fungus
+Corynebacterium segmentosum	Corynebacterium segmentosum	MRH459	bacteria
+Corynebacterium kefirresidentii	Corynebacterium kefirresidentii	MRH460	bacteria
+Corynebacterium glucuronolyticum	Corynebacterium glucuronolyticum	MRH461	bacteria
+Corynebacterium matruchotii	Corynebacterium matruchotii	MRH462	bacteria
+Corynebacterium striatum	Corynebacterium striatum	MRH463	bacteria
+Corynebacterium singulare	Corynebacterium singulare	MRH464	bacteria
+Corynebacterium aurimucosum	Corynebacterium aurimucosum	MRH465	bacteria
+Brevibacterium sp. CS2	Brevibacterium sp. CS2	MRH466	bacteria
+Brevibacterium aurantiacum	Brevibacterium aurantiacum	MRH467	bacteria
+Leptotrichia wadei	Leptotrichia wadei	MRH468	bacteria
+Algoriphagus	Algoriphagus	MRH469	bacteria
+Actinomyces sp. oral taxon 414	Actinomyces sp. oral taxon 414	MRH470	bacteria
+Pseudoalteromonas nigrifaciens	Pseudoalteromonas nigrifaciens	MRH471	bacteria
+Fusobacterium	Fusobacterium	MRH472	bacteria
+Fusobacterium nucleatum	Fusobacterium nucleatum	MRH473	bacteria
+Janibacter	Janibacter	MRH474	bacteria
+Janibacter indicus	Janibacter indicus	MRH475	bacteria
+Pseudomonas sihuiensis	Pseudomonas sihuiensis	MRH476	bacteria
+Pseudomonas mendocina	Pseudomonas mendocina	MRH477	bacteria
+Pseudomonas alcaliphila	Pseudomonas alcaliphila	MRH478	bacteria
+Pseudomonas sediminis	Pseudomonas sediminis	MRH479	bacteria
+Pseudomonas sp. LPH1	Pseudomonas sp. LPH1	MRH480	bacteria
+Pseudomonas sp. MSPm1	Pseudomonas sp. MSPm1	MRH481	bacteria
+Pseudomonas psychrotolerans	Pseudomonas psychrotolerans	MRH482	bacteria
+Pseudomonas alcaligenes	Pseudomonas alcaligenes	MRH483	bacteria
+Pseudomonas sp. phDV1	Pseudomonas sp. phDV1	MRH484	bacteria
+Pseudomonas lundensis	Pseudomonas lundensis	MRH485	bacteria
+Pseudomonas fragi	Pseudomonas fragi	MRH486	bacteria
+Exophiala oligosperma	Exophiala oligosperma	MRH487	fungus
+Selenomonas	Selenomonas	MRH488	bacteria
+Bradyrhizobium sp. CCBAU 53421	Bradyrhizobium sp. CCBAU 53421	MRH489	bacteria
+Bradyrhizobium genosp. L	Bradyrhizobium genosp. L	MRH490	bacteria
+Bradyrhizobium symbiodeficiens	Bradyrhizobium symbiodeficiens	MRH491	bacteria
+Bradyrhizobium lablabi	Bradyrhizobium lablabi	MRH492	bacteria
+Bradyrhizobium japonicum	Bradyrhizobium japonicum	MRH493	bacteria
+Bradyrhizobium sp. SK17	Bradyrhizobium sp. SK17	MRH494	bacteria
+Cellvibrio	Cellvibrio	MRH495	bacteria
+Helicobacter	Helicobacter	MRH496	bacteria
+Helicobacter canis	Helicobacter canis	MRH497	bacteria
+Rothia aeria	Rothia aeria	MRH498	bacteria
+Gemella haemolysans	Gemella haemolysans	MRH499	bacteria
+Gemella morbillorum	Gemella morbillorum	MRH500	bacteria
+Yarrowia	Yarrowia	MRH501	fungus
+Yarrowia lipolytica	Yarrowia lipolytica	MRH502	fungus
+Aeromonas hydrophila	Aeromonas hydrophila	MRH503	bacteria
+Acinetobacter seifertii	Acinetobacter seifertii	MRH504	bacteria
+Acinetobacter larvae	Acinetobacter larvae	MRH505	bacteria
+Acinetobacter parvus	Acinetobacter parvus	MRH506	bacteria
+Acinetobacter radioresistens	Acinetobacter radioresistens	MRH507	bacteria
+Acinetobacter haemolyticus	Acinetobacter haemolyticus	MRH508	bacteria
+Capnocytophaga sputigena	Capnocytophaga sputigena	MRH509	bacteria
+Methylorubrum populi	Methylorubrum populi	MRH510	bacteria
+Nesterenkonia	Nesterenkonia	MRH511	bacteria
+Schaalia	Schaalia	MRH512	bacteria
+Pseudescherichia	Pseudescherichia	MRH513	bacteria
+Pseudescherichia vulneris	Pseudescherichia vulneris	MRH514	bacteria
+Gordonia polyisoprenivorans	Gordonia polyisoprenivorans	MRH515	bacteria
+Gordonia rubripertincta	Gordonia rubripertincta	MRH516	bacteria
+Gordonia bronchialis	Gordonia bronchialis	MRH517	bacteria
+Achromobacter xylosoxidans	Achromobacter xylosoxidans	MRH518	bacteria
+Achromobacter sp. AONIH1	Achromobacter sp. AONIH1	MRH519	bacteria
+Leuconostoc	Leuconostoc	MRH520	bacteria
+Leuconostoc carnosum	Leuconostoc carnosum	MRH521	bacteria
+Neisseria elongata	Neisseria elongata	MRH522	bacteria
+Neisseria mucosa	Neisseria mucosa	MRH523	bacteria
+Blastococcus	Blastococcus	MRH524	bacteria
+Roseomonas	Roseomonas	MRH525	bacteria
+Roseomonas mucosa	Roseomonas mucosa	MRH526	bacteria
+Roseomonas gilardii	Roseomonas gilardii	MRH527	bacteria
+Sphingomonas leidyi	Sphingomonas leidyi	MRH528	bacteria
+Sphingomonas sp.	Sphingomonas sp.	MRH529	bacteria
+Phreatobacter	Phreatobacter	MRH530	bacteria
+Phreatobacter stygius	Phreatobacter stygius	MRH531	bacteria
+Serinicoccus	Serinicoccus	MRH532	bacteria
+Mycobacterium paragordonae	Mycobacterium paragordonae	MRH533	bacteria
+Penicillium rubens	Penicillium rubens	MRH534	fungus
+Citricoccus	Citricoccus	MRH535	bacteria
+Microbacterium sp. Se63.02b	Microbacterium sp. Se63.02b	MRH536	bacteria
+Microbacterium hominis	Microbacterium hominis	MRH537	bacteria
+Microbacterium testaceum	Microbacterium testaceum	MRH538	bacteria
+Brevundimonas vesicularis	Brevundimonas vesicularis	MRH539	bacteria
+Microlunatus sagamiharensis	Microlunatus sagamiharensis	MRH540	bacteria
+Methylobacterium sp. AMS5	Methylobacterium sp. AMS5	MRH541	bacteria
+Methylobacterium sp. DM1	Methylobacterium sp. DM1	MRH542	bacteria
+Mycolicibacterium madagascariense	Mycolicibacterium madagascariense	MRH543	bacteria
+Pectobacterium	Pectobacterium	MRH544	bacteria
+Ornithinimicrobium	Ornithinimicrobium	MRH545	bacteria
+Sinorhizobium	Sinorhizobium	MRH546	bacteria
+Sinorhizobium meliloti	Sinorhizobium meliloti	MRH547	bacteria
+Mesorhizobium	Mesorhizobium	MRH548	bacteria
+Mesorhizobium loti	Mesorhizobium loti	MRH549	bacteria
+Leclercia	Leclercia	MRH550	bacteria
+Leclercia adecarboxylata	Leclercia adecarboxylata	MRH551	bacteria
+Shinella	Shinella	MRH552	bacteria
+Hydrogenophaga	Hydrogenophaga	MRH553	bacteria
+Thermus	Thermus	MRH554	bacteria
+Thermus scotoductus	Thermus scotoductus	MRH555	bacteria
+Cellulomonas	Cellulomonas	MRH556	bacteria
+Raoultella	Raoultella	MRH557	bacteria
+Raoultella ornithinolytica	Raoultella ornithinolytica	MRH558	bacteria
+Ensifer	Ensifer	MRH559	bacteria
+Ensifer adhaerens	Ensifer adhaerens	MRH560	bacteria
+Aminobacter	Aminobacter	MRH561	bacteria
+Xanthomonas campestris	Xanthomonas campestris	MRH562	bacteria
+Mixta calida	Mixta calida	MRH563	bacteria
+Limnohabitans	Limnohabitans	MRH564	bacteria
+Variovorax	Variovorax	MRH565	bacteria
+Variovorax paradoxus	Variovorax paradoxus	MRH566	bacteria
+Pseudoxanthomonas	Pseudoxanthomonas	MRH567	bacteria
+Pseudoxanthomonas mexicana	Pseudoxanthomonas mexicana	MRH568	bacteria
+Pseudoxanthomonas suwonensis	Pseudoxanthomonas suwonensis	MRH569	bacteria
+Spirosoma	Spirosoma	MRH570	bacteria
+Scytonema	Scytonema	MRH571	bacteria
+Scytonema sp. HK-05	Scytonema sp. HK-05	MRH572	bacteria
+Luteimonas	Luteimonas	MRH573	bacteria
+Saccharopolyspora	Saccharopolyspora	MRH574	bacteria
+Tardiphaga	Tardiphaga	MRH575	bacteria
+Devosia	Devosia	MRH576	bacteria
+Bordetella	Bordetella	MRH577	bacteria
+Bordetella pertussis	Bordetella pertussis	MRH578	bacteria
+Aerococcus	Aerococcus	MRH579	bacteria
+Neorhizobium	Neorhizobium	MRH580	bacteria
+Stenotrophomonas acidaminiphila	Stenotrophomonas acidaminiphila	MRH581	bacteria
+Lactococcus raffinolactis	Lactococcus raffinolactis	MRH582	bacteria
+Kytococcus	Kytococcus	MRH583	bacteria
+Gluconobacter	Gluconobacter	MRH584	bacteria
+Xanthobacter	Xanthobacter	MRH585	bacteria
+Xanthobacter autotrophicus	Xanthobacter autotrophicus	MRH586	bacteria
+Streptococcus agalactiae	Streptococcus agalactiae	MRH587	bacteria
+Wallemia mellicola	Wallemia mellicola	MRH588	fungus
+Wallemia ichthyophaga	Wallemia ichthyophaga	MRH589	fungus
+Micrococcus sp. V7	Micrococcus sp. V7	MRH590	bacteria
+Micrococcus sp. A7	Micrococcus sp. A7	MRH591	bacteria
+Micrococcus sp. 28	Micrococcus sp. 28	MRH592	bacteria
+Aspergillus ruber	Aspergillus ruber	MRH593	fungus
+Aspergillus versicolor	Aspergillus versicolor	MRH594	fungus
+Aspergillus nidulans	Aspergillus nidulans	MRH595	fungus
+Agrobacterium vitis	Agrobacterium vitis	MRH596	bacteria
+Agrobacterium fabrum	Agrobacterium fabrum	MRH597	bacteria
+Staphylococcus nepalensis	Staphylococcus nepalensis	MRH598	bacteria
+Staphylococcus auricularis	Staphylococcus auricularis	MRH599	bacteria
+Neisseria gonorrhoeae	Neisseria gonorrhoeae	MRH600	bacteria
+Neisseria sicca	Neisseria sicca	MRH601	bacteria
+Trichophyton	Trichophyton	MRH602	fungus
+Trichophyton rubrum	Trichophyton rubrum	MRH603	fungus
+[Ruminococcus] gnavus	[Ruminococcus] gnavus	MRH604	bacteria
+Haemophilus haemolyticus	Haemophilus haemolyticus	MRH605	bacteria
+Corynebacterium durum	Corynebacterium durum	MRH606	bacteria
+Corynebacterium kutscheri	Corynebacterium kutscheri	MRH607	bacteria
+Kocuria sp. BT304	Kocuria sp. BT304	MRH608	bacteria
+Millerozyma	Millerozyma	MRH609	fungus
+Millerozyma farinosa	Millerozyma farinosa	MRH610	fungus
+Rheinheimera sp. LHK132	Rheinheimera mangrovi	MRH611	bacteria
+Fannyhessea	Fannyhessea	MRH612	bacteria
+Fannyhessea vaginae	Fannyhessea vaginae	MRH613	bacteria
+Hafnia	Hafnia	MRH614	bacteria
+Hafnia alvei	Hafnia alvei	MRH615	bacteria
+Mogibacterium	Mogibacterium	MRH616	bacteria
+Candida orthopsilosis	Candida orthopsilosis	MRH617	fungus
+Candida parapsilosis	Candida parapsilosis	MRH618	fungus
+Hyphopichia	Hyphopichia	MRH619	fungus
+Hyphopichia burtonii	Hyphopichia burtonii	MRH620	fungus
+Granulicatella	Granulicatella	MRH621	bacteria
+Ramularia	Ramularia	MRH622	fungus
+Leptotrichia hofstadii	Leptotrichia hofstadii	MRH623	bacteria
+Actinomyces sp. oral taxon 171	Actinomyces sp. oral taxon 171	MRH624	bacteria
+Janibacter sp. YB324	Janibacter sp. YB324	MRH625	bacteria
+Janibacter terrae	Janibacter terrae	MRH626	bacteria
+Rothia terrae	Rothia terrae	MRH627	bacteria
+Campylobacter showae	Campylobacter showae	MRH628	bacteria
+Bradyrhizobium betae	Bradyrhizobium betae	MRH629	bacteria
+Bradyrhizobium icense	Bradyrhizobium icense	MRH630	bacteria
+Bradyrhizobium erythrophlei	Bradyrhizobium erythrophlei	MRH631	bacteria
+Gordonia terrae	Gordonia terrae	MRH632	bacteria
+Cardiobacterium	Cardiobacterium	MRH633	bacteria
+Cardiobacterium hominis	Cardiobacterium hominis	MRH634	bacteria
+Byssochlamys	Paecilomyces	MRH635	fungus
+Byssochlamys spectabilis	Paecilomyces variotii	MRH636	fungus
+Aeromonas veronii	Aeromonas veronii	MRH637	bacteria
+Methylobacterium aquaticum	Methylobacterium aquaticum	MRH638	bacteria
+Blautia	Blautia	MRH639	bacteria
+Frondihabitans	Frondihabitans	MRH640	bacteria
+Mycobacterium	Mycobacterium	MRH641	bacteria
+Rhodobacter	Rhodobacter	MRH642	bacteria
+Kytococcus sedentarius	Kytococcus sedentarius	MRH643	bacteria
+Pseudonocardia	Pseudonocardia	MRH644	bacteria
+Mycolicibacterium gilvum	Mycolicibacterium gilvum	MRH645	bacteria
+Dyadobacter	Dyadobacter	MRH646	bacteria
+Deinococcus	Deinococcus	MRH647	bacteria
+Erythrobacter	Erythrobacter	MRH648	bacteria
+Rhodopseudomonas	Rhodopseudomonas	MRH649	bacteria
+Rhodopseudomonas palustris	Rhodopseudomonas palustris	MRH650	bacteria
+Comamonas terrigena	Comamonas terrigena	MRH651	bacteria
+Janthinobacterium	Janthinobacterium	MRH652	bacteria
+Brachybacterium	Brachybacterium	MRH653	bacteria
+Pseudoxanthomonas spadix	Pseudoxanthomonas spadix	MRH654	bacteria
+Nocardioides euryhalodurans	Nocardioides euryhalodurans	MRH655	bacteria
+Azotobacter	Azotobacter	MRH656	bacteria
+Agrococcus	Agrococcus	MRH657	bacteria
+Streptococcus sp. A12	Streptococcus sp. A12	MRH658	bacteria
+Streptococcus pseudopneumoniae	Streptococcus pseudopneumoniae	MRH659	bacteria
+Micrococcus sp. KBS0714	Micrococcus sp. KBS0714	MRH660	bacteria
+bacterium	bacterium	MRH661	bacteria
+Agrobacterium sp. 33MFTa1.1	Agrobacterium sp. 33MFTa1.1	MRH662	bacteria
+Brucella intermedia	Brucella intermedia	MRH663	bacteria
+Botrytis	Botrytis	MRH664	fungus
+Moraxella catarrhalis	Moraxella catarrhalis	MRH665	bacteria
+Dietzia sp. CQ4	Dietzia sp. CQ4	MRH666	bacteria
+Staphylococcus equorum	Staphylococcus equorum	MRH667	bacteria
+Staphylococcus saprophyticus	Staphylococcus saprophyticus	MRH668	bacteria
+Enhydrobacter	Enhydrobacter	MRH669	bacteria
+Propionibacterium sp. oral taxon 193	Cutibacterium modestum	MRH670	bacteria
+Acinetobacter oleivorans	Acinetobacter oleivorans	MRH671	bacteria
+Acinetobacter sp. NEB149	Acinetobacter sp. NEB149	MRH672	bacteria
+Parvimonas	Parvimonas	MRH673	bacteria
+Parvimonas micra	Parvimonas micra	MRH674	bacteria
+Haemophilus pittmaniae	Haemophilus pittmaniae	MRH675	bacteria
+Corynebacterium sanguinis	Corynebacterium sanguinis	MRH676	bacteria
+Corynebacterium minutissimum	Corynebacterium minutissimum	MRH677	bacteria
+Corynebacterium casei	Corynebacterium casei	MRH678	bacteria
+Corynebacterium xerosis	Corynebacterium xerosis	MRH679	bacteria
+Clostridium perfringens	Clostridium perfringens	MRH680	bacteria
+Suhomyces	Suhomyces	MRH681	fungus
+Suhomyces tanzawaensis	Suhomyces tanzawaensis	MRH682	fungus
+Malassezia sympodialis	Malassezia sympodialis	MRH683	fungus
+Rothia kristinae	Rothia kristinae	MRH684	bacteria
+Brevibacterium casei	Brevibacterium casei	MRH685	bacteria
+Brevibacterium luteolum	Brevibacterium luteolum	MRH686	bacteria
+Fusobacterium pseudoperiodonticum	Fusobacterium pseudoperiodonticum	MRH687	bacteria
+Mucilaginibacter	Mucilaginibacter	MRH688	bacteria
+Bradyrhizobium sp. CCBAU 21365	Bradyrhizobium sp. CCBAU 21365	MRH689	bacteria
+Bradyrhizobium vignae	Bradyrhizobium vignae	MRH690	bacteria
+Bradyrhizobium sp.	Bradyrhizobium sp.	MRH691	bacteria
+Bradyrhizobium cosmicum	Bradyrhizobium cosmicum	MRH692	bacteria
+Bradyrhizobium diazoefficiens	Bradyrhizobium diazoefficiens	MRH693	bacteria
+Lautropia mirabilis	Lautropia mirabilis	MRH694	bacteria
+Pseudoalteromonas	Pseudoalteromonas	MRH695	bacteria
+Paraphaeosphaeria	Paraphaeosphaeria	MRH696	fungus
+Bacillus cereus	Bacillus cereus	MRH697	bacteria
+Paenarthrobacter	Paenarthrobacter	MRH698	bacteria
+Nocardioides anomalus	Nocardioides anomalus	MRH699	bacteria
+Rathayibacter	Rathayibacter	MRH700	bacteria
+Megasphaera	Megasphaera	MRH701	bacteria
+Bacteroides	Bacteroides	MRH702	bacteria
+Bacteroides ovatus	Bacteroides ovatus	MRH703	bacteria
+Pedobacter	Pedobacter	MRH704	bacteria
+Delftia lacustris	Delftia lacustris	MRH705	bacteria
+Curtobacterium	Curtobacterium	MRH706	bacteria
+Serratia marcescens	Serratia marcescens	MRH707	bacteria
+Microbacterium sediminis	Microbacterium sediminis	MRH708	bacteria
+Microbacterium oxydans	Microbacterium oxydans	MRH709	bacteria
+Microbacterium aurum	Microbacterium aurum	MRH710	bacteria
+Xanthomonas oryzae	Xanthomonas oryzae	MRH711	bacteria
+Novosphingobium resinovorum	Novosphingobium resinovorum	MRH712	bacteria
+Tessaracoccus	Tessaracoccus	MRH713	bacteria
+Mycolicibacterium vaccae	Mycolicibacterium vaccae	MRH714	bacteria
+Enterococcus cecorum	Enterococcus cecorum	MRH715	bacteria
+Brachybacterium faecium	Brachybacterium faecium	MRH716	bacteria
+Aureimonas	Aureimonas	MRH717	bacteria
+Aureimonas altamirensis	Aureimonas altamirensis	MRH718	bacteria
+Weissella	Weissella	MRH719	bacteria
+Mycobacterium gordonae	Mycobacterium gordonae	MRH720	bacteria
+Sphingosinicella	Sphingosinicella	MRH721	bacteria
+Phenylobacterium	Phenylobacterium	MRH722	bacteria
+Friedmanniella	Friedmanniella	MRH723	bacteria
+Nitrosomonas sp. Is79A3	Nitrosomonas sp. Is79A3	MRH724	bacteria
+Chelatococcus	Chelatococcus	MRH725	bacteria
+Tardiphaga robiniae	Tardiphaga robiniae	MRH726	bacteria
+Streptococcus sp. I-P16	Streptococcus ilei	MRH727	bacteria
+Agrobacterium rhizogenes	Agrobacterium rhizogenes	MRH728	bacteria
+Rhodococcus rhodochrous	Rhodococcus rhodochrous	MRH729	bacteria
+Rhodococcus qingshengii	Rhodococcus qingshengii	MRH730	bacteria
+Aeromonas salmonicida	Aeromonas salmonicida	MRH731	bacteria
+Lactobacillus johnsonii	Lactobacillus johnsonii	MRH732	bacteria
+Chroococcidiopsis	Chroococcidiopsis	MRH733	bacteria
+Corynebacterium bovis	Corynebacterium bovis	MRH734	bacteria
+Corynebacterium amycolatum	Corynebacterium amycolatum	MRH735	bacteria
+Corynebacterium riegelii	Corynebacterium riegelii	MRH736	bacteria
+Corynebacterium pseudotuberculosis	Corynebacterium pseudotuberculosis	MRH737	bacteria
+Acinetobacter sp. FDAARGOS_724	Acinetobacter sp. FDAARGOS_724	MRH738	bacteria
+Acinetobacter sp. WCHA55	Acinetobacter sp. WCHA55	MRH739	bacteria
+Janibacter melonis	Janibacter melonis	MRH740	bacteria
+Janibacter limosus	Janibacter limosus	MRH741	bacteria
+Paracoccus sp. AK26	Paracoccus sp. AK26	MRH742	bacteria
+Paracoccus marinus	Paracoccus marinus	MRH743	bacteria
+Paracoccus pantotrophus	Paracoccus pantotrophus	MRH744	bacteria
+Paracoccus aminovorans	Paracoccus aminovorans	MRH745	bacteria
+Paracoccus sp. Arc7-R13	Paracoccus sp. Arc7-R13	MRH746	bacteria
+Puccinia	Puccinia	MRH747	fungus
+Veillonella nakazawae	Veillonella nakazawae	MRH748	bacteria
+Veillonella rodentium	Veillonella rodentium	MRH749	bacteria
+Veillonella atypica	Veillonella atypica	MRH750	bacteria
+Xanthomonas	Xanthomonas	MRH751	bacteria
+Gemella sanguinis	Gemella sanguinis	MRH752	bacteria
+Kingella	Kingella	MRH753	bacteria
+[Candida] intermedia	[Candida] intermedia	MRH754	fungus
+Clavispora lusitaniae	Clavispora lusitaniae	MRH755	fungus
+Faecalibacterium	Faecalibacterium	MRH756	bacteria
+Faecalibacterium prausnitzii	Faecalibacterium prausnitzii	MRH757	bacteria
+Pseudomonas viridiflava	Pseudomonas viridiflava	MRH758	bacteria
+Pseudomonas entomophila	Pseudomonas entomophila	MRH759	bacteria
+Pseudomonas chlororaphis	Pseudomonas chlororaphis	MRH760	bacteria
+Pseudomonas fulva	Pseudomonas fulva	MRH761	bacteria
+Didymella	Didymella	MRH762	fungus
+Gordonia sp. JH63	Gordonia sp. JH63	MRH763	bacteria
+Actinomyces viscosus	Actinomyces viscosus	MRH764	bacteria
+Brochothrix	Brochothrix	MRH765	bacteria
+Brochothrix thermosphacta	Brochothrix thermosphacta	MRH766	bacteria
+Prevotella oris	Prevotella oris	MRH767	bacteria
+Prevotella intermedia	Prevotella intermedia	MRH768	bacteria
+Carnobacterium maltaromaticum	Carnobacterium maltaromaticum	MRH769	bacteria
+Leuconostoc citreum	Leuconostoc citreum	MRH770	bacteria
+Anaerococcus prevotii	Anaerococcus prevotii	MRH771	bacteria
+Talaromyces	Talaromyces	MRH772	fungus
+Bradyrhizobium sp. CCBAU 51753	Bradyrhizobium sp. CCBAU 51753	MRH773	bacteria
+Bradyrhizobium sp. ORS 285	Bradyrhizobium sp. ORS 285	MRH774	bacteria
+Peptoniphilus harei	Peptoniphilus harei	MRH775	bacteria
+Delftia sp. HK171	Delftia sp. HK171	MRH776	bacteria
+Bacillus thuringiensis	Bacillus thuringiensis	MRH777	bacteria
+Enterococcus casseliflavus	Enterococcus casseliflavus	MRH778	bacteria
+Phyllobacterium myrsinacearum	Phyllobacterium myrsinacearum	MRH779	bacteria
+Lachnoanaerobaculum	Lachnoanaerobaculum	MRH780	bacteria
+Cordyceps	Cordyceps	MRH781	fungus
+Cordyceps fumosorosea	Cordyceps fumosorosea	MRH782	fungus
+Bacteroides cellulosilyticus	Bacteroides cellulosilyticus	MRH783	bacteria
+Sphingomonas sp. NIC1	Sphingomonas sp. NIC1	MRH784	bacteria
+Chryseobacterium manosquense	Chryseobacterium manosquense	MRH785	bacteria
+Chryseobacterium shandongense	Chryseobacterium shandongense	MRH786	bacteria
+Chryseobacterium indologenes	Chryseobacterium indologenes	MRH787	bacteria
+Diaphorobacter sp. JS3050	Diaphorobacter sp. JS3050	MRH788	bacteria
+Rhodobacter sphaeroides	Cereibacter sphaeroides	MRH789	bacteria
+Pannonibacter	Pannonibacter	MRH790	bacteria
+Pannonibacter phragmitetus	Pannonibacter phragmitetus	MRH791	bacteria
+Neomicrococcus	Neomicrococcus	MRH792	bacteria
+Neomicrococcus aestuarii	Neomicrococcus aestuarii	MRH793	bacteria
+Aggregatibacter	Aggregatibacter	MRH794	bacteria
+Aggregatibacter aphrophilus	Aggregatibacter aphrophilus	MRH795	bacteria
+Brevundimonas mediterranea	Brevundimonas mediterranea	MRH796	bacteria
+Brevundimonas sp. Bb-A	Brevundimonas sp. Bb-A	MRH797	bacteria
+Brevundimonas sp.	Brevundimonas sp.	MRH798	bacteria
+Niveispirillum	Niveispirillum	MRH799	bacteria
+Microbacterium sp. Y-01	Microbacterium sp. Y-01	MRH800	bacteria
+Pseudoxanthomonas kaohsiungensis	Pseudoxanthomonas kaohsiungensis	MRH801	bacteria
+Phycicoccus	Phycicoccus	MRH802	bacteria
+Mycolicibacterium tokaiense	Mycolicibacterium tokaiense	MRH803	bacteria
+Lysobacter	Lysobacter	MRH804	bacteria
+Lysobacter oculi	Lysobacter oculi	MRH805	bacteria
+Acidovorax ebreus	[Acidovorax] ebreus	MRH806	bacteria
+Acidovorax carolinensis	Acidovorax carolinensis	MRH807	bacteria
+Acidovorax sp. JS42	Acidovorax sp. JS42	MRH808	bacteria
+Sanguibacter	Sanguibacter	MRH809	bacteria
+Pigmentiphaga	Pigmentiphaga	MRH810	bacteria
+Mycobacteroides immunogenum	Mycobacteroides immunogenum	MRH811	bacteria
+Klebsiella aerogenes	Klebsiella aerogenes	MRH812	bacteria
+Rahnella	Rahnella	MRH813	bacteria
+Enterobacter ludwigii	Enterobacter ludwigii	MRH814	bacteria
+Cupriavidus pauculus	Cupriavidus pauculus	MRH815	bacteria
+Methyloversatilis	Methyloversatilis	MRH816	bacteria
+Methyloversatilis sp. RAC08	Methyloversatilis sp. RAC08	MRH817	bacteria
+Azotobacter chroococcum	Azotobacter chroococcum	MRH818	bacteria
+Blastococcus saxobsidens	Blastococcus saxobsidens	MRH819	bacteria
+Luteimonas sp. YGD11-2	Luteimonas sp. YGD11-2	MRH820	bacteria
+Debaryomyces	Debaryomyces	MRH821	fungus
+Debaryomyces hansenii	Debaryomyces hansenii	MRH822	fungus
+Tsukamurella	Tsukamurella	MRH823	bacteria
+Tsukamurella tyrosinosolvens	Tsukamurella tyrosinosolvens	MRH824	bacteria
+Bordetella parapertussis	Bordetella parapertussis	MRH825	bacteria
+Alicycliphilus	Alicycliphilus	MRH826	bacteria
+Rubrivivax	Rubrivivax	MRH827	bacteria
+Streptococcus intermedius	Streptococcus intermedius	MRH828	bacteria
+Micrococcus sp. MG-2010-D12	Micrococcus sp. MG-2010-D12	MRH829	bacteria
+Rhodococcus sp. PBTS 2	Rhodococcus fascians	MRH151	bacteria
+Rhodococcus sp. AQ5-07	Rhodococcus sp. AQ5-07	MRH830	bacteria
+Rhizobium sp. S41	Rhizobium sp. S41	MRH831	bacteria
+Kocuria varians	Kocuria varians	MRH832	bacteria
+Corynebacterium sp. Marseille-Q3630	Corynebacterium incognita	MRH833	bacteria
+Corynebacterium resistens	Corynebacterium resistens	MRH834	bacteria
+Corynebacterium urealyticum	Corynebacterium urealyticum	MRH835	bacteria
+Corynebacterium testudinoris	Corynebacterium testudinoris	MRH836	bacteria
+Azospirillum brasilense	Azospirillum brasilense	MRH837	bacteria
+Xanthomonas arboricola	Xanthomonas arboricola	MRH838	bacteria
+Kingella oralis	Kingella oralis	MRH839	bacteria
+Granulicatella adiacens	Granulicatella adiacens	MRH840	bacteria
+Trematosphaeria	Trematosphaeria	MRH841	fungus
+Trematosphaeria pertusa	Trematosphaeria pertusa	MRH842	fungus
+Mycobacterium avium	Mycobacterium avium	MRH843	bacteria
+Skermanella	Skermanella	MRH844	bacteria
+Prevotella denticola	Prevotella denticola	MRH845	bacteria
+Anaerococcus vaginalis	Anaerococcus vaginalis	MRH846	bacteria
+Ligilactobacillus	Ligilactobacillus	MRH847	bacteria
+Pseudomonas sp.	Pseudomonas sp.	MRH848	bacteria
+Pseudomonas veronii	Pseudomonas veronii	MRH849	bacteria
+Actinomyces gerencseriae	Actinomyces gerencseriae	MRH850	bacteria
+Leptotrichia hongkongensis	Leptotrichia hongkongensis	MRH851	bacteria
+Duganella	Duganella	MRH852	bacteria
+Neisseria subflava	Neisseria subflava	MRH853	bacteria
+Bifidobacterium adolescentis	Bifidobacterium adolescentis	MRH854	bacteria
+Bifidobacterium thermophilum	Bifidobacterium thermophilum	MRH855	bacteria
+Epicoccum	Epicoccum	MRH856	fungus
+Carnobacterium	Carnobacterium	MRH857	bacteria
+Aeromonas media	Aeromonas media	MRH858	bacteria
+Sphingomonas taxi	Sphingomonas taxi	MRH859	bacteria
+Sphingomonas koreensis	Sphingomonas koreensis	MRH860	bacteria
+Ochrobactrum pseudogrignonense	Brucella pseudogrignonensis	MRH861	bacteria
+Cyberlindnera	Cyberlindnera	MRH862	fungus
+Cyberlindnera jadinii	Cyberlindnera jadinii	MRH863	fungus
+Mesorhizobium terrae	Mesorhizobium terrae	MRH864	bacteria
+Olsenella	Olsenella	MRH865	bacteria
+Olsenella uli	Olsenella uli	MRH866	bacteria
+Thermus brockianus	Thermus brockianus	MRH867	bacteria
+Thermus thermophilus	Thermus thermophilus	MRH868	bacteria
+Thermus parvatiensis	Thermus parvatiensis	MRH869	bacteria
+Mobiluncus	Mobiluncus	MRH870	bacteria
+Afipia	Afipia	MRH871	bacteria
+Pichia	Pichia	MRH872	fungus
+Phreatobacter sp. NMCR1094	Phreatobacter sp. NMCR1094	MRH873	bacteria
+Methylorubrum zatmanii	Methylorubrum zatmanii	MRH874	bacteria
+Arachnia	Arachnia	MRH875	bacteria
+Pseudopropionibacterium propionicum	Arachnia propionica	MRH876	bacteria
+Microlunatus phosphovorus	Microlunatus phosphovorus	MRH877	bacteria
+Microbacterium paraoxydans	Microbacterium paraoxydans	MRH878	bacteria
+Tannerella	Tannerella	MRH879	bacteria
+Tannerella sp. oral taxon HOT-286	Tannerella serpentiformis	MRH880	bacteria
+Dickeya	Dickeya	MRH881	bacteria
+Nocardioides daphniae	Nocardioides daphniae	MRH882	bacteria
+Bacillus anthracis	Bacillus anthracis	MRH883	bacteria
+non-genus-specific reads in family Lachnospiraceae	Lachnospiraceae	MRH884	bacteria
+Diaphorobacter polyhydroxybutyrativorans	Diaphorobacter nitroreducens	MRH885	bacteria
+Tabrizicola	Tabrizicola	MRH886	bacteria
+Tabrizicola piscis	Tabrizicola piscis	MRH887	bacteria
+Actinobacillus	Actinobacillus	MRH888	bacteria
+Methylobacterium bullatum	Methylobacterium bullatum	MRH889	bacteria
+Methylobacterium mesophilicum	Methylobacterium mesophilicum	MRH890	bacteria
+Dolosigranulum	Dolosigranulum	MRH891	bacteria
+Dolosigranulum pigrum	Dolosigranulum pigrum	MRH892	bacteria
+Polymorphum	Polymorphum	MRH893	bacteria
+Polymorphum gilvum	Polymorphum gilvum	MRH894	bacteria
+Altererythrobacter	Altererythrobacter	MRH895	bacteria
+Caulobacter vibrioides	Caulobacter vibrioides	MRH896	bacteria
+Clavibacter	Clavibacter	MRH897	bacteria
+Clavibacter michiganensis	Clavibacter michiganensis	MRH898	bacteria
+Chryseobacterium gleum	Chryseobacterium gleum	MRH899	bacteria
+Aminobacter aminovorans	Aminobacter aminovorans	MRH900	bacteria
+Sphingobacterium hotanense	Sphingobacterium hotanense	MRH901	bacteria
+Brevundimonas sp. 'scallop'	Brevundimonas sp. 'scallop'	MRH902	bacteria
+Geodermatophilus	Geodermatophilus	MRH903	bacteria
+Pseudorhodoplanes	Pseudorhodoplanes	MRH904	bacteria
+Pseudorhodoplanes sinuspersici	Pseudorhodoplanes sinuspersici	MRH905	bacteria
+Alicycliphilus denitrificans	Alicycliphilus denitrificans	MRH906	bacteria
+Actinomyces dentalis	Actinomyces dentalis	MRH907	bacteria
+Actinomyces sp. oral taxon 448	Actinomyces sp. oral taxon 448	MRH908	bacteria
+Staphylococcus caprae	Staphylococcus caprae	MRH909	bacteria
+Prevotella nigrescens	Prevotella nigrescens	MRH910	bacteria
+Campylobacter	Campylobacter	MRH911	bacteria
+Campylobacter gracilis	Campylobacter gracilis	MRH912	bacteria
+Pseudoalteromonas translucida	Pseudoalteromonas translucida	MRH913	bacteria
+Neisseria bacilliformis	Neisseria bacilliformis	MRH914	bacteria
+Pantoea ananatis	Pantoea ananatis	MRH915	bacteria
+Pantoea vagans	Pantoea vagans	MRH916	bacteria
+Rhizobium sp.	Rhizobium sp.	MRH917	bacteria
+Pseudomonas luteola	Pseudomonas luteola	MRH918	bacteria
+Pseudomonas sp. LTJR-52	Pseudomonas sp. LTJR-52	MRH919	bacteria
+[Haemophilus] ducreyi	[Haemophilus] ducreyi	MRH920	bacteria
+Corynebacterium lactis	Corynebacterium lactis	MRH921	bacteria
+Mogibacterium pumilum	Mogibacterium pumilum	MRH922	bacteria
+Kocuria rosea	Kocuria rosea	MRH923	bacteria
+Paracoccus sp.	Paracoccus sp.	MRH924	bacteria
+Paracoccus marcusii	Paracoccus marcusii	MRH925	bacteria
+Paracoccus zhejiangensis	Paracoccus zhejiangensis	MRH926	bacteria
+Capnocytophaga ochracea	Capnocytophaga ochracea	MRH927	bacteria
+Capnocytophaga leadbetteri	Capnocytophaga leadbetteri	MRH928	bacteria
+Didymella exigua	Didymella exigua	MRH929	fungus
+Buchnera	Buchnera	MRH930	bacteria
+Buchnera aphidicola	Buchnera aphidicola	MRH931	bacteria
+Malassezia vespertilionis	Malassezia vespertilionis	MRH932	fungus
+non-genus-specific reads in family Burkholderiaceae	Burkholderiaceae	MRH933	bacteria
+Burkholderiaceae bacterium	Burkholderiaceae bacterium	MRH934	bacteria
+Erwinia gerundensis	Erwinia gerundensis	MRH935	bacteria
+Bradyrhizobium canariense	Bradyrhizobium canariense	MRH936	bacteria
+Mesorhizobium sp.	Mesorhizobium sp.	MRH937	bacteria
+Actinobacillus pleuropneumoniae	Actinobacillus pleuropneumoniae	MRH938	bacteria
+Dialister	Dialister	MRH939	bacteria
+Filifactor	Filifactor	MRH940	bacteria
+Filifactor alocis	Filifactor alocis	MRH941	bacteria
+Afipia sp. GAS231	Afipia sp. GAS231	MRH942	bacteria
+Leucobacter	Leucobacter	MRH943	bacteria
+Paraburkholderia tropica	Paraburkholderia tropica	MRH944	bacteria
+Citrobacter sp. RHBSTW-00976	Citrobacter sp. RHBSTW-00976	MRH945	bacteria
+Aeromicrobium	Aeromicrobium	MRH946	bacteria
+Brevundimonas naejangsanensis	Brevundimonas naejangsanensis	MRH947	bacteria
+Bosea	Bosea	MRH948	bacteria
+Bosea vaviloviae	Bosea vaviloviae	MRH949	bacteria
+Friedmanniella luteola	Friedmanniella luteola	MRH950	bacteria
+Ottowia	Ottowia	MRH951	bacteria
+Oligotropha	Afipia	MRH871	bacteria
+Oligotropha carboxidovorans	Afipia carboxidovorans	MRH952	bacteria
+Burkholderia multivorans	Burkholderia multivorans	MRH953	bacteria
+Cupriavidus sp. ISTL7	Cupriavidus sp. ISTL7	MRH954	bacteria
+Streptomyces	Streptomyces	MRH955	bacteria
+Pseudomonas balearica	Stutzerimonas balearica	MRH956	bacteria
+Acidovorax avenae	Acidovorax avenae	MRH957	bacteria
+Cupriavidus taiwanensis	Cupriavidus taiwanensis	MRH958	bacteria
+Asaia bogorensis	Asaia bogorensis	MRH959	bacteria
+Brucella	Brucella	MRH960	bacteria
+Acidovorax sp. 1608163	Acidovorax sp. 1608163	MRH961	bacteria
+Geobacillus	Geobacillus	MRH962	bacteria
+Geobacillus stearothermophilus	Geobacillus stearothermophilus	MRH963	bacteria
+Acidovorax sp. JMULE5	Acidovorax sp. JMULE5	MRH964	bacteria
+[Polyangium] brachysporum	Schlegelella brevitalea	MRH965	bacteria
+Trypanosoma	Trypanosoma	MRH966	other_eukaryota
+Burkholderia contaminans	Burkholderia contaminans	MRH967	bacteria
+Paenibacillus	Paenibacillus	MRH968	bacteria
+Acinetobacter sp. MYb10	Acinetobacter sp. MYb10	MRH969	bacteria
+Acinetobacter dispersus	Acinetobacter dispersus	MRH970	bacteria
+Acinetobacter wuhouensis	Acinetobacter wuhouensis	MRH971	bacteria
+Acinetobacter sp.	Acinetobacter sp.	MRH972	bacteria
+Acinetobacter calcoaceticus	Acinetobacter calcoaceticus	MRH973	bacteria
+Paenibacillus xylanexedens	Paenibacillus xylanexedens	MRH974	bacteria
+Paenibacillus sp. JNUCC-31	Paenibacillus sp. JNUCC-31	MRH975	bacteria
+Paenibacillus pabuli	Paenibacillus pabuli	MRH976	bacteria
+Azospirillum humicireducens	Azospirillum humicireducens	MRH977	bacteria
+Pseudomonas syringae group genomosp. 3	Pseudomonas syringae group genomosp. 3	MRH978	bacteria
+Anaerolinea	Anaerolinea	MRH979	bacteria
+Anaerolinea thermophila	Anaerolinea thermophila	MRH980	bacteria
+Swingsia	Swingsia	MRH981	bacteria
+Bacillus mobilis	Bacillus mobilis	MRH982	bacteria
+Acetobacter	Acetobacter	MRH983	bacteria
+Acetobacter orientalis	Acetobacter orientalis	MRH984	bacteria
+Bacteroides uniformis	Bacteroides uniformis	MRH985	bacteria
+Alistipes	Alistipes	MRH986	bacteria
+Collinsella	Collinsella	MRH987	bacteria
+Collinsella aerofaciens	Collinsella aerofaciens	MRH988	bacteria
+Shigella sonnei	Shigella sonnei	MRH989	bacteria
+Meiothermus	Meiothermus	MRH990	bacteria
+Meiothermus silvanus	Meiothermus silvanus	MRH991	bacteria
+Azospirillum	Azospirillum	MRH992	bacteria
+Botrytis fragariae	Botrytis fragariae	MRH993	fungus
+Botrytis cinerea	Botrytis cinerea	MRH994	fungus
+Cladosporium	Cladosporium	MRH995	fungus
+Cladosporium herbarum	Cladosporium herbarum	MRH996	fungus
+Cladosporium cladosporioides	Cladosporium cladosporioides	MRH997	fungus
+Sclerotinia	Sclerotinia	MRH998	fungus
+Sclerotinia sclerotiorum	Sclerotinia sclerotiorum	MRH999	fungus
+Pseudomonas sp. ADAK13	Pseudomonas sp. ADAK13	MRH1000	bacteria
+Pseudomonas multiresinivorans	Pseudomonas multiresinivorans	MRH1001	bacteria
+Cedecea	Cedecea	MRH1002	bacteria
+Cedecea neteri	Cedecea neteri	MRH1003	bacteria
+Bradyrhizobium sp. BTAi1	Bradyrhizobium sp. BTAi1	MRH1004	bacteria
+Methylobacterium oryzae	Methylobacterium oryzae	MRH1005	bacteria
+Arthrobacter	Arthrobacter	MRH1006	bacteria
+Shigella dysenteriae	Shigella dysenteriae	MRH1007	bacteria
+Shigella boydii	Shigella boydii	MRH1008	bacteria
+Penicillium arizonense	Penicillium arizonense	MRH1009	fungus
+Pseudogymnoascus	Pseudogymnoascus	MRH1010	fungus
+Pseudomonas trivialis	Pseudomonas trivialis	MRH1011	bacteria
+Pseudomonas azotoformans	Pseudomonas azotoformans	MRH1012	bacteria
+Lactobacillus	Lactobacillus	MRH1013	bacteria
+Lactobacillus iners	Lactobacillus iners	MRH1014	bacteria
+Staphylococcus succinus	Staphylococcus succinus	MRH1015	bacteria
+Bradyrhizobium amphicarpaeae	Bradyrhizobium amphicarpaeae	MRH1016	bacteria
+Bradyrhizobium sp. CCGE-LA001	Bradyrhizobium sp. CCGE-LA001	MRH1017	bacteria
+Deinococcus soli Cha et al. 2016	Deinococcus soli (ex Cha et al. 2016)	MRH1018	bacteria
+Alternaria arborescens	Alternaria arborescens	MRH1019	fungus
+Bipolaris victoriae	Bipolaris victoriae	MRH1020	fungus
+Bipolaris zeicola	Bipolaris zeicola	MRH1021	fungus
+Theileria	Theileria	MRH1022	other_eukaryota
+Theileria ovis	Theileria ovis	MRH1023	other_eukaryota
+Serratia fonticola	Serratia fonticola	MRH1024	bacteria
+Streptomyces zhaozhouensis	Streptomyces zhaozhouensis	MRH1025	bacteria
+Moesziomyces	Moesziomyces	MRH1026	fungus
+Macroventuria	Macroventuria	MRH1027	fungus
+Macroventuria anomochaeta	Macroventuria anomochaeta	MRH1028	fungus
+Entomortierella chlamydospora	Entomortierella chlamydospora	MRH1029	fungus
+Scheffersomyces	Scheffersomyces	MRH1030	fungus
+Scheffersomyces stipitis	Scheffersomyces stipitis	MRH1031	fungus
+Deinococcus wulumuqiensis	Deinococcus wulumuqiensis	MRH1032	bacteria
+[Candida] haemuloni	[Candida] haemuloni	MRH1033	fungus
+Diplodia	Diplodia	MRH1034	fungus
+Diplodia corticola	Diplodia corticola	MRH1035	fungus
+Parastagonospora	Parastagonospora	MRH1036	fungus
+Parastagonospora nodorum	Parastagonospora nodorum	MRH1037	fungus
+Kazachstania	Kazachstania	MRH1038	fungus
+Streptomyces malaysiensis	Streptomyces malaysiensis	MRH1039	bacteria
+Burkholderia vietnamiensis	Burkholderia vietnamiensis	MRH1040	bacteria
+Cellvibrio japonicus	Cellvibrio japonicus	MRH1041	bacteria
+Corynebacterium vitaeruminis	Corynebacterium vitaeruminis	MRH1042	bacteria
+Corynebacterium variabile	Corynebacterium variabile	MRH1043	bacteria
+Rubrobacter	Rubrobacter	MRH1044	bacteria
+Rubrobacter xylanophilus	Rubrobacter xylanophilus	MRH1045	bacteria
+Mycoplasmopsis	Mycoplasmopsis	MRH1046	bacteria
+Mycoplasma bovis	Mycoplasmopsis bovis	MRH1047	bacteria
+Mycoplasma	Mycoplasma	MRH1048	bacteria
+Mycoplasma hyorhinis	Mesomycoplasma hyorhinis	MRH1049	bacteria
+Buttiauxella	Buttiauxella	MRH1050	bacteria
+Buttiauxella agrestis	Buttiauxella agrestis	MRH1051	bacteria
+Starmerella	Starmerella	MRH1052	fungus
+non-genus-specific reads in family Enterobacteriaceae	Enterobacteriaceae	MRH1053	bacteria
+Enterobacteriaceae bacterium ENNIH1	Enterobacteriaceae bacterium ENNIH1	MRH1054	bacteria
+Limnobacter	Limnobacter	MRH1055	bacteria
+Enterococcus faecalis	Enterococcus faecalis	MRH1056	bacteria
+Amycolatopsis	Amycolatopsis	MRH1057	bacteria
+Bdellovibrio	Bdellovibrio	MRH1058	bacteria
+Bdellovibrio bacteriovorus	Bdellovibrio bacteriovorus	MRH1059	bacteria
+Pseudomonas psychrophila	Pseudomonas psychrophila	MRH1060	bacteria
+Pseudomonas antarctica	Pseudomonas antarctica	MRH1061	bacteria
+Enterobacter roggenkampii	Enterobacter roggenkampii	MRH1062	bacteria
+Microbacterium sp. PM5	Microbacterium sp. PM5	MRH1063	bacteria
+Sphingobacterium sp. CZ-2	Sphingobacterium sp. CZ-2	MRH1064	bacteria
+Phytobacter	Phytobacter	MRH1065	bacteria
+Phytobacter ursingii	Phytobacter ursingii	MRH1066	bacteria
+Dietzia timorensis	Dietzia timorensis	MRH1067	bacteria
+Zygosaccharomyces bailii	Zygosaccharomyces bailii	MRH1068	fungus
+Saccharomyces pastorianus	Saccharomyces pastorianus	MRH1069	fungus
+Saccharomyces kudriavzevii	Saccharomyces kudriavzevii	MRH1070	fungus
+Starmerella apicola	Starmerella apicola	MRH1071	fungus
+Plasmodium berghei	Plasmodium berghei	MRH1072	other_eukaryota
+Aeromonas dhakensis	Aeromonas dhakensis	MRH1073	bacteria
+Burkholderia lata	Burkholderia lata	MRH1074	bacteria
+Pyrenophora tritici-repentis	Pyrenophora tritici-repentis	MRH1075	fungus
+Dothidotthia	Dothidotthia	MRH1076	fungus
+Dothidotthia symphoricarpi	Dothidotthia symphoricarpi	MRH1077	fungus
+Stemphylium	Stemphylium	MRH1078	fungus
+Pseudogymnoascus destructans	Pseudogymnoascus destructans	MRH1079	fungus
+Kluyvera	Kluyvera	MRH1080	bacteria
+Mycoplasma wenyonii	Mycoplasma wenyonii	MRH1081	bacteria
+Croceicoccus	Croceicoccus	MRH1082	bacteria
+Yersinia frederiksenii	Yersinia frederiksenii	MRH1083	bacteria
+Pseudomonas sp. IB20	Pseudomonas sp. IB20	MRH1084	bacteria
+Pseudomonas orientalis	Pseudomonas orientalis	MRH1085	bacteria
+Sordaria	Sordaria	MRH1086	fungus
+Sordaria macrospora	Sordaria macrospora	MRH1087	fungus
+Acidovorax sp. KKS102	Acidovorax sp. KKS102	MRH1088	bacteria
+Diaphorobacter sp. JS3051	Diaphorobacter sp. JS3051	MRH1089	bacteria
+Methylococcus	Methylococcus	MRH1090	bacteria
+Methylococcus capsulatus	Methylococcus capsulatus	MRH1091	bacteria
+Deinococcus geothermalis	Deinococcus geothermalis	MRH1092	bacteria
+Sphingopyxis sp. 113P3	Sphingopyxis sp. 113P3	MRH1093	bacteria
+Hyphomicrobium	Hyphomicrobium	MRH1094	bacteria
+Claviceps	Claviceps	MRH1095	fungus
+Claviceps purpurea	Claviceps purpurea	MRH1096	fungus
+Microcystis	Microcystis	MRH1097	bacteria
+Microcystis aeruginosa	Microcystis aeruginosa	MRH1098	bacteria
+Zasmidium	Zasmidium	MRH1099	fungus
+Zasmidium cellare	Zasmidium cellare	MRH1100	fungus
+Escherichia fergusonii	Escherichia fergusonii	MRH1101	bacteria
+Burkholderia sp. RPE67	Burkholderia sp. RPE67	MRH1102	bacteria
+Metschnikowia reukaufii	Metschnikowia reukaufii	MRH1103	fungus
+Methylobacterium sp. 17Sr1-43	Methylobacterium radiodurans	MRH1104	bacteria
+Methylobacterium terrae	Methylobacterium terrae	MRH1105	bacteria
+Methylobacterium currus	Methylobacterium currus	MRH1106	bacteria
+Methylobacterium sp. WL1	Methylobacterium sp. WL1	MRH1107	bacteria
+Methylobacterium sp. 4-46	Methylobacterium sp. 4-46	MRH1108	bacteria
+Methylobacterium sp. XJLW	Methylobacterium sp. XJLW	MRH1109	bacteria
+Sparassis	Sparassis	MRH1110	fungus
+Sparassis crispa	Sparassis crispa	MRH1111	fungus
+Pseudomonas lurida	Pseudomonas lurida	MRH1112	bacteria
+Pseudomonas rhodesiae	Pseudomonas rhodesiae	MRH1113	bacteria
+Pseudomonas sp. TKP	Pseudomonas sp. TKP	MRH1114	bacteria
+Pseudomonas brassicacearum	Pseudomonas brassicacearum	MRH1115	bacteria
+Curvibacter gracilis	Curvibacter gracilis	MRH1116	bacteria
+Anabaena	Anabaena	MRH1117	bacteria
+Anabaena sp. YBS01	Anabaena sp. YBS01	MRH1118	bacteria
+Methylophilus sp. TWE2	Methylophilus sp. TWE2	MRH1119	bacteria
+Sydowia	Sydowia	MRH1120	fungus
+Sydowia polyspora	Sydowia polyspora	MRH1121	fungus
+Wolbachia	Wolbachia	MRH1122	bacteria
+Leifsonia shinshuensis	Leifsonia shinshuensis	MRH1123	bacteria
+Achromobacter spanius	Achromobacter spanius	MRH1124	bacteria
+Achromobacter deleyi	Achromobacter deleyi	MRH1125	bacteria
+Achromobacter ruhlandii	Achromobacter ruhlandii	MRH1126	bacteria
+Enterococcus faecium	Enterococcus faecium	MRH1127	bacteria
+Sphingomonas ursincola	Sphingomonas ursincola	MRH1128	bacteria
+Sphingomonas sp. MK52	Rhizorhabdus phycosphaerae	MRH1129	bacteria
+Sphingomonas sanxanigenens	Sphingomonas sanxanigenens	MRH1130	bacteria
+Croceicoccus sp. YJ47	Croceicoccus sp. YJ47	MRH1131	bacteria
+Croceicoccus naphthovorans	Croceicoccus naphthovorans	MRH1132	bacteria
+Croceicoccus marinus	Croceicoccus marinus	MRH1133	bacteria
+Exophiala spinifera	Exophiala spinifera	MRH1134	fungus
+Phytophthora	Phytophthora	MRH1135	other_eukaryota
+Selenomonas sputigena	Selenomonas sputigena	MRH1136	bacteria
+Rothia amarae	Rothia amarae	MRH1137	bacteria
+Aquabacterium olei	Aquabacterium olei	MRH1138	bacteria
+Porphyrobacter	Porphyrobacter	MRH1139	bacteria
+Porphyrobacter sp. CACIAM 03H1	Porphyrobacter sp. CACIAM 03H1	MRH1140	bacteria
+Porphyrobacter sp. YT40	Porphyrobacter sp. YT40	MRH1141	bacteria
+Porphyrobacter sp. HT-58-2	Porphyrobacter sp. HT-58-2	MRH1142	bacteria
+Porphyrobacter sp. LM 6	Porphyrobacter sp. LM 6	MRH1143	bacteria
+Dechloromonas	Dechloromonas	MRH1144	bacteria
+Novosphingobium pentaromativorans	Novosphingobium pentaromativorans	MRH1145	bacteria
+Novosphingobium aromaticivorans	Novosphingobium aromaticivorans	MRH1146	bacteria
+Novosphingobium sp. THN1	Novosphingobium sp. THN1	MRH1147	bacteria
+Aurantiacibacter	Aurantiacibacter	MRH1148	bacteria
+Qipengyuania	Qipengyuania	MRH1149	bacteria
+Qipengyuania flava	Qipengyuania flava	MRH1150	bacteria
+Sphingopyxis sp. FD7	Sphingopyxis sp. FD7	MRH1151	bacteria
+Sphingopyxis fribergensis	Sphingopyxis fribergensis	MRH1152	bacteria
+Sphingopyxis granuli	Sphingopyxis granuli	MRH1153	bacteria
+Sphingobium sp. RSMS	Sphingobium sp. RSMS	MRH1154	bacteria
+Sphingobium sp. TKS	Sphingobium sp. TKS	MRH1155	bacteria
+Sphingobium japonicum	Sphingobium indicum	MRH1156	bacteria
+Sphingobium fuliginis	Sphingobium fuliginis	MRH1157	bacteria
+Sphingobium sp. YG1	Sphingobium sp. YG1	MRH1158	bacteria
+Caulobacter sp. FWC26	Caulobacter sp. FWC26	MRH1159	bacteria
+Methylobacillus	Methylobacillus	MRH1160	bacteria
+Actinomadura	Actinomadura	MRH1161	bacteria
+Corynebacterium imitans	Corynebacterium imitans	MRH1162	bacteria
+Mycolicibacterium mucogenicum	Mycolicibacterium mucogenicum	MRH1163	bacteria
+Methylibium	Methylibium	MRH1164	bacteria
+Elizabethkingia bruuniana	Elizabethkingia bruuniana	MRH1165	bacteria
+Elizabethkingia anophelis	Elizabethkingia anophelis	MRH1166	bacteria
+Roseomonas sp. FDAARGOS_362	Roseomonas sp. FDAARGOS_362	MRH1167	bacteria
+Granulibacter	Granulibacter	MRH1168	bacteria
+Granulibacter bethesdensis	Granulibacter bethesdensis	MRH1169	bacteria
+Geodermatophilus obscurus	Geodermatophilus obscurus	MRH1170	bacteria
+Rhizorhabdus	Rhizorhabdus	MRH1171	bacteria
+Roseateles	Roseateles	MRH1172	bacteria
+Sorangium	Sorangium	MRH1173	bacteria
+Sorangium cellulosum	Sorangium cellulosum	MRH1174	bacteria
+Wickerhamiella domercqiae	Wickerhamiella domercqiae	MRH1175	fungus
+Mameliella	Mameliella	MRH1176	bacteria
+Mameliella alba	Mameliella alba	MRH1177	bacteria
+Zygosaccharomyces parabailii	Zygosaccharomyces parabailii	MRH1178	fungus
+Starmerella sp. CLIB 1634	Starmerella sp. CLIB 1634	MRH1179	fungus
+Maricaulis maris	Maricaulis maris	MRH1180	bacteria
+Undibacterium	Undibacterium	MRH1181	bacteria
+Undibacterium squillarum	Undibacterium squillarum	MRH1182	bacteria
+Alcanivorax xenomutans	Alcanivorax xenomutans	MRH1183	bacteria
+Muricauda ruestringensis	Muricauda ruestringensis	MRH1184	bacteria
+Candidatus Phaeomarinobacter	Candidatus Phaeomarinobacter	MRH1185	bacteria
+Candidatus Phaeomarinobacter ectocarpi	Candidatus Phaeomarinobacter ectocarpi	MRH1186	bacteria
+Marinobacter hydrocarbonoclasticus	Marinobacter nauticus	MRH1187	bacteria
+Marinobacter sp. LQ44	Marinobacter sp. LQ44	MRH1188	bacteria
+Erythrobacter sp. THAF29	Erythrobacter sp. THAF29	MRH1189	bacteria
+Erythrobacter mangrovi	Erythrobacter mangrovi	MRH1190	bacteria
+Symbiodinium sp. Mf1.05b	Symbiodinium sp. Mf1.05b	MRH1191	other_eukaryota
+Limnobacter sp. SAORIC-580	Limnobacter sp. SAORIC-580	MRH1192	bacteria
+Methylobacterium durans	Methylobacterium durans	MRH1193	bacteria
+Blastomonas	Blastomonas	MRH1194	bacteria
+Blastomonas fulva	Blastomonas fulva	MRH1195	bacteria
+Lactobacillus bombicola	Lactobacillus bombicola	MRH1196	bacteria
+Burkholderia cepacia	Burkholderia cepacia	MRH1197	bacteria
+Natronomonas	Natronomonas	MRH1198	archaea
+Natronomonas sp. C90	Natronomonas halophila	MRH1199	archaea
+Nordella	Nordella	MRH1200	bacteria
+Nordella sp. HKS 07	Nordella sp. HKS 07	MRH1201	bacteria
+Arenibacter algicola	Arenibacter algicola	MRH1202	bacteria
+Raoultella planticola	Raoultella planticola	MRH1203	bacteria
+Aurantiacibacter atlanticus	Aurantiacibacter atlanticus	MRH1204	bacteria
+Candidatus Fonsibacter	Candidatus Fonsibacter	MRH1205	bacteria
+Candidatus Fonsibacter ubiquis	Candidatus Fonsibacter ubiquis	MRH1206	bacteria
+Roseovarius sp. THAF9	Roseovarius sp. THAF9	MRH1207	bacteria
+Antarctobacter	Antarctobacter	MRH1208	bacteria
+Antarctobacter heliothermus	Antarctobacter heliothermus	MRH1209	bacteria
+Candidatus Methylopumilus	Candidatus Methylopumilus	MRH1210	bacteria
+Candidatus Methylopumilus rimovensis	Candidatus Methylopumilus rimovensis	MRH1211	bacteria
+Mycolicibacterium aubagnense	Mycolicibacterium aubagnense	MRH1212	bacteria
+Methylophilus	Methylophilus	MRH1213	bacteria
+Pseudomonas sp. S35	Pseudomonas sp. S35	MRH1214	bacteria
+Pseudomonas tolaasii	Pseudomonas tolaasii	MRH1215	bacteria
+Sphingomonas sp. A4	Sphingomonas sp. A4	MRH1216	bacteria
+Sphingomonas wittichii	Rhizorhabdus wittichii	MRH1217	bacteria
+Sulfitobacter	Sulfitobacter	MRH1218	bacteria
+Sinorhizobium sp. RAC02	Sinorhizobium sp. RAC02	MRH1219	bacteria
+Salegentibacter	Salegentibacter	MRH1220	bacteria
+Bosea sp. RAC05	Bosea sp. RAC05	MRH1221	bacteria
+Celeribacter	Celeribacter	MRH1222	bacteria
+Salipiger	Salipiger	MRH1223	bacteria
+Synechococcus	Synechococcus	MRH1224	bacteria
+Synechococcus elongatus	Synechococcus elongatus	MRH1225	bacteria
+Microbacterium sp. 10M-3C3	Microbacterium sp. 10M-3C3	MRH1226	bacteria
+Microbacterium sp. ABRD_28	Microbacterium sp. ABRD_28	MRH1227	bacteria
+Agrobacterium sp. RAC06	Agrobacterium sp. RAC06	MRH1228	bacteria
+Kocuria turfanensis	Kocuria turfanensis	MRH1229	bacteria
+Sphingobium hydrophobicum	Sphingobium xenophagum	MRH1230	bacteria
+Sphingobium baderi	Sphingobium baderi	MRH1231	bacteria
+Sphingobium amiense	Sphingobium amiense	MRH1232	bacteria
+Herbaspirillum seropedicae	Herbaspirillum seropedicae	MRH1233	bacteria
+Herbaspirillum rubrisubalbicans	Herbaspirillum rubrisubalbicans	MRH1234	bacteria
+non-genus-specific reads in family Rhodocyclaceae	Rhodocyclaceae	MRH1235	bacteria
+Sphingopyxis macrogoltabida	Sphingopyxis macrogoltabida	MRH1236	bacteria
+Sphingopyxis alaskensis	Sphingopyxis alaskensis	MRH1237	bacteria
+Citromicrobium	Citromicrobium	MRH1238	bacteria
+Comamonas kerstersii	Comamonas kerstersii	MRH1239	bacteria
+Mycobacteroides abscessus	Mycobacteroides abscessus	MRH1240	bacteria
+Parageobacillus	Parageobacillus	MRH1241	bacteria
+Parageobacillus thermoglucosidasius	Parageobacillus thermoglucosidasius	MRH1242	bacteria
+Undibacterium sp. YM2	Undibacterium sp. YM2	MRH1243	bacteria
+Leishmania panamensis	Leishmania panamensis	MRH1244	other_eukaryota
+Burkholderia stabilis	Burkholderia stabilis	MRH1245	bacteria
+Crithidia	Crithidia	MRH1246	other_eukaryota
+Crithidia fasciculata	Crithidia fasciculata	MRH1247	other_eukaryota
+Crithidia acanthocephali	Crithidia acanthocephali	MRH1248	other_eukaryota
+Crithidia brevicula	Crithidia brevicula	MRH1249	other_eukaryota
+Methylobacterium sp. 17Sr1-1	Methylobacterium sp. 17Sr1-1	MRH1250	bacteria
+Methylobacterium hispanicum	Methylobacterium hispanicum	MRH1251	bacteria
+Erythrobacter neustonensis	Erythrobacter neustonensis	MRH1252	bacteria
+Pseudomonas extremorientalis	Pseudomonas extremorientalis	MRH1253	bacteria
+Pseudomonas cedrina	Pseudomonas cedrina	MRH1254	bacteria
+Pseudomonas sp. VLB120	Pseudomonas sp. VLB120	MRH1255	bacteria
+Zelonia	Zelonia	MRH1256	other_eukaryota
+Curvibacter	Curvibacter	MRH1257	bacteria
+Caballeronia	Caballeronia	MRH1258	bacteria
+Halobellus	Halobellus	MRH1259	archaea
+Sphingomonas sp. LMO-1	Sphingomonas profundi	MRH1260	bacteria
+Sphingomonas sp. HMP9	Sphingomonas sp. HMP9	MRH1261	bacteria
+Aquincola	Aquincola	MRH1262	bacteria
+Aquincola tertiaricarbonis	Aquincola tertiaricarbonis	MRH1263	bacteria
+Brucella vulpis	Brucella vulpis	MRH1264	bacteria
+Acanthamoeba	Acanthamoeba	MRH1265	other_eukaryota
+Acanthamoeba castellanii	Acanthamoeba castellanii	MRH1266	other_eukaryota
+Thiomonas	Thiomonas	MRH1267	bacteria
+Thiomonas sp. CB2	Thiomonas sp. CB2	MRH1268	bacteria
+Mesorhizobium sp. DCY119	Mesorhizobium sp. DCY119	MRH1269	bacteria
+Sphingobium sp. SCG-1	Sphingobium sp. SCG-1	MRH1270	bacteria
+Sphingobium chlorophenolicum	Sphingobium chlorophenolicum	MRH1271	bacteria
+Mycolicibacterium phocaicum	Mycolicibacterium phocaicum	MRH1272	bacteria
+Sphingosinicella microcystinivorans	Sphingosinicella microcystinivorans	MRH1273	bacteria
+Aerococcus urinaeequi	Aerococcus urinaeequi	MRH1274	bacteria
+Cupriavidus nantongensis	Cupriavidus nantongensis	MRH1275	bacteria
+Sphingorhabdus	Sphingorhabdus	MRH1276	bacteria
+Myxococcus	Myxococcus	MRH1277	bacteria
+Myxococcus xanthus	Myxococcus xanthus	MRH1278	bacteria
+Enterobacter cloacae complex sp. FDA-CDC-AR_0132	Enterobacter cloacae complex sp. FDA-CDC-AR_0132	MRH1279	bacteria
+Cedecea lapagei	Cedecea lapagei	MRH1280	bacteria
+Marinobacter	Marinobacter	MRH1281	bacteria
+Marinobacter salarius	Marinobacter salarius	MRH1282	bacteria
+Burkholderia gladioli	Burkholderia gladioli	MRH1283	bacteria
+Thermus oshimai	Thermus oshimai	MRH1284	bacteria
+Beauveria	Beauveria	MRH1285	fungus
+Beauveria bassiana	Beauveria bassiana	MRH1286	fungus
+Stenotrophomonas sp. NA06056	Stenotrophomonas sp. NA06056	MRH1287	bacteria
+Bifidobacterium asteroides	Bifidobacterium asteroides	MRH1288	bacteria
+Pasteurella	Pasteurella	MRH1289	bacteria
+Pasteurella multocida	Pasteurella multocida	MRH1290	bacteria
+Arsenophonus	Arsenophonus	MRH1291	bacteria
+Lactobacillus amylolyticus	Lactobacillus amylolyticus	MRH1292	bacteria
+Haemophilus influenzae	Haemophilus influenzae	MRH1293	bacteria
+Haemophilus parahaemolyticus	Haemophilus parahaemolyticus	MRH1294	bacteria
+Leptotrichia trevisanii	Leptotrichia trevisanii	MRH1295	bacteria
+Fusarium pseudograminearum	Fusarium pseudograminearum	MRH1296	fungus
+Flammulina	Flammulina	MRH1297	fungus
+Flammulina velutipes	Flammulina velutipes	MRH1298	fungus
+Neisseria cinerea	Neisseria cinerea	MRH1299	bacteria
+Pseudomonas mandelii	Pseudomonas mandelii	MRH1300	bacteria
+Pseudomonas extremaustralis	Pseudomonas extremaustralis	MRH1301	bacteria
+Campylobacter concisus	Campylobacter concisus	MRH1302	bacteria
+Aggregatibacter segnis	Aggregatibacter segnis	MRH1303	bacteria
+Novosphingobium sp. PP1Y	Novosphingobium sp. PP1Y	MRH1304	bacteria
+Novosphingobium sp. ABRDHK2	Novosphingobium sp. EMRT-2	MRH1305	bacteria
+Eikenella	Eikenella	MRH1306	bacteria
+Sphingosinicella sp. UDD2	Sphingosinicella flava	MRH1307	bacteria
+Mesorhizobium sp. Pch-S	Mesorhizobium sp. Pch-S	MRH1308	bacteria
+Rahnella aquatilis	Rahnella aquatilis	MRH1309	bacteria
+Rubrivivax gelatinosus	Rubrivivax gelatinosus	MRH1310	bacteria
+Zygosaccharomyces sapae	Zygosaccharomyces sapae	MRH1311	fungus
+Enterococcus gallinarum	Enterococcus gallinarum	MRH1312	bacteria
+Enterococcus sp. FDAARGOS_375	Enterococcus sp. FDAARGOS_375	MRH1313	bacteria
+Aspergillus brunneoviolaceus	Aspergillus brunneoviolaceus	MRH1314	fungus
+Aspergillus novofumigatus	Aspergillus novofumigatus	MRH1315	fungus
+Aspergillus penicillioides	Aspergillus penicillioides	MRH1316	fungus
+Starmerella magnoliae	Starmerella magnoliae	MRH1317	fungus
+Lachancea thermotolerans	Lachancea thermotolerans	MRH1318	fungus
+Neohortaea	Neohortaea	MRH1319	fungus
+Neohortaea acidophila	Neohortaea acidophila	MRH1320	fungus
+Thermococcus	Thermococcus	MRH1321	archaea
+Thermococcus onnurineus	Thermococcus onnurineus	MRH1322	archaea
+Ogataea polymorpha	Ogataea polymorpha	MRH1323	fungus
+Phytophthora infestans	Phytophthora infestans	MRH1324	other_eukaryota
+Serratia plymuthica	Serratia plymuthica	MRH1325	bacteria
+Fonsecaea	Fonsecaea	MRH1326	fungus
+Pyricularia pennisetigena	Pyricularia pennisetigena	MRH1327	fungus
+Pyricularia oryzae	Pyricularia oryzae	MRH1328	fungus
+Rheinheimera sp. F8	Rheinheimera sp. F8	MRH1329	bacteria
+Tsuneonella	Tsuneonella	MRH1330	bacteria
+Tsuneonella mangrovi	Tsuneonella mangrovi	MRH1331	bacteria
+Rhizophagus	Rhizophagus	MRH1332	fungus
+Rhizophagus irregularis	Rhizophagus irregularis	MRH1333	fungus
+Acinetobacter towneri	Acinetobacter towneri	MRH1334	bacteria
+Pseudomonas libanensis	Pseudomonas libanensis	MRH1335	bacteria
+Corynebacterium sp. NML98-0116	Corynebacterium sp. NML98-0116	MRH1336	bacteria
+Nocardia	Nocardia	MRH1337	bacteria
+Hylemonella	Hylemonella	MRH1338	bacteria
+Hylemonella gracilis	Hylemonella gracilis	MRH1339	bacteria
+Fusarium graminearum	Fusarium graminearum	MRH1340	fungus
+Fusarium culmorum	Fusarium culmorum	MRH1341	fungus
+Fusarium venenatum	Fusarium venenatum	MRH1342	fungus
+Fusarium coffeatum	Fusarium coffeatum	MRH1343	fungus
+Wolinella	Wolinella	MRH1344	bacteria
+Wolinella succinogenes	Wolinella succinogenes	MRH1345	bacteria
+Pseudomonas sp. BJP69	Pseudomonas sp. BJP69	MRH1346	bacteria
+Pseudomonas resinovorans	Pseudomonas resinovorans	MRH1347	bacteria
+Ramularia collo-cygni	Ramularia collo-cygni	MRH1348	fungus
+Raoultella terrigena	Raoultella terrigena	MRH1349	bacteria
+Aspergillus fumigatus	Aspergillus fumigatus	MRH1350	fungus
+Chryseobacterium bernardetii	Chryseobacterium bernardetii	MRH1351	bacteria
+Paracoccus liaowanqingii	Paracoccus liaowanqingii	MRH1352	bacteria
+Aquabacterium sp. PL1F5	Aquabacterium sp. PL1F5	MRH1353	bacteria
+Aureobasidium subglaciale	Aureobasidium subglaciale	MRH1354	fungus
+Armillaria	Armillaria	MRH1355	fungus
+Armillaria ostoyae	Armillaria ostoyae	MRH1356	fungus
+[Candida] auris	[Candida] auris	MRH1357	fungus
+Saccharomycopsis	Saccharomycopsis	MRH1358	fungus
+Saccharomycopsis fodiens	Saccharomycopsis fodiens	MRH1359	fungus
+Phialocephala	Phialocephala	MRH1360	fungus
+Agaricus	Agaricus	MRH1361	fungus
+Agaricus bisporus	Agaricus bisporus	MRH1362	fungus
+Bipolaris maydis	Bipolaris maydis	MRH1363	fungus
+Exserohilum	Exserohilum	MRH1364	fungus
+Exserohilum turcicum	Exserohilum turcicum	MRH1365	fungus
+Rhizopus	Rhizopus	MRH1366	fungus
+Rahnella sp. ERMR1:05	Rahnella sp. ERMR1:05	MRH1367	bacteria
+Plasmopara	Plasmopara	MRH1368	other_eukaryota
+Plasmopara halstedii	Plasmopara halstedii	MRH1369	other_eukaryota
+Erwinia billingiae	Erwinia billingiae	MRH1370	bacteria
+Levilactobacillus	Levilactobacillus	MRH1371	bacteria
+Aspergillus pseudoglaucus	Aspergillus pseudoglaucus	MRH1372	fungus
+Arsenophonus endosymbiont of Aphis craccivora	Arsenophonus endosymbiont of Aphis craccivora	MRH1373	bacteria
+Apilactobacillus	Apilactobacillus	MRH1374	bacteria
+Apilactobacillus kunkeei	Apilactobacillus kunkeei	MRH1375	bacteria
+Zygosaccharomyces bisporus	Zygosaccharomyces bisporus	MRH1376	fungus
+Bifidobacterium actinocoloniiforme	Bifidobacterium actinocoloniiforme	MRH1377	bacteria
+Erwinia sp. QL-Z3	Erwinia sp. QL-Z3	MRH1378	bacteria
+Serratia rubidaea	Serratia rubidaea	MRH1379	bacteria
+Yersinia	Yersinia	MRH1380	bacteria
+Cronobacter	Cronobacter	MRH1381	bacteria
+Cronobacter sakazakii	Cronobacter sakazakii	MRH1382	bacteria
+Erwinia persicina	Erwinia persicina	MRH1383	bacteria
+Rouxiella badensis	Rouxiella badensis	MRH1384	bacteria
+Enterobacteriaceae bacterium Kacie_13	Enterobacteriaceae bacterium Kacie_13	MRH1385	bacteria
+Pseudomonas graminis	Pseudomonas graminis	MRH1386	bacteria
+Candidatus Snodgrassella sp. TA1_30860	Candidatus Snodgrassella sp. TA1_30860	MRH1387	bacteria
+Frischella perrara	Frischella perrara	MRH1388	bacteria
+Lactobacillus helsingborgensis	Lactobacillus helsingborgensis	MRH1389	bacteria
+Lactobacillus kullabergensis	Lactobacillus kullabergensis	MRH1390	bacteria
+Lactobacillus sp. wkB8	Lactobacillus sp. wkB8	MRH1391	bacteria
+Commensalibacter	Commensalibacter	MRH1392	bacteria
+Commensalibacter sp. AMU001	Commensalibacter sp. AMU001	MRH1393	bacteria
+Commensalibacter sp. ESL0284	Commensalibacter sp. ESL0284	MRH1394	bacteria
+Orbus	Orbus	MRH1395	bacteria
+Bartonella	Bartonella	MRH1396	bacteria
+Bartonella apis	Bartonella apis	MRH1397	bacteria
+Sodalis	Sodalis	MRH1398	bacteria
+Sodalis praecaptivus	Sodalis praecaptivus	MRH1399	bacteria
+Candidatus Sodalis pierantonius	Candidatus Sodalis pierantonius	MRH1400	bacteria
+Wolbachia pipientis	Wolbachia pipientis	MRH1401	bacteria
+Wolbachia endosymbiont of Diaphorina citri	Wolbachia endosymbiont of Diaphorina citri	MRH1402	bacteria
+Leuconostoc pseudomesenteroides	Leuconostoc pseudomesenteroides	MRH1403	bacteria
+Plautia stali symbiont	Plautia stali symbiont	MRH1404	bacteria
+Spiroplasma	Spiroplasma	MRH1405	bacteria
+Spiroplasma apis	Spiroplasma apis	MRH1406	bacteria
+Spiroplasma melliferum	Spiroplasma melliferum	MRH1407	bacteria
+Spiroplasma citri	Spiroplasma citri	MRH1408	bacteria
+Leishmania mexicana	Leishmania mexicana	MRH1409	other_eukaryota
+Leishmania infantum	Leishmania infantum	MRH1410	other_eukaryota
+Crithidia mellificae	Crithidia mellificae	MRH1411	other_eukaryota
+Lotmaria	Lotmaria	MRH1412	other_eukaryota
+Lotmaria passim	Lotmaria passim	MRH1413	other_eukaryota
+Angomonas	Angomonas	MRH1414	other_eukaryota
+Angomonas deanei	Angomonas deanei	MRH1415	other_eukaryota
+Spiroplasma phoeniceum	Spiroplasma phoeniceum	MRH1416	bacteria
+Spiroplasma kunkelii	Spiroplasma kunkelii	MRH1417	bacteria
+Spiroplasma clarkii	Spiroplasma clarkii	MRH1418	bacteria
+Providencia rettgeri	Providencia rettgeri	MRH1419	bacteria
+Carnimonas	Carnimonas	MRH1420	bacteria
+Carnimonas nigrificans	Carnimonas nigrificans	MRH1421	bacteria
+Morganella	Morganella	MRH1422	bacteria
+Morganella morganii	Morganella morganii	MRH1423	bacteria
+Wolbachia endosymbiont of Drosophila simulans	Wolbachia endosymbiont of Drosophila simulans	MRH1424	bacteria
+Wolbachia endosymbiont of Drosophila incompta	Wolbachia endosymbiont of Drosophila incompta	MRH1425	bacteria
+Wolbachia endosymbiont of Xylosandrus germanus	Wolbachia endosymbiont of Xylosandrus germanus	MRH1426	bacteria
+Leishmania braziliensis	Leishmania braziliensis	MRH1427	other_eukaryota
+Providencia stuartii	Providencia stuartii	MRH1428	bacteria
+Wolbachia endosymbiont of Culex quinquefasciatus	Wolbachia endosymbiont of Culex quinquefasciatus	MRH1429	bacteria
+Wolbachia endosymbiont of Ctenocephalides felis wCfeJ	Wolbachia endosymbiont of Ctenocephalides felis wCfeJ	MRH1430	bacteria
+Latilactobacillus	Latilactobacillus	MRH1431	bacteria
+Latilactobacillus curvatus	Latilactobacillus curvatus	MRH1432	bacteria
+Latilactobacillus sakei	Latilactobacillus sakei	MRH1433	bacteria
+Polaromonas	Polaromonas	MRH1434	bacteria
+Rosenbergiella	Rosenbergiella	MRH1435	bacteria
+Rosenbergiella nectarea	Rosenbergiella nectarea	MRH1436	bacteria
+Leuconostoc mesenteroides	Leuconostoc mesenteroides	MRH1437	bacteria
+Aerococcus viridans	Aerococcus viridans	MRH1438	bacteria
+Pseudoclavibacter	Pseudoclavibacter	MRH1439	bacteria
+Leptomonas cf. pyrrhocoris	Leptomonas cf. pyrrhocoris	MRH1440	other_eukaryota
+Wolbachia endosymbiont of Carposina sasakii	Wolbachia endosymbiont of Carposina sasakii	MRH1441	bacteria
+Wolbachia endosymbiont of Drosophila ananassae	Wolbachia endosymbiont of Drosophila ananassae	MRH1442	bacteria
+Weissella hellenica	Weissella hellenica	MRH1443	bacteria
+Weissella paramesenteroides	Weissella paramesenteroides	MRH1444	bacteria
+Bifidobacterium indicum	Bifidobacterium indicum	MRH1445	bacteria
+Bifidobacterium coryneforme	Bifidobacterium coryneforme	MRH1446	bacteria
+Aspergillus mulundensis	Aspergillus mulundensis	MRH1447	fungus
+Paracoccidioides brasiliensis	Paracoccidioides brasiliensis	MRH1448	fungus
+Alteromonas	Alteromonas	MRH1449	bacteria
+Alteromonas macleodii	Alteromonas macleodii	MRH1450	bacteria
+Baudoinia	Baudoinia	MRH1451	fungus
+Baudoinia panamericana	Baudoinia panamericana	MRH1452	fungus
+Corynebacterium efficiens	Corynebacterium efficiens	MRH1453	bacteria
+Leuconostoc suionicum	Leuconostoc suionicum	MRH1454	bacteria
+Lonsdalea	Lonsdalea	MRH1455	bacteria
+Lonsdalea britannica	Lonsdalea britannica	MRH1456	bacteria
+Lonsdalea populi	Lonsdalea populi	MRH1457	bacteria
+Lonsdalea quercina	Lonsdalea quercina	MRH1458	bacteria
+Pectobacterium parmentieri	Pectobacterium parmentieri	MRH1459	bacteria
+Pectobacterium versatile	Pectobacterium versatile	MRH1460	bacteria
+Pectobacterium carotovorum	Pectobacterium carotovorum	MRH1461	bacteria
+Weissella thailandensis	Weissella thailandensis	MRH1462	bacteria
+Dickeya fangzhongdai	Dickeya fangzhongdai	MRH1463	bacteria
+Dickeya chrysanthemi	Dickeya chrysanthemi	MRH1464	bacteria
+Brenneria goodwinii	Brenneria goodwinii	MRH1465	bacteria
+Gibbsiella	Gibbsiella	MRH1466	bacteria
+Gibbsiella quercinecans	Gibbsiella quercinecans	MRH1467	bacteria
+Yersinia enterocolitica	Yersinia enterocolitica	MRH1468	bacteria
+Erwinia amylovora	Erwinia amylovora	MRH1469	bacteria
+Gluconobacter oxydans	Gluconobacter oxydans	MRH1470	bacteria
+Tilletiopsis	Tilletiopsis	MRH1471	fungus
+Tilletiopsis washingtonensis	Tilletiopsis washingtonensis	MRH1472	fungus
+Legionella	Legionella	MRH1473	bacteria
+Sodalis glossinidius	Sodalis glossinidius	MRH1474	bacteria
+Puccinia striiformis	Puccinia striiformis	MRH1475	fungus
+Saprochaete	Saprochaete	MRH1476	fungus
+Saprochaete ingens	Saprochaete ingens	MRH1477	fungus
+Chryseobacterium taihuense	Chryseobacterium taihuense	MRH1478	bacteria
+Herbaspirillum frisingense	Herbaspirillum frisingense	MRH1479	bacteria
+Nosema apis	Nosema apis	MRH1480	fungus
+Crithidia thermophila	Crithidia thermophila	MRH1481	other_eukaryota
+Rhodotorula	Rhodotorula	MRH1482	fungus
+Cladosporium sp.	Cladosporium sp.	MRH1483	fungus
+Paraphaeosphaeria sporulosa	Paraphaeosphaeria sporulosa	MRH1484	fungus
+Mucor	Mucor	MRH1485	fungus
+Pyrenophora	Pyrenophora	MRH1486	fungus
+Glarea	Glarea	MRH1487	fungus
+Glarea lozoyensis	Glarea lozoyensis	MRH1488	fungus
+Pseudocercospora fijiensis	Pseudocercospora fijiensis	MRH1489	fungus
+Rhodotorula graminis	Rhodotorula graminis	MRH1490	fungus
+Nosema bombi	Nosema bombi	MRH1491	fungus
+Gammaproteobacteria bacterium ESL0073	Gammaproteobacteria bacterium ESL0073	MRH1492	bacteria
+Metschnikowia gruessii	Metschnikowia gruessii	MRH1493	fungus
+Cryptococcus gattii VGI	Cryptococcus gattii VGI	MRH1494	fungus
+Fructobacillus	Fructobacillus	MRH1495	bacteria
+Fusarium fujikuroi	Fusarium fujikuroi	MRH1496	fungus
+Pseudomonas sp. KU43P	Pseudomonas sp. KU43P	MRH1497	bacteria
+Pseudomonas mosselii	Pseudomonas mosselii	MRH1498	bacteria
+Debaryomyces maramus	Debaryomyces maramus	MRH1499	fungus
+Verticillium dahliae	Verticillium dahliae	MRH1500	fungus
+Aspergillus thermomutatus	Aspergillus thermomutatus	MRH1501	fungus
+Aspergillus fischeri	Aspergillus fischeri	MRH1502	fungus
+Aspergillus tanneri	Aspergillus tanneri	MRH1503	fungus
+Aspergillus clavatus	Aspergillus clavatus	MRH1504	fungus
+Limosilactobacillus	Limosilactobacillus	MRH1505	bacteria
+[Candida] pseudohaemulonis	[Candida] pseudohaemulonis	MRH1506	fungus
+[Candida] duobushaemulonis	[Candida] duobushaemulonis	MRH1507	fungus
+Botrytis fabae	Botrytis fabae	MRH1508	fungus
+Phocaeicola dorei	Phocaeicola dorei	MRH1509	bacteria
+Pneumocystis jirovecii	Pneumocystis jirovecii	MRH1510	fungus
+Wolbachia endosymbiont of Cimex lectularius	Wolbachia endosymbiont of Cimex lectularius	MRH1511	bacteria
+Komagataella phaffii	Komagataella phaffii	MRH1512	fungus
+Phycomyces	Phycomyces	MRH1513	fungus
+Phycomyces blakesleeanus	Phycomyces blakesleeanus	MRH1514	fungus
+Cedecea sp. FDAARGOS_727	Cedecea sp. FDAARGOS_727	MRH1515	bacteria
+Euglena	Euglena	MRH1516	other_eukaryota
+Euglena gracilis	Euglena gracilis	MRH1517	other_eukaryota
+Endocarpon	Endocarpon	MRH1518	fungus
+Endocarpon pusillum	Endocarpon pusillum	MRH1519	fungus
+Lachnospira	Lachnospira	MRH1520	bacteria
+Lachnospira eligens	Lachnospira eligens	MRH1521	bacteria
+Purpureocillium	Purpureocillium	MRH1522	fungus
+Purpureocillium lilacinum	Purpureocillium lilacinum	MRH1523	fungus
+Cordyceps militaris	Cordyceps militaris	MRH1524	fungus
+Lachnellula	Lachnellula	MRH1525	fungus
+Sporobolomyces	Sporobolomyces	MRH1526	fungus
+Sporobolomyces roseus	Sporobolomyces roseus	MRH1527	fungus
+Coprococcus	Coprococcus	MRH1528	bacteria
+Sodiomyces	Sodiomyces	MRH1529	fungus
+Sodiomyces alkalinus	Sodiomyces alkalinus	MRH1530	fungus
+Paratrypanosoma	Paratrypanosoma	MRH1531	other_eukaryota
+Paratrypanosoma confusum	Paratrypanosoma confusum	MRH1532	other_eukaryota
+Bacteroides thetaiotaomicron	Bacteroides thetaiotaomicron	MRH1533	bacteria
+Bacteroides fragilis	Bacteroides fragilis	MRH1534	bacteria
+Bacteroides xylanisolvens	Bacteroides xylanisolvens	MRH1535	bacteria
+Bacteroides intestinalis	Bacteroides intestinalis	MRH1536	bacteria
+[Eubacterium] rectale	[Eubacterium] rectale	MRH1537	bacteria
+Lachnospiraceae bacterium	Lachnospiraceae bacterium	MRH1538	bacteria
+Phascolarctobacterium	Phascolarctobacterium	MRH1539	bacteria
+Phascolarctobacterium faecium	Phascolarctobacterium faecium	MRH1540	bacteria
+Ophiocordyceps	Ophiocordyceps	MRH1541	fungus
+Roseburia intestinalis	Roseburia intestinalis	MRH1542	bacteria
+Alistipes onderdonkii	Alistipes onderdonkii	MRH1543	bacteria
+Neurospora tetrasperma	Neurospora tetrasperma	MRH1544	fungus
+Ruminococcus	Ruminococcus	MRH1545	bacteria
+Ruminococcus bicirculans	Ruminococcus bicirculans	MRH1546	bacteria
+Parabacteroides	Parabacteroides	MRH1547	bacteria
+Parabacteroides distasonis	Parabacteroides distasonis	MRH1548	bacteria
+Clostridioides	Clostridioides	MRH1549	bacteria
+Clostridioides difficile	Clostridioides difficile	MRH1550	bacteria
+Enterobacter sp. 638	Enterobacter sp. 638	MRH1551	bacteria
+Gilliamella bombicola	Gilliamella bombicola	MRH1552	bacteria
+Pseudomonas plecoglossicida	Pseudomonas plecoglossicida	MRH1553	bacteria
+Filobasidium	Filobasidium	MRH1554	fungus
+Bifidobacterium longum	Bifidobacterium longum	MRH1555	bacteria
+Bifidobacterium bombi	Bifidobacterium bombi	MRH1556	bacteria
+Rhodoluna	Rhodoluna	MRH1557	bacteria
+Erwinia tasmaniensis	Erwinia tasmaniensis	MRH1558	bacteria
+Cladophialophora immunda	Cladophialophora immunda	MRH1559	fungus
+Polynucleobacter	Polynucleobacter	MRH1560	bacteria
+Capronia	Capronia	MRH1561	fungus
+Capronia coronata	Capronia coronata	MRH1562	fungus
+Meira	Meira	MRH1563	fungus
+Meira miltonrushii	Meira miltonrushii	MRH1564	fungus
+Arsenophonus endosymbiont of Bemisia tabaci	Arsenophonus endosymbiont of Bemisia tabaci	MRH1565	bacteria
+Lentilactobacillus	Lentilactobacillus	MRH1566	bacteria
+Apibacter raozihei	Apibacter raozihei	MRH1567	bacteria
+Aureobasidium melanogenum	Aureobasidium melanogenum	MRH1568	fungus
+Cryptococcus amylolentus	Cryptococcus amylolentus	MRH1569	fungus
+Trichoderma harzianum	Trichoderma harzianum	MRH1570	fungus
+Entomomonas	Entomomonas	MRH1571	bacteria
+Entomomonas moraniae	Entomomonas moraniae	MRH1572	bacteria
+Phocaeicola	Phocaeicola	MRH1573	bacteria
+Phocaeicola vulgatus	Phocaeicola vulgatus	MRH1574	bacteria
+Hafnia paralvei	Hafnia paralvei	MRH1575	bacteria
+Puccinia graminis	Puccinia graminis	MRH1576	fungus
+Dichomitus	Dichomitus	MRH1577	fungus
+Dichomitus squalens	Dichomitus squalens	MRH1578	fungus
+Paracoccidioides	Paracoccidioides	MRH1579	fungus
+Alistipes communis	Alistipes communis	MRH1580	bacteria
+Glaesserella	Glaesserella	MRH1581	bacteria
+Glaesserella parasuis	Glaesserella parasuis	MRH1582	bacteria
+Cohnella	Cohnella	MRH1583	bacteria
+Kluyvera intermedia	Kluyvera intermedia	MRH1584	bacteria
+[Eubacterium] siraeum	[Eubacterium] siraeum	MRH1585	bacteria
+Mediterraneibacter	Mediterraneibacter	MRH1586	bacteria
+Prevotella copri	Prevotella copri	MRH1587	bacteria
+Priestia	Priestia	MRH1588	bacteria
+Priestia megaterium	Priestia megaterium	MRH1589	bacteria
+Flavobacterium columnare	Flavobacterium columnare	MRH1590	bacteria
+Eikenella corrodens	Eikenella corrodens	MRH1591	bacteria
+Akkermansia	Akkermansia	MRH1592	bacteria
+Akkermansia muciniphila	Akkermansia muciniphila	MRH1593	bacteria
+Metschnikowia rancensis	Metschnikowia rancensis	MRH1594	fungus
+Pleurotus ostreatus	Pleurotus ostreatus	MRH1595	fungus
+Cladosporium sphaerospermum	Cladosporium sphaerospermum	MRH1596	fungus
+Fructobacillus tropaeoli	Fructobacillus tropaeoli	MRH1597	bacteria
+Bacillus velezensis	Bacillus velezensis	MRH1598	bacteria
+Pseudomonas sp. R5-89-07	Pseudomonas sp. R5-89-07	MRH1599	bacteria
+Pseudomonas koreensis	Pseudomonas koreensis	MRH1600	bacteria
+Carnobacterium divergens	Carnobacterium divergens	MRH1601	bacteria
+Edwardsiella	Edwardsiella	MRH1602	bacteria
+Polynucleobacter asymbioticus	Polynucleobacter asymbioticus	MRH1603	bacteria
+Pochonia	Pochonia	MRH1604	fungus
+Pochonia chlamydosporia	Pochonia chlamydosporia	MRH1605	fungus
+Arsenophonus nasoniae	Arsenophonus nasoniae	MRH1606	bacteria
+Euglena agilis	Euglena agilis	MRH1607	other_eukaryota
+Metschnikowia australis	Metschnikowia australis	MRH1608	fungus
+Apibacter adventoris	Apibacter adventoris	MRH1609	bacteria
+Aspergillus felis	Aspergillus felis	MRH1610	fungus
+Aspergillus sclerotioniger	Aspergillus sclerotioniger	MRH1611	fungus
+Serratia ureilytica	Serratia ureilytica	MRH1612	bacteria
+Serratia symbiotica	Serratia symbiotica	MRH1613	bacteria
+Colletotrichum higginsianum	Colletotrichum higginsianum	MRH1614	fungus
+Secundilactobacillus	Secundilactobacillus	MRH1615	bacteria
+Orbus sp. IPMB12	Zophobihabitans entericus	MRH1616	bacteria
+Bacteroides caccae	Bacteroides caccae	MRH1617	bacteria
+Pseudogymnoascus verrucosus	Pseudogymnoascus verrucosus	MRH1618	fungus
+Coccidioides posadasii	Coccidioides posadasii	MRH1619	fungus
+Letharia columbiana	Letharia columbiana	MRH1620	fungus
+Paraprevotella	Paraprevotella	MRH1621	bacteria
+Roseburia	Roseburia	MRH1622	bacteria
+Roseburia inulinivorans	Roseburia inulinivorans	MRH1623	bacteria
+Candidatus Arsenophonus triatominarum	Candidatus Arsenophonus triatominarum	MRH1624	bacteria
+Lactobacillus bombintestini	Apilactobacillus bombintestini	MRH1625	bacteria
+Strigomonas oncopelti	Strigomonas oncopelti	MRH1626	other_eukaryota
+Saccharibacter	Saccharibacter	MRH1627	bacteria
+Saccharibacter floricola	Saccharibacter floricola	MRH1628	bacteria
+Chaetomium globosum	Chaetomium globosum	MRH1629	fungus
+Westerdykella	Westerdykella	MRH1630	fungus
+Westerdykella ornata	Westerdykella ornata	MRH1631	fungus
+Leptosphaeria	Leptosphaeria	MRH1632	fungus
+Leptosphaeria maculans	Leptosphaeria maculans	MRH1633	fungus
+Legionella pneumophila	Legionella pneumophila	MRH1634	bacteria
+Halobacteriovorax	Halobacteriovorax	MRH1635	bacteria
+Acinetobacter boissieri	Acinetobacter boissieri	MRH1636	bacteria
+Paucibacter	Paucibacter	MRH1637	bacteria
+Paucibacter sp. KCTC 42545	Paucibacter sp. KCTC 42545	MRH1638	bacteria
+Lichtheimia	Lichtheimia	MRH1639	fungus
+Leptomonas	Leptomonas	MRH1640	other_eukaryota
+Leptomonas pyrrhocoris	Leptomonas pyrrhocoris	MRH1641	other_eukaryota
+Clostridium tetani	Clostridium tetani	MRH1642	bacteria
+Leptomonas podlipaevi	Leptomonas podlipaevi	MRH1643	other_eukaryota
+Leishmania major	Leishmania major	MRH1644	other_eukaryota
+Apibacter mensalis	Apibacter mensalis	MRH1645	bacteria
+Listeria monocytogenes	Listeria monocytogenes	MRH1646	bacteria
+Trypanosoma grayi	Trypanosoma grayi	MRH1647	other_eukaryota
+Lodderomyces	Lodderomyces	MRH1648	fungus
+Lodderomyces elongisporus	Lodderomyces elongisporus	MRH1649	fungus
+Streptomyces parvulus	Streptomyces parvulus	MRH1650	bacteria
+Corynebacterium simulans	Corynebacterium simulans	MRH1651	bacteria
+Corynebacterium glaucum	Corynebacterium glaucum	MRH1652	bacteria
+Kluyveromyces marxianus	Kluyveromyces marxianus	MRH1653	fungus
+Dermabacter	Dermabacter	MRH1654	bacteria
+Lichtheimia ramosa	Lichtheimia ramosa	MRH1655	fungus
+Paracoccus contaminans	Paracoccus contaminans	MRH1656	bacteria
+Leishmania amazonensis	Leishmania amazonensis	MRH1657	other_eukaryota
+Leishmania enriettii	Leishmania enriettii	MRH1658	other_eukaryota
+Herpetomonas	Herpetomonas	MRH1659	other_eukaryota
+Pandoraea	Pandoraea	MRH1660	bacteria
+Corynebacterium diphtheriae	Corynebacterium diphtheriae	MRH1661	bacteria
+Oerskovia	Oerskovia	MRH1662	bacteria
+Streptomyces albidoflavus	Streptomyces albidoflavus	MRH1663	bacteria
+Sphingopyxis sp. OPL5	Sphingopyxis sp. OPL5	MRH1664	bacteria
+Sphingopyxis sp. EG6	Sphingopyxis sp. EG6	MRH1665	bacteria
+Sphingopyxis terrae	Sphingopyxis terrae	MRH1666	bacteria
+Sphingopyxis sp. MG	Sphingopyxis sp. MG	MRH1667	bacteria
+Sphingopyxis sp. QXT-31	Sphingopyxis sp. QXT-31	MRH1668	bacteria
+Sphingopyxis sp. PAMC25046	Sphingopyxis sp. PAMC25046	MRH1669	bacteria
+Lacibacter	Lacibacter	MRH1670	bacteria
+Leptospira	Leptospira	MRH1671	bacteria
+Filimonas	Filimonas	MRH1672	bacteria
+Arcobacter	Arcobacter	MRH1673	bacteria
+Arcobacter cryaerophilus	Aliarcobacter cryaerophilus	MRH1674	bacteria
+Sphingomonas sp. IC081	Sphingomonas sp. IC081	MRH1675	bacteria
+Lactococcus sp. KACC 19320	Lactococcus protaetiae	MRH1676	bacteria
+Sphaerotilus	Sphaerotilus	MRH1677	bacteria
+Strigomonas	Strigomonas	MRH1678	other_eukaryota
+Pleurotus	Pleurotus	MRH1679	fungus
+Cryptosporidium	Cryptosporidium	MRH1680	other_eukaryota
+Crithidia bombi	Crithidia bombi	MRH1681	other_eukaryota
+Herpetomonas muscarum	Herpetomonas muscarum	MRH1682	other_eukaryota
+Chromobacterium	Chromobacterium	MRH1683	bacteria
+Cercospora beticola	Cercospora beticola	MRH1684	fungus
+Pseudomonas sp. XWY-1	Pseudomonas sp. XWY-1	MRH1685	bacteria
+Pseudomonas parafulva	Pseudomonas parafulva	MRH1686	bacteria
+Moniliella	Moniliella	MRH1687	fungus
+Moniliella nigrescens	Moniliella nigrescens	MRH1688	fungus
+Moniliella megachiliensis	Moniliella megachiliensis	MRH1689	fungus
+Chryseobacterium cucumeris	Chryseobacterium cucumeris	MRH1690	bacteria
+Arthrobacter sp. 24S4-2	Arthrobacter sp. 24S4-2	MRH1691	bacteria
+Chryseobacterium sp. JV274	Chryseobacterium sp. JV274	MRH1692	bacteria
+Lactobacillus mucosae	Limosilactobacillus mucosae	MRH1693	bacteria
+Pseudarthrobacter	Pseudarthrobacter	MRH1694	bacteria
+Chryseobacterium aureum	Chryseobacterium aureum	MRH1695	bacteria
+Chryseobacterium joostei	Chryseobacterium joostei	MRH1696	bacteria
+Chryseobacterium sp. G0186	Chryseobacterium sp. G0186	MRH1697	bacteria
+Chryseobacterium sp. G0162	Chryseobacterium sp. G0162	MRH1698	bacteria
+Chryseobacterium arthrosphaerae	Chryseobacterium arthrosphaerae	MRH1699	bacteria
+Chryseobacterium sp. StRB126	Chryseobacterium sp. StRB126	MRH1700	bacteria
+Chryseobacterium nakagawai	Chryseobacterium nakagawai	MRH1701	bacteria
+Chryseobacterium gallinarum	Chryseobacterium gallinarum	MRH1702	bacteria
+Chryseobacterium lactis	Chryseobacterium lactis	MRH1703	bacteria
+Pseudomonas sp. URMO17WK12:I11	Pseudomonas sp. URMO17WK12:I11	MRH1704	bacteria
+Rhodoluna lacicola	Rhodoluna lacicola	MRH1705	bacteria
+beta proteobacterium CB	beta proteobacterium CB	MRH1706	bacteria
+Polynucleobacter duraquae	Polynucleobacter duraquae	MRH1707	bacteria
+Polynucleobacter necessarius	Polynucleobacter necessarius	MRH1708	bacteria
+Paenibacillus mucilaginosus	Paenibacillus mucilaginosus	MRH1709	bacteria
+Alcaligenes aquatilis	Alcaligenes aquatilis	MRH1710	bacteria
+Lactobacillus melliventris	Lactobacillus melliventris	MRH1711	bacteria
+Pseudomonas versuta	Pseudomonas versuta	MRH1712	bacteria
+Pseudomonas taetrolens	Pseudomonas taetrolens	MRH1713	bacteria
+Lactobacillus kimbladii	Lactobacillus kimbladii	MRH1714	bacteria
+Serratia nematodiphila	Serratia nematodiphila	MRH1715	bacteria
+Diaphorobacter aerolatus	Diaphorobacter aerolatus	MRH1716	bacteria
+Citrobacter youngae	Citrobacter youngae	MRH1717	bacteria
+Agromyces	Agromyces	MRH1718	bacteria
+Ochrobactrum quorumnocens	[Ochrobactrum] quorumnocens	MRH1719	bacteria
+Kerstersia	Kerstersia	MRH1720	bacteria
+Kerstersia gyiorum	Kerstersia gyiorum	MRH1721	bacteria
+Blautia sp. LZLJ-3	Blautia liquoris	MRH1722	bacteria
+Trypanosoma cruzi	Trypanosoma cruzi	MRH1723	other_eukaryota
+Crithidia sp. ATCC 30255	Angomonas deanei	MRH1415	other_eukaryota
+Bacillus licheniformis	Bacillus licheniformis	MRH1724	bacteria
+Chroococcidiopsis thermalis	Chroococcidiopsis thermalis	MRH1725	bacteria
+Enterococcus pallens	Enterococcus pallens	MRH1726	bacteria
+Trypanosoma rangeli	Trypanosoma rangeli	MRH1727	other_eukaryota
+Aspergillus aculeatus	Aspergillus aculeatus	MRH1728	fungus
+Talaromyces atroroseus	Talaromyces atroroseus	MRH1729	fungus
+Zygosaccharomyces mellis	Zygosaccharomyces mellis	MRH1730	fungus
+Jonesia	Jonesia	MRH1731	bacteria
+Jonesia denitrificans	Jonesia denitrificans	MRH1732	bacteria
+Cobetia	Cobetia	MRH1733	bacteria
+Cobetia marina	Cobetia marina	MRH1734	bacteria
+Rickettsia felis	Rickettsia felis	MRH1735	bacteria
+Rickettsia endosymbiont of Ixodes pacificus	Rickettsia endosymbiont of Ixodes pacificus	MRH1736	bacteria
+Acinetobacter sp. WCHAc010034	Acinetobacter sp. WCHAc010034	MRH1737	bacteria
+Rickettsia	Rickettsia	MRH1738	bacteria
+Acinetobacter lactucae	Acinetobacter lactucae	MRH1739	bacteria
+Acinetobacter lanii	Acinetobacter lanii	MRH1740	bacteria
+Acinetobacter shaoyimingii	Acinetobacter shaoyimingii	MRH1741	bacteria
+Acinetobacter equi	Acinetobacter equi	MRH1742	bacteria
+Acinetobacter sp. TGL-Y2	Acinetobacter sp. TGL-Y2	MRH1743	bacteria
+Acinetobacter soli	Acinetobacter soli	MRH1744	bacteria
+Acinetobacter baylyi	Acinetobacter baylyi	MRH1745	bacteria
+Acinetobacter cumulans	Acinetobacter cumulans	MRH1746	bacteria
+Acinetobacter sp. TTH0-4	Acinetobacter sp. TTH0-4	MRH1747	bacteria
+Mycobacterium sp. DL90	Mycolicibacterium nivoides	MRH1748	bacteria
+Mycobacterium noviomagense	Mycobacterium noviomagense	MRH1749	bacteria
+Actinomadura verrucosospora	Actinomadura verrucosospora	MRH1750	bacteria
+Nocardia nova	Nocardia nova	MRH1751	bacteria
+Streptomyces atratus	Streptomyces atratus	MRH1752	bacteria
+Brevibacterium linens	Brevibacterium linens	MRH1753	bacteria
+Sphingomonas sp. AAP5	Sphingomonas sp. AAP5	MRH1754	bacteria
+Kosakonia	Kosakonia	MRH1755	bacteria
+Kosakonia cowanii	Kosakonia cowanii	MRH1756	bacteria
+Mycolicibacterium doricum	Mycobacterium doricum	MRH1757	bacteria
+Mycolicibacterium insubricum	Mycolicibacterium insubricum	MRH1758	bacteria
+Mycolicibacterium litorale	Mycolicibacterium litorale	MRH1759	bacteria
+Mycolicibacterium hassiacum	Mycolicibacterium hassiacum	MRH1760	bacteria
+Mycolicibacterium rhodesiae	Mycolicibacterium rhodesiae	MRH1761	bacteria
+Luteibacter pinisoli	Luteibacter pinisoli	MRH1762	bacteria
+Aureimonas sp. LMG 31693	Aureimonas mangrovi	MRH1763	bacteria
+Microlunatus soli	Microlunatus soli	MRH1764	bacteria
+Enterobacter cancerogenus	Enterobacter cancerogenus	MRH1765	bacteria
+Thermomonospora	Thermomonospora	MRH1766	bacteria
+Stenotrophomonas sp. SAU14A_NAIMI4_5	Stenotrophomonas sp. SAU14A_NAIMI4_5	MRH1767	bacteria
+Stenotrophomonas sp. ZAC14D2_NAIMI4_7	Stenotrophomonas sp. ZAC14D2_NAIMI4_7	MRH1768	bacteria
+Stenotrophomonas sp. ZAC14A_NAIMI4_1	Stenotrophomonas sp. ZAC14A_NAIMI4_1	MRH1769	bacteria
+Cellulosimicrobium	Cellulosimicrobium	MRH1770	bacteria
+Dyella	Dyella	MRH1771	bacteria
+Mycolicibacterium neoaurum	Mycolicibacterium neoaurum	MRH1772	bacteria
+Mycobacterium sp. DL440	Mycobacterium sp. DL440	MRH1773	bacteria
+Mycobacterium kansasii	Mycobacterium kansasii	MRH1774	bacteria
+Advenella	Advenella	MRH1775	bacteria
+Paenibacillus hunanensis	Paenibacillus hunanensis	MRH1776	bacteria
+Lysinibacillus sphaericus	Lysinibacillus sphaericus	MRH1777	bacteria
+Scedosporium	Scedosporium	MRH1778	fungus
+Cytobacillus	Cytobacillus	MRH1779	bacteria
+Enterobacter bugandensis	Enterobacter bugandensis	MRH1780	bacteria
+Candidatus Wolbachia massiliensis	Candidatus Wolbachia massiliensis	MRH1781	bacteria
+Wolbachia endosymbiont of Drosophila mauritiana	Wolbachia endosymbiont of Drosophila mauritiana	MRH1782	bacteria
+Lactobacillus animalis	Ligilactobacillus animalis	MRH1783	bacteria
+Lactobacillus murinus	Ligilactobacillus murinus	MRH1784	bacteria
+Methylocystis rosea	Methylocystis rosea	MRH1785	bacteria
+Muribaculum sp. TLL-A4	Muribaculum gordoncarteri	MRH1786	bacteria
+Muribaculum intestinale	Muribaculum intestinale	MRH1787	bacteria
+Duncaniella dubosii	Duncaniella dubosii	MRH1788	bacteria
+Limosilactobacillus reuteri	Limosilactobacillus reuteri	MRH1789	bacteria
+uncultured bacterium BAC10G6	uncultured bacterium BAC10G6	MRH1790	bacteria
+Jaminaea angkorensis	Jaminaea angkorensis	MRH1791	fungus
+Acutalibacter	Acutalibacter	MRH1792	bacteria
+Acutalibacter muris	Acutalibacter muris	MRH1793	bacteria
+Trichormus variabilis	Trichormus variabilis	MRH1794	bacteria
+Bacteroides caecimuris	Bacteroides caecimuris	MRH1795	bacteria
+Lactobacillus helveticus	Lactobacillus helveticus	MRH1796	bacteria
+Sphaerospermopsis	Sphaerospermopsis	MRH1797	bacteria
+Sphaerospermopsis kisseleviana	Sphaerospermopsis kisseleviana	MRH1798	bacteria
+Alistipes shahii	Alistipes shahii	MRH1799	bacteria
+Flavonifractor plautii	Flavonifractor plautii	MRH1800	bacteria
+Oscillibacter	Oscillibacter	MRH1801	bacteria
+Enterocloster clostridioformis	Enterocloster clostridioformis	MRH1802	bacteria
+Dolichospermum	Dolichospermum	MRH1803	bacteria
+Lentilactobacillus curieae	Lentilactobacillus curieae	MRH1804	bacteria
+Erysipelatoclostridium	Erysipelatoclostridium	MRH1805	bacteria
+[Clostridium] innocuum	[Clostridium] innocuum	MRH1806	bacteria
+Ewingella	Ewingella	MRH1807	bacteria
+Ewingella americana	Ewingella americana	MRH1808	bacteria
+Odoribacter splanchnicus	Odoribacter splanchnicus	MRH1809	bacteria
+Dysosmobacter	Dysosmobacter	MRH1810	bacteria
+Exiguobacterium acetylicum	Exiguobacterium acetylicum	MRH1811	bacteria
+Exiguobacterium antarcticum	Exiguobacterium antarcticum	MRH1812	bacteria
+Exiguobacterium sibiricum	Exiguobacterium sibiricum	MRH1813	bacteria
+Kineococcus radiotolerans	Kineococcus radiotolerans	MRH1814	bacteria
+Pantoea dispersa	Pantoea dispersa	MRH1815	bacteria
+Sphingomonas sp. LK11	Sphingomonas sp. LK11	MRH1816	bacteria
+Mycetocola	Mycetocola	MRH1817	bacteria
+Streptococcus suis	Streptococcus suis	MRH1818	bacteria
+Sphingorhabdus lacus	Sphingorhabdus lacus	MRH1819	bacteria
+Ornithinimicrobium pratense	Ornithinimicrobium pratense	MRH1820	bacteria
+Hymenobacter sp. APR13	Hymenobacter sp. APR13	MRH1821	bacteria
+Staphylococcus lugdunensis	Staphylococcus lugdunensis	MRH1822	bacteria
+Methylosinus	Methylosinus	MRH1823	bacteria
+Hydrogenophaga pseudoflava	Hydrogenophaga pseudoflava	MRH1824	bacteria
+Actinoplanes	Actinoplanes	MRH1825	bacteria
+Ramlibacter	Ramlibacter	MRH1826	bacteria
+Kocuria flava	Kocuria flava	MRH1827	bacteria
+Nodularia	Nodularia	MRH1828	bacteria
+Nodularia spumigena	Nodularia spumigena	MRH1829	bacteria
+Gemmobacter	Gemmobacter	MRH1830	bacteria
+Rhodoplanes	Rhodoplanes	MRH1831	bacteria
+Rhodoplanes sp. Z2-YC6860	Rhodoplanes sp. Z2-YC6860	MRH1832	bacteria
+Wolbachia endosymbiont of Chrysomya megacephala	Wolbachia endosymbiont of Chrysomya megacephala	MRH1833	bacteria
+Acetobacter thailandicus	Acetobacter thailandicus	MRH1834	bacteria
+Acetobacter pasteurianus	Acetobacter pasteurianus	MRH1835	bacteria
+Acetobacter pomorum	Acetobacter pomorum	MRH1836	bacteria
+Acetobacter persici	Acetobacter persici	MRH1837	bacteria
+Acetobacter senegalensis	Acetobacter senegalensis	MRH1838	bacteria
+Calothrix	Calothrix	MRH1839	bacteria
+Komagataeibacter	Komagataeibacter	MRH1840	bacteria
+Komagataeibacter hansenii	Novacetimonas hansenii	MRH1841	bacteria
+Komagataeibacter xylinus	Komagataeibacter xylinus	MRH1842	bacteria
+Komagataeibacter rhaeticus	Komagataeibacter rhaeticus	MRH1843	bacteria
+Komagataeibacter europaeus	Komagataeibacter europaeus	MRH1844	bacteria
+Komagataeibacter saccharivorans	Komagataeibacter saccharivorans	MRH1845	bacteria
+Crinalium	Crinalium	MRH1846	bacteria
+Crinalium epipsammum	Crinalium epipsammum	MRH1847	bacteria
+Burkholderia ambifaria	Burkholderia ambifaria	MRH1848	bacteria
+Gluconacetobacter	Gluconacetobacter	MRH1849	bacteria
+Gluconacetobacter diazotrophicus	Gluconacetobacter diazotrophicus	MRH1850	bacteria
+Kozakia	Kozakia	MRH1851	bacteria
+Kozakia baliensis	Kozakia baliensis	MRH1852	bacteria
+Wolbachia endosymbiont of Bemisia tabaci	Wolbachia endosymbiont of Bemisia tabaci	MRH1853	bacteria
+Wolbachia endosymbiont of Ceratosolen solmsi	Wolbachia endosymbiont of Ceratosolen solmsi	MRH1854	bacteria
+Wolbachia endosymbiont of Cadra cautella	Wolbachia endosymbiont of Cadra cautella	MRH1855	bacteria
+Wolbachia endosymbiont of Asobara tabida	Wolbachia endosymbiont of Asobara tabida	MRH1856	bacteria
+Wolbachia endosymbiont of Spalangia cameroni	Wolbachia endosymbiont of Spalangia cameroni	MRH1857	bacteria
+Wolbachia endosymbiont of Glossina fuscipes fuscipes	Wolbachia endosymbiont of Glossina fuscipes fuscipes	MRH1858	bacteria
+Duncaniella	Duncaniella	MRH1859	bacteria
+Bacillus amyloliquefaciens	Bacillus amyloliquefaciens	MRH1860	bacteria
+Lasiodiplodia	Lasiodiplodia	MRH1861	fungus
+Lasiodiplodia theobromae	Lasiodiplodia theobromae	MRH1862	fungus
+Rhodoferax	Rhodoferax	MRH1863	bacteria
+Rhodoferax sediminis	Rhodoferax sediminis	MRH1864	bacteria
+Actinobacteria bacterium IMCC25003	Actinobacteria bacterium IMCC25003	MRH1865	bacteria
+Alcanivorax dieselolei	Alcanivorax dieselolei	MRH1866	bacteria
+Creolimax	Creolimax	MRH1867	other_eukaryota
+Creolimax fragrantissima	Creolimax fragrantissima	MRH1868	other_eukaryota
+Macrococcus	Macrococcus	MRH1869	bacteria
+Daldinia	Daldinia	MRH1870	fungus
+Polynucleobacter difficilis	Polynucleobacter difficilis	MRH1871	bacteria
+Polynucleobacter paneuropaeus	Polynucleobacter paneuropaeus	MRH1872	bacteria
+Candidatus Planktophila	Candidatus Planktophila	MRH1873	bacteria
+Candidatus Planktophila dulcis	Candidatus Planktophila dulcis	MRH1874	bacteria
+Candidatus Planktophila sulfonica	Candidatus Planktophila sulfonica	MRH1875	bacteria
+Rhodoferax saidenbachensis	Rhodoferax saidenbachensis	MRH1876	bacteria
+Nitrospira	Nitrospira	MRH1877	bacteria
+Phreatobacter cathodiphilus	Phreatobacter cathodiphilus	MRH1878	bacteria
+Simplicispira	Simplicispira	MRH1879	bacteria
+Undibacterium parvum	Undibacterium parvum	MRH1880	bacteria
+Pseudomonas asiatica	Pseudomonas asiatica	MRH1881	bacteria
+Pseudomonas citronellolis	Pseudomonas citronellolis	MRH1882	bacteria
+Pseudomonas soli	Pseudomonas soli	MRH1883	bacteria
+Aplosporella	Aplosporella	MRH1884	fungus
+Aplosporella prunicola	Aplosporella prunicola	MRH1885	fungus
+Flavobacterium sp. M31R6	Flavobacterium sp. M31R6	MRH1886	bacteria
+Flavobacterium branchiophilum	Flavobacterium branchiophilum	MRH1887	bacteria
+Flavobacterium nackdongense	Flavobacterium nackdongense	MRH1888	bacteria
+Flavobacterium sangjuense	Flavobacterium sangjuense	MRH1889	bacteria
+Flavobacterium johnsoniae	Flavobacterium johnsoniae	MRH1890	bacteria
+Stemphylium lycopersici	Stemphylium lycopersici	MRH1891	fungus
+Sphaerulina	Sphaerulina	MRH1892	fungus
+Sphaerulina musiva	Sphaerulina musiva	MRH1893	fungus
+Oscillatoria	Oscillatoria	MRH1894	bacteria
+Oscillatoria acuminata	Oscillatoria acuminata	MRH1895	bacteria
+Acidovorax sp. RAC01	Acidovorax sp. RAC01	MRH1896	bacteria
+Acidovorax citrulli	Acidovorax citrulli	MRH1897	bacteria
+Limnohabitans sp. 63ED37-2	Limnohabitans sp. 63ED37-2	MRH1898	bacteria
+Limnohabitans sp. 103DPR2	Limnohabitans sp. 103DPR2	MRH1899	bacteria
+Sphingomonas sp. CL5.1	Sphingomonas sp. CL5.1	MRH1900	bacteria
+Opitutus sp. GAS368	Opitutus sp. GAS368	MRH1901	bacteria
+Cryptococcus	Cryptococcus	MRH1902	fungus
+Caulobacter henricii	Caulobacter henricii	MRH1903	bacteria
+Leptothrix	Leptothrix	MRH1904	bacteria
+Inhella	Inhella	MRH1905	bacteria
+Fusarium proliferatum	Fusarium proliferatum	MRH1906	fungus
+Pantoea sp. CCBC3-3-1	Pantoea sp. CCBC3-3-1	MRH1907	bacteria
+Arachidicoccus	Arachidicoccus	MRH1908	bacteria
+Rhizobacter	Rhizobacter	MRH1909	bacteria
+Mycolicibacterium chubuense	Mycolicibacterium chubuense	MRH1910	bacteria
+Deinococcus gobiensis	Deinococcus gobiensis	MRH1911	bacteria
+Kinneretia	Kinneretia	MRH1912	bacteria
+Kinneretia sp. DAIF2	Kinneretia sp. DAIF2	MRH1913	bacteria
+Roseateles depolymerans	Roseateles depolymerans	MRH1914	bacteria
+Fibrella	Fibrella	MRH1915	bacteria
+Fibrella aestuarina	Fibrella aestuarina	MRH1916	bacteria
+Leifsonia xyli	Leifsonia xyli	MRH1917	bacteria
+Rhodocyclaceae bacterium	Rhodocyclaceae bacterium	MRH1918	bacteria
+Methylibium sp. Pch-M	Methylibium sp. Pch-M	MRH1919	bacteria
+Azoarcus	Azoarcus	MRH1920	bacteria
+Zygosaccharomyces siamensis	Zygosaccharomyces siamensis	MRH1921	fungus
+Torulaspora	Torulaspora	MRH1922	fungus
+Torulaspora delbrueckii	Torulaspora delbrueckii	MRH1923	fungus
+Torulaspora sp. CBS 2947	Torulaspora sp. CBS 2947	MRH1924	fungus
+Nakaseomyces	Nakaseomyces	MRH1925	fungus
+[Candida] glabrata	[Candida] glabrata	MRH1926	fungus
+Vanderwaltozyma	Vanderwaltozyma	MRH1927	fungus
+Vanderwaltozyma polyspora	Vanderwaltozyma polyspora	MRH1928	fungus
+Naumovozyma castellii	Naumovozyma castellii	MRH1929	fungus
+Brettanomyces	Brettanomyces	MRH1930	fungus
+Brettanomyces bruxellensis	Brettanomyces bruxellensis	MRH1931	fungus
+Tetrapisispora blattae	Tetrapisispora blattae	MRH1932	fungus
+Trichophyton benhamiae	Trichophyton benhamiae	MRH1933	fungus
+Eremothecium cymbalariae	Eremothecium cymbalariae	MRH1934	fungus
+Eremothecium sinecaudum	Eremothecium sinecaudum	MRH1935	fungus
+Phytophthora sojae	Phytophthora sojae	MRH1936	other_eukaryota
+Pichia membranifaciens	Pichia membranifaciens	MRH1937	fungus
+Limosilactobacillus fermentum	Limosilactobacillus fermentum	MRH1938	bacteria
+Bradyrhizobium guangzhouense	Bradyrhizobium guangzhouense	MRH1939	bacteria
+Mycolicibacterium frederiksbergense	Mycobacterium frederiksbergense	MRH1940	bacteria
+Erysiphe	Erysiphe	MRH1941	fungus
+Bacillus smithii	Bacillus smithii	MRH1942	bacteria
+Sphingomonas insulae	Sphingomonas insulae	MRH1943	bacteria
+Caulobacter segnis	Caulobacter segnis	MRH1944	bacteria
+Streptococcus equinus	Streptococcus equinus	MRH1945	bacteria
+Herbaspirillum hiltneri	Herbaspirillum hiltneri	MRH1946	bacteria
+non-genus-specific reads in family Halieaceae	Halieaceae	MRH1947	bacteria
+marine gamma proteobacterium HTCC2246	marine gamma proteobacterium HTCC2246	MRH1948	bacteria
+Pseudacidovorax	Pseudacidovorax	MRH1949	bacteria
+Pseudacidovorax intermedius	Pseudacidovorax intermedius	MRH1950	bacteria
+Inhella inkyongensis	Inhella inkyongensis	MRH1951	bacteria
+Leptothrix cholodnii	Leptothrix cholodnii	MRH1952	bacteria
+Janthinobacterium agaricidamnosum	Janthinobacterium agaricidamnosum	MRH1953	bacteria
+Komagataella	Komagataella	MRH1954	fungus
+Brachybacterium ginsengisoli	Brachybacterium ginsengisoli	MRH1955	bacteria
+Lentzea	Lentzea	MRH1956	bacteria
+Saccharothrix	Saccharothrix	MRH1957	bacteria
+Gilliamella bombi	Gilliamella bombi	MRH1958	bacteria
+Rubrobacter sp. SCSIO 52915	Rubrobacter marinus	MRH1959	bacteria
+Caldicellulosiruptor	Caldicellulosiruptor	MRH1960	bacteria
+Capnocytophaga cynodegmi	Capnocytophaga cynodegmi	MRH1961	bacteria
+Rhodotorula mucilaginosa	Rhodotorula mucilaginosa	MRH1962	fungus
+Thermoanaerobacterium	Thermoanaerobacterium	MRH1963	bacteria
+Sulfurihydrogenibium	Sulfurihydrogenibium	MRH1964	bacteria
+Sulfurihydrogenibium azorense	Sulfurihydrogenibium azorense	MRH1965	bacteria
+Aspergillus heteromorphus	Aspergillus heteromorphus	MRH1966	fungus
+Bacillus thermoamylovorans	Caldibacillus thermoamylovorans	MRH1967	bacteria
+Hungateiclostridium	Acetivibrio	MRH1968	bacteria
+Hungateiclostridium thermocellum	Acetivibrio thermocellus	MRH1969	bacteria
+Pasteurellaceae bacterium BHMR2	Pasteurellaceae bacterium BHMR2	MRH1970	bacteria
+Clostridium	Clostridium	MRH1971	bacteria
+Mycobacterium tuberculosis	Mycobacterium tuberculosis	MRH1972	bacteria
+Sutterella	Sutterella	MRH1973	bacteria
+Lacticaseibacillus	Lacticaseibacillus	MRH1974	bacteria
+Pedobacter sp. G11	Pedobacter sp. G11	MRH1975	bacteria
+Pantoea eucalypti	Pantoea eucalypti	MRH1976	bacteria
+Starmerella bombicola	Starmerella bombicola	MRH1977	fungus
+Cupriavidus necator	Cupriavidus necator	MRH1978	bacteria
+Spathaspora	Spathaspora	MRH1979	fungus
+Spathaspora passalidarum	Spathaspora passalidarum	MRH1980	fungus
+Rhizopus stolonifer	Rhizopus stolonifer	MRH1981	fungus
+Capnocytophaga gingivalis	Capnocytophaga gingivalis	MRH1982	bacteria
+Acidipropionibacterium	Acidipropionibacterium	MRH1983	bacteria
+Acidipropionibacterium acidipropionici	Acidipropionibacterium acidipropionici	MRH1984	bacteria
+Puccinia coronata	Puccinia coronata	MRH1985	fungus
+Micromonospora	Micromonospora	MRH1986	bacteria
+Mycobacterium sp. YC-RL4	Mycobacterium sp. YC-RL4	MRH1987	bacteria
+Moesziomyces antarcticus	Moesziomyces antarcticus	MRH1988	fungus
+Romboutsia	Romboutsia	MRH1989	bacteria
+Wolbachia endosymbiont of Paratrechina longicornis	Wolbachia endosymbiont of Paratrechina longicornis	MRH1990	bacteria
+Pluralibacter	Pluralibacter	MRH1991	bacteria
+Pluralibacter gergoviae	Pluralibacter gergoviae	MRH1992	bacteria
+Neisseria animaloris	Neisseria animaloris	MRH1993	bacteria
+Lactobacillus amylovorus	Lactobacillus amylovorus	MRH1994	bacteria
+Bombilactobacillus mellifer	Bombilactobacillus mellifer	MRH1995	bacteria
+Candidatus Snodgrassella sp. T4_34144	Candidatus Snodgrassella sp. T4_34144	MRH1996	bacteria
+uncultured Gammaproteobacteria bacterium	uncultured Gammaproteobacteria bacterium	MRH1997	bacteria
+Photobacterium	Photobacterium	MRH1998	bacteria
+Photobacterium damselae	Photobacterium damselae	MRH1999	bacteria
+Candidatus Snodgrassella sp. TA7_36335	Candidatus Snodgrassella sp. TA7_36335	MRH2000	bacteria
+Cronobacter condimenti	Cronobacter condimenti	MRH2001	bacteria
+Atlantibacter	Atlantibacter	MRH2002	bacteria
+Atlantibacter hermannii	Atlantibacter hermannii	MRH2003	bacteria
+uncultured bacterium T3_18_29584	uncultured bacterium T3_18_29584	MRH2004	bacteria
+Kosakonia radicincitans	Kosakonia radicincitans	MRH2005	bacteria
+Kosakonia sacchari	Kosakonia sacchari	MRH2006	bacteria
+Yersinia pseudotuberculosis	Yersinia pseudotuberculosis	MRH2007	bacteria
+Pragia	Pragia	MRH2008	bacteria
+Pragia fontium	Pragia fontium	MRH2009	bacteria
+Candidatus Snodgrassella sp. T3_2_35043	Candidatus Snodgrassella sp. T3_2_35043	MRH2010	bacteria
+Rodentibacter	Rodentibacter	MRH2011	bacteria
+Pleurotus eryngii	Pleurotus eryngii	MRH2012	fungus
+Apilactobacillus apinorum	Apilactobacillus apinorum	MRH2013	bacteria
+Spiroplasma floricola	Spiroplasma floricola	MRH2014	bacteria
+Levilactobacillus brevis	Levilactobacillus brevis	MRH2015	bacteria
+Fructilactobacillus	Fructilactobacillus	MRH2016	bacteria
+Fructilactobacillus fructivorans	Fructilactobacillus fructivorans	MRH2017	bacteria
+Tremella	Tremella	MRH2018	fungus
+Tremella mesenterica	Tremella mesenterica	MRH2019	fungus
+Pediococcus	Pediococcus	MRH2020	bacteria
+Ascosphaera	Ascosphaera	MRH2021	fungus
+Ascosphaera apis	Ascosphaera apis	MRH2022	fungus
+Gemmata	Gemmata	MRH2023	bacteria
+Nocardiopsis	Nocardiopsis	MRH2024	bacteria
+Wolbachia endosymbiont of Culex pipiens	Wolbachia endosymbiont of Culex pipiens	MRH2025	bacteria
+Liberibacter	Liberibacter	MRH2026	bacteria
+Aphanomyces	Aphanomyces	MRH2027	fungus
+Monilinia	Monilinia	MRH2028	fungus
+Monilinia laxa	Monilinia laxa	MRH2029	fungus
+Hepatospora	Hepatospora	MRH2030	fungus
+Hepatospora eriocheir	Hepatospora eriocheir	MRH2031	fungus
+Monosiga	Monosiga	MRH2032	other_eukaryota
+Monosiga brevicollis	Monosiga brevicollis	MRH2033	other_eukaryota
+Serratia quinivorans	Serratia quinivorans	MRH2034	bacteria
+Citrobacter koseri	Citrobacter koseri	MRH2035	bacteria
+Nitrobacter	Nitrobacter	MRH2036	bacteria
+Bacillus coagulans	Weizmannia coagulans	MRH2037	bacteria
+Thermoanaerobacterium thermosaccharolyticum	Thermoanaerobacterium thermosaccharolyticum	MRH2038	bacteria
+Leishmania sp.	Leishmania sp.	MRH2039	other_eukaryota
+Strigomonas culicis	Strigomonas culicis	MRH2040	other_eukaryota
+Cyphellophora	Cyphellophora	MRH2041	fungus
+Cyphellophora europaea	Cyphellophora europaea	MRH2042	fungus
+Propioniciclava	Propioniciclava	MRH2043	bacteria
+Bifidobacterium animalis	Bifidobacterium animalis	MRH2044	bacteria
+Chromobacterium violaceum	Chromobacterium violaceum	MRH2045	bacteria
+Gemmata sp. SH-PL17	Gemmata sp. SH-PL17	MRH2046	bacteria
+Methylophilus methylotrophus	Methylophilus methylotrophus	MRH2047	bacteria
+[Clostridium] scindens	[Clostridium] scindens	MRH2048	bacteria
+Frigoriglobus	Frigoriglobus	MRH2049	bacteria
+Frigoriglobus tundricola	Frigoriglobus tundricola	MRH2050	bacteria
+Acinetobacter nosocomialis	Acinetobacter nosocomialis	MRH2051	bacteria
+Brachybacterium sp. SGAir0954	Brachybacterium sp. SGAir0954	MRH2052	bacteria
+Trametes	Trametes	MRH2053	fungus
+Trametes versicolor	Trametes versicolor	MRH2054	fungus
+Tumebacillus	Tumebacillus	MRH2055	bacteria
+Zelonia costaricensis	Zelonia costaricensis	MRH2056	other_eukaryota
+Zelonia cf. costaricensis	Zelonia cf. costaricensis	MRH2057	other_eukaryota
+Bonordeniella	Bonordeniella	MRH2058	fungus
+Coniosporium apollinis	Coniosporium apollinis	MRH2059	fungus
+Mammaliicoccus	Mammaliicoccus	MRH2060	bacteria
+Mammaliicoccus sciuri	Mammaliicoccus sciuri	MRH2061	bacteria
+Eimeria	Eimeria	MRH2062	other_eukaryota
+Flaviflexus	Flaviflexus	MRH2063	bacteria
+Vibrio coralliilyticus	Vibrio coralliilyticus	MRH2064	bacteria
+Chryseobacterium sp.	Chryseobacterium sp.	MRH2065	bacteria
+Hymenobacter sp. PAMC 26554	Hymenobacter sp. PAMC 26554	MRH2066	bacteria
+Leptomonas sp. Cfm	Leptomonas sp. Cfm	MRH2067	other_eukaryota
+Metschnikowia pulcherrima	Metschnikowia pulcherrima	MRH2068	fungus
+Streptomyces clavuligerus	Streptomyces clavuligerus	MRH2069	bacteria
+Phialophora	Phialophora	MRH2070	fungus
+Phialophora attinorum	Phialophora attinorum	MRH2071	fungus
+Anaerobacillus	Anaerobacillus	MRH2072	bacteria
+Polaribacter	Polaribacter	MRH2073	bacteria
+Shewanella baltica	Shewanella baltica	MRH2074	bacteria
+Alicyclobacillus	Alicyclobacillus	MRH2075	bacteria
+Alicyclobacillus acidocaldarius	Alicyclobacillus acidocaldarius	MRH2076	bacteria
+Arcticibacter	Arcticibacter	MRH2077	bacteria
+Arcticibacter pallidicorallinus	Arcticibacter pallidicorallinus	MRH2078	bacteria
+Novosphingobium ginsenosidimutans	Novosphingobium ginsenosidimutans	MRH2079	bacteria
+Tubulinosema	Tubulinosema	MRH2080	fungus
+Leishmania tropica	Leishmania tropica	MRH2081	other_eukaryota
+Pseudomicrostroma	Pseudomicrostroma	MRH2082	fungus
+Pseudomicrostroma glucosiphilum	Pseudomicrostroma glucosiphilum	MRH2083	fungus
+Methylophilus medardicus	Methylophilus medardicus	MRH2084	bacteria
+Volvariella	Volvariella	MRH2085	fungus
+Volvariella volvacea	Volvariella volvacea	MRH2086	fungus
+Tricholoma	Tricholoma	MRH2087	fungus
+Leucosporidium	Leucosporidium	MRH2088	fungus
+Clostridium botulinum	Clostridium botulinum	MRH2089	bacteria
+Gluconobacter cerinus	Gluconobacter cerinus	MRH2090	bacteria
+Bradyrhizobium sp. CCBAU 51765	Bradyrhizobium sp. CCBAU 51765	MRH2091	bacteria
+Streptococcus equi	Streptococcus equi	MRH2092	bacteria
+Fusarium verticillioides	Fusarium verticillioides	MRH2093	fungus
+Fusarium odoratissimum	Fusarium odoratissimum	MRH2094	fungus
+Fusarium subglutinans	Fusarium subglutinans	MRH2095	fungus
+Fusarium tjaetaba	Fusarium tjaetaba	MRH2096	fungus
+Staphylococcus arlettae	Staphylococcus arlettae	MRH2097	bacteria
+Staphylococcus pettenkoferi	Staphylococcus pettenkoferi	MRH2098	bacteria
+Varibaculum	Varibaculum	MRH2099	bacteria
+Varibaculum vaginae	Varibaculum vaginae	MRH2100	bacteria
+Corynebacterium sp. zg-913	Corynebacterium wankanglinii	MRH2101	bacteria
+Corynebacterium callunae	Corynebacterium callunae	MRH2102	bacteria
+Corynebacterium mycetoides	Corynebacterium mycetoides	MRH2103	bacteria
+Corynebacterium glutamicum	Corynebacterium glutamicum	MRH2104	bacteria
+Prevotella timonensis	Prevotella timonensis	MRH2105	bacteria
+Peptoniphilus grossensis	Peptoniphilus grossensis	MRH2106	bacteria
+Porphyromonas asaccharolytica	Porphyromonas asaccharolytica	MRH2107	bacteria
+Porphyromonas gingivalis	Porphyromonas gingivalis	MRH2108	bacteria
+non-genus-specific reads in family Peptostreptococcaceae	Peptostreptococcaceae	MRH2109	bacteria
+Peptostreptococcaceae bacterium oral taxon 929	Peptostreptococcaceae bacterium oral taxon 929	MRH2110	bacteria
+Campylobacter ureolyticus	Campylobacter ureolyticus	MRH2111	bacteria
+Chitinibacter	Chitinibacter	MRH2112	bacteria
+Chitinibacter sp. 2T18	Chitinibacter bivalviorum	MRH2113	bacteria
+Dermabacter jinjuensis	Dermabacter jinjuensis	MRH2114	bacteria
+Dermabacter vaginalis	Dermabacter vaginalis	MRH2115	bacteria
+Dialister micraerophilus	Dialister micraerophilus	MRH2116	bacteria
+Myroides	Myroides	MRH2117	bacteria
+Candidatus Nitrosocosmicus oleophilus	Candidatus Nitrosocosmicus oleophilus	MRH2118	archaea
+Bradyrhizobium sp. 6(2017)	Bradyrhizobium sp. 6(2017)	MRH2119	bacteria
+Tessaracoccus flavus	Tessaracoccus flavus	MRH2120	bacteria
+Aeromonas sp. ASNIH5	Aeromonas sp. ASNIH5	MRH2121	bacteria
+Deinococcus sp. NW-56	Deinococcus sp. NW-56	MRH2122	bacteria
+Plantibacter	Plantibacter	MRH2123	bacteria
+Thermomonas brevis	Thermomonas brevis	MRH2124	bacteria
+Saccharopolyspora coralli	Allosaccharopolyspora coralli	MRH2125	bacteria
+Azospira	Azospira	MRH2126	bacteria
+Melaminivora	Melaminivora	MRH2127	bacteria
+Spirosoma sp. CJU-R4	Spirosoma sp. CJU-R4	MRH2128	bacteria
+Mycolicibacterium iranicum	Mycolicibacterium iranicum	MRH2129	bacteria
+Roseobacter	Roseobacter	MRH2130	bacteria
+Roseobacter denitrificans	Roseobacter denitrificans	MRH2131	bacteria
+Melampsora	Melampsora	MRH2132	fungus
+Melampsora larici-populina	Melampsora laricis-populina	MRH2133	fungus
+Leptomonas seymouri	Leptomonas seymouri	MRH2134	other_eukaryota
+Iflavirus	Iflavirus	MRH2135	viruses
+Deformed wing virus	Deformed wing virus	MRH2136	viruses
+Varroa destructor virus 1	Varroa destructor virus 1	MRH2137	viruses
+VDV-1/DWV recombinant 4	VDV-1/DWV recombinant 4	MRH2138	viruses
+Betapartitivirus	Betapartitivirus	MRH2139	viruses
+White clover cryptic virus 2	White clover cryptic virus 2	MRH2140	viruses
+Iflavirus sp.	Iflavirus sp.	MRH2141	viruses
+non-genus-specific reads in family Parvoviridae	Parvoviridae	MRH2142	viruses
+Bombus cryptarum densovirus	Bombus cryptarum densovirus	MRH2143	viruses
+Slow bee paralysis virus	Slow bee paralysis virus	MRH2144	viruses
+Carlavirus	Carlavirus	MRH2145	viruses
+Gaillardia latent virus	Gaillardia latent virus	MRH2146	viruses
+Potyvirus	Potyvirus	MRH2147	viruses
+Turnip mosaic virus	Turnip mosaic virus	MRH2148	viruses
+Abidjanvirus	Abidjanvirus	MRH2149	viruses
+Pseudomonas virus Ab18	Pseudomonas virus Ab18	MRH2150	viruses
+Tobamovirus	Tobamovirus	MRH2151	viruses
+Tomato mosaic virus	Tomato mosaic virus	MRH2152	viruses
+non-genus-specific reads in family Myoviridae	Myoviridae	MRH2153	viruses
+Klebsiella phage Marfa	Klebsiella phage Marfa	MRH2154	viruses
+Klebsiella phage vB_KpnM_Potts1	Klebsiella phage vB_KpnM_Potts1	MRH2155	viruses
+Klebsiella phage EI	Klebsiella phage EI	MRH2156	viruses
+Klebsiella phage vB_Kpn_F48	Klebsiella phage vB_Kpn_F48	MRH2157	viruses
+Triatovirus	Triatovirus	MRH2158	viruses
+Black queen cell virus	Black queen cell virus	MRH2159	viruses
+Klebsiella phage AmPh_EK29	Klebsiella phage AmPh_EK29	MRH2160	viruses
+Tombusvirus	Tombusvirus	MRH2161	viruses
+Forsythia suspensa tombusvirus	Forsythia suspensa tombusvirus	MRH2162	viruses
+Nephila clavipes virus 1	Nephila clavipes virus 1	MRH2163	viruses
+Gammaretrovirus	Gammaretrovirus	MRH2164	viruses
+Murine leukemia virus	Murine leukemia virus	MRH2165	viruses
+Bombus-associated virus Den2	Bombus-associated virus Den2	MRH2166	viruses
+Betapolyomavirus	Betapolyomavirus	MRH2167	viruses
+Macaca mulatta polyomavirus 1	Betapolyomavirus macacae	MRH2168	viruses
+Siphovirus contig89	Siphovirus contig89	MRH2169	viruses
+Brevundimonas phage vB_BsubS-Delta	Brevundimonas phage vB_BsubS-Delta	MRH2170	viruses
+Bacteriophage sp.	Bacteriophage sp.	MRH2171	viruses
+Gibbon ape leukemia virus	Gibbon ape leukemia virus	MRH2172	viruses
+Cucumber green mottle mosaic virus	Cucumber green mottle mosaic virus	MRH2173	viruses
+Plasmopara viticola lesion associated orfanplasmovirus 4	Plasmopara viticola lesion associated orfanplasmovirus 4	MRH2174	viruses
+Narnavirus	Narnavirus	MRH2175	viruses
+Plasmopara viticola lesion associated narnavirus 14	Plasmopara viticola lesion associated narnavirus 14	MRH2176	viruses
+Myoviridae sp.	Myoviridae sp.	MRH2177	viruses
+Pahexavirus	Pahexavirus	MRH2178	viruses
+Mastadenovirus	Mastadenovirus	MRH2179	viruses
+Human mastadenovirus C	Human mastadenovirus C	MRH2180	viruses
+Potexvirus	Potexvirus	MRH2181	viruses
+Pepino mosaic virus	Pepino mosaic virus	MRH2182	viruses
+Lychnis mottle virus	Lychnis mottle virus	MRH2183	viruses
+Cassava common mosaic virus	Cassava common mosaic virus	MRH2184	viruses
+non-genus-specific reads in family Drexlerviridae	Drexlerviridae	MRH2185	viruses
+Escherichia phage IMM-001	Escherichia phage IMM-001	MRH2186	viruses
+Foveavirus	Foveavirus	MRH2187	viruses
+Grapevine rupestris stem pitting-associated virus	Grapevine rupestris stem pitting-associated virus	MRH2188	viruses
+Rtpvirus	Rtpvirus	MRH2189	viruses
+Kayvirus	Kayvirus	MRH2190	viruses
+Atractylodes mild mottle virus	Atractylodes mild mottle virus	MRH2191	viruses
+Teseptimavirus	Teseptimavirus	MRH2192	viruses
+Hubei partiti-like virus 34	Hubei partiti-like virus 34	MRH2193	viruses
+Escherichia virus T7	Teseptimavirus T7	MRH2194	viruses
+Alphapartitivirus	Alphapartitivirus	MRH2195	viruses
+White clover cryptic virus 1	White clover cryptic virus 1	MRH2196	viruses
+Deltaflexivirus	Deltaflexivirus	MRH2197	viruses
+Escherichia virus Rtp	Rtpvirus Rtp	MRH2198	viruses
+Zucchini yellow mosaic virus	Zucchini yellow mosaic virus	MRH2199	viruses
+Nepovirus	Nepovirus	MRH2200	viruses
+Anemone nepovirus A	Anemone nepovirus A	MRH2201	viruses
+Ilarvirus	Ilarvirus	MRH2202	viruses
+Tomato necrotic spot virus	Tomato necrotic spot virus	MRH2203	viruses
+Alphainfluenzavirus	Alphainfluenzavirus	MRH2204	viruses
+Influenza A virus	Influenza A virus	MRH2205	viruses
+Plasmopara viticola lesion associated ourmia-like virus 88	Plasmopara viticola lesion associated ourmia-like virus 88	MRH2206	viruses
+Intracisternal A-particles	Intracisternal A-particles	MRH2207	viruses
+Mouse Intracisternal A-particle	Mouse Intracisternal A-particle	MRH2208	viruses
+non-genus-specific reads in family Dicistroviridae	Dicistroviridae	MRH2209	viruses
+Dicistroviridae sp.	Dicistroviridae sp.	MRH2210	viruses
+Mayfield virus 1	Mayfield virus 1	MRH2211	viruses
+Bumble bee Mayfield virus 1-like	Bumble bee Mayfield virus 1-like	MRH2212	viruses
+Mayfield virus 2	Mayfield virus 2	MRH2213	viruses
+Cheravirus	Cheravirus	MRH2214	viruses
+Apple latent spherical virus	Apple latent spherical virus	MRH2215	viruses
+Cnidium vein yellowing virus 1	Cnidium vein yellowing virus 1	MRH2216	viruses
+Enterobacter phage vB_EclM_CIP9	Enterobacter phage vB_EclM_CIP9	MRH2217	viruses
+non-genus-specific reads in family Rhabdoviridae	Rhabdoviridae	MRH2218	viruses
+Agrotis ipsilon virus	Agrotis ipsilon virus	MRH2219	viruses
+non-genus-specific reads in family Siphoviridae	Siphoviridae	MRH2220	viruses
+Enterobacteria phage phi80	Enterobacteria phage phi80	MRH2221	viruses
+Lambdavirus	Lambdavirus	MRH2222	viruses
+Escherichia virus Lambda	Lambdavirus lambda	MRH2223	viruses
+Lederbergvirus	Lederbergvirus	MRH2224	viruses
+Enterobacteria phage IME10	Enterobacteria phage IME10	MRH2225	viruses
+Murine leukemia-related retroviruses	Murine leukemia-related retroviruses	MRH2226	viruses
+Squirrel monkey retrovirus	Squirrel monkey retrovirus	MRH2227	viruses
+Orthorubulavirus	Orthorubulavirus	MRH2228	viruses
+Mammalian orthorubulavirus 5	Mammalian orthorubulavirus 5	MRH2229	viruses
+Shigella virus Sf6	Lederbergvirus Sf6	MRH2230	viruses
+Escherichia virus DE3	Escherichia virus DE3	MRH2231	viruses
+Agrotis ipsilon Nora virus	Agrotis ipsilon Nora virus	MRH2232	viruses
+Helicoverpa armigera Nora virus	Helicoverpa armigera Nora virus	MRH2233	viruses
+non-genus-specific reads in family Ackermannviridae	Ackermannviridae	MRH2234	viruses
+Dickeya phage phiDP23.1	Dickeya phage phiDP23.1	MRH2235	viruses
+Lentivirus	Lentivirus	MRH2236	viruses
+Human immunodeficiency virus 1	Human immunodeficiency virus 1	MRH2237	viruses
+Muromegalovirus	Muromegalovirus	MRH2238	viruses
+Murid betaherpesvirus 1	Murid betaherpesvirus 1	MRH2239	viruses
+Enterobacteria phage mEp237	Enterobacteria phage mEp237	MRH2240	viruses
+Klebsiella phage vB_Kpn_Chronis	Klebsiella phage vB_Kpn_Chronis	MRH2241	viruses
+Chlorovirus	Chlorovirus	MRH2242	viruses
+Acanthocystis turfacea Chlorella virus TN603.4.2	Acanthocystis turfacea Chlorella virus TN603.4.2	MRH2243	viruses
+Klebsiella phage vB_Kpn_P545	Klebsiella phage vB_Kpn_P545	MRH2244	viruses
+RD114 retrovirus	RD114 retrovirus	MRH2245	viruses
+Alphavirus	Alphavirus	MRH2246	viruses
+Plasmopara viticola lesion associated alpha-like virus 1	Plasmopara viticola lesion associated alpha-like virus 1	MRH2247	viruses
+non-genus-specific reads in family Secoviridae	Secoviridae	MRH2248	viruses
+Strawberry latent ringspot virus	Strawberry latent ringspot virus	MRH2249	viruses
+Fusarium graminearum mycotymovirus 1	Fusarium graminearum mycotymovirus 1	MRH2250	viruses
+Pseudomonas phage PS-1	Pseudomonas phage PS-1	MRH2251	viruses
+Cycas necrotic stunt virus	Cycas necrotic stunt virus	MRH2252	viruses
+Heliothis virescens ascovirus 3i	Heliothis virescens ascovirus 3i	MRH2253	viruses
+Trichoplusia ni ascovirus 2a	Trichoplusia ni ascovirus 2a	MRH2254	viruses
+Alphabaculovirus	Alphabaculovirus	MRH2255	viruses
+Helicoverpa armigera nucleopolyhedrovirus	Helicoverpa armigera nucleopolyhedrovirus	MRH2256	viruses
+Apis mellifera filamentous virus	Apis mellifera filamentous virus	MRH2257	viruses
+Siphoviridae sp.	Siphoviridae sp.	MRH2258	viruses
+Sinaivirus	Sinaivirus	MRH2259	viruses
+Lake Sinai virus	Lake Sinai virus	MRH2260	viruses
+Sinapis alba cryptic virus 1	Sinapis alba cryptic virus 1	MRH2261	viruses
+Zindervirus	Zindervirus	MRH2262	viruses
+Salmonella virus SP6	Zindervirus SP6	MRH2263	viruses
+Ourmiavirus	Ourmiavirus	MRH2264	viruses
+Plasmopara viticola lesion associated ourmia-like virus 72	Plasmopara viticola lesion associated ourmia-like virus 72	MRH2265	viruses
+Lake Sinai Virus NE	Lake Sinai Virus NE	MRH2266	viruses
+Lake Sinai virus 1	Lake Sinai virus 1	MRH2267	viruses
+Lake Sinai virus 3	Lake Sinai virus 3	MRH2268	viruses
+Lake Sinai virus strain Navarra	Lake Sinai virus strain Navarra	MRH2269	viruses
+Teetrevirus	Teetrevirus	MRH2270	viruses
+Citrobacter virus CFP1	Teetrevirus CFP1	MRH2271	viruses
+Klebsiella phage NL_ZS_3	Klebsiella phage NL_ZS_3	MRH2272	viruses
+Yersinia virus YeO3-12	Teetrevirus YeO312	MRH2273	viruses
+Salmonella virus SG-JL2	Teetrevirus SGJL2	MRH2274	viruses
+Klebsiella phage vB_KpnP_Emp27	Klebsiella phage vB_KpnP_Emp27	MRH2275	viruses
+Citrobacter virus SH2	Teetrevirus SH2	MRH2276	viruses
+Serratia virus 2050H2	Teetrevirus 2050H2	MRH2277	viruses
+Enterobacter virus E2	Teetrevirus E2	MRH2278	viruses
+Escherichia virus LL2	Teetrevirus LL2	MRH2279	viruses
+Klebsiella phage Patroon	Klebsiella phage Patroon	MRH2280	viruses
+Enterobacter virus E3	Teetrevirus E3	MRH2281	viruses
+Serratia phage SALSA	Serratia phage SALSA	MRH2282	viruses
+Escherichia virus T3	Teetrevirus T3	MRH2283	viruses
+Yersinia virus YeF10	Teetrevirus YeF10	MRH2284	viruses
+Sacbrood virus	Sacbrood virus	MRH2285	viruses
+Polerovirus	Polerovirus	MRH2286	viruses
+Turnip yellows virus	Turnip yellows virus	MRH2287	viruses
+Beet western yellows virus	Beet western yellows virus	MRH2288	viruses
+Lake Sinai virus 2	Lake Sinai virus 2	MRH2289	viruses
+Lake Sinai Virus TO	Lake Sinai Virus TO	MRH2290	viruses
+Lake Sinai Virus SA1	Lake Sinai Virus SA1	MRH2291	viruses
+Lake Sinai Virus SA2	Lake Sinai Virus SA2	MRH2292	viruses
+Asparagus virus 2	Asparagus virus 2	MRH2293	viruses
+Citrus variegation virus	Citrus variegation virus	MRH2294	viruses
+Arabidopsis latent virus-1	Arabidopsis latent virus-1	MRH2295	viruses
+Anulavirus	Anulavirus	MRH2296	viruses
+Pelargonium zonate spot virus	Pelargonium zonate spot virus	MRH2297	viruses
+Elm mottle virus	Elm mottle virus	MRH2298	viruses
+Autographa californica multiple nucleopolyhedrovirus	Autographa californica multiple nucleopolyhedrovirus	MRH2299	viruses
+Capillovirus	Capillovirus	MRH2300	viruses
+Apple stem grooving virus	Apple stem grooving virus	MRH2301	viruses
+Cherry virus A	Cherry virus A	MRH2302	viruses
+Spiromicrovirus	Spiromicrovirus	MRH2303	viruses
+Spiroplasma virus SpV4	Spiromicrovirus SpV4	MRH2304	viruses
+Fabavirus	Fabavirus	MRH2305	viruses
+Cherry virus F	Cherry virus F	MRH2306	viruses
+Prunus virus F	Prunus virus F	MRH2307	viruses
+Aparavirus	Aparavirus	MRH2308	viruses
+Israeli acute paralysis virus	Israeli acute paralysis virus	MRH2309	viruses
+Mus musculus mobilized endogenous polytropic provirus	Mus musculus mobilized endogenous polytropic provirus	MRH2310	viruses
+Spleen focus-forming virus	Spleen focus-forming virus	MRH2311	viruses
+Orthohepadnavirus	Orthohepadnavirus	MRH2312	viruses
+Solanum nigrum ilarvirus 1	Solanum nigrum ilarvirus 1	MRH2313	viruses
+Prunus necrotic ringspot virus	Prunus necrotic ringspot virus	MRH2314	viruses
+Bat iflavirus	Bat iflavirus	MRH2315	viruses
+Acute bee paralysis virus	Acute bee paralysis virus	MRH2316	viruses
+Castleton Burn virus	Castleton Burn virus	MRH2317	viruses
+Allermuir Hill virus 3	Allermuir Hill virus 3	MRH2318	viruses
+Loch Morlich virus	Loch Morlich virus	MRH2319	viruses
+Mill Lade virus	Mill Lade virus	MRH2320	viruses
+Cnoc Mor virus	Cnoc Mor virus	MRH2321	viruses
+River Liunaeg virus	River Liunaeg virus	MRH2322	viruses
+Allermuir Hill virus 1	Allermuir Hill virus 1	MRH2323	viruses
+Bombus-associated virus Bun2	Bombus-associated virus Bun2	MRH2324	viruses
+Bombus-associated virus Bun1	Bombus-associated virus Bun1	MRH2325	viruses
+Sheriffmuir virus	Sheriffmuir virus	MRH2326	viruses
+Clamshell Cave virus	Clamshell Cave virus	MRH2327	viruses
+Bombus-associated virus Den1	Bombus-associated virus Den1	MRH2328	viruses
+Bombus-associated virus Vir3	Bombus-associated virus Vir3	MRH2329	viruses
+Bombus-associated virus Vir4	Bombus-associated virus Vir4	MRH2330	viruses
+Arabis mosaic virus	Arabis mosaic virus	MRH2331	viruses
+Beet ringspot virus	Beet ringspot virus	MRH2332	viruses
+Bombus-associated virus Nep1	Bombus-associated virus Nep1	MRH2333	viruses
+Tomato black ring virus	Tomato black ring virus	MRH2334	viruses
+non-genus-specific reads in family Peribunyaviridae	Peribunyaviridae	MRH2335	viruses
+Duke bunyavirus	Duke bunyavirus	MRH2336	viruses
+Vespa velutina associated partiti-like virus 2	Vespa velutina associated partiti-like virus 2	MRH2337	viruses
+non-genus-specific reads in family Phasmaviridae	Phasmaviridae	MRH2338	viruses
+Hymenopteran phasma-related virus OKIAV233	Hymenopteran phasma-related virus OKIAV233	MRH2339	viruses
+non-genus-specific reads in family Nodaviridae	Nodaviridae	MRH2340	viruses
+Bombus-associated virus Nod1	Bombus-associated virus Nod1	MRH2341	viruses
+Allermuir Hill virus 2	Allermuir Hill virus 2	MRH2342	viruses
+Bombus-associated virus Pic2	Bombus-associated virus Pic2	MRH2343	viruses
+Elf Loch virus	Elf Loch virus	MRH2344	viruses
+Tomato black ring virus satellite RNA	Tomato black ring virus satellite RNA	MRH2345	viruses
+Crimson clover cryptic virus 2	Crimson clover cryptic virus 2	MRH2346	viruses
+Red clover cryptic virus 2	Red clover cryptic virus 2	MRH2347	viruses
+Red clover nepovirus A	Red clover nepovirus A	MRH2348	viruses
+Raspberry ringspot virus	Raspberry ringspot virus	MRH2349	viruses
+Bombus-associated virus Nep2	Bombus-associated virus Nep2	MRH2350	viruses
+White clover mosaic virus	White clover mosaic virus	MRH2351	viruses
+Phlebovirus	Phlebovirus	MRH2352	viruses
+Bombus-associated virus Phle1	Bombus-associated virus Phle1	MRH2353	viruses
+Comovirus	Comovirus	MRH2354	viruses
+Broad bean true mosaic virus	Broad bean true mosaic virus	MRH2355	viruses
+non-genus-specific reads in family Virgaviridae	Virgaviridae	MRH2356	viruses
+non-genus-specific reads in family Orthomyxoviridae	Orthomyxoviridae	MRH2357	viruses
+Bombus-associated virus Orth1	Bombus-associated virus Orth1	MRH2358	viruses
+Trichovirus	Trichovirus	MRH2359	viruses
+Apple chlorotic leaf spot virus	Apple chlorotic leaf spot virus	MRH2360	viruses
+Phikmvvirus	Phikmvvirus	MRH2361	viruses
+Pseudomonas virus 15pyo	Phikmvvirus 15pyo	MRH2362	viruses
+non-genus-specific reads in family Podoviridae	Podoviridae	MRH2363	viruses
+Formica cinerea virus 1	Formica cinerea virus 1	MRH2364	viruses
+Boghill Burn virus	Boghill Burn virus	MRH2365	viruses
+Vespa velutina associated acypi-like virus	Vespa velutina associated acypi-like virus	MRH2366	viruses
+Grapevine fanleaf virus satellite RNA	Grapevine fanleaf virus satellite RNA	MRH2367	viruses
+Arabis mosaic virus large satellite RNA	Arabis mosaic virus large satellite RNA	MRH2368	viruses
+Hubei picorna-like virus	Hubei picorna-like virus	MRH2369	viruses
+Hubei picorna-like virus 39	Hubei picorna-like virus 39	MRH2370	viruses
+Vespa velutina Moku virus	Vespa velutina Moku virus	MRH2371	viruses
+Artichoke Italian latent virus	Artichoke Italian latent virus	MRH2372	viruses
+Bombus-associated virus Vir1	Bombus-associated virus Vir1	MRH2373	viruses
+Bombus-associated virus Vir2	Bombus-associated virus Vir2	MRH2374	viruses
+Breadfruit capillovirus 1	Breadfruit capillovirus 1	MRH2375	viruses
+Tymovirus	Tymovirus	MRH2376	viruses
+Watercress white vein virus	Watercress white vein virus	MRH2377	viruses
+Sobemovirus	Sobemovirus	MRH2378	viruses
+Turnip rosette virus	Turnip rosette virus	MRH2379	viruses
+Acanthocystis turfacea Chlorella virus Br0604L	Acanthocystis turfacea Chlorella virus Br0604L	MRH2380	viruses
+Agassiz Rock virus	Agassiz Rock virus	MRH2381	viruses
+Picornavirales sp.	Picornavirales sp.	MRH2382	viruses
+Cherry leaf roll virus	Cherry leaf roll virus	MRH2383	viruses
+Grapevine fanleaf virus	Grapevine fanleaf virus	MRH2384	viruses
+Gorebridge virus	Gorebridge virus	MRH2385	viruses
+Victoria bee virus 1	Victoria bee virus 1	MRH2386	viruses
+Cripavirus	Cripavirus	MRH2387	viruses
+Aphid lethal paralysis virus	Aphid lethal paralysis virus	MRH2388	viruses
+Acanthocystis turfacea Chlorella virus NE-JV-2	Acanthocystis turfacea Chlorella virus NE-JV-2	MRH2389	viruses
+Bombus-associated virus Pic1	Bombus-associated virus Pic1	MRH2390	viruses
+Hubei picorna-like virus 51	Hubei picorna-like virus 51	MRH2391	viruses
+Victoria bee virus 2	Victoria bee virus 2	MRH2392	viruses
+Hubei picorna-like virus 15	Hubei picorna-like virus 15	MRH2393	viruses
+non-genus-specific reads in family Reoviridae	Reoviridae	MRH2394	viruses
+Bombus-associated virus Reo1	Bombus-associated virus Reo1	MRH2395	viruses
+Flavivirus	Flavivirus	MRH2396	viruses
+Dengue virus	Dengue virus	MRH2397	viruses
+Hymenopteran phasma-related virus OKIAV234	Hymenopteran phasma-related virus OKIAV234	MRH2398	viruses
+Skunavirus	Skunavirus	MRH2399	viruses
+Hubei picorna-like virus 57	Hubei picorna-like virus 57	MRH2400	viruses
+Grapevine virus S	Grapevine virus S	MRH2401	viruses
+Medicago sativa alphapartitivirus 1	Medicago sativa alphapartitivirus 1	MRH2402	viruses
+Moineauvirus	Moineauvirus	MRH2403	viruses
+non-genus-specific reads in family Chuviridae	Chuviridae	MRH2404	viruses
+Hymenopteran chu-related virus OKIAV124	Hymenopteran chu-related virus OKIAV124	MRH2405	viruses
+Varroa orthomyxovirus-1	Varroa orthomyxovirus-1	MRH2406	viruses
+Tobacco ringspot virus	Tobacco ringspot virus	MRH2407	viruses
+Kashmir bee virus	Kashmir bee virus	MRH2408	viruses
+Ipomovirus	Ipomovirus	MRH2409	viruses
+Cassava brown streak virus	Cassava brown streak virus	MRH2410	viruses
+non-genus-specific reads in family Iflaviridae	Iflaviridae	MRH2411	viruses
+Varroa destructor virus 2	Varroa destructor virus 2	MRH2412	viruses
+Hobart nepovirus 2	Hobart nepovirus 2	MRH2413	viruses
+Apis rhabdovirus 1	Apis rhabdovirus 1	MRH2414	viruses
+Serratia phage 2050H1	Serratia phage 2050H1	MRH2415	viruses
+Serratia virus MAM1	Miltonvirus MAM1	MRH2416	viruses
+non-genus-specific reads in family Betaflexiviridae	Betaflexiviridae	MRH2417	viruses
+Camellia ringspot associated virus 3	Camellia ringspot associated virus 3	MRH2418	viruses
+Camellia japonica associated betaflexivirus 1	Camellia japonica associated betaflexivirus 1	MRH2419	viruses
+Camellia japonica associated betaflexivirus 3	Camellia japonica associated betaflexivirus 3	MRH2420	viruses
+Camellia ringspot associated virus 2	Camellia ringspot associated virus 2	MRH2421	viruses
+Camellia japonica associated betaflexivirus 2	Camellia japonica associated betaflexivirus 2	MRH2422	viruses
+Apis rhabdovirus 2	Apis rhabdovirus 2	MRH2423	viruses
+Camellia ringspot associated virus 1	Camellia ringspot associated virus 1	MRH2424	viruses
+Betacoronavirus	Betacoronavirus	MRH2425	viruses
+Severe acute respiratory syndrome-related coronavirus	Severe acute respiratory syndrome-related coronavirus	MRH2426	viruses
+Alphachrysovirus	Alphachrysovirus	MRH2427	viruses
+Brassica campestris chrysovirus	Alphachrysovirus brassicae	MRH2428	viruses
+Ageratum latent virus	Ageratum latent virus	MRH2429	viruses
+Lymphocryptovirus	Lymphocryptovirus	MRH2430	viruses
+Human gammaherpesvirus 4	Human gammaherpesvirus 4	MRH2431	viruses
+Alexandravirus	Alexandravirus	MRH2432	viruses
+Dickeya virus AD1	Alexandravirus AD1	MRH2433	viruses
+Kolesnikvirus	Kolesnikvirus	MRH2434	viruses
+Erwinia virus Ea214	Kolesnikvirus Ea214	MRH2435	viruses
+Certrevirus	Certrevirus	MRH2436	viruses
+Sextaecvirus	Sextaecvirus	MRH2437	viruses
+Staphylococcus virus Sextaec	Sextaecvirus sextaec	MRH2438	viruses
+Cutibacterium phage P108C	Cutibacterium phage P108C	MRH2439	viruses
+Propionibacterium virus P1.1	Pahexavirus P11	MRH2440	viruses
+Propionibacterium phage PAC1	Propionibacterium phage PAC1	MRH2441	viruses
+Bracovirus	Bracoviriform	MRH2442	viruses
+Wolbachia phage WO	Wolbachia phage WO	MRH2443	viruses
+Wolbachia endosymbiont wVitB of Nasonia vitripennis phage WOVitB	Wolbachia endosymbiont wVitB of Nasonia vitripennis phage WOVitB	MRH2444	viruses
+Citrus sudden death-associated virus	Citrus sudden death-associated virus	MRH2445	viruses
+EBPR podovirus 3	EBPR podovirus 3	MRH2446	viruses
+Flavobacterium phage vB_FspS_hattifnatt9-1	Flavobacterium phage vB_FspS_hattifnatt9-1	MRH2447	viruses
+Flavobacterium phage vB_FspS_hemulen6-1	Flavobacterium phage vB_FspS_hemulen6-1	MRH2448	viruses
+Aparavirus sp.	Aparavirus sp.	MRH2449	viruses
+Solenopsis invicta virus 5	Solenopsis invicta virus 5	MRH2450	viruses
+Burkholderiales phage 68_11	Burkholderiales phage 68_11	MRH2451	viruses
+Turnip yellow mosaic virus	Turnip yellow mosaic virus	MRH2452	viruses
+Grapevine associated ilarvirus	Grapevine associated ilarvirus	MRH2453	viruses
+Surrounding legume associated ilarvirus	Surrounding legume associated ilarvirus	MRH2454	viruses
+Tobacco streak virus	Tobacco streak virus	MRH2455	viruses
+Parietaria mottle virus	Parietaria mottle virus	MRH2456	viruses
+Hordeivirus	Hordeivirus	MRH2457	viruses
+Lychnis ringspot virus	Lychnis ringspot virus	MRH2458	viruses
+Alfamovirus	Alfamovirus	MRH2459	viruses
+Alfalfa mosaic virus	Alfalfa mosaic virus	MRH2460	viruses
+Medicago sativa alphapartitivirus 2	Medicago sativa alphapartitivirus 2	MRH2461	viruses
+Strawberry necrotic shock virus	Strawberry necrotic shock virus	MRH2462	viruses
+Raphanus latent virus	Raphanus latent virus	MRH2463	viruses
+Blackberry chlorotic ringspot virus	Blackberry chlorotic ringspot virus	MRH2464	viruses
+Cape gooseberry ilarvirus 1	Cape gooseberry ilarvirus 1	MRH2465	viruses
+Hymenopteran chu-related virus OKIAV122	Hymenopteran chu-related virus OKIAV122	MRH2466	viruses
+Orthopoxvirus	Orthopoxvirus	MRH2467	viruses
+Himetobi P virus	Himetobi P virus	MRH2468	viruses
+Cowpox virus	Cowpox virus	MRH2469	viruses
+Betaentomopoxvirus	Betaentomopoxvirus	MRH2470	viruses
+Amsacta moorei entomopoxvirus	Amsacta moorei entomopoxvirus	MRH2471	viruses
+Prune dwarf virus	Prune dwarf virus	MRH2472	viruses
+non-genus-specific reads in family Mimiviridae	Mimiviridae	MRH2473	viruses
+Terrestrivirus sp.	Terrestrivirus sp.	MRH2474	viruses
+Orthophasmavirus	Orthophasmavirus	MRH2475	viruses
+Ganda orthophasmavirus	Ganda orthophasmavirus	MRH2476	viruses
+Hymenopteran phasma-related virus OKIAV232	Hymenopteran phasma-related virus OKIAV232	MRH2477	viruses
+Scaldis River bee virus	Scaldis River bee virus	MRH2478	viruses
+Tobacco mosaic virus	Tobacco mosaic virus	MRH2479	viruses
+Apis bunyavirus 2	Apis bunyavirus 2	MRH2480	viruses
+Apis bunyavirus 1	Apis bunyavirus 1	MRH2481	viruses
+non-genus-specific reads in family Flaviviridae	Flaviviridae	MRH2482	viruses
+Apis flavivirus	Apis flavivirus	MRH2483	viruses
+Apis Nora virus	Apis Nora virus	MRH2484	viruses
+Bloomfield virus	Bloomfield virus	MRH2485	viruses
+Bundaberg bee virus 6	Bundaberg bee virus 6	MRH2486	viruses
+Apis dicistrovirus	Apis dicistrovirus	MRH2487	viruses
+Idaeovirus	Idaeovirus	MRH2488	viruses
+Raspberry bushy dwarf virus	Raspberry bushy dwarf virus	MRH2489	viruses
+Lake Sinai virus 7	Lake Sinai virus 7	MRH2490	viruses
+Radish mosaic virus	Radish mosaic virus	MRH2491	viruses
+Triatovirus sp.	Triatovirus sp.	MRH2492	viruses
+PNG bee virus 8	PNG bee virus 8	MRH2493	viruses
+Culex dicistrovirus 2	Culex dicistrovirus 2	MRH2494	viruses
+Leibnitzia anandria dicistrovirus	Leibnitzia anandria dicistrovirus	MRH2495	viruses
+Raphanus sativus cryptic virus 4	Raphanus sativus cryptic virus 4	MRH2496	viruses
+Bundaberg bee virus 1	Bundaberg bee virus 1	MRH2497	viruses
+Bundaberg bee virus 4	Bundaberg bee virus 4	MRH2498	viruses
+Bundaberg bee virus 7	Bundaberg bee virus 7	MRH2499	viruses
+Bundaberg bee virus 8	Bundaberg bee virus 8	MRH2500	viruses
+Bundaberg bee virus 3	Bundaberg bee virus 3	MRH2501	viruses
+Bundaberg bee virus 2	Bundaberg bee virus 2	MRH2502	viruses
+Darwin bee virus 1	Darwin bee virus 1	MRH2503	viruses
+SI bee virus 2	SI bee virus 2	MRH2504	viruses
+Rhopalosiphum padi virus	Rhopalosiphum padi virus	MRH2505	viruses
+Youcai mosaic virus	Youcai mosaic virus	MRH2506	viruses
+Pepper mild mottle virus	Pepper mild mottle virus	MRH2507	viruses
+Ribgrass mosaic virus	Ribgrass mosaic virus	MRH2508	viruses
+Squash mosaic virus	Squash mosaic virus	MRH2509	viruses
+Solanum nodiflorum mottle virus	Solanum nodiflorum mottle virus	MRH2510	viruses
+Persea americana chrysovirus	Persea americana chrysovirus	MRH2511	viruses
+Papaya ringspot virus	Papaya ringspot virus	MRH2512	viruses
+Citrivirus	Citrivirus	MRH2513	viruses
+Citrus leaf blotch virus	Citrus leaf blotch virus	MRH2514	viruses
+non-genus-specific reads in family Caliciviridae	Caliciviridae	MRH2515	viruses
+PNG bee virus 1	PNG bee virus 1	MRH2516	viruses
+Goose dicistrovirus	Goose dicistrovirus	MRH2517	viruses
+Wuhan insect virus 33	Wuhan insect virus 33	MRH2518	viruses
+Renmark bee virus 1	Renmark bee virus 1	MRH2519	viruses
+Empeyrat virus	Empeyrat virus	MRH2520	viruses
+Aphis glycines virus 3	Aphis glycines virus 3	MRH2521	viruses
+Tomato ringspot virus	Tomato ringspot virus	MRH2522	viruses
+Perth betaflexivirus 1	Perth betaflexivirus 1	MRH2523	viruses
+Perth bee virus 2	Perth bee virus 2	MRH2524	viruses
+Perth bee virus 8	Perth bee virus 8	MRH2525	viruses
+Perth bee virus 5	Perth bee virus 5	MRH2526	viruses
+Perth bee virus 7	Perth bee virus 7	MRH2527	viruses
+Perth bee virus 9	Perth bee virus 9	MRH2528	viruses
+Kelp fly virus	Kelp fly virus	MRH2529	viruses
+Robinvale bee virus 1	Robinvale bee virus 1	MRH2530	viruses
+Robinvale bee virus 8	Robinvale bee virus 8	MRH2531	viruses
+Robinvale bee virus 7	Robinvale bee virus 7	MRH2532	viruses
+Robinvale bee virus 4	Robinvale bee virus 4	MRH2533	viruses
+Robinvale bee virus 3	Robinvale bee virus 3	MRH2534	viruses
+Renmark bee virus 2	Renmark bee virus 2	MRH2535	viruses
+Darwin bee virus 5	Darwin bee virus 5	MRH2536	viruses
+Darwin bee virus 6	Darwin bee virus 6	MRH2537	viruses
+Darwin bee virus 2	Darwin bee virus 2	MRH2538	viruses
+Darwin bee virus 3	Darwin bee virus 3	MRH2539	viruses
+Darwin bee virus 8	Darwin bee virus 8	MRH2540	viruses
+Darwin bee virus 7	Darwin bee virus 7	MRH2541	viruses
+Darwin bee virus 4	Darwin bee virus 4	MRH2542	viruses
+Thika virus	Thika virus	MRH2543	viruses
+Soybean-associated bicistronic virus	Soybean-associated bicistronic virus	MRH2544	viruses
+Watermelon crinkle leaf-associated virus 1	Watermelon crinkle leaf-associated virus 1	MRH2545	viruses
+Watermelon crinkle leaf-associated virus 2	Watermelon crinkle leaf-associated virus 2	MRH2546	viruses
+Tetranychus urticae-associated picorna-like virus 2	Tetranychus urticae-associated picorna-like virus 2	MRH2547	viruses
+Beihai picorna-like virus 45	Beihai picorna-like virus 45	MRH2548	viruses
+PNG bee virus 2	PNG bee virus 2	MRH2549	viruses
+Darwin betaflexivirus 1	Darwin betaflexivirus 1	MRH2550	viruses
+Cricket paralysis virus	Cricket paralysis virus	MRH2551	viruses
+Solenopsis invicta virus 6	Solenopsis invicta virus 6	MRH2552	viruses
+Bactrocera dorsalis cripavirus	Bactrocera dorsalis cripavirus	MRH2553	viruses
+Nilaparvata lugens C virus	Nilaparvata lugens C virus	MRH2554	viruses
+Aphis gossypii virus	Aphis gossypii virus	MRH2555	viruses
+Spodoptera exigua iflavirus 2	Spodoptera exigua iflavirus 2	MRH2556	viruses
+Waikavirus	Waikavirus	MRH2557	viruses
+Insect-associated waikavirus 1	Insect-associated waikavirus 1	MRH2558	viruses
+non-genus-specific reads in family Amalgaviridae	Amalgaviridae	MRH2559	viruses
+Cucumis melo amalgavirus 1	Cucumis melo amalgavirus 1	MRH2560	viruses
+Robinvale plant virus 1	Robinvale plant virus 1	MRH2561	viruses
+Robinvale bee virus 9	Robinvale bee virus 9	MRH2562	viruses
+Hobart nepovirus 1	Hobart nepovirus 1	MRH2563	viruses
+Sacri virus	Sacri virus	MRH2564	viruses
+Plantago betapartitivirus	Plantago betapartitivirus	MRH2565	viruses
+Vicia cryptic virus 1	Vicia cryptic virus 1	MRH2566	viruses
+Actinidia virus X	Actinidia virus X	MRH2567	viruses
+Hobart betaflexivirus 1	Hobart betaflexivirus 1	MRH2568	viruses
+Vicia cryptic virus	Vicia cryptic virus	MRH2569	viruses
+Hobart bee virus 1	Hobart bee virus 1	MRH2570	viruses
+La Jolla virus	La Jolla virus	MRH2571	viruses
+Perth bee virus 1	Perth bee virus 1	MRH2572	viruses
+Perth bee virus 3	Perth bee virus 3	MRH2573	viruses
+Perth bee virus 4	Perth bee virus 4	MRH2574	viruses
+Perth bee virus 6	Perth bee virus 6	MRH2575	viruses
+Linepithema humile virus 1	Linepithema humile virus 1	MRH2576	viruses
+Lake Sinai virus 6	Lake Sinai virus 6	MRH2577	viruses
+Renmark bee virus 3	Renmark bee virus 3	MRH2578	viruses
+Renmark bee virus 4	Renmark bee virus 4	MRH2579	viruses
+Renmark bee virus 5	Renmark bee virus 5	MRH2580	viruses
+Robinvale bee virus 5	Robinvale bee virus 5	MRH2581	viruses
+non-genus-specific reads in family Marnaviridae	Marnaviridae	MRH2582	viruses
+Marnaviridae sp.	Marnaviridae sp.	MRH2583	viruses
+Cucumovirus	Cucumovirus	MRH2584	viruses
+Cucumber mosaic virus	Cucumber mosaic virus	MRH2585	viruses
+Turnip yellows virus associated RNA	Turnip yellows virus associated RNA	MRH2586	viruses
+Brassica yellows virus	Brassica yellows virus	MRH2587	viruses
+Betacarmovirus	Betacarmovirus	MRH2588	viruses
+Turnip crinkle virus	Turnip crinkle virus	MRH2589	viruses
+Sanxia tombus-like virus 8	Sanxia tombus-like virus 8	MRH2590	viruses
+uncultured Caudovirales phage	uncultured Caudovirales phage	MRH2591	viruses
+Maculavirus	Maculavirus	MRH2592	viruses
+Bee Macula-Like virus 2	Bee Macula-Like virus 2	MRH2593	viruses
+Black Hill virus	Black Hill virus	MRH2594	viruses
+Negevirus	Negevirus	MRH2595	viruses
+Andrena haemorrhoa nege-like virus	Andrena haemorrhoa nege-like virus	MRH2596	viruses
+Bee iflavirus 1	Bee iflavirus 1	MRH2597	viruses
+Blackcurrant reversion virus	Blackcurrant reversion virus	MRH2598	viruses
+Narcissus mosaic virus	Narcissus mosaic virus	MRH2599	viruses
+Mume virus A	Mume virus A	MRH2600	viruses
+Feline leukemia virus	Feline leukemia virus	MRH2601	viruses
+Kirsten murine sarcoma virus	Kirsten murine sarcoma virus	MRH2602	viruses
+Hymenopteran chu-related virus OKIAV123	Hymenopteran chu-related virus OKIAV123	MRH2603	viruses
+Broad bean wilt virus 2	Broad bean wilt virus 2	MRH2604	viruses
+Capsicum annuum fabavirus	Capsicum annuum fabavirus	MRH2605	viruses
+Agrostis stolonifera deltaflexivirus 1	Agrostis stolonifera deltaflexivirus 1	MRH2606	viruses
+Pradovirus	Pradovirus	MRH2607	viruses
+Xylella virus Prado	Pradovirus prado	MRH2608	viruses
+Gammapapillomavirus	Gammapapillomavirus	MRH2609	viruses
+Gammapapillomavirus 1	Gammapapillomavirus 1	MRH2610	viruses
+Pseudomonas phage PA11	Pseudomonas phage PA11	MRH2611	viruses
+Pseudomonas phage O4	Pseudomonas phage O4	MRH2612	viruses
+Propionibacterium phage BruceLethal	Propionibacterium phage BruceLethal	MRH2613	viruses
+Propionibacterium phage MEAK	Propionibacterium phage MEAK	MRH2614	viruses
+Propionibacterium virus Lauchelly	Pahexavirus lauchelly	MRH2615	viruses
+Propionibacterium virus PHL114L00	Pahexavirus PHL114L00	MRH2616	viruses
+Propionibacterium virus P100D	Pahexavirus P100D	MRH2617	viruses
+Chrysanthemum virus B	Chrysanthemum virus B	MRH2618	viruses
+non-genus-specific reads in family Tymoviridae	Tymoviridae	MRH2619	viruses
+Varroa Tymo-like virus	Varroa Tymo-like virus	MRH2620	viruses
+Bee Macula-like virus	Bee Macula-like virus	MRH2621	viruses
+Plasmopara viticola lesion associated picorna-like 3	Plasmopara viticola lesion associated picorna-like 3	MRH2622	viruses

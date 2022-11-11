@@ -1,0 +1,538 @@
+---
+title: "AMC_Analysis"
+author: "Lauren Mee"
+date: "2022-11-10"
+output: html_document
+---
+
+10th November 2022
+
+```{r}
+set.seed(1517)
+dir.create("output/")
+```
+
+## Libraries
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+library(reshape)
+library(edgeR)
+library(ggfortify)
+library(DESeq2)
+library(pheatmap)
+```
+
+## Resources
+
+Tutorial discussing different methods and approaches to assessing microbiome data from metagenomic sources:
+https://yanhui09.github.io/microbiome_analysis/1_microbiome_r.html#what-you-will-work-on
+(includes DESeq2 approaches and a good heatmap alternative that looks interesting)
+
+Microbial Community Diversity Analysis Tutorial with Phyloseq:
+http://deneflab.github.io/MicrobeMiseq/demos/mothur_2_phyloseq.html
+(may not be as useful, looks to be explicitly for amplicon data)
+
+Introduction to the Statistical Analysis of Microbiome Data in R
+https://www.nicholas-ollberding.com/post/introduction-to-the-statistical-analysis-of-microbiome-data-in-r/
+
+Tutorial for making phyloseq objects
+https://joey711.github.io/phyloseq/import-data.html
+
+"Breakaway" Approach to estimating richness
+https://adw96.github.io/breakaway/articles/intro-diversity-estimation.html
+
+Tutorial running through a microbiome analysis. Has lots of info regarding diversity measurements etc.
+https://microbiome.github.io/OMA/data-introduction.html#background
+
+Overview of alpha diversity approaches
+https://www.cd-genomics.com/microbioseq/the-use-and-types-of-alpha-diversity-metrics-in-microbial-ngs.html
+
+Vegan tutorial (diversity, NMDS): https://peat-clark.github.io/BIO381/veganTutorial.html
+
+Vegan Canonical Correlation analysis: https://rdrr.io/rforge/vegan/man/CCorA.html
+
+
+## Experiment Notes
+
+The purpose of this project is to data mine existing publc RNAseq and other resources and use the CZID.org tool in order to elucidate potential patterns of microbial content across the sample species used therein. 
+
+Samples were chosen from SRA projects that used Hymenopteran species and also met the following criteria: 1) the tissue used was or included the abdomen, 2) nothing experimental had happened to the individual sample that would be an obvious influence upon the microbiome, i.e. no infection administered / particularly stressed individuals and 3) sociality of the sample was known. 
+
+These chosen samples were then processed as follows:
+
+- the phylogenetically nearest available genome was downloaded from NCBI per sample species. This was then indexed using STAR
+
+- the sample was downloaded and unpacked from the SRA using its accession ID and the SRA toolkit (specifically, prefetch and fasterqdump)
+
+- the sample was mapped against the above indexed genome using STAR. If more than 50% of reads failed to map due to being "too short" then the sample was reprocessed using slightly relaxed mapping parameters (--outFilterScoreMinOverLread 0.3 --outFilterMatchNminOverLread 0.3). Regardless of how many reads were then mapped these reprocessed samples, and those that had mapped > 50% in the first run, were uploaded to CZID.org to run through their pipeline.
+
+- once all had been completely through this pipeline, the data was downloaded locally for analysis. (input/CZID_TaxonReports/)
+
+
+## Data load
+
+Count tables
+
+```{r}
+#count table (all)
+cnt.raw <- read.table("output/Counts/RawReads/All_rawCounts_PhyloCollapsed_Nov22.tsv")
+#count table (rPM)
+cnt.rpm <- read.table("output/Counts/Raw_rPM/All_raw_rPM_PhyloCollapsed_Nov22.tsv")
+#count table (incidence)
+cnt.inc <- read.table("output/Counts/Incidence/All_Incidence_PhyloCollapsed_Nov22.tsv")
+```
+
+Sample metadata
+
+```{r}
+met <- read.table("input/SRA/MetaData_Edit_Oct22.tsv",
+                  header = T, sep ="\t", quote = "")
+```
+
+Microbial metadata
+
+```{r}
+genkey <- read.table("output/Keys/GenusFamilySpeciesKey.tsv",
+                     sep = "\t", header = T)
+```
+
+Taxonomy
+
+```{r}
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Nov22.tsv",
+                  header = T, sep = "\t", quote = "")
+```
+
+
+## Proof of Concept
+
+1) Do we recover known microbial relationships found in corbiculate bees? Meaning the "core" phylotypes?
+
+The core corbiculate phylotypes are Snodgrassella, Gilliamella, Bifidobacterium, Lactobacillus Firm - 4 (Bombilactobacillus), Lactobacillus Firm - 5, and Apilactobacillus.
+
+Then there's the Apis specific Frischella and Bartonella and the Bombus specific Bombicardovia and Candidatus Schmidhempila. 
+
+Lactibacillus Firm-5 consists of L. helsingborgensis, L. melliventris, L. kimbladii, L. kullabergensis, L. panisapium and L. bombicola.
+
+So let's track these down and re-annotate
+
+```{r}
+firm5 <- c("Lactobacillus apis", "Lactobacillus melliventris", "Lactobacillus kimbladii",
+           "Lactobacillus kullabergensis", "Lactobacillus panisapium", 
+           "Lactobacillus bombicola", "Lactobacillus helsingborgensis")
+
+genkey[genkey$MicroHit %in% firm5,]
+```
+Using the updated "Bombilactobacillus" genus (tax hit opposed to microhit)
+
+```{r}
+firm4 <- c("Bombilactobacillus mellis", "Bombilactobacillus mellifer",
+           "Bombilactobacillus bombi")
+
+genkey[genkey$TaxHit %in% firm4,]
+```
+```{r}
+spec.cnt <- read.table("output/Counts/RawReads/All_rawCounts_Nov22.tsv")
+
+head(spec.cnt)
+```
+So let's change our genus count files.
+```{r}
+#check the length of the IDs to make a new one
+length(unique(genkey$GenHitID))
+
+#apply this to the firm5 group
+genkey$GenHitID[genkey$MicroHit %in% firm5] <- "GRH761"
+
+#change phylogeny
+genkey$PhyloHit[genkey$MicroHit %in% firm5] <- "Lactobacillus: Firm-5"
+
+#add to taxonomy
+tax[tax$genus == "Lactobacillus",]
+
+n <- nrow(tax)+1
+tax[n,] <- c("Lactobacillus: Firm5", "", "Lactobacillus: Firm-5", "Lactobacillaceae",
+            "Lactobacillales", "Bacilli", "Firmicutes", NA, "Bacteria")
+
+tail(tax)
+```
+Add the microhit ids to the genkey so I can recount the single species count table
+
+```{r}
+microkey <- read.table("output/Keys/MicrobialSpeciesKey.tsv",
+                       sep = "\t", header = T)
+
+for (i in 1:nrow(genkey)){
+  genkey$MicroHitID[i] <- microkey$HitID[microkey$MicroHit == genkey$MicroHit[i]]
+}
+
+genkey[genkey$MicroHit %in% firm5,]
+```
+Now make a new, phylo collapsed count table ....
+
+```{r}
+samples <- names(spec.cnt)
+phyloz <- unique(genkey$GenHitID)
+
+cnt <- matrix(ncol = length(samples), nrow = length(phyloz))
+
+
+for (i in 1:length(samples)){#length samples
+  print(paste(i, "/317: ", samples[i], sep = ""))
+  x <- vector(length = length(phyloz))
+  #iterate through the tax hits, pulling out the associated species as we go
+  for (j in 1:length(x)){#length(x)
+    y <- unique(genkey$MicroHitID[genkey$GenHitID == phyloz[j]])
+    t <- spec.cnt[rownames(spec.cnt) %in% y, i]
+    #combine multiple species from a phylogenetic classification into one
+    if (length(t) > 1){
+      t <- sum(t)
+   }
+    #populate sample's vector with counts
+    x[j] <- t
+    #add sample's counts to count matrix
+    cnt[,i] <- x
+  }
+}
+
+rownames(cnt) <- phyloz
+names(cnt) <- samples
+
+cnt <- as.data.frame(cnt)
+
+
+write.table(cnt, "output/Counts/RawReads/All_rawCounts_CorePhylo_PhyloCollapsed.tsv",
+            sep = "\t", col.names = T, row.names = T, quote = F)
+```
+
+
+### Assessing the Core Phylo
+
+So to begin with, I'll just look at see if the core phylotypes (plus some Apis/Bombus-specific ones) appear throughout the sample set
+
+```{r}
+cnt <- read.table("output/Counts/RawReads/All_rawCounts_CorePhylo_PhyloCollapsed.tsv")
+```
+
+
+Remove DNA samples
+```{r}
+dna <- met$Sample.ID[met$NucleotideType =="DNA"]
+cnt <- cnt[,! names(cnt) %in% dna]
+```
+
+Extract core phylotypes
+
+```{r}
+beecore <- c("Lactobacillus: Firm5", "Apilactobacillus", "Bombilactobacillus",
+             "Gilliamella", "Snodgrassella", "Bifidobacterium", "Frischella",
+             "Bartonella", "Bombiscardovia", "Schmidhempelia")
+
+bcoreID <- unique(genkey$GenHitID[genkey$PhyloHit %in% beecore])
+
+bcore.cnt <- cnt[rownames(cnt) %in% bcoreID,]
+
+bcore.cnt
+```
+
+
+Add microbial metadata
+
+```{r}
+bcore.cnt$GenHitID <- rownames(bcore.cnt)
+for (i in 1:nrow(bcore.cnt)){
+  bcore.cnt$MicroPhylo[i] <- unique(genkey$PhyloHit
+                                    [genkey$GenHitID == bcore.cnt$GenHitID[i]])
+}
+```
+
+Melt into a more amenable dataframe and add sample metadata
+
+```{r}
+bcore.melt <- melt(bcore.cnt)
+bcore.melt
+names(bcore.melt)[3:4] <- c("Sample", "Count")
+
+for (i in 1:nrow(bcore.melt)){
+  bcore.melt$Sociality[i] <- met$Sociality[met$Sample.ID == bcore.melt$Sample[i]]
+  bcore.melt$Genus[i] <- met$Genus[met$Sample.ID == bcore.melt$Sample[i]]
+  bcore.melt$Location[i] <- met$Location[met$Sample.ID == bcore.melt$Sample[i]]
+  bcore.melt$Tissue[i] <- met$Tissue[met$Sample.ID == bcore.melt$Sample[i]]
+  bcore.melt$Species[i] <- met$Species[met$Sample.ID == bcore.melt$Sample[i]]
+}
+
+
+head(bcore.melt)
+```
+Simply just look at who has the most across the socialities ?
+
+```{r}
+ggplot(bcore.melt, aes(x = Sociality, y = log(Count), fill = Sociality))+
+  geom_bar(stat = "identity")
+```
+
+```{r}
+bcore.melt.eu <- bcore.melt[bcore.melt$Sociality == "Eusocial",]
+
+ggplot(bcore.melt.eu, aes(x = Genus, y = log(Count), fill = Genus)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~MicroPhylo, ncol = 3) +
+  coord_flip()
+```
+
+```{r}
+sum(bcore.melt.eu$Count[bcore.melt.eu$Genus == "Bombus"])
+```
+
+Proportional per genus
+
+```{r}
+pro <- genkey$GenHitID[genkey$Class == "bacteria" |
+                         genkey$Class == "archaea"]
+cnt2 <- cnt[rownames(cnt) %in% pro,]
+
+genera <- unique(bcore.melt$Genus)
+
+tot <- vector(length = length(genera))
+for (i in 1:length(tot)){
+  x <- met$Sample.ID[met$Genus == genera[i]]
+  y <- cnt2[,names(cnt2) %in% x]
+  z <- sum(y)
+  tot[i] <- z
+}
+
+
+genusReads <- matrix(ncol=length(bcoreID), nrow=length(genera))
+
+for (i in 1:length(bcoreID)){
+  x <- cnt2[rownames(cnt2) == bcoreID[i],]
+  a <- vector(length=length(bcoreID))
+  for (j in 1:length(genera)){
+    samps <- met$Sample.ID[met$Genus == genera[j]]
+    y <- x[, names(x) %in% samps]
+    t <- sum(y)
+    a[j] <- t
+  }
+  genusReads[,i] <- a
+}
+```
+
+Now to convert to proportions
+
+```{r}
+colnames(genusReads) <- bcoreID
+rownames(genusReads) <- genera
+
+for (i in 1:nrow(genusReads)){
+  for(j in 1:ncol(genusReads)){
+    genusProp[i,j] <-(genusReads[i,j] / tot[i])*100
+  }
+}
+
+colnames(genusProp) <- bcoreID
+rownames(genusProp) <- genera
+
+genus.melt <- melt(genusProp)
+names(genus.melt) <- c("Genus", "HitID", "Percent")
+
+for(i in 1:nrow(genus.melt)){
+  genus.melt$Phylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID==genus.melt$HitID[i]])
+  genus.melt$Sociality[i] <- unique(met$Sociality[met$Genus == genus.melt$Genus[i]])
+}
+
+
+ggplot(genus.melt, aes(x = Sociality, y = Percent, fill = Phylo)) +
+  geom_boxplot() #+
+  #facet_wrap(~Phylo, scale = "free")
+  
+```
+
+Amount of samples present ? 
+
+
+
+
+## Assessing Data
+
+Load metadata and raw CZID read rPM counts table (bacterial only)
+
+```{r}
+#metadata
+met <- read.table("input/SRA/MetaData_Edit_Oct22.tsv",
+                  quote = "", sep = "\t", header = T)
+
+cnt <- read.table("output/Counts/RawReads/Prokaryote_rawCounts_PhyloCollapsed_Nov22.tsv")
+
+#remove DNA samples
+dna <- met$Sample.ID[met$NucleotideType == "DNA"]
+cnt <- cnt[,! names(cnt) %in% dna]
+```
+
+Assess distribution of read hits
+
+```{r}
+#remove samples not in count table from metadata
+met <- met[met$Sample.ID %in% names(cnt),]
+```
+
+
+```{r}
+#remove any samples that have less than 100 reads total
+keep <- colSums(cnt) > 100
+cnt <- cnt[,keep]
+```
+
+Remove any microbial hits where there are only 100 reads total found across all samples
+
+```{r}
+keep <- rowSums(cnt) >= 100
+cnt <- cnt[keep,]
+```
+
+Load key information for the genus IDs and taxonmy information
+
+```{r}
+genkey <- read.table("output/Keys/GenusFamilySpeciesKey.tsv",
+                     sep = "\t", header = T)
+tax <- read.table("input/Phylo_Misc/rankedlin_Edit_Nov22.tsv", sep = "\t", header = T)
+```
+
+Make a proportional counts table
+
+```{r}
+rel.cnt <- matrix(nrow=nrow(cnt), ncol = ncol(cnt))
+
+for (i in 1:ncol(cnt)){
+  tot <- sum(cnt[,i])
+  x <- vector(length = length(cnt[,i]))
+  for (j in 1:length(x)){
+    x[j] <- cnt[,i][j] / tot
+  }
+  rel.cnt[,i] <- x
+}
+
+rel.cnt <- as.data.frame(rel.cnt)
+names(rel.cnt) <- names(cnt)
+rownames(rel.cnt) <- rownames(cnt)
+rel.cnt
+```
+
+```{r}
+for ( i in 1: nrow(rel.cnt)){
+  rel.cnt$Phylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID == rownames(rel.cnt)[i]])
+}
+
+length(unique(rel.cnt$Phylo))
+```
+
+That's way too many to show on plots ....
+
+```{r}
+for ( i in 1: nrow(rel.cnt)){
+  t <- unique(tax$order[tax$genus == rel.cnt$Phylo[i]])
+  if (length(t) == 2){
+    t <- t[!is.na(t)]
+  }
+  rel.cnt$Order[i] <- t
+}
+
+length(unique(rel.cnt$Order))
+```
+
+Ok... bigger again.
+
+```{r}
+for ( i in 1: nrow(rel.cnt)){
+  t <- unique(tax$class[tax$order == rel.cnt$Order[i]])
+  if (length(t) == 2){
+    t <- t[!is.na(t)]
+  }
+  rel.cnt$Class[i] <- t
+}
+
+length(unique(rel.cnt$Class))
+```
+
+That's the one
+
+```{r}
+cnt.melt <- melt(rel.cnt)
+
+cnt.melt
+```
+
+Add sample metadata
+
+```{r}
+for (i in 1:nrow(cnt.melt)){
+  cnt.melt$Sociality[i] <- met$Sociality[met$Sample.ID == cnt.melt$variable[i]]
+  cnt.melt$Genus[i] <- met$Genus[met$Sample.ID == cnt.melt$variable[i]]
+  cnt.melt$Location[i] <- met$Location[met$Sample.ID == cnt.melt$variable[i]]
+  cnt.melt$Tissue[i] <- met$Tissue[met$Sample.ID == cnt.melt$variable[i]]
+}
+
+head(cnt.melt)
+```
+
+Replace empty Class with "NA"
+
+```{r}
+cnt.melt$Class[cnt.melt$Class == ""] <- NA
+```
+
+
+```{r}
+ggplot(cnt.melt, aes(x = variable, y = value, fill = Class)) + 
+  geom_bar(stat = "identity", aes(fill=Class)) + 
+  labs(x="", y="%", fill = "") +
+  facet_wrap(~Sociality, scales= "free_x", nrow=1) +
+  theme_classic() + 
+  theme(strip.background = element_blank(), 
+        axis.text.x.bottom = element_blank(),
+        legend.position = "bottom") +
+  guides(fill = guide_legend(nrow = 5))
+```
+
+Ok but what do the "absolute" look like ? Cos I have a feeling that will show just how heavily skewed these samples are
+
+```{r}
+cnt$GenusHit <- rownames(cnt)
+cnt.melt2 <- melt(cnt)
+
+for ( i in 1: nrow(cnt.melt2)){
+  cnt.melt2$Phylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID == cnt.melt2$GenusHit[i]])
+  t <- unique(tax$order[tax$genus == cnt.melt2$Phylo[i]])
+  if (length(t) == 2){
+    t <- t[!is.na(t)]
+  }
+  cnt.melt2$Order[i] <- t
+  t <- unique(tax$class[tax$order == cnt.melt2$Order[i]])
+  if (length(t) == 2){
+    t <- t[!is.na(t)]
+  }
+  cnt.melt2$Class[i] <- t
+  cnt.melt2$Sociality[i] <- met$Sociality[met$Sample.ID == cnt.melt2$variable[i]]
+  cnt.melt2$Genus[i] <- met$Genus[met$Sample.ID == cnt.melt2$variable[i]]
+  cnt.melt2$Location[i] <- met$Location[met$Sample.ID == cnt.melt2$variable[i]]
+  cnt.melt2$Tissue[i] <- met$Tissue[met$Sample.ID == cnt.melt2$variable[i]]
+}
+
+cnt.melt2$Class[cnt.melt2$Class == ""] <- NA
+
+ggplot(cnt.melt2, aes(x = variable, y = value, fill = Class)) + 
+  geom_bar(stat = "identity", aes(fill=Class)) + 
+  labs(x="", y="%", fill = "") +
+  facet_wrap(~Sociality, scales= "free_x", nrow=1) +
+  theme_classic() + 
+  theme(strip.background = element_blank(), 
+        axis.text.x.bottom = element_blank(),
+        legend.position = "bottom") +
+  guides(fill = guide_legend(nrow = 5))
+```
+```{r}
+colSums(cnt[1:264]) > 1000
+```
+
