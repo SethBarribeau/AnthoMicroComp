@@ -1,9 +1,16 @@
 #Core Phylogroups
 #11 November 2022
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
+BiocManager::install("edgeR")
 library(edgeR)
-library(ggplot)
+library(ggplot2)
+# install.packages("car")
 library(reshape)
+library(here)
+library(lme4)
+library(car)
 
 #Sample metadata
 met <- read.table("input/SRA/MetaData_Edit_Oct22.tsv",
@@ -116,6 +123,7 @@ fit <- glmQLFit(work2, design)
 
 #extract tmm
 cnt.tmm <- fit$fitted.values
+# head(cnt.tmm)
 
 #write up
 write.table(cnt.tmm, "output/Counts/EdgeR/AllMicrobials_Filtered_Nov22.tsv",
@@ -127,17 +135,104 @@ beecore <- c("Lactobacillus: Firm5", "Apilactobacillus", "Bombilactobacillus",
              "Bartonella", "Bombiscardovia", "Schmidhempelia")
 bcoreID <- unique(genkey$GenHitID[genkey$PhyloHit %in% beecore])
 bc.tmm <- cnt.tmm[rownames(cnt.tmm) %in% bcoreID,]
-
+# head(bc.tmm)
 #prepare to plot
 tmp <- melt(bc.tmm)
 names(tmp) <- c("GenusHitRead", "Sample", "TMM")
 for (i in 1:nrow(tmp)){
   tmp$MicroPhylo[i] <- unique(genkey$PhyloHit[genkey$GenHitID == tmp$GenusHitRead[i]])
 }
+head(tmp)
+tmp$logTMM <- log(tmp$TMM+1)
 bc.plot <- merge(met2, tmp, by.x="Sample.ID", by.y = "Sample", all.y = T)
+bc.plot$Sociality <- as.factor(bc.plot$Sociality)
+levels(bc.plot$Sociality)
 
-ggplot(data = bc.plot[bc.plot$TMM < 5000,], aes(x = MicroPhylo, y = TMM, fill = Sociality)) +
+ggplot(data = bc.plot[bc.plot$TMM < 5000,], aes(x = MicroPhylo, y = logTMM, 
+  fill = Sociality)) +
   geom_boxplot() +
   coord_flip()
 
 bc.plot[bc.plot$TMM > 2e+05,]
+
+hist(tmp$roundTMM)
+
+# probably unnecessary but making sure it sees these as factors. 
+bc.plot$Tissue <- as.factor(bc.plot$Tissue)
+bc.plot$Sex <- as.factor(bc.plot$Sex)
+bc.plot$Location <- as.factor(bc.plot$Location)
+bc.plot$Species <- as.factor(bc.plot$Species)
+
+bc.plot$roundTmm<-round(bc.plot$TMM, digits = 0)
+head(bc.plot)
+hist(bc.plot$roundTmm)
+pmod <- glmer(roundTmm ~ Sociality + Location + Sex + 
+  (1|Tissue) +(1|Species/Sample.ID), data=bc.plot,
+  family = "poisson",
+  control = glmerControl(optimizer="bobyqa")
+  )
+
+summary(pmod)
+Anova(pmod, test="Chi")
+
+# code from https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html#overdispersion
+overdisp_fun <- function(model) {
+    rdf <- df.residual(model)
+    rp <- residuals(model,type="pearson")
+    Pearson.chisq <- sum(rp^2)
+    prat <- Pearson.chisq/rdf
+    pval <- pchisq(Pearson.chisq, df=rdf, lower.tail=FALSE)
+    c(chisq=Pearson.chisq,ratio=prat,rdf=rdf,p=pval)
+}
+
+overdisp_fun(pmod)
+# v overdispersed and quasi adjusted removed from lmer package for being unreliable. 
+
+hist(bc.plot$logTMM)
+shapiro.test(bc.plot$logTMM)
+# still not normal. 
+library(MASS)
+
+b <- boxcox(lm((bc.plot$TMM+1) ~ 1))
+lambda <- b$x[which.max(b$y)]
+lambda
+
+bc.plot$boxcoxTMM <- (bc.plot$TMM^lambda-1)/lambda
+hist(bc.plot$boxcoxTMM)
+
+# looks beautiful
+
+mod <- lmer(boxcoxTMM ~ Sociality * Location + Sex + 
+(1|Tissue) +(1|Species/Sample.ID), data=bc.plot)
+
+summary(mod)
+Anova(mod) # to get the test results for level of fixed effects
+
+library(cowplot)
+ggplot(data = bc.plot[bc.plot$TMM < 5000,], aes(x = MicroPhylo, y = boxcoxTMM, 
+  fill = Sociality)) +
+  geom_boxplot() +
+  coord_flip() +
+  theme_half_open() +
+  background_grid()
+
+library(sjPlot)
+theme_set(theme_bw())
+
+plot_model(mod, vline.color="black", show.values = TRUE, 
+            value.offset = 0.2, 
+            title = expression(paste("Box-Cox transformed TMM (", ~ lambda,~ " = -0.0606)")),
+            show.intercept = FALSE, sort.est = FALSE
+            )
+
+tab_model(mod)
+# pred.labels = c("Intercept", "Cohort 2", "Cohort 3")
+# dv.labels=names(sig_models_cohort_b), 
+# file=paste0(here::here(), "/CITN12/CITN12_redo/output/PlatformOut_GatingSet/MDSC_significant_effects_three_cohorts.html")
+ggsave(
+    filename=paste0(here::here(), "/CITN12/CITN12_redo/output/PlatformOut_GatingSet/MDSC_significant_effects_cohort.png"),
+    plot=p,
+    width=18,
+    height=12,
+    units="in"
+    )
