@@ -214,25 +214,27 @@ ggplot(data = bc.plot[bc.plot$TMM < 5000,], aes(x = MicroPhylo, y = boxcoxTMM,
   geom_boxplot() +
   coord_flip() +
   theme_half_open() +
-  background_grid()
+  background_grid() +
+  ylab(expression(paste("Box-Cox transformed TMM (", ~ lambda,~ " = -0.0606)")))
 
 library(sjPlot)
 theme_set(theme_bw())
 
-plot_model(mod, vline.color="black", show.values = TRUE, 
-            value.offset = 0.2, 
+p<-plot_model(mod, vline.color="black", show.values = TRUE, 
+            value.offset = 0.3, 
             title = expression(paste("Box-Cox transformed TMM (", ~ lambda,~ " = -0.0606)")),
             show.intercept = FALSE, sort.est = FALSE
             )
 
-tab_model(mod)
 # pred.labels = c("Intercept", "Cohort 2", "Cohort 3")
 # dv.labels=names(sig_models_cohort_b), 
 # file=paste0(here::here(), "/CITN12/CITN12_redo/output/PlatformOut_GatingSet/MDSC_significant_effects_three_cohorts.html")
 ggsave(
-    filename=paste0(here::here(), "/CITN12/CITN12_redo/output/PlatformOut_GatingSet/MDSC_significant_effects_cohort.png"),
+    filename=paste0(here::here(), "TMM_model_effects.png"),
     plot=p,
     width=18,
     height=12,
     units="in"
     )
+
+tab_model(mod, file = "~/Desktop/TMM_model_effects.html")
